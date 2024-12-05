@@ -57,6 +57,16 @@
     font-size: 16px;
     line-height: normal;
 }
+.hero-btn{
+  border: 1px solid #34dd01;
+  background-color: #3cff00;
+  font-weight: 500;
+}
+.hero-btn:hover{
+  border: 1px solid #34dd01;
+  background-color: #3cff00;
+  font-weight: 500;
+}
 
 /* hero ssection */
 
