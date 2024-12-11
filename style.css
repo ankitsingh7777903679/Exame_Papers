@@ -66,6 +66,7 @@
   border: 1px solid #34dd01;
   background-color: #3cff00;
   font-weight: 500;
+
 }
 
 /* hero ssection */
@@ -101,7 +102,7 @@
   }
   
   .flip-card-front, .flip-card-back {
-    box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
+    box-shadow: 0 8px 14px 0 #00000033;
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -143,6 +144,35 @@
     background-color: #000000;
 }
 /* paper-model-body */
+/* dark white mode */
+.mode {
+  
+
+
+  position: fixed;
+  top: 10%;
+  right: 5px;
+  cursor: pointer;
+}
+.button{
+ 
+  background-color: transparent;
+  border: none;
+}
+
+.mode i {
+  font-size: 30px;
+  padding: 5px;
+  color: #000000;
+  font-weight: bold;
+  border-radius: 50px;
+  margin: 5px;
+  display: flex;
+  
+
+}
+
+/* dark white mode */
 
 /* social-media */
  /* position fixed */
