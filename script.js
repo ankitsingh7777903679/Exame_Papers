@@ -15,10 +15,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Update links and span based on selection
 function updateLinksAndTitle(course) {
-  if (course === "bba") {
-    cardLink.forEach((link, index) => link.href = "bba.html");
-    course_title.innerHTML = "BBA";
-  } else if (course === "bcom") {
+  
+  if (course === "bcom") {
     cardLink[0].href = "bcom_sem1.html";
     cardLink[1].href = "bcom_sem2.html";
     cardLink[2].href = "bcom_sem3.html";
