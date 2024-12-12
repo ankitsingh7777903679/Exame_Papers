@@ -146,21 +146,19 @@
 /* paper-model-body */
 /* dark white mode */
 .mode {
-  
-
-
   position: fixed;
-  top: 10%;
-  right: 5px;
+  top: 15%;
+  right: 10px;
   cursor: pointer;
 }
-.button{
- 
+.mode-btn{
   background-color: transparent;
   border: none;
+  border-radius: 50%;
+  padding: 0px;
 }
 
-.mode i {
+.mode span {
   font-size: 30px;
   padding: 5px;
   color: #000000;
@@ -168,8 +166,7 @@
   border-radius: 50px;
   margin: 5px;
   display: flex;
-  
-
+  margin: 0px;
 }
 
 /* dark white mode */

@@ -54,6 +54,8 @@ const menu_heading = document.querySelector(".menu-heading");
 
 const contact_form = document.querySelector(".contact-form");
 const contact_form_label = document.querySelectorAll(".form-label");
+const contact_form_input = document.querySelectorAll(".form-control");
+
 
 const footer = document.querySelector(".footer");
 const footer_icon = document.querySelectorAll(".connection i");
@@ -66,6 +68,7 @@ let mode_code = localStorage.getItem("mode") === "dark" ? 0 : 1; // define value
 const applyMode = () => {
   if (mode_code === 1) {
     mode.style.color = "black";
+    mode.textContent = ""; // &#xe518; for light mode icon
     bodys.style.backgroundColor = "white";//change all sectiont color white to dark
     for (let i of hero_headding) {
       i.style.color = "black";
@@ -80,13 +83,20 @@ const applyMode = () => {
     for (let i of contact_form_label) { //change all sectiont color white to dark
       i.style.color = "black";
     }
+    for (let i of contact_form_input) { //change all sectiont color white to dark
+      i.style.backgroundColor = "white";
+    }
     footer.style.color = "black";
     footer.style.border = "1px solid #ccc";
     for (let i of footer_icon) { //change all sectiont color white to dark
       i.style.color = "black";
     }
-  } else {
-    mode.style.color = "white";
+  }
+  
+  
+  else {
+    mode.style.color = "#3cff00";
+    mode.textContent = ""; // &#xe51c; for dark mode icon 
     bodys.style.backgroundColor = "black";
     for (let i of hero_headding) { //change all sectiont color dark to white
       i.style.color = "white";
@@ -102,6 +112,9 @@ const applyMode = () => {
     contact_form.style.border = "1px solid white";
     for (let i of contact_form_label) {  //change all sectiont color dark to white
       i.style.color = "white";
+    }
+    for (let i of contact_form_input) { //change all sectiont color white to dark
+      i.style.backgroundColor = "#cecece";
     }
     footer.style.color = "white";
     footer.style.border = "none";
@@ -121,3 +134,5 @@ mode.addEventListener("click", () => {
   localStorage.setItem("mode", mode_code === 1 ? "light" : "dark");
   applyMode();
 });
+
+
