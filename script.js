@@ -5,12 +5,18 @@ const cardLink = document.querySelectorAll('.flip-card a');
 const course_title = document.getElementById('course-title');
 
 // Restore state from localStorage
+// document.addEventListener('DOMContentLoaded', () => {
+//   const savedCourse = localStorage.getItem('selectedCourse');
+//   if (savedCourse) {
+//     bcaButton.value = savedCourse; // Set the select value
+//     updateLinksAndTitle(savedCourse);
+//   }
+// });
+
 document.addEventListener('DOMContentLoaded', () => {
-  const savedCourse = localStorage.getItem('selectedCourse');
-  if (savedCourse) {
-    bcaButton.value = savedCourse; // Set the select value
-    updateLinksAndTitle(savedCourse);
-  }
+  const savedCourse = localStorage.getItem('selectedCourse') || "bca"; // Default to "bca"
+  bcaButton.value = savedCourse; // Set the select value
+  updateLinksAndTitle(savedCourse);
 });
 
 // Update links and span based on selection
