@@ -1,4 +1,4 @@
-@media (min-width: 1400px) {
+/* @media (min-width: 1400px) {
 
     .container,
     .container-lg,
@@ -8,7 +8,7 @@
     .container-xxl {
         max-width: 1181px;
     }
-}
+} */
 
 @media (max-width: 768px) {
     .nav-link:hover {

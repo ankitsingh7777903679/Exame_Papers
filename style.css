@@ -2,6 +2,7 @@
 .navbar{
     position: sticky;
     top: 0;
+    width: 100% !important;
 }
 .navbar-brand {
     color: whitesmoke;
@@ -147,7 +148,7 @@
 /* dark white mode */
 .mode {
   position: fixed;
-  top: 15%;
+  top: 10%;
   right: 10px;
   cursor: pointer;
 }
