@@ -5,6 +5,7 @@ const cardLink = document.querySelectorAll('.flip-card a');
 const course_title = document.getElementById('course-title');
 
 // Restore state from localStorage
+
 document.addEventListener('DOMContentLoaded', () => {
   const savedCourse = localStorage.getItem('selectedCourse');
   if (savedCourse) {
@@ -32,7 +33,7 @@ function updateLinksAndTitle(course) {
     course_title.innerHTML = "BCA";
 
    
-  } else if (course === "bcom") {
+  } if (course === "bcom") {
     cardLink[0].href = "bcom_sem1.html";
     cardLink[1].href = "bcom_sem2.html";
     cardLink[2].href = "bcom_sem3.html";
@@ -40,12 +41,12 @@ function updateLinksAndTitle(course) {
     cardLink[4].href = "bcom_sem5.html";
     cardLink[5].href = "bcom_sem6.html";
     course_title.innerHTML = "B.Com";
-  } else {
+  } if(course === "course") {
     cardLink.forEach((link, index) => link.href = "s_Course.html");
     course_title.innerHTML = "";
   }
 }
-
+8
 // Save selection and update UI
 bcaButton.addEventListener('change', () => {
   const selectedCourse = bcaButton.value;
