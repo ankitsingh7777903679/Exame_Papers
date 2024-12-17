@@ -32,7 +32,7 @@ function updateLinksAndTitle(course) {
     cardLink[5].href = "sem6.html";
     course_title.innerHTML = "BCA";
 
-   
+
   } if (course === "bcom") {
     cardLink[0].href = "bcom_sem1.html";
     cardLink[1].href = "bcom_sem2.html";
@@ -41,7 +41,7 @@ function updateLinksAndTitle(course) {
     cardLink[4].href = "bcom_sem5.html";
     cardLink[5].href = "bcom_sem6.html";
     course_title.innerHTML = "B.Com";
-  } if(course === "course") {
+  } if (course === "course") {
     cardLink.forEach((link, index) => link.href = "s_Course.html");
     course_title.innerHTML = "";
   }
@@ -67,6 +67,7 @@ const menu_heading = document.querySelector(".menu-heading");
 const contact_form = document.querySelector(".contact-form");
 const contact_form_label = document.querySelectorAll(".form-label");
 const contact_form_input = document.querySelectorAll(".form-control");
+
 
 
 const footer = document.querySelector(".footer");
@@ -104,8 +105,8 @@ const applyMode = () => {
       i.style.color = "black";
     }
   }
-  
-  
+
+
   else {
     mode.style.color = "#3cff00";
     mode.textContent = ""; // &#xe51c; for dark mode icon 
@@ -146,5 +147,4 @@ mode.addEventListener("click", () => {
   localStorage.setItem("mode", mode_code === 1 ? "light" : "dark");
   applyMode();
 });
-
-
+// Toggle mode on click
