@@ -14,13 +14,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-// document.addEventListener('DOMContentLoaded', () => {
-//   const savedCourse = localStorage.getItem('selectedCourse') || "bca"; // Default to "bca"
-//   bcaButton.value = savedCourse; // Set the select value
-//   updateLinksAndTitle(savedCourse);
-// });
 
-// Update links and span based on selection
 // Update links and span based on selection
 function updateLinksAndTitle(course) {
   if (course === "bca") {
