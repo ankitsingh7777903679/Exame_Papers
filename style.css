@@ -148,7 +148,7 @@
 /* dark white mode */
 .mode {
   position: fixed;
-  top: 10%;
+  top: 100px;
   right: 10px;
   cursor: pointer;
 }
@@ -179,7 +179,7 @@
   height: 200px;
   /* background-color: bisque; */
   position: fixed;
-  top: 40%;
+  top: 300px;
   right: 5px;
   display: flex;
   flex-direction: column;
