@@ -45,7 +45,9 @@
         // Send email using EmailJS
         emailjs.send("service_p9r3x14", "template_6nfwf7q", templateParams)
             .then(function(response) {
-                alert("Email sent successfully!");
+                // alert("Email sent successfully!");
+                const alertModal = new bootstrap.Modal(document.getElementById('alertModal'));
+                alertModal.show();
                 console.log("SUCCESS!", response.status, response.text);
             })
             .catch(function(error) {
@@ -290,6 +292,18 @@
               <button type="submit" class="btn col-12 mt-3 py-2 fs-5 fw-bolder"style="background-color: #3cff00;">Send Feedback</button>
               <!-- <button type="submit" class="btn col-12 mt-3 py-2 fs-5 fw-bolder"style="background-color: #3cff00;">Send Feedback</button> -->
           </form>
+          <!-- Popup Modal -->
+  <div class="modal fade" id="alertModal" tabindex="-1" aria-labelledby="alertModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="alertModalLabel">Email sent successfully!</h5>
+          <button type="button" class="btn-close me-0" data-bs-dismiss="modal" aria-label="Close" style="width: 20px;"></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Popup Modal -->
           </div>
         </div>
         <div class="hero-img col d-flex justify-content-center align-items-center" style="width: 50%; ">
