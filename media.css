@@ -11,12 +11,17 @@
 } */
 
 @media (max-width: 768px) {
+    .nav-link {
+        font-size: 14px; /* Adjust font size for smaller screens */
+        margin: auto 10px; /* Adjust margin for smaller screens */
+    }
     .nav-link:hover {
-
-        transform: scale(1);
+        transform: none;
         font-weight: 400;
-        color: whitesmoke;
-    
+        color: #3cff00;
+    }
+    .nav-link:active {
+        color: whitesmoke; /* Change active link color */
     }
 
     .hero-text {
