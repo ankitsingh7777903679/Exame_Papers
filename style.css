@@ -16,9 +16,10 @@
     font-family: poppins;
     font-style: normal;
     font-weight: 400;
-    font-size: 16px;
+    font-size: 20px;
     line-height: normal;
     margin: auto 15px;
+    color: #3cff00;
 }
 
 .nav-link:hover {
