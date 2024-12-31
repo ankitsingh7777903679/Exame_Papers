@@ -4,6 +4,8 @@
     top: 0;
     width: 100% !important;
    box-shadow: 0px 0px 100px 10px #ccc;
+   backdrop-filter: blur(50px);
+   opacity: 90%;
 }
 .navbar-brand {
     color: whitesmoke;
@@ -149,15 +151,15 @@
 /* dark white mode */
 .mode {
   position: fixed;
-  top: 100px;
-  right: 10px;
+  top: 15%;
+  right: -5px;
   cursor: pointer;
 }
 .mode-btn{
   background-color: transparent;
   border: none;
   border-radius: 50%;
-  padding: 0px;
+  padding: 5px;
 }
 
 .mode span {
@@ -180,8 +182,8 @@
   height: 200px;
   /* background-color: bisque; */
   position: fixed;
-  top: 300px;
-  right: 5px;
+  top: 40%;
+  right: -5px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -209,3 +211,15 @@
   margin: 8px;
 }
 /* social-media */
+
+/* feedback form */
+.contact-form .form-control:focus {
+    border-color: #34dd01; /* Set border color for light mode */
+    box-shadow: 0 0 0 0.2rem rgba(52, 221, 1, 0.25); /* Set box shadow for light mode */
+}
+
+body.dark-mode .contact-form .form-control:focus {
+    border-color: #3cff00; /* Set border color for dark mode */
+    box-shadow: 0 0 0 0.2rem rgba(60, 255, 0, 0.25); /* Set box shadow for dark mode */
+}
+/* feedback form */

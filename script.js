@@ -1,5 +1,3 @@
-
-
 const bcaButton = document.getElementById('hero-btn');
 const cardLink = document.querySelectorAll('.flip-card a');
 const course_title = document.getElementById('course-title');
@@ -40,7 +38,7 @@ function updateLinksAndTitle(course) {
     course_title.innerHTML = "";
   }
 }
-8
+
 // Save selection and update UI
 bcaButton.addEventListener('change', () => {
   const selectedCourse = bcaButton.value;
@@ -74,6 +72,7 @@ let mode_code = localStorage.getItem("mode") === "dark" ? 0 : 1; // define value
 // Apply the saved mode state
 const applyMode = () => {
   if (mode_code === 1) {
+    bodys.classList.remove("dark-mode");
     mode.style.color = "black";
     mode.textContent = ""; // &#xe518; for light mode icon
     bodys.style.backgroundColor = "white";//change all sectiont color white to dark
@@ -102,6 +101,7 @@ const applyMode = () => {
 
 
   else {
+    bodys.classList.add("dark-mode");
     mode.style.color = "#3cff00";
     mode.textContent = ""; // &#xe51c; for dark mode icon 
     bodys.style.backgroundColor = "black";
@@ -141,4 +141,3 @@ mode.addEventListener("click", () => {
   localStorage.setItem("mode", mode_code === 1 ? "light" : "dark");
   applyMode();
 });
-// Toggle mode on click
