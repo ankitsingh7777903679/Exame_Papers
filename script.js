@@ -16,9 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
 // Update links and span based on selection
 function updateLinksAndTitle(course) {
   if (course === "bca") {
-    document.getElementById('alertModal').innerHTML = "BCA selected";
-    const alertModal = new bootstrap.Modal(document.getElementById('alertModal'));
-    alertModal.show();
+  
     cardLink[0].href = "sem1.html";
     cardLink[1].href = "sem2.html";
     cardLink[2].href = "sem3.html";
@@ -29,9 +27,7 @@ function updateLinksAndTitle(course) {
 
 
   } if (course === "bcom") {
-    document.getElementById('alertModal').innerHTML = "B.COM selected";
-    const alertModal = new bootstrap.Modal(document.getElementById('alertModal'));
-    alertModal.show();
+    
     cardLink[0].href = "bcom_sem1.html";
     cardLink[1].href = "bcom_sem2.html";
     cardLink[2].href = "bcom_sem3.html";
