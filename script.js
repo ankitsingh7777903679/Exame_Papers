@@ -110,7 +110,7 @@ const applyMode = () => {
     }
     alertModalButton.style.backgroundColor = "#3cff00"; // Change alert button color for light mode
 
-  } else {
+  } else{
     bodys.classList.add("dark-mode");
     mode.style.color = "#3cff00";
     mode.textContent = ""; // &#xe51c; for dark mode icon 
