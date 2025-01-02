@@ -16,6 +16,9 @@ document.addEventListener('DOMContentLoaded', () => {
 // Update links and span based on selection
 function updateLinksAndTitle(course) {
   if (course === "bca") {
+    document.getElementById('alertModal').innerHTML = "bca";
+    const alertModal = new bootstrap.Modal(document.getElementById('alertModal'));
+    alertModal.show();
     cardLink[0].href = "sem1.html";
     cardLink[1].href = "sem2.html";
     cardLink[2].href = "sem3.html";
@@ -140,4 +143,6 @@ mode.addEventListener("click", () => {
   mode_code = mode_code === 1 ? 0 : 1;
   localStorage.setItem("mode", mode_code === 1 ? "light" : "dark");
   applyMode();
-});
+});document.getElementById('alertModal').innerHTML = "bca";
+const alertModal = new bootstrap.Modal(document.getElementById('alertModal'));
+alertModal.show();
