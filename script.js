@@ -12,16 +12,25 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 });
 
-
 // Update links and span based on selection
 function updateLinksAndTitle(course) {
   const alertModalElement = document.getElementById('alertModal');
   const alertModal = new bootstrap.Modal(alertModalElement);
 
-  if (course === "bca") {
-    alertModalElement.querySelector('.modal-title').innerHTML = "BCA selected";
-    alertModal.show();
+  const alertShown = localStorage.getItem('alertShown');
 
+  if (!alertShown) {
+    if (course === "bca") {
+      alertModalElement.querySelector('.modal-title').innerHTML = "BCA selected";
+      alertModal.show();
+    } else if (course === "bcom") {
+      alertModalElement.querySelector('.modal-title').innerHTML = "B.Com selected";
+      alertModal.show();
+    }
+    localStorage.setItem('alertShown', 'true');
+  }
+
+  if (course === "bca") {
     cardLink[0].href = "sem1.html";
     cardLink[1].href = "sem2.html";
     cardLink[2].href = "sem3.html";
@@ -29,11 +38,7 @@ function updateLinksAndTitle(course) {
     cardLink[4].href = "sem5.html";
     cardLink[5].href = "sem6.html";
     course_title.innerHTML = "BCA";
-
   } else if (course === "bcom") {
-    alertModalElement.querySelector('.modal-title').innerHTML = "B.Com selected";
-    alertModal.show();
-
     cardLink[0].href = "bcom_sem1.html";
     cardLink[1].href = "bcom_sem2.html";
     cardLink[2].href = "bcom_sem3.html";
@@ -41,7 +46,6 @@ function updateLinksAndTitle(course) {
     cardLink[4].href = "bcom_sem5.html";
     cardLink[5].href = "bcom_sem6.html";
     course_title.innerHTML = "B.Com";
-
   } else if (course === "course") {
     cardLink.forEach((link, index) => link.href = "s_Course.html");
     course_title.innerHTML = "";
@@ -52,6 +56,7 @@ function updateLinksAndTitle(course) {
 bcaButton.addEventListener('change', () => {
   const selectedCourse = bcaButton.value;
   localStorage.setItem('selectedCourse', selectedCourse); // Save to localStorage
+  localStorage.removeItem('alertShown'); // Reset alert flag
   updateLinksAndTitle(selectedCourse);
 });
 
@@ -69,11 +74,8 @@ const contact_form = document.querySelector(".contact-form");
 const contact_form_label = document.querySelectorAll(".form-label");
 const contact_form_input = document.querySelectorAll(".form-control");
 
-
-
 const footer = document.querySelector(".footer");
 const footer_icon = document.querySelectorAll(".connection i");
-
 
 // mode code
 let mode_code = localStorage.getItem("mode") === "dark" ? 0 : 1; // define value white to dark
