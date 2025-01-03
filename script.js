@@ -104,7 +104,7 @@ const applyMode = () => {
       i.style.backgroundColor = "white";
     }
     footer.style.color = "black";
-    footer.style.border = "1px solid #ccc";
+    footer.style.borderTop = "1px solid #ccc";
     for (let i of footer_icon) { //change all sectiont color white to dark
       i.style.color = "black";
     }
@@ -133,8 +133,8 @@ const applyMode = () => {
     for (let i of contact_form_input) { //change all sectiont color white to dark
       i.style.backgroundColor = "#cecece";
     }
-    footer.style.color = "white";
-    footer.style.border = "none";
+    footer.style.color = "#3cff00";
+    footer.style.borderTop = "1px solid #3cff00";
     for (let i of footer_icon) {   //change all sectiont color dark to white
       i.style.color = "white";
     }
