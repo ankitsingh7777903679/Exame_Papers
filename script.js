@@ -15,7 +15,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Update links and span based on selection
 function updateLinksAndTitle(course) {
+  const alertModalElement = document.getElementById('alertModal');
+  const alertModal = new bootstrap.Modal(alertModalElement);
+
   if (course === "bca") {
+    alertModalElement.querySelector('.modal-title').innerHTML = "BCA selected";
+    alertModal.show();
+
     cardLink[0].href = "sem1.html";
     cardLink[1].href = "sem2.html";
     cardLink[2].href = "sem3.html";
@@ -24,8 +30,10 @@ function updateLinksAndTitle(course) {
     cardLink[5].href = "sem6.html";
     course_title.innerHTML = "BCA";
 
+  } else if (course === "bcom") {
+    alertModalElement.querySelector('.modal-title').innerHTML = "B.Com selected";
+    alertModal.show();
 
-  } if (course === "bcom") {
     cardLink[0].href = "bcom_sem1.html";
     cardLink[1].href = "bcom_sem2.html";
     cardLink[2].href = "bcom_sem3.html";
@@ -33,7 +41,8 @@ function updateLinksAndTitle(course) {
     cardLink[4].href = "bcom_sem5.html";
     cardLink[5].href = "bcom_sem6.html";
     course_title.innerHTML = "B.Com";
-  } if (course === "course") {
+
+  } else if (course === "course") {
     cardLink.forEach((link, index) => link.href = "s_Course.html");
     course_title.innerHTML = "";
   }
@@ -71,6 +80,8 @@ let mode_code = localStorage.getItem("mode") === "dark" ? 0 : 1; // define value
 
 // Apply the saved mode state
 const applyMode = () => {
+  const alertModalButton = document.querySelector('.modal-content .btn-close');
+
   if (mode_code === 1) {
     bodys.classList.remove("dark-mode");
     mode.style.color = "black";
@@ -97,10 +108,9 @@ const applyMode = () => {
     for (let i of footer_icon) { //change all sectiont color white to dark
       i.style.color = "black";
     }
-  }
+    alertModalButton.style.backgroundColor = "#3cff00"; // Change alert button color for light mode
 
-
-  else {
+  } else{
     bodys.classList.add("dark-mode");
     mode.style.color = "#3cff00";
     mode.textContent = ""; // &#xe51c; for dark mode icon 
@@ -126,9 +136,9 @@ const applyMode = () => {
     footer.style.color = "white";
     footer.style.border = "none";
     for (let i of footer_icon) {   //change all sectiont color dark to white
-      //     }
       i.style.color = "white";
     }
+    alertModalButton.style.backgroundColor = "#3cff00"; // Change alert button color for dark mode
   }
 };
 
