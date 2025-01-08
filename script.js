@@ -21,21 +21,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Update links and span based on selection
 function updateLinksAndTitle(course) {
-  // const alertModalElement = document.getElementById('alertModal');
-  // const alertModal = new bootstrap.Modal(alertModalElement);
-  // const alertShown = localStorage.getItem('alertShown');
-
-  // if (!alertShown) {
-  //   if (course === "bca") {
-  //     alertModalElement.querySelector('.modal-title').innerHTML = "BCA selected";
-  //     alertModal.show();
-  //   } else if (course === "bcom") {
-  //     alertModalElement.querySelector('.modal-title').innerHTML = "B.Com selected";
-  //     alertModal.show();
-  //   }
-  //   localStorage.setItem('alertShown', 'true');
-  // }
-
   if (course === "bca") {
     cardLink[0].href = "sem1.html";
     cardLink[1].href = "sem2.html";
@@ -137,8 +122,6 @@ const applyMode = () => {
       i.style.borderRadius = "15px";
     }
     menu_heading.style.color = "white";
-    contact_form.style.borderRadius = "15px";
-    contact_form.style.border = "1px solid white";
     for (let i of contact_form_label) {  //change all sectiont color dark to white
       i.style.color = "white";
     }
