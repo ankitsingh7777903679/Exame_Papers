@@ -39,6 +39,12 @@
 
 /* header css */
 /* hero ssection */
+.hero-section{
+  display: flex;
+      align-items: center;
+      justify-content: center;
+}
+
 .hero-text h5 {
     font-family: poppins;
     font-style: normal;
