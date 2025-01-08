@@ -2,6 +2,13 @@ const bcaButton = document.getElementById('hero-btn');
 const cardLink = document.querySelectorAll('.flip-card a');
 const course_title = document.getElementById('course-title');
 
+
+  // const links = document.querySelectorAll(".btn-years a");
+  // links.forEach(link => {
+  //     link.setAttribute("target", "_blank");
+  // });
+
+
 // Restore state from localStorage
 
 document.addEventListener('DOMContentLoaded', () => {
@@ -14,21 +21,20 @@ document.addEventListener('DOMContentLoaded', () => {
 
 // Update links and span based on selection
 function updateLinksAndTitle(course) {
-  const alertModalElement = document.getElementById('alertModal');
-  const alertModal = new bootstrap.Modal(alertModalElement);
+  // const alertModalElement = document.getElementById('alertModal');
+  // const alertModal = new bootstrap.Modal(alertModalElement);
+  // const alertShown = localStorage.getItem('alertShown');
 
-  const alertShown = localStorage.getItem('alertShown');
-
-  if (!alertShown) {
-    if (course === "bca") {
-      alertModalElement.querySelector('.modal-title').innerHTML = "BCA selected";
-      alertModal.show();
-    } else if (course === "bcom") {
-      alertModalElement.querySelector('.modal-title').innerHTML = "B.Com selected";
-      alertModal.show();
-    }
-    localStorage.setItem('alertShown', 'true');
-  }
+  // if (!alertShown) {
+  //   if (course === "bca") {
+  //     alertModalElement.querySelector('.modal-title').innerHTML = "BCA selected";
+  //     alertModal.show();
+  //   } else if (course === "bcom") {
+  //     alertModalElement.querySelector('.modal-title').innerHTML = "B.Com selected";
+  //     alertModal.show();
+  //   }
+  //   localStorage.setItem('alertShown', 'true');
+  // }
 
   if (course === "bca") {
     cardLink[0].href = "sem1.html";
@@ -50,6 +56,10 @@ function updateLinksAndTitle(course) {
     cardLink.forEach((link, index) => link.href = "s_Course.html");
     course_title.innerHTML = "";
   }
+ 
+        cardLink.forEach(link => {
+            link.setAttribute("target", "_blank");
+        });
 }
 
 // Save selection and update UI
