@@ -48,6 +48,15 @@
         font-size: 16px !important;
         
     }
+/* bord paper */
+    .bord-paper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .bord-paper .col {
+        flex: 0 0 50%; /* Each column takes up 50% of the row */
+        max-width: 50%;
+    }
     /* card section */
     .sem-card{
         flex: 0 0 auto; 
