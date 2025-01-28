@@ -1,5 +1,5 @@
 const bcaButton = document.getElementById('hero-btn');
-const cardLink = document.querySelectorAll('.flip-card a');
+const cardLink = document.querySelectorAll('.flip-card-coll a');
 const course_title = document.getElementById('course-title');
 
 
