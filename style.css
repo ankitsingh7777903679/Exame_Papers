@@ -16,6 +16,9 @@
 .navbar-brand {
     color: whitesmoke;
 }
+.brand-name{
+  color: #3cff00;
+}
 
 .nav-link {
     color: #3cff00; /* Set link color */
