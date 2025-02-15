@@ -1,3 +1,4 @@
+
 /* header css */
 *{
     margin: 0;
@@ -196,7 +197,7 @@
   height: 200px;
   /* background-color: bisque; */
   position: fixed;
-  bottom: 40%;
+  top: 25%;
   right: -5px;
   display: flex;
   flex-direction: column;
