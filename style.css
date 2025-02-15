@@ -196,7 +196,7 @@
   height: 200px;
   /* background-color: bisque; */
   position: fixed;
-  top: 40%;
+  bottom: 20%;
   right: -5px;
   display: flex;
   flex-direction: column;
