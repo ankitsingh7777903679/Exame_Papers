@@ -70,7 +70,7 @@ const contact_form_label = document.querySelectorAll(".form-label");
 const contact_form_input = document.querySelectorAll(".form-control");
 
 const footer = document.querySelector(".footer");
-const footer_icon = document.querySelectorAll(".connection i");
+const footer_icon = document.querySelectorAll(".media-nav i");
 
 // mode code
 let mode_code = localStorage.getItem("mode") === "dark" ? 0 : 1; // define value white to dark
