@@ -48,6 +48,10 @@
         font-size: 16px !important;
         
     }
+    .hero-text button{
+        font-size: 16px !important;
+    }
+    
 /* bord paper */
     .bord-paper {
         display: flex;
