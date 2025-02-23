@@ -65,8 +65,6 @@ const hero_headding = document.querySelectorAll(".hero-text h2"); //select all s
 const hero_para = document.querySelectorAll(".hero-text p "); //select all section heading text P2
 const hero_img = document.querySelectorAll(".hero-img img"); //select all section img 
 const menu_heading = document.querySelector(".menu-heading");
-
-const contact_form = document.querySelector(".contact-form");
 const contact_form_label = document.querySelectorAll(".form-label");
 const contact_form_input = document.querySelectorAll(".form-control");
 
@@ -109,7 +107,7 @@ const applyMode = () => {
     alertModalButton.style.backgroundColor = "#3cff00"; // Change alert button color for light mode
 
     for (let i of card){ //change card color dark to white
-      i.style.background = "linear-gradient(to bottom, #F2FFEE 17%, #b6faa2 59%, #65DE40 100%)"; //change card color white to dark
+      i.style.background = "linear-gradient(to bottom, #F2FFEE 10%, #b6faa2 50%, #65DE40 100%)"; //change card color white to dark
       }
   
 
@@ -142,8 +140,8 @@ const applyMode = () => {
     }
     alertModalButton.style.backgroundColor = "#3cff00"; // Change alert button color for dark mode
     for (let i of card){ //change card color dark to white
-      i.style.background = "linear-gradient(to bottom, #a2ae9f 17%, #b6faa2 59%, #459b2b 100%)"; //change card color white to dark
-      }
+      i.style.background = "linear-gradient(to bottom, #a2ae9f 10%, #b6faa2 50%, #459b2b 100%)"; //change card color white to dark
+    }
   }
   
 };
