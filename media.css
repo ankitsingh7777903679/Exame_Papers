@@ -1,82 +1,117 @@
-/* @media (min-width: 1400px) {
-
-    .container,
-    .container-lg,
-    .container-md,
-    .container-sm,
-    .container-xl,
-    .container-xxl {
-        max-width: 1181px;
-    }
-} */
-
 @media (max-width: 768px) {
-    .nav-link {
-        font-size: 14px; /* Adjust font size for smaller screens */
-        margin: auto 10px; /* Adjust margin for smaller screens */
-    }
-    .nav-link:hover {
-        transform: none;
-        font-weight: 400;
-        color: #3cff00;
-    }
-    .nav-link:active {
-        color: whitesmoke; /* Change active link color */
-    }
+  .navbar {
+    backdrop-filter: blur(20px);
+  }
 
-    .hero-text {
-        width: 100% !important;
-    }
+  .nav-link {
+    font-size: 14px; /* Adjust font size for smaller screens */
+    margin: auto 10px; /* Adjust margin for smaller screens */
+  }
+  .nav-link:hover {
+    transform: none;
+    font-weight: 400;
+    color: #3cff00;
+  }
+  .nav-link:active {
+    color: whitesmoke; /* Change active link color */
+  }
 
-    .hero-img {
-        width: 100% !important;
-    }
+  .hero-text {
+    width: 100% !important;
+  }
 
-    .hero-text h5{
-       
-        font-size: 18px;
-       
-        
-    }
-    .hero-text h2{
-       
-        font-size: 22px !important;
-       
-    }
-    .hero-text p{
-        
-        font-size: 16px !important;
-        
-    }
-    .hero-text button{
-        font-size: 16px !important;
-    }
-    
-/* bord paper */
-    .bord-paper {
-        display: flex;
-        flex-wrap: wrap;
-    }
-    .bord-paper .col {
-        flex: 0 0 50%; /* Each column takes up 50% of the row */
-        max-width: 50%;
-    }
-    /* card section */
-    .sem-card{
-        flex: 0 0 auto; 
-        width: 33.33%;
-        height: 20vh;
-       
-    }
-    .flip-card{
-        width: 100%;
-        height: 100%;
-    }
-    .flip-card p{
-        font-size: 20px;
-    }
+  .hero-img {
+    width: 100% !important;
+  }
 
-    /* card section */
+  .hero-text h5 {
+    font-size: 18px;
+  }
+  .hero-text h2 {
+    font-size: 24px;
+  }
+  .hero-text p {
+    font-size: 16px;
+  }
+  .hero-text button {
+    font-size: 16px !important;
+  }
+
+  /* bord paper */
+  .bord-paper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .bord-paper .col {
+    flex: 0 0 50%; /* Each column takes up 50% of the row */
+    max-width: 50%;
+  }
+  /* card section */
+  .sem-card {
+    flex: 0 0 auto;
+    width: 33.33%;
+    height: 20vh;
+  }
+  .flip-card {
+    width: 100%;
+    height: 100%;
+  }
+  .flip-card p {
+    font-size: 20px;
+  }
+
+  /* card section */
+
+  /* ---------------------------------------sem card----------------------------------------------------------- */
+  .bord-section {
+  }
+  .course-headings {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #000000;
+    margin-bottom: 20px;
+    background-color: #dbf8d7;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .sem-card {
+    z-index: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: K2D, serif;
+  }
+  .card-icon i {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #29b000;
+    background-color: #def9cff8;
+    padding: 10px;
+    border-radius: 10px;
+  }
+  .flip-card-head {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 5px;
+  }
+  .flip-card-subhead {
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  .flip-card-text {
+    font-size: 16px;
+  }
+  .flip-card-tick {
+    font-size: 10px;
+    font-weight: bolder;
+    color: #185b04;
+  }
+  .flip-card-link {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #185b04;
+  }
+
+  /* ---------------------------------------sem card----------------------------------------------------------- */
 }
 
 

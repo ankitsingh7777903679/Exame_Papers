@@ -5,6 +5,11 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>QuestionBanker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap"
+    rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
   <link rel="stylesheet"
@@ -15,47 +20,47 @@
   <link rel="stylesheet" href="media.css">
   <!-- <link rel="stylesheet" href="hide.css">
     <script src="hide.js"></script> -->
-<script type="text/javascript"src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
-<script type="text/javascript">
-   (function(){
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
       emailjs.init({
         publicKey: "spYWDIjfTtTgwso3I",
       });
-   })();
-</script>
+    })();
+  </script>
   <script>
     // Initialize EmailJS with your User ID
 
     function sendEmail(event) {
-        event.preventDefault(); // Prevent page refresh on form submission
+      event.preventDefault(); // Prevent page refresh on form submission
 
-        // Collect form data
-        const fromName = document.getElementById("inputName").value;
-        const fromEmail = document.getElementById("inputEmail1").value;
-        const message = document.getElementById("floatingTextarea").value;
+      // Collect form data
+      const fromName = document.getElementById("inputName").value;
+      const fromEmail = document.getElementById("inputEmail1").value;
+      const message = document.getElementById("floatingTextarea").value;
 
-        // Template parameters
-        const templateParams = {
-            from_name: fromName,
-            email_id: fromEmail,
-            message: message
-        };
+      // Template parameters
+      const templateParams = {
+        from_name: fromName,
+        email_id: fromEmail,
+        message: message
+      };
 
-        // Send email using EmailJS
-        emailjs.send("service_p9r3x14", "template_6nfwf7q", templateParams)
-            .then(function(response) {
-                // alert("Email sent successfully!");
-                const alertModal = new bootstrap.Modal(document.getElementById('alertModal'));
-                alertModal.show();
-                console.log("SUCCESS!", response.status, response.text);
-            })
-            .catch(function(error) {
-                alert("Failed to send email. Check console for details.");
-                console.error("FAILED...", error);
-            });
+      // Send email using EmailJS
+      emailjs.send("service_p9r3x14", "template_6nfwf7q", templateParams)
+        .then(function (response) {
+          // alert("Email sent successfully!");
+          const alertModal = new bootstrap.Modal(document.getElementById('alertModal'));
+          alertModal.show();
+          console.log("SUCCESS!", response.status, response.text);
+        })
+        .catch(function (error) {
+          alert("Failed to send email. Check console for details.");
+          console.error("FAILED...", error);
+        });
     }
-</script>
-  
+  </script>
+
 
 </head>
 
@@ -75,54 +80,59 @@
 
 <body class="body">
   <!-- navbar -->
-<div class="main-nav" style="z-index: 1;">
-  <nav class="container-fluid navbar navbar-expand-lg bg-dark navbar-dark" style="z-index: 1;">
-    <div class="container">
-      <a class="navbar-brand fw-bolder me-0" href="#"><img src="logo.webp" alt="" height="35px"></a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
-        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarScroll">
-        <ul class="navbar-nav ms-auto my-2 my-lg-0">
-          <!-- <li class="nav-item">
+  <div class="main-nav" style="z-index: 1;">
+    <nav class="container-fluid navbar navbar-expand-lg bg-dark navbar-dark" style="z-index: 1;">
+      <div class="container">
+        <a class="navbar-brand fw-bolder me-0" href="#"><img src="logo.webp" alt="" height="35px"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+          aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav ms-auto my-2 my-lg-0">
+            <!-- <li class="nav-item">
             <a class="nav-link" aria-current="page" href="#home">Home</a>
           </li> -->
-          <li class="nav-item">
-            <a class="nav-link" href="#paper">Papers</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#Feedback">Feedback</a>
-          </li>
-        </ul>
+            <li class="nav-item">
+              <a class="nav-link" href="#paper">Papers</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Feedback">Feedback</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
-  </nav>
-  <nav class="container media-nav" style="z-index: 1;">
-    <div class="d-flex justify-content-end align-items-center">
-      <button class="mode-btn p-0" style="border: none;">
-        <span class="material-symbols-outlined mode-icon fw-bolder">&#xe518;</span>
-        <a href="https://www.instagram.com/questionbanker_77/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
-        <a href="https://t.me/questionbanker_BOT" target="_blank"><i class="fa-brands fa-telegram"></i></a>
-      </button>
-    </div>
-    
-  </nav>
-</div>
+    </nav>
+    <nav class="container media-nav" style="z-index: 1;">
+      <div class="d-flex justify-content-end align-items-center">
+        <button class="mode-btn p-0" style="border: none;">
+          <a href="https://www.instagram.com/questionbanker_77/" target="_blank"><i
+              class="fa-brands fa-instagram"></i></a>
+          <a href="https://t.me/questionbanker_BOT" target="_blank"><i class="fa-brands fa-telegram"></i></a>
+          <span class="material-symbols-outlined mode-icon fw-bolder">&#xe518;</span>
+        </button>
+      </div>
+
+    </nav>
+  </div>
 
   <!-- navbar -->
 
-  
+
 
   <!-- menu-paper-section -->
   <div class="container-fluid" style="z-index: 0;" id="paper">
-    <div class="container mt-1 mb-4 px-4">
-      <h2 class="text-center text-success">Board Exame Papers</h2>
-      <div class="row row-cols-2 gx-3 gy-3 gx-md-5 gy-md-5 bord-paper">
-        <div class="col sem-card">
+    <div class="container mt-1 mb-4 mt-4 ">
+      <div class="bord-section px-lg-5">
+        <div class="d-flex justify-content-center align-items-center gap-2 course-headings px-lg-5">
+          <i class="fa-solid fa-school fw-bolder"></i>
+          <h2 class="mb-0">Board Exame Papers</h2>
+        </div>
+        <div class="row row-cols-2 gx-md-5 gy-lg-5 gy-3 px-lg-5 bord-paper">
+          <!-- <div class="col sem-card">
           <div class="flip-card">
             <a href="tenth.html" target="_blank" id="tenth-card-1">
               <div class="flip-card-inner">
@@ -193,28 +203,142 @@
               </div>
             </a>
           </div>
+        </div> -->
+
+          <div class="col">
+            <div class="p-lg-3 p-md-4 p-2 border rounded-3 shadow-lg card">
+              <div class="card-icon">
+                <i class="fa-solid fa-school fw-bolder "></i>
+              </div>
+              <div>
+                <p class="flip-card-head">
+                  <u>GSEB BOARD</u>
+                </p>
+              </div>
+              <div>
+                <h4 class="flip-card-subhead">
+                  10th Class
+                </h4>
+              </div>
+              <div>
+                <h6 class="flip-card-text">
+                  Last Year's Exam Papers
+                </h6>
+              </div>
+              <div class="d-flex align-items-center gap-1">
+                <i class="fa-solid fa-circle-check flip-card-tick"></i>
+                <u><a href="tenth.html" target="_blank" class="flip-card-link">View Papers</a></u>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="p-lg-3 p-md-4 p-2  border rounded-3 shadow-lg card">
+              <div class="card-icon">
+                <i class="fa-solid fa-school fw-bolder"></i>
+              </div>
+              <div>
+                <p class="flip-card-head">
+                  <u>GSEB BOARD</u>
+                </p>
+              </div>
+              <div>
+                <h4 class="flip-card-subhead">
+                  12th Comm
+                </h4>
+              </div>
+              <div>
+                <h6 class="flip-card-text">
+                  Last Year's Exam Papers
+                </h6>
+              </div>
+              <div class="d-flex align-items-center gap-1">
+                <i class="fa-solid fa-circle-check flip-card-tick"></i>
+                <u><a href="comm.html" target="_blank" class="flip-card-link">View Papers</a></u>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="p-lg-3 p-md-4 p-2  border rounded-3 shadow-lg card">
+              <div class="card-icon">
+                <i class="fa-solid fa-school fw-bolder"></i>
+              </div>
+              <div>
+                <p class="flip-card-head">
+                  <u>GSEB BOARD</u>
+                </p>
+              </div>
+              <div>
+                <h4 class="flip-card-subhead">
+                  12th Sci
+                </h4>
+              </div>
+              <div>
+                <h6 class="flip-card-text">
+                  Last Year's Exam Papers
+                </h6>
+              </div>
+              <div class="d-flex align-items-center gap-1">
+                <i class="fa-solid fa-circle-check flip-card-tick"></i>
+                <u><a href="sci.html"target="_blank" class="flip-card-link">View Papers</a></u>
+              </div>
+            </div>
+          </div>
+
+          <div class="col">
+            <div class="p-lg-3 p-md-4 p-2  border rounded-3 shadow-lg card">
+              <div class="card-icon">
+                <i class="fa-solid fa-school fw-bolder"></i>
+              </div>
+              <div>
+                <p class="flip-card-head">
+                  <u>GSEB BOARD</u>
+                </p>
+              </div>
+              <div>
+                <h4 class="flip-card-subhead">
+                  12th Arts
+                </h4>
+              </div>
+              <div>
+                <h6 class="flip-card-text">
+                  Last Year's Exam Papers
+                </h6>
+              </div>
+              <div class="d-flex align-items-center gap-1">
+                <i class="fa-solid fa-circle-check flip-card-tick"></i>
+                <u><a href="arts.html" target="_blank" class="flip-card-link">View Papers</a></u>
+              </div>
+            </div>
+          </div>
         </div>
-
       </div>
-
-<!-- asfg -->
-
-<h2 class="text-center text-success mt-5 " >Clg Sems Papers</h2>
+    </div>
+  </div>
+      <!-- asfg -->
+  <div class="container-fluid" style="z-index: 0;" id="paper">
+    <div class="container mt-1 mb-4 mt-4 ">
+      <div class="d-flex justify-content-center align-items-center gap-2 course-headings px-lg-5">
+        <i class="fa-solid fa-graduation-cap fw-bolder"></i>
+        <h2 class="mb-0">Clg Sems Papers</h2>
+      </div>
 
       <div class="col d-flex justify-content-center align-items-center" style="width: 100%;">
         <select id="hero-btn" class="form-select border rounded-pill px-2 mt-1" aria-label="Default select example"
-        style="width: 110px; background-color: #3cff00; border: 1px solid #34dd01; padding-left: 15px !important;">
-        <option selected value="course">COURSE</option>
-        <option value="bca">BCA</option>
-        <option value="bcom">B.com</option>
+          style="width: 110px; background-color: #3cff00; border: 1px solid #34dd01; padding-left: 15px !important;">
+          <option selected value="course">COURSE</option>
+          <option value="bca">BCA</option>
+          <option value="bcom">B.com</option>
         </select>
       </div>
 
-      <h1 class="menu-heading text-center mb-2 mb-md-4">Last Year's <span id="course-title" style="color: #3cff00;"></span> Exam
+      <h1 class="menu-heading text-center mb-2 mb-md-4">Last Year's <span id="course-title"
+          style="color: #3cff00;"></span> Exam
         Papers</h1>
-        
-      <div class="row row-cols-3 gx-3 gy-3 gx-md-5 gy-md-5">
-        <div class="col sem-card">
+
+      <div class="row row-cols-2 row-cols-md-3 gx-3 gy-3 gx-md-5 gy-md-5 coll-paper">
+        <!-- <div class="col sem-card">
           <div class="flip-card flip-card-coll">
             <a href="s_Course.html" id="sem-card-1">
               <div class="flip-card-inner">
@@ -230,9 +354,9 @@
             </a>
           </div>
 
-        </div>
+        </div> -->
 
-        <div class="col sem-card">
+        <!-- <div class="col sem-card">
           <div class="flip-card flip-card-coll">
             <a href="s_Course.html">
               <div class="flip-card-inner">
@@ -247,9 +371,9 @@
               </div>
             </a>
           </div>
-        </div>
+        </div> -->
 
-        <div class="col sem-card">
+        <!-- <div class="col sem-card">
           <div class="flip-card flip-card-coll">
             <a href="s_Course.html">
               <div class="flip-card-inner">
@@ -264,9 +388,9 @@
               </div>
             </a>
           </div>
-        </div>
+        </div> -->
 
-        <div class="col sem-card">
+        <!-- <div class="col sem-card">
           <div class="flip-card flip-card-coll">
             <a href="s_Course.html">
               <div class="flip-card-inner">
@@ -281,9 +405,9 @@
               </div>
             </a>
           </div>
-        </div>
+        </div> -->
 
-        <div class="col sem-card">
+        <!-- <div class="col sem-card">
           <div class="flip-card flip-card-coll">
             <a href="s_Course.html">
               <div class="flip-card-inner">
@@ -298,9 +422,9 @@
               </div>
             </a>
           </div>
-        </div>
+        </div> -->
 
-        <div class="col sem-card">
+        <!-- <div class="col sem-card">
           <div class="flip-card flip-card-coll">
             <a href="s_Course.html">
               <div class="flip-card-inner">
@@ -315,8 +439,175 @@
               </div>
             </a>
           </div>
+        </div> -->
+
+        <div class="col">
+          <div class="p-lg-3 p-md-4 p-2  border rounded-3 shadow-lg card">
+            <div class="card-icon">
+              <i class="fa-solid fa-graduation-cap fw-bolder"></i>
+            </div>
+            <div>
+              <p class="flip-card-head">
+                <u><span></span></u>
+              </p>
+            </u>
+            </div>
+            <div>
+              <h4 class="flip-card-subhead">
+                SEM-1
+              </h4>
+            </div>
+            <div>
+              <h6 class="flip-card-text">
+                Last Year's Exam Papers
+              </h6>
+            </div>
+            <div class="d-flex align-items-center gap-1 cd-link">
+              <i class="fa-solid fa-circle-check flip-card-tick"></i>
+              <u><a href="" target="_blank" class="flip-card-link ">View Papers</a></u>
+            </div>
+          </div>
         </div>
 
+        <div class="col">
+          <div class="p-lg-3 p-md-4 p-2  border rounded-3 shadow-lg card">
+            <div class="card-icon">
+              <i class="fa-solid fa-graduation-cap fw-bolder"></i>
+            </div>
+            <div>
+              <p class="flip-card-head">
+                <u><span></span></u>
+              </p>
+            </u>
+            </div>
+            <div>
+              <h4 class="flip-card-subhead">
+                SEM-2
+              </h4>
+            </div>
+            <div>
+              <h6 class="flip-card-text">
+                Last Year's Exam Papers
+              </h6>
+            </div>
+            <div class="d-flex align-items-center gap-1 cd-link">
+              <i class="fa-solid fa-circle-check flip-card-tick"></i>
+              <u><a href="" target="_blank" class="flip-card-link">View Papers</a></u>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="p-lg-3 p-md-4 p-2  border rounded-3 shadow-lg card">
+            <div class="card-icon">
+              <i class="fa-solid fa-graduation-cap fw-bolder"></i>
+            </div>
+            <div>
+              <p class="flip-card-head">
+                <u><span></span></u>
+              </p>
+            </u>
+            </div>
+            <div>
+              <h4 class="flip-card-subhead">
+                SEM-3
+              </h4>
+            </div>
+            <div>
+              <h6 class="flip-card-text">
+                Last Year's Exam Papers
+              </h6>
+            </div>
+            <div class="d-flex align-items-center gap-1 cd-link">
+              <i class="fa-solid fa-circle-check flip-card-tick"></i>
+              <u><a href="" target="_blank" class="flip-card-link">View Papers</a></u>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="p-lg-3 p-md-4 p-2  border rounded-3 shadow-lg card">
+            <div class="card-icon">
+              <i class="fa-solid fa-graduation-cap fw-bolder"></i>
+            </div>
+            <div>
+              <p class="flip-card-head">
+                <u><span></span></u>
+              </p>
+            </u>
+            </div>
+            <div>
+              <h4 class="flip-card-subhead">
+                SEM-4
+              </h4>
+            </div>
+            <div>
+              <h6 class="flip-card-text">
+                Last Year's Exam Papers
+              </h6>
+            </div>
+            <div class="d-flex align-items-center gap-1 cd-link">
+              <i class="fa-solid fa-circle-check flip-card-tick"></i>
+              <u><a href="" target="_blank" class="flip-card-link">View Papers</a></u>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="p-lg-3 p-md-4 p-2  border rounded-3 shadow-lg card">
+            <div class="card-icon">
+              <i class="fa-solid fa-graduation-cap fw-bolder"></i>
+            </div>
+            <div>
+              <p class="flip-card-head">
+                <u><span></span></u>
+              </p>
+            </u>
+            </div>
+            <div>
+              <h4 class="flip-card-subhead">
+                SEM-5
+              </h4>
+            </div>
+            <div>
+              <h6 class="flip-card-text">
+                Last Year's Exam Papers
+              </h6>
+            </div>
+            <div class="d-flex align-items-center gap-1 cd-link">
+              <i class="fa-solid fa-circle-check flip-card-tick"></i>
+              <u><a href="" target="_blank" class="flip-card-link">View Papers</a></u>
+            </div>
+          </div>
+        </div>
+
+        <div class="col">
+          <div class="p-lg-3 p-md-4 p-2  border rounded-3 shadow-lg card">
+            <div class="card-icon">
+              <i class="fa-solid fa-graduation-cap fw-bolder"></i>
+            </div>
+            <div>
+              <p class="flip-card-head">
+                <u><span></span></u>
+              </p>
+            </u>
+            </div>
+            <div>
+              <h4 class="flip-card-subhead">
+                SEM-6
+              </h4>
+            </div>
+            <div>
+              <h6 class="flip-card-text">
+                Last Year's Exam Papers
+              </h6>
+            </div>
+            <div class="d-flex align-items-center gap-1 cd-link">
+              <i class="fa-solid fa-circle-check flip-card-tick"></i>
+              <u><a href="" target="_blank" class="flip-card-link">View Papers</a></u>
+            </div>
+          </div>
+        </div>
 
       </div>
     </div>
@@ -324,7 +615,7 @@
 
   <!-- home-hero-section  -->
 
-  
+
 
   <!-- home-hero-section  -->
   <!-- about us -->
@@ -340,11 +631,12 @@
           <div class=" pt-lg-5 mt-3">
 
             <h2>About Our Website</h2>
-            <p class="fs">Welcome to Last Year's Exam Papers website, your go-to resource for last year's exam papers! We offer a
+            <p class="fs">Welcome to Last Year's Exam Papers website, your go-to resource for last year's exam papers!
+              We offer a
               vast collection of previous year question papers for a variety of subjects and academic levels.Practicing
               with last year's papers helps you understand the exam pattern and improve your performance.
             </p>
-            
+
           </div>
         </div>
 
@@ -361,24 +653,26 @@
           <div class=" pt-lg-5 mt-3">
             <h2>Feedback</h2>
             <h5>"Help Us Improve for You!"</h5>
-            
+
             <form onsubmit="sendEmail(event)">
               <div class="mb-3">
-                  <label for="inputName" class="form-label">Name</label>
-                  <input type="text" id="inputName" class="form-control" placeholder="Your Name" required>
+                <label for="inputName" class="form-label">Name</label>
+                <input type="text" id="inputName" class="form-control" placeholder="Your Name" required>
               </div>
               <div class="mb-3">
-                  <label for="inputEmail1" class="form-label">Email</label>
-                  <input type="email" id="inputEmail1" class="form-control" placeholder="Your Email" required>
+                <label for="inputEmail1" class="form-label">Email</label>
+                <input type="email" id="inputEmail1" class="form-control" placeholder="Your Email" required>
               </div>
               <div class="mb-3">
-                  <label for="floatingTextarea" class="form-label">Feedback</label>
-                  <textarea id="floatingTextarea" class="form-control" placeholder="Your Feedback" rows="2" required></textarea>
+                <label for="floatingTextarea" class="form-label">Feedback</label>
+                <textarea id="floatingTextarea" class="form-control" placeholder="Your Feedback" rows="2"
+                  required></textarea>
               </div>
-              <button type="submit" class="btn col-12 mt-3 py-2 fs-5 fw-bolder"style="background-color: #3cff00;">Send Feedback</button>
+              <button type="submit" class="btn col-12 mt-3 py-2 fs-5 fw-bolder" style="background-color: #3cff00;">Send
+                Feedback</button>
               <!-- <button type="submit" class="btn col-12 mt-3 py-2 fs-5 fw-bolder"style="background-color: #3cff00;">Send Feedback</button> -->
-          </form>
-          
+            </form>
+
           </div>
         </div>
         <div class="hero-img col" style="width: 50%; ">
@@ -402,7 +696,8 @@
       <div class="modal-content">
         <div class="modal-header">
           <h5 class="modal-title" id="alertModalLabel">Email sent successfully!</h5>
-          <button type="button" class="btn-close me-0" data-bs-dismiss="modal" aria-label="Close" style="width: 20px; border: none;"></button>
+          <button type="button" class="btn-close me-0" data-bs-dismiss="modal" aria-label="Close"
+            style="width: 20px; border: none;"></button>
         </div>
       </div>
     </div>
@@ -421,10 +716,10 @@
   <!-- dark mode -->
 
   <!-- <div class="connection"> -->
-    <!-- <i class="fa-brands fa-linkedin"></i> -->
-    <!-- <a href="https://www.instagram.com/questionbanker_77/" target="_blank"><i class="fa-brands fa-instagram"></i></a> -->
-    <!-- <a href="https://t.me/questionbanker_BOT" target="_blank"><i class="fa-brands fa-telegram"></i></a> -->
-    <!-- <i class="fa-brands fa-x-twitter"></i> -->
+  <!-- <i class="fa-brands fa-linkedin"></i> -->
+  <!-- <a href="https://www.instagram.com/questionbanker_77/" target="_blank"><i class="fa-brands fa-instagram"></i></a> -->
+  <!-- <a href="https://t.me/questionbanker_BOT" target="_blank"><i class="fa-brands fa-telegram"></i></a> -->
+  <!-- <i class="fa-brands fa-x-twitter"></i> -->
   <!-- </div> -->
 
 
@@ -433,7 +728,7 @@
     crossorigin="anonymous"></script>
 
   <script src="script.js"></script>
- 
+
 </body>
 
 </html>

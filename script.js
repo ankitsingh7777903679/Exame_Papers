@@ -1,16 +1,9 @@
 const bcaButton = document.getElementById('hero-btn');
-const cardLink = document.querySelectorAll('.flip-card-coll a');
+const cardLink = document.querySelectorAll('.cd-link a');
 const course_title = document.getElementById('course-title');
-
-
-  // const links = document.querySelectorAll(".btn-years a");
-  // links.forEach(link => {
-  //     link.setAttribute("target", "_blank");
-  // });
-
+const flip_card_head = document.querySelectorAll('.flip-card-head span');
 
 // Restore state from localStorage
-
 document.addEventListener('DOMContentLoaded', () => {
   const savedCourse = localStorage.getItem('selectedCourse');
   if (savedCourse) {
@@ -29,6 +22,7 @@ function updateLinksAndTitle(course) {
     cardLink[4].href = "sem5.html";
     cardLink[5].href = "sem6.html";
     course_title.innerHTML = "BCA";
+    flip_card_head.forEach(span => span.innerHTML = "BCA");
   } else if (course === "bcom") {
     cardLink[0].href = "bcom_sem1.html";
     cardLink[1].href = "bcom_sem2.html";
@@ -37,14 +31,17 @@ function updateLinksAndTitle(course) {
     cardLink[4].href = "bcom_sem5.html";
     cardLink[5].href = "bcom_sem6.html";
     course_title.innerHTML = "B.Com";
+    flip_card_head.forEach(span => span.innerHTML = "B.Com");
   } else if (course === "course") {
     cardLink.forEach((link, index) => link.href = "s_Course.html");
     course_title.innerHTML = "";
+    flip_card_head.forEach(span => span.innerHTML = "");
   }
- 
-        cardLink.forEach(link => {
-            link.setAttribute("target", "_blank");
-        });
+
+  // Set target to _blank for all links
+  cardLink.forEach(link => {
+    link.setAttribute("target", "_blank");
+  });
 }
 
 // Save selection and update UI
@@ -59,6 +56,10 @@ bcaButton.addEventListener('change', () => {
 
 const mode = document.querySelector(".mode-icon"); //mode icon front of top of body
 const bodys = document.querySelector(".body")
+
+// card 
+const card = document.querySelectorAll(".card");
+// card
 
 const hero_headding = document.querySelectorAll(".hero-text h2"); //select all section heading text H2
 const hero_para = document.querySelectorAll(".hero-text p "); //select all section heading text P2
@@ -107,6 +108,12 @@ const applyMode = () => {
     }
     alertModalButton.style.backgroundColor = "#3cff00"; // Change alert button color for light mode
 
+    for (let i of card){ //change card color dark to white
+      i.style.background = "linear-gradient(to bottom, #F2FFEE 17%, #b6faa2 59%, #65DE40 100%)"; //change card color white to dark
+      }
+  
+
+    
   } else{
     bodys.classList.add("dark-mode");
     mode.style.color = "#3cff00";
@@ -134,7 +141,11 @@ const applyMode = () => {
       i.style.color = "white";
     }
     alertModalButton.style.backgroundColor = "#3cff00"; // Change alert button color for dark mode
+    for (let i of card){ //change card color dark to white
+      i.style.background = "linear-gradient(to bottom, #a2ae9f 17%, #b6faa2 59%, #459b2b 100%)"; //change card color white to dark
+      }
   }
+  
 };
 
 // Apply the mode on page load
