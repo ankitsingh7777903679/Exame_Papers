@@ -63,8 +63,7 @@
   /* card section */
 
   /* ---------------------------------------sem card----------------------------------------------------------- */
-  .bord-section {
-  }
+ 
   .course-headings {
     font-size: 24px;
     font-weight: bolder;
@@ -89,24 +88,24 @@
     border-radius: 10px;
   }
   .flip-card-head {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bolder;
     margin-bottom: 5px;
   }
   .flip-card-subhead {
-    font-size: 15px;
+    font-size: 14px;
     font-weight: bolder;
   }
   .flip-card-text {
-    font-size: 16px;
+    font-size: 10px;
   }
   .flip-card-tick {
-    font-size: 18px;
+    font-size: 12px;
     font-weight: bolder;
     color: #185b04;
   }
   .flip-card-link {
-    font-size: 18px;
+    font-size: 12px;
     font-weight: bolder;
     color: #185b04;
   }
