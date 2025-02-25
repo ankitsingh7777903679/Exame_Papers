@@ -72,14 +72,9 @@
   display: flex;
   flex-direction: column;
   font-family: K2D, serif;
-  background: linear-gradient(to bottom, #F2FFEE 17%, #b6faa2 59%, #65DE40 100%);
+  /* background: linear-gradient(to bottom, #F2FFEE 17%, #b6faa2 59%, #65DE40 100%); */
   border: none !important;
-}
-
-.card:hover {
-  transition: 0.3s;
-  scale: 1.01;
-  box-shadow: 0px 0px 20px 5px #baffa5 !important;
+  background-color: #EAF9E1;
 }
 
 .course-headings {
@@ -96,8 +91,8 @@
 .card-icon i {
   font-size: 50px;
   font-weight: bolder;
-  color: #29B000;
-  background-color: #def9cff8;
+  color: #07251F;
+  background-color: #c1fea0f8;
   padding: 10px;
   border-radius: 10px;
 }
@@ -105,27 +100,56 @@
 .flip-card-head {
   font-size: 30px;
   font-weight: bolder;
+  color: #07251F;
 }
 
 .flip-card-subhead {
   font-size: 25px;
   font-weight: bolder;
+  color: #07251F;
 }
+
 
 .flip-card-text {
   font-size: 18px;
+  color: #07251F;
 }
+
 
 .flip-card-tick {
   font-size: 20px;
   font-weight: bolder;
   color: #185B04;
+  
 }
 
 .flip-card-link {
   font-size: 25px;
   font-weight: bolder;
   color: #185B04;
+}
+
+.card:hover {
+  transition: 0.5s;
+  scale: 1.01;
+  box-shadow: 0px 0px 20px 5px #baffa5 !important;
+  background-color: #07251F;
+  border: 2px solid #EAF9E1 !important;
+  
+  .flip-card-head {
+   color: #EAF9E1;
+  }
+  
+  .flip-card-subhead {
+   
+    color: #EAF9E1;
+  }
+  
+  
+  .flip-card-text {
+    color: #EAF9E1;
+  }
+  
 }
 
 .modal-content button {
