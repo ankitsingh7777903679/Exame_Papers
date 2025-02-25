@@ -79,7 +79,7 @@ const applyMode = () => {
   const alertModalButton = document.querySelector('.modal-content .btn-close');
 
   if (mode_code === 1) {
-    bodys.classList.remove("dark-mode");
+    // bodys.classList.remove("dark-mode");
     mode.style.color = "black";
     mode.textContent = ""; // &#xe518; for light mode icon
     bodys.style.backgroundColor = "white";//change all sectiont color white to dark
@@ -87,7 +87,7 @@ const applyMode = () => {
       i.style.color = "black";
     }
     for (let i of hero_para) { //change all sectiont color white to dark
-      i.style.color = "black";
+      i.style.color = "#07251F";
     }
     for (let i of hero_img) {
       i.style.borderRadius = "15px";
@@ -107,18 +107,19 @@ const applyMode = () => {
     alertModalButton.style.backgroundColor = "#3cff00"; // Change alert button color for light mode
 
     for (let i of card){ //change card color dark to white
-      i.style.background = "linear-gradient(to bottom, #F2FFEE 10%, #b6faa2 50%, #65DE40 100%)"; //change card color white to dark
+      // i.style.background = "linear-gradient(to bottom, #F2FFEE 10%, #b6faa2 50%, #65DE40 100%)"; //change card color white to dark
       }
   
 
     
   } else{
-    bodys.classList.add("dark-mode");
+    // bodys.classList.add("dark-mode");
+    bodys.style.backgroundColor = "#07251F";
     mode.style.color = "#3cff00";
     mode.textContent = ""; // &#xe51c; for dark mode icon 
-    bodys.style.backgroundColor = "black";
+    // bodys.style.backgroundColor = "black";
     for (let i of hero_headding) { //change all sectiont color dark to white
-      i.style.color = "white";
+      i.style.color = "#3cff00";
     }
     for (let i of hero_para) {
       i.style.color = "white";  //change all sectiont color dark to white
@@ -140,7 +141,7 @@ const applyMode = () => {
     }
     alertModalButton.style.backgroundColor = "#3cff00"; // Change alert button color for dark mode
     for (let i of card){ //change card color dark to white
-      i.style.background = "linear-gradient(to bottom, #a2ae9f 10%, #b6faa2 50%, #459b2b 100%)"; //change card color white to dark
+      // i.style.background = "linear-gradient(to bottom, #a2ae9f 10%, #b6faa2 50%, #459b2b 100%)"; //change card color white to dark
     }
   }
   
