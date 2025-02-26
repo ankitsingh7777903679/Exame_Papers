@@ -4,35 +4,35 @@ body{
     display: flex;
     justify-content: center;
     /* align-items: center; */
-    background-color: #000000; 
+    background-color: #07251F; 
 }
 h4{
-    color: #3cff00;
-    
+    color: #DBF8D7;
 }
 .row{
     margin: 0;
-    
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .btn-years{
     border-radius: 25px;
-    border: 2px solid #3cff00;
+    border: 2px solid #DBF8D7;
 }
 .btn-years button{
     width: 200px;
-    border: 2px solid #3cff00;
-    color: #3cff00;
     font-weight: bolder;
-    padding: 10px;
+    padding: 8px;
     border-radius: 15px;
-    background-color: black;
-
+    background-color: #DBF8D7;
+    font-size: 18px;
 }
 .btn-years button:hover{
-    box-shadow: 0px 0px 5px 5px #3cff00;
-    transform: scale(0.8);
+    box-shadow: 0px 0px 20px 3px #baffa5;
+    transform: scale(1.05);
+    transition: 0.5s;
+    background-color: #07251F;
+    color: #DBF8D7;
+    
 }
 
