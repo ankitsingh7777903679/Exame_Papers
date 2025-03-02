@@ -55,7 +55,7 @@ bcaButton.addEventListener('change', () => {
 // dark white mode 
 
 const mode = document.querySelector(".mode-icon"); //mode icon front of top of body
-const bodys = document.querySelector(".body")
+const bodys = document.querySelector(".bodys")
 
 // card 
 const card = document.querySelectorAll(".card");
@@ -63,6 +63,7 @@ const card = document.querySelectorAll(".card");
 
 const hero_headding = document.querySelectorAll(".hero-text h2"); //select all section heading text H2
 const hero_para = document.querySelectorAll(".hero-text p "); //select all section heading text P2
+const hero_sub = document.querySelector(".hero-text h3"); //select all section heading text h5
 const hero_img = document.querySelectorAll(".hero-img img"); //select all section img 
 const menu_heading = document.querySelector(".menu-heading");
 const contact_form_label = document.querySelectorAll(".form-label");
@@ -89,6 +90,7 @@ const applyMode = () => {
     for (let i of hero_para) { //change all sectiont color white to dark
       i.style.color = "#07251F";
     }
+    hero_sub.style.color = "#07251F";
     for (let i of hero_img) {
       i.style.borderRadius = "15px";
     }
@@ -122,8 +124,9 @@ const applyMode = () => {
       i.style.color = "#3cff00";
     }
     for (let i of hero_para) {
-      i.style.color = "white";  //change all sectiont color dark to white
+      i.style.color = "#EAF9E1";  //change all sectiont color dark to white
     }
+    hero_sub.style.color = "#EAF9E1";
     for (let i of hero_img) {
       i.style.borderRadius = "15px";
     }
