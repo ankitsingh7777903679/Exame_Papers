@@ -45,26 +45,20 @@
 .hero-text h2 {
   font-family: poppins;
   font-weight: 700;
-  color: rgb(0, 0, 0);
+  color: #000000;
   font-size: 32px;
 }
 
 .hero-text p {
   font-family: poppins;
   font-weight: 400;
-  color: rgb(0, 0, 0);
+  color: #000000;
   font-size: 20px;
 }
 
-.hero-btn {
-  border: 1px solid #34dd01;
-  background-color: #3cff00;
-  font-weight: 500;
-}
-
-.hero-btn:hover {
-  border: 1px solid #34dd01;
-  background-color: #3cff00;
+#hero-btn {
+  border: 1px solid #185B04;
+  background-color: #D8F5D4;
   font-weight: 500;
 }
 
