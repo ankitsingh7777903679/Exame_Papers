@@ -15,12 +15,12 @@ document.addEventListener('DOMContentLoaded', () => {
 // Update links and span based on selection
 function updateLinksAndTitle(course) {
   if (course === "bca") {
-    cardLink[0].href = "sem1.html";
-    cardLink[1].href = "sem2.html";
-    cardLink[2].href = "sem3.html";
-    cardLink[3].href = "sem4.html";
-    cardLink[4].href = "sem5.html";
-    cardLink[5].href = "sem6.html";
+    cardLink[0].href = "bca_sem1.html";
+    cardLink[1].href = "bca_sem2.html";
+    cardLink[2].href = "bca_sem3.html";
+    cardLink[3].href = "bca_sem4.html";
+    cardLink[4].href = "bca_sem5.html";
+    cardLink[5].href = "bca_sem6.html";
     course_title.innerHTML = "BCA";
     flip_card_head.forEach(span => span.innerHTML = "BCA");
   } else if (course === "bcom") {
