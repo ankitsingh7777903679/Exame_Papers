@@ -259,7 +259,10 @@
                 <button class="btn" id="pills-wd-tab" data-bs-toggle="pill" data-bs-target="#pills-wd" type="button" role="tab" aria-controls="pills-wd" aria-selected="false">WD</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="btn active" id="pills-net-tab" data-bs-toggle="pill" data-bs-target="#pills-net" type="button" role="tab" aria-controls="pills-net" aria-selected="false">.NET</button>
+                <button class="btn active" id="pills-mad-tab" data-bs-toggle="pill" data-bs-target="#pills-mad" type="button" role="tab" aria-controls="pills-mad" aria-selected="false">MAD</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="btn " id="pills-net-tab" data-bs-toggle="pill" data-bs-target="#pills-net" type="button" role="tab" aria-controls="pills-net" aria-selected="false">.NET</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="btn" id="pills-practical-tab" data-bs-toggle="pill" data-bs-target="#pills-practical" type="button" role="tab" aria-controls="pills-practical" aria-selected="false">PRACTICAL</button>
@@ -340,8 +343,30 @@
                 <a href="path/to/wd_paper.pdf" class="btn btn-primary" download aria-label="Download WD Paper">Download WD Paper</a>
             </div>
 
+            <!-- MAD Tab -->
+            <div class="tab-pane fade show active" id="pills-mad" role="tabpanel" aria-labelledby="pills-mad-tab" tabindex="0">
+                <div class="d-flex gap-1 q-head mb-3">
+                    <a href="#mad-mcq" class="btn">MCQ</a>
+                    <a href="#mad-onemarks" class="btn">One Marks</a>
+                    <a href="#mad-long" class="btn">Long</a>
+                </div>
+                <div id="mad-mcq">
+                    <h2>MCQ</h2>
+                    <div id="mad-mcq-questions"></div>
+                </div>
+                <div id="mad-onemarks" class="onemarks-section">
+                    <h2>One Marks</h2>
+                    <div id="mad-onemarks-questions"></div>
+                </div>
+                <div id="mad-long">
+                    <h2>Long Questions</h2>
+                    <div id="mad-long-questions"></div>
+                </div>
+                <a href="path/to/wd_paper.pdf" class="btn btn-primary" download aria-label="Download mad Paper">Download WD Paper</a>
+            </div>
+
             <!-- .NET Tab -->
-            <div class="tab-pane fade show active" id="pills-net" role="tabpanel" aria-labelledby="pills-net-tab" tabindex="0">
+            <div class="tab-pane fade " id="pills-net" role="tabpanel" aria-labelledby="pills-net-tab" tabindex="0">
                 <div class="d-flex gap-1 q-head mb-3">
                     <a href="#net-mcq" class="btn">MCQ</a>
                     <a href="#net-onemarks" class="btn">One Marks</a>
@@ -427,6 +452,11 @@
                 renderQuestions('practical-mcq-questions', data.practical.mcq, true);
                 renderQuestions('practical-onemarks-questions', data.practical.onemarks, false, true);
                 renderQuestions('practical-long-questions', data.practical.long);
+
+                // Add MAD section
+                renderQuestions('mad-mcq-questions', data.mad.mcq, true);
+                renderQuestions('mad-onemarks-questions', data.mad.onemarks, false, true);
+                renderQuestions('mad-long-questions', data.mad.long);
             })
             .catch(error => console.error('Error fetching questions:', error));
 
