@@ -1,0 +1,152 @@
+{
+  "iot": {
+    "mcq": [
+      {
+        "question": "1. What does IoT stand for?",
+        "options": ["a) Internet of Things", "b) Internet of Technology"],
+        "correctAnswer": "a",
+        "id": "iot-q1"
+      }
+    ],
+    "onemarks": [
+      {
+        "question": "1. What is IoT?",
+        "answer": "Internet of Things (IoT) is a network of physical objects or people called 'things' that are embedded with software, electronics, network, and sensors that allow these objects to collect and exchange data."
+      }
+    ],
+    "long": [
+      {
+        "question": "1. Explain the architecture of IoT.",
+        "answer": "The IoT architecture consists of several layers:\n- **Perception Layer**: Includes sensors and devices that collect data.\n- **Network Layer**: Facilitates communication between devices using protocols like Wi-Fi, Bluetooth, etc.\n- **Application Layer**: Provides user interfaces and services, such as smart home apps or healthcare monitoring systems.\nEach layer works together to enable seamless data flow and automation."
+      }
+    ]
+  },
+  "java": {
+    "mcq": [
+      {
+        "question": "1. What does JVM stand for?",
+        "options": ["a) Java Virtual Machine", "b) Java Variable Machine"],
+        "correctAnswer": "a",
+        "id": "java-q1"
+      }
+    ],
+    "onemarks": [
+      {
+        "question": "1. What is JVM?",
+        "answer": "The Java Virtual Machine (JVM) is an abstract computing machine that enables a computer to run a Java program."
+      },
+      {
+        "question": "2. What is the unsigned right shift operator in Java?",
+        "answer": "The unsigned right shift, also known as the zero-fill right shift, is a bit manipulation operation in Java. It shifts the bits of a number to the right, and instead of preserving the sign bit (like the signed right shift), it fills the leftmost bits with zeros. This is represented by the operator >>> in Java.",
+        "code": "int number = -8; // Binary: 11111111111111111111111111111000\nint result = number >>> 2; // Shifts"
+      },
+      {
+        "question": "3. Give Use of this keyword.",
+        "answer": "In Java, the this keyword is a reference to the current object in a method or constructor.",
+        "code": "public void setName(String name) {\n    this.name = name; // Refers to the instance variable 'name'\n}\n\npublic Person(String name) {\n    this(name, 25); // Calls the constructor with two parameters\n}\n\npublic Person(String name, int age) {\n    this.name = name;\n    this.age = age;\n}"
+      },
+      {
+        "question": "4. What is the difference between checked and unchecked exceptions?",
+        "answer": "Checked exceptions are checked at compile time, requiring the programmer to handle them using try-catch blocks or by declaring them in the method signature using throws. Examples include IOException and SQLException.\n Unchecked exceptions occur at runtime and are not checked during compilation. They typically represent programming errors, such as NullPointerException and ArrayIndexOutOfBoundsException.",
+        "code": ""
+      },
+      {
+        "question": "5. What is garbage collection?",
+        "answer": "Garbage collection in Java is the process of automatically identifying and removing objects that are no longer in use to reclaim memory and prevent memory leaks. This ensures efficient memory management without requiring explicit deallocation by the programmer.",
+        "code": ""
+      },
+      {
+        "question": "6. List methods of the Graphics class.",
+        "answer": "The Graphics class in Java provides methods for drawing shapes, text, and images. Common methods include drawLine(), drawRect(), drawOval(), drawString(), setColor(), and fillRect(). These methods are used in graphical programming for creating custom drawings.",
+        "code": ""
+      }
+    ],
+    "long": [
+      {
+        "question": "1. What are the features of Java?",
+        "answer": "Java is a powerful, versatile programming language that is widely used in software development. Its features are what make it stand out as an efficient and robust language. Here are the detailed features:\n\n1. **Platform Independence:** Java's 'Write Once, Run Anywhere' principle allows code compiled on one platform to run seamlessly on another, thanks to the Java Virtual Machine (JVM).\n\n2. **Object-Oriented:** Java adopts the object-oriented programming paradigm, encouraging modular and reusable code by organizing it into classes and objects.\n\n3. **Robust:** With features like garbage collection, exception handling, and memory allocation, Java minimizes programming errors and ensures a stable runtime environment.\n\n4. **Secure:** Java applications are run in a secure environment. The security manager defines access rules for classes, providing protection against unauthorized access.\n\n5. **Multithreaded:** Java supports multithreading, enabling the simultaneous execution of two or more threads for maximum utilization of the CPU.\n\n6. **High Performance:** Java achieves high performance through the Just-In-Time (JIT) compiler, which translates bytecode into native machine code at runtime.\n\n7. **Dynamic and Extensible:** Java supports dynamic linking of classes at runtime and allows integration with libraries, making applications adaptable and flexible.\n\n8. **Rich API:** Java provides a wide array of built-in libraries for tasks like data structures, networking, GUI development, and more.\n\nHere’s a program that demonstrates some of these features, such as platform independence, object-oriented programming, and multithreading:\n\n",
+        "code": "public class JavaFeaturesDemo implements Runnable {\n    private String message;\n\n    public JavaFeaturesDemo(String message) {\n        this.message = message; // Object-Oriented: Encapsulation\n    }\n\n    @Override\n    public void run() {\n        System.out.println(message);\n    }\n\n    public static void main(String[] args) {\n        Thread thread1 = new Thread(new JavaFeaturesDemo(\"Hello from Thread 1!\"));\n        Thread thread2 = new Thread(new JavaFeaturesDemo(\"Hello from Thread 2!\"));\n\n        thread1.start(); // Multithreading: Starts Thread 1\n        thread2.start(); // Multithreading: Starts Thread 2\n\n        System.out.println(\"Java is platform-independent, robust, and dynamic!\");\n    }\n}"
+      },
+      {
+        "question": "2. Explain Java programming structure.",
+        "answer": "A Java program follows a specific structure that ensures the program is organized, readable, and executable. The structure consists of the following components:\n\n1. **Package Declaration (Optional):** If the program belongs to a specific package, it begins with a package declaration.\n   Example: `package myPackage;`\n\n2. **Import Statements (Optional):** To include libraries or classes from Java's API, the `import` keyword is used.\n   Example: `import java.util.Scanner;`\n\n3. **Class Definition:** Every Java program is written inside a class. The class name must match the filename (if it is public).\n   Example: `public class MyProgram { ... }`\n\n4. **Main Method:** The `main` method serves as the entry point for program execution. Its signature is `public static void main(String[] args) { ... }`.\n\n5. **Variables and Methods:** Inside the class, you define variables and methods to perform specific tasks.\n   Example: `int num = 10;`\n\n6. **Comments:** Comments are added for clarity and do not affect program execution. They can be single-line (`//`) or multi-line (`/* */`).\n\nHere’s an example program that demonstrates the Java programming structure:",
+        "code": "package myPackage;\n\nimport java.util.Scanner;\n\npublic class MyProgram {\n    public static void main(String[] args) {\n        Scanner scanner = new Scanner(System.in);\n        System.out.print(\"Enter your name: \");\n        String name = scanner.nextLine(); // Reads user input\n        System.out.println(\"Hello, \" + name + \"!\"); // Prints output\n        scanner.close();\n    }\n}"
+      },
+      {
+        "question": "3. Explain the static keyword in detail with its types.",
+        "answer": "In Java, the static keyword is used to create variables, methods, blocks, or nested classes that are shared across all instances of the class. Static members belong to the class rather than any specific instance, making them memory efficient and easily accessible without creating an object.\n\n### Types of Static Members:\n\n1. **Static Variables:**\n   - Also known as class variables.\n   - These are shared across all objects of the class and only a single copy of the variable is maintained.\n   - Example: `static int count;`\n\n2. **Static Methods:**\n   - These are methods that can be called without creating an object of the class.\n   - Static methods cannot access instance variables or methods directly; they can only access other static members.\n   - Example: `static void display();`\n\n3. **Static Blocks:**\n   - A static block is used for initializing static variables.\n   - It is executed only once, when the class is loaded.\n   - Example:\n     ```java\n     static {\n         System.out.println(\"Static block executed!\");\n     }\n     ```\n\n4. **Static Nested Classes:**\n   - A static nested class is a class defined inside another class with the static modifier.\n   - It can be instantiated without an object of the outer class.\n   - Example:\n     ```java\n     static class NestedClass {\n         void display() {\n             System.out.println(\"Inside static nested class\");\n         }\n     }\n     ```",
+        "code": "public class StaticKeywordDemo {\n    // Static variable\n    static int count = 0;\n\n    // Static method\n    static void displayCount() {\n        System.out.println(\"Count: \" + count);\n    }\n\n    // Static block\n    static {\n        count = 10;\n        System.out.println(\"Static block executed! Count initialized to \" + count);\n    }\n\n    // Static nested class\n    static class NestedClass {\n        void showMessage() {\n            System.out.println(\"Hello from the static nested class!\");\n        }\n    }\n\n    public static void main(String[] args) {\n        // Accessing static variable and method\n        StaticKeywordDemo.displayCount(); // Outputs: Count: 10\n\n        // Instantiating the static nested class\n        StaticKeywordDemo.NestedClass nested = new StaticKeywordDemo.NestedClass();\n        nested.showMessage(); // Outputs: Hello from the static nested class!\n    }\n}"
+      }
+    ]
+  },
+  "wd": {
+    "mcq": [
+      {
+        "question": "1. What does HTML stand for?",
+        "options": ["a) HyperText Markup Language", "b) HyperTransfer Markup Language"],
+        "correctAnswer": "a",
+        "id": "wd-q1"
+      }
+    ],
+    "onemarks": [
+      {
+        "question": "1. What is HTML?",
+        "answer": "HTML (HyperText Markup Language) is the standard markup language used to create web pages."
+      }
+    ],
+    "long": [
+      {
+        "question": "1. Explain the structure of an HTML document.",
+        "answer": "An HTML document has the following structure:\n- **<!DOCTYPE html>**: Declares the document type as HTML5.\n- **<html>**: The root element of the page.\n- **<head>**: Contains metadata, such as the title and links to CSS/JavaScript.\n- **<body>**: Contains the visible content, such as text, images, and links."
+      }
+    ]
+  },
+  "net": {
+    "mcq": [
+      {
+        "question": "1. What is CTS?",
+        "options": ["a) Common Language Specification", "b) Code Translation System"],
+        "correctAnswer": "a",
+        "id": "net-q1"
+      }
+    ],
+    "onemarks": [
+      {
+        "question": "1. What is CTS?",
+        "answer": "The CLS is a common platform that integrates code and components from multiple .NET programming languages.\nIt ensures that objects written in different languages can interact seamlessly within the .NET Framework, promoting interoperability."
+      },
+      {
+        "question": "2. What is Garbage Collection?",
+        "answer": "Garbage collection is a mechanism that allows the computer to detect when an object can no longer be accessed.\nIt automatically frees up memory by deallocating objects that are no longer in use, thus preventing memory leaks and improving application performance."
+      }
+    ],
+    "long": [
+      {
+        "question": "1. Explain the .NET Framework in detail.",
+        "answer": "The .NET Framework is a software framework developed by Microsoft that supports the development and execution of applications across various platforms.\nIt provides a large class library called the Framework Class Library (FCL) and a runtime environment called the Common Language Runtime (CLR).\nThe CLR manages the execution of .NET programs by providing services like memory management, security, and exception handling.\nThe FCL includes a wide range of reusable classes, interfaces, and types for tasks like file handling, networking, and database access.\nThe .NET Framework supports multiple programming languages, such as C#, VB.NET, and F#, allowing developers to choose the language that best suits their needs."
+      }
+    ]
+  },
+  "practical": {
+    "mcq": [
+      {
+        "question": "1. Which language is commonly used for practical programming in BCA?",
+        "options": ["a) C#", "b) HTML"],
+        "correctAnswer": "a",
+        "id": "practical-q1"
+      }
+    ],
+    "onemarks": [
+      {
+        "question": "1. What is a practical program?",
+        "answer": "A practical program is a hands-on coding exercise that demonstrates the application of theoretical concepts in a real-world scenario."
+      }
+    ],
+    "long": [
+      {
+        "question": "1. Write a program to implement a simple calculator.",
+        "answer": "Here is a sample program in C# to implement a simple calculator:\n\nusing System;\n\nclass Calculator {\n    static void Main(string[] args) {\n        Console.WriteLine(\"Enter two numbers:\");\n        double num1 = Convert.ToDouble(Console.ReadLine());\n        double num2 = Convert.ToDouble(Console.ReadLine());\n        \n        Console.WriteLine(\"Select operation (+, -, *, /):\");\n        char operation = Convert.ToChar(Console.ReadLine());\n        \n        double result = 0;\n        switch (operation) {\n            case '+':\n                result = num1 + num2;\n                break;\n            case '-':\n                result = num1 - num2;\n                break;\n            case '*':\n                result = num1 * num2;\n                break;\n            case '/':\n                result = num1 / num2;\n                break;\n            default:\n                Console.WriteLine(\"Invalid operation\");\n                return;\n        }\n        Console.WriteLine($\"Result: {result}\");\n    }\n}"
+      }
+    ]
+  }
+}
