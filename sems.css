@@ -1,13 +1,11 @@
 body{
     margin: 0;
     height: 100vh;
-    display: flex;
-    justify-content: center;
-    /* align-items: center; */
     background-color: #07251F; 
 }
 h4{
     color: #DBF8D7;
+    margin-top: 20px;
 }
 .row{
     margin: 0;
@@ -33,6 +31,62 @@ h4{
     transition: 0.5s;
     background-color: #07251F;
     color: #DBF8D7;
+}
+.back-btn{
+    position: static;                                   ;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
     
 }
+.back-btn div{
+    background-color: #DBF8D7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    padding: 5px 7px;
+    border-radius: 7px;
+    
+}
+.back-btn div i,a{
+    font-size: 20px;
+    text-decoration: none;
+    font-weight: bolder;
+    color: #07251F;
+}
 
+/* solution page */
+.con-qes{
+    border: 1px solid #ffffff;
+}
+
+.q-head{
+    margin-top: 10px;
+}
+
+.q-head a{
+    background-color: #DBF8D7;
+    color: #07251F;
+    padding: 2px 5px;
+    font-size: 18px;
+}
+.nav-sub button{
+    background-color: #DBF8D7 !important;
+    color: #07251F;
+    padding: 2px 5px;
+    font-size: 18px;
+  margin: auto 2px;
+}
+.nav-sub button:active{
+    color: black;
+}
+#mcq,#onemarks,#long{
+    border-bottom: 2px solid #DBF8D7;
+}
+
+
+
+/* solution page */
