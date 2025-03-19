@@ -192,6 +192,31 @@
             margin-bottom: 15px;
             white-space: pre-wrap;
         }
+        /* Image Styling */
+        .card .image-gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 10px;
+        }
+        .card .image-gallery img {
+            border: 1px solid #4CAF50;
+            border-radius: 4px;
+            max-width: 100%;
+            height: auto;
+            flex: 1 1 calc(25% - 10px); /* Adjusts for 4 images per row with gap */
+            object-fit: cover;
+        }
+        @media (max-width: 768px) {
+            .card .image-gallery img {
+                flex: 1 1 calc(50% - 10px); /* 2 images per row on smaller screens */
+            }
+        }
+        @media (max-width: 576px) {
+            .card .image-gallery img {
+                flex: 1 1 100%; /* 1 image per row on very small screens */
+            }
+        }
         /* Back to Top Button Styling */
         #backToTopBtn {
             display: none;
@@ -213,6 +238,20 @@
         #backToTopBtn:hover {
             background-color: #45a049;
             transform: scale(1.1);
+        }
+        .onemarks-section .answer-text {
+            font-size: 1rem;
+            color: #B0BEC5;
+            margin-bottom: 15px;
+            white-space: pre-wrap;
+            list-style: none; /* Remove default list styling */
+        }
+
+        /* Style for the white dot */
+        .onemarks-section .answer-text::before {
+            content: "○"; /* White circle */
+            color: #E0E0E0; /* Match text color */
+            margin-right: 8px;
         }
     </style>
 </head>
@@ -250,13 +289,13 @@
     <div class="container">
         <ul class="nav nav-sub nav-pills mt-3 justify-content-center" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="btn" id="pills-iot-tab" data-bs-toggle="pill" data-bs-target="#pills-iot" type="button" role="tab" aria-controls="pills-iot" aria-selected="false">IOT</button>
+                <button class="btn " id="pills-iot-tab" data-bs-toggle="pill" data-bs-target="#pills-iot" type="button" role="tab" aria-controls="pills-iot" aria-selected="false">IOT</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="btn" id="pills-java-tab" data-bs-toggle="pill" data-bs-target="#pills-java" type="button" role="tab" aria-controls="pills-java" aria-selected="true">JAVA</button>
+                <button class="btn active" id="pills-java-tab" data-bs-toggle="pill" data-bs-target="#pills-java" type="button" role="tab" aria-controls="pills-java" aria-selected="true">JAVA</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="btn active" id="pills-wd-tab" data-bs-toggle="pill" data-bs-target="#pills-wd" type="button" role="tab" aria-controls="pills-wd" aria-selected="false">WD</button>
+                <button class="btn " id="pills-wd-tab" data-bs-toggle="pill" data-bs-target="#pills-wd" type="button" role="tab" aria-controls="pills-wd" aria-selected="false">WD</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="btn" id="pills-mad-tab" data-bs-toggle="pill" data-bs-target="#pills-mad" type="button" role="tab" aria-controls="pills-mad" aria-selected="false">MAD</button>
@@ -278,7 +317,7 @@
 
         <div class="tab-content text-white" id="pills-tabContent">
             <!-- IOT Tab -->
-            <div class="tab-pane fade" id="pills-iot" role="tabpanel" aria-labelledby="pills-iot-tab" tabindex="0">
+            <div class="tab-pane fade " id="pills-iot" role="tabpanel" aria-labelledby="pills-iot-tab" tabindex="0">
                 <div class="d-flex gap-1 q-head mb-3">
                     <a href="#iot-mcq" class="btn">MCQ</a>
                     <a href="#iot-onemarks" class="btn">One Marks</a>
@@ -300,7 +339,7 @@
             </div>
 
             <!-- JAVA Tab -->
-            <div class="tab-pane fade " id="pills-java" role="tabpanel" aria-labelledby="pills-java-tab" tabindex="0">
+            <div class="tab-pane fade show active" id="pills-java" role="tabpanel" aria-labelledby="pills-java-tab" tabindex="0">
                 <div class="d-flex gap-1 q-head mb-3">
                     <a href="#java-mcq" class="btn">MCQ</a>
                     <a href="#java-onemarks" class="btn">One Marks</a>
@@ -322,7 +361,7 @@
             </div>
 
             <!-- WD Tab -->
-            <div class="tab-pane fade show active" id="pills-wd" role="tabpanel" aria-labelledby="pills-wd-tab" tabindex="0">
+            <div class="tab-pane fade " id="pills-wd" role="tabpanel" aria-labelledby="pills-wd-tab" tabindex="0">
                 <div class="d-flex gap-1 q-head mb-3">
                     <a href="#wd-mcq" class="btn">MCQ</a>
                     <a href="#wd-onemarks" class="btn">One Marks</a>
@@ -423,7 +462,7 @@
             return str
                 .replace(/&/g, '&amp;')
                 .replace(/"/g, '&quot;')
-                .replace(/'/g, '&apos;')
+                .replace(/'/g, '&#39;')
                 .replace(/</g, '&lt;')
                 .replace(/>/g, '&gt;');
         }
@@ -460,7 +499,7 @@
             })
             .catch(error => console.error('Error fetching questions:', error));
 
-        // Function to Render Questions (MCQ, One Marks, Long)
+        // Function to Render Questions (MCQ, One Marks, Long) with Multiple Image Support
         function renderQuestions(containerId, questions, isMcq = false, isOneMarks = false) {
             const container = document.getElementById(containerId);
             if (!questions || questions.length === 0) {
@@ -471,12 +510,25 @@
                 const questionDiv = document.createElement('div');
                 questionDiv.classList.add('card', 'question');
                 
+                // Render images if they exist
+                let imagesHtml = '';
+                if (q.images && Array.isArray(q.images) && q.images.length > 0) {
+                    imagesHtml = `
+                        <div class="image-gallery">
+                            ${q.images.map(img => `
+                                <img src="${img}" alt="Diagram for ${q.question}" class="img-fluid">
+                            `).join('')}
+                        </div>
+                    `;
+                }
+
                 if (isOneMarks) {
-                    // One Marks: Display question, answer, and optional code with copy button
+                    // One Marks: Display question, answer, multiple images, and optional code
                     questionDiv.innerHTML = `
                         <div class="card-body">
                             <p class="question-text">${q.question.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>
                             <p class="answer-text">${q.answer.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>
+                            ${imagesHtml}
                             ${q.code ? `
                                 <div class="code-block" style="position: relative;">
                                     <pre>${q.code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>
@@ -486,7 +538,7 @@
                         </div>
                     `;
                 } else if (isMcq) {
-                    // MCQ: Display question, options, and optional code with copy button
+                    // MCQ: Display question, options, and optional code (no images for simplicity here)
                     questionDiv.innerHTML = `
                         <div class="card-body">
                             <h4 class="card-title">${q.question.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</h4>
@@ -504,11 +556,12 @@
                         </div>
                     `;
                 } else {
-                    // Long Questions: Display question, answer, and optional code with copy button
+                    // Long Questions: Display question, answer, multiple images, and optional code
                     questionDiv.innerHTML = `
                         <div class="card-body">
                             <h4 class="card-title">${q.question.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</h4>
                             <p class="card-text">${q.answer.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>
+                            ${imagesHtml}
                             ${q.code ? `
                                 <div class="code-block" style="position: relative;">
                                     <pre>${q.code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>
@@ -523,11 +576,9 @@
 
             // Add event listeners for copy buttons after rendering
             const copyButtons = document.querySelectorAll('.copy-btn');
-            console.log(`Found ${copyButtons.length} copy buttons in container ${containerId}`); // Debugging
             copyButtons.forEach(button => {
                 button.addEventListener('click', function() {
                     const code = this.getAttribute('data-code');
-                    console.log('Copying code:', code); // Debugging
                     navigator.clipboard.writeText(code).then(() => {
                         this.textContent = 'Copied!';
                         this.classList.add('copied');
@@ -565,8 +616,6 @@
 
         // Back to Top Button Functionality
         const backToTopBtn = document.getElementById('backToTopBtn');
-
-        // Show/hide the button based on scroll position
         window.addEventListener('scroll', function() {
             if (window.scrollY > 300) {
                 backToTopBtn.style.display = 'block';
@@ -574,8 +623,6 @@
                 backToTopBtn.style.display = 'none';
             }
         });
-
-        // Smooth scroll to top when the button is clicked
         backToTopBtn.addEventListener('click', function() {
             window.scrollTo({
                 top: 0,
