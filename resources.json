@@ -1,0 +1,58 @@
+{
+  "html-sources": [
+    {
+      "pdf-name": "HTML Basics",
+      "pdf-description": "An introductory guide to HTML.",
+      "pdf-url": "https://drive.google.com/file/d/1L3FvELp0Qww9cN1B43T-d5gihCeq6Rv1/view?usp=drivesdk",
+      "pdf-image": "./images/HTML5_logo_.svg"
+    }
+  ],
+  "css-sources": [
+    {
+      "pdf-name": "CSS Fundamentals",
+      "pdf-description": "Learn the basics of CSS and styling.",
+      "pdf-url": "https://drive.google.com/file/d/1zMgafy0FG03Y2Qe4HS0FvuCAFZL0UgOy/view?usp=drivesdk ",
+      "pdf-image": "./images/CSS3_logo_.svg"
+    }
+  ],
+  "js-sources": [
+    {
+      "pdf-name": "JavaScript Essentials",
+      "pdf-description": "A beginner's guide to JavaScript programming.",
+      "pdf-url": "https://drive.google.com/file/d/1OM0m8PDo6aGp9QQtB90w2IqZFI30QWrH/view?usp=drivesdk ",
+      "pdf-image": "./images/JavaScript_logo_.svg"
+    }
+  ],
+  "sql-sources": [
+    {
+      "pdf-name": "SQL Basics",
+      "pdf-description": "A beginner's guide to SQL and database management.",
+      "pdf-url": "https://drive.google.com/file/d/1Z3LhrhpW-To7Uo9Q2lKpZexmV6C0xTno/view?usp=drivesdk ",
+      "pdf-image": "./images/sql_image.jpg"
+    }
+  ],
+  "logic-building-sources": [
+    {
+      "pdf-name": "Logic Building Basics",
+      "pdf-description": "Learn the fundamentals of problem-solving and logic building.",
+      "pdf-url": "https://drive.google.com/file/d/15T0-kC-Z3WUIW0Q_USV1Q7Scd1N5W3q9/view?usp=drivesdk ",
+      "pdf-image": "./images/Logic_image.jpg"
+    }
+  ],
+  "portfolio-sources": [
+    {
+      "pdf-name": "250+ Portfolio Ideas",
+      "pdf-description": "A collection of creative portfolio project ideas.",
+      "pdf-url": "https://drive.google.com/file/d/1GWxzhCkUBck3226RSmg2n7PMiw4RaJUL/view?usp=drivesdk ",
+      "pdf-image": "./images/protfolio_image.jpg"
+    }
+  ],
+  "web-dev-projects-sources": [
+    {
+      "pdf-name": "345 Web Dev Project Ideas",
+      "pdf-description": "Inspiring project ideas for web development.",
+      "pdf-url": "https://drive.google.com/file/d/1K8v2iG0R1bhOs0FmmBwsEvfxUg2yYRbt/view?usp=drivesdk ",
+      "pdf-image": "./images/Project_image.jpg"
+    }
+  ]
+}

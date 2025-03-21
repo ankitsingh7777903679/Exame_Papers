@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tutorial - Coder.in</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        background-color: #1a3c34;
+        color: #333;
+        line-height: 1.6;
+        padding: 0;
+        margin: 0;
+      }
+
+      /* Header Section */
+      .header {
+        background-color: #07251f;
+        color: white;
+        padding: 1.5rem 0;
+        text-align: center;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+
+      .header h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+      }
+
+      .header p {
+        font-size: 1rem;
+        opacity: 0.8;
+      }
+
+      /* Main Container */
+      .tutorial-container {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 0 1.5rem;
+      }
+
+      /* Intro Section */
+      .intro-section {
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+
+      .intro-section img {
+        max-width: 700px;
+        max-height: 500px;
+        border-radius: 15px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        transition: transform 0.3s ease;
+      }
+
+      .intro-section img:hover {
+        transform: scale(1.05);
+      }
+
+      .intro-section p {
+        font-size: 1.1rem;
+        color: #fff;
+        margin-top: 1rem;
+      }
+
+      /* Code Block Section */
+      .code-block {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        padding: 1.5rem;
+        margin-bottom: 2rem;
+        position: relative;
+        transition: transform 0.3s ease;
+      }
+
+      .code-block:hover {
+        transform: translateY(-5px);
+      }
+
+      .code-block h4 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #1a1a2e;
+        margin-bottom: 1rem;
+      }
+
+      .code-block pre {
+        background: #f4f4f4;
+        padding: 1rem;
+        border-radius: 8px;
+        overflow-x: auto;
+        max-height: 400px;
+        font-size: 0.9rem;
+        color: #333;
+        white-space: pre-wrap;
+        position: relative;
+      }
+
+      .code-block pre code {
+        display: block;
+        font-family: "Courier New", Courier, monospace;
+      }
+
+      .copy-btn {
+        position: absolute;
+        top: 1.5rem;
+        right: 1.5rem;
+        background: #6f42c1;
+        color: white;
+        border: none;
+        padding: 0.5rem 1rem;
+        border-radius: 5px;
+        font-size: 0.9rem;
+        cursor: pointer;
+        transition: background 0.3s ease;
+      }
+
+      .copy-btn:hover {
+        background: #5a3290;
+      }
+
+      /* Copy All Button */
+      .copy-all-btn {
+        position: fixed;
+        top: 5.5rem;
+        right: 2rem;
+        background: #28a745;
+        color: white;
+        border: none;
+        padding: 0.75rem 1.5rem;
+        border-radius: 25px;
+        font-size: 1rem;
+        font-weight: 500;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        cursor: pointer;
+        transition: background 0.3s ease, transform 0.3s ease;
+        z-index: 1000;
+      }
+
+      .copy-all-btn:hover {
+        background: #218838;
+        transform: scale(1.05);
+      }
+
+      /* Download Button */
+      .download-btn {
+        display: inline-block;
+        background: #6f42c1;
+        color: white;
+        padding: 0.75rem 1.5rem;
+        border-radius: 25px;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 500;
+        transition: background 0.3s ease, transform 0.3s ease;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .download-btn:hover {
+        background: #5a3290;
+        transform: scale(1.05);
+      }
+
+      .download-btn i {
+        margin-right: 0.5rem;
+      }
+
+      /* Preview Section */
+      .preview-section {
+        background: white;
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        padding: 1.5rem;
+        margin: 1.5rem 0;
+        position: relative;
+        transition: transform 0.3s ease;
+      }
+
+      .preview-section:hover {
+        transform: translateY(-5px);
+      }
+
+      .preview-section h4 {
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: #1a1a2e;
+        margin-bottom: 1rem;
+      }
+
+      .preview-container {
+        width: 100%;
+        min-height: 400px;
+        border-radius: 8px;
+        background: #676363;
+        overflow: auto;
+        position: relative;
+      }
+
+      /* Conclusion Section */
+      .conclusion-section {
+        background: white;
+        border-radius: 10px;
+        padding: 2rem;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        text-align: center;
+        margin-top: 2rem;
+      }
+
+      .conclusion-section p {
+        font-size: 1.1rem;
+        color: #555;
+      }
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        /* Header Section */
+        .header {
+          padding: 0.6rem 0;
+        }
+
+        .header h1 {
+          font-size: 1.2rem;
+        }
+
+        .header p {
+          font-size: 0.6rem;
+        }
+
+        .intro-section img {
+          max-width: 290px;
+          max-height: 380px;
+        }
+
+        .tutorial-container {
+          padding: 0 1rem;
+        }
+
+        .code-block h4,
+        .preview-section h4 {
+          font-size: 1.3rem;
+        }
+
+        .copy-all-btn {
+          top: 4.5rem;
+          right: 1rem;
+          padding: 0.5rem 1rem;
+          font-size: 0.9rem;
+        }
+
+        .preview-container {
+          min-height: 300px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <h1 id="tutorial-title"></h1>
+      <p id="tutorial-meta"></p>
+    </div>
+
+    <!-- Main Container -->
+    <div class="tutorial-container">
+      <!-- Intro Section -->
+      <div class="intro-section">
+        <img id="tutorial-image" alt="" />
+        <p id="tutorial-description"></p>
+      </div>
+
+      <!-- Code Blocks -->
+      <div class="code-block" id="html-code-block">
+        <h4>HTML Code</h4>
+        <pre><code id="html-code"></code></pre>
+        <button class="copy-btn" onclick="copyCode('html-code')">Copy</button>
+      </div>
+
+      <div class="code-block">
+        <h4>CSS Code</h4>
+        <pre><code id="css-code"></code></pre>
+        <button class="copy-btn" onclick="copyCode('css-code')">Copy</button>
+      </div>
+
+      <!-- JavaScript Code Block (Dynamically Added) -->
+      <div class="code-block" id="js-code-block" style="display: none">
+        <h4>JavaScript Code</h4>
+        <pre><code id="js-code"></code></pre>
+        <button class="copy-btn" onclick="copyCode('js-code')">Copy</button>
+      </div>
+
+      <!-- Download Button -->
+      <a id="download-btn" class="download-btn">
+        <i class="fas fa-download"></i> Download Source Code
+      </a>
+
+      <!-- Preview Section -->
+      <div class="preview-section" id="preview-section">
+        <h4>Preview</h4>
+        <div id="preview-container" class="preview-container"></div>
+      </div>
+
+      <!-- Conclusion Section -->
+      <div class="conclusion-section">
+        <p id="conclusion-text-1"></p>
+        <p>
+          If you encounter issues, no need to worry! Download the source code
+          and tackle your coding challenges with enthusiasm. Enjoy coding!
+        </p>
+      </div>
+    </div>
+
+    <script>
+      // Function to escape HTML special characters for display
+      const escapeHTML = (str) => {
+        return str
+          .replace(/&/g, "&") // Escape ampersands
+          .replace(/</g, "<") // Escape less-than
+          .replace(/>/g, ">") // Escape greater-than
+          .replace(/"/g, '"') // Escape double quotes
+          .replace(/'/g, "'"); // Escape single quotes
+      };
+
+      // Function to copy code
+      function copyCode(id) {
+        const code = document.getElementById(id).innerText;
+        navigator.clipboard.writeText(code).then(() => {
+          alert("Code copied to clipboard!");
+        });
+      }
+
+      // Function to copy all code
+      function copyAllCode() {
+        const htmlCode = document.getElementById("html-code").innerText;
+        const cssCode = document.getElementById("css-code").innerText;
+        let allCode = `${htmlCode}\n\n/* CSS Code */\n${cssCode}`;
+
+        // Include JavaScript code if it exists
+        const jsCodeBlock = document.getElementById("js-code-block");
+        if (jsCodeBlock.style.display !== "none") {
+          const jsCode = document.getElementById("js-code").innerText;
+          allCode += `\n\n/* JavaScript Code */\n${jsCode}`;
+        }
+
+        navigator.clipboard.writeText(allCode).then(() => {
+          alert("All code copied to clipboard!");
+        });
+      }
+
+      // Get the title from the query parameter
+      console.log("Script started");
+      const urlParams = new URLSearchParams(window.location.search);
+      console.log("Raw query string:", window.location.search);
+      const title = urlParams.get("title");
+      console.log("Extracted title:", title);
+
+      if (!title) {
+        console.error("No title found in query parameters.");
+        document.body.innerHTML =
+          '<h1 style="color: white; text-align: center; margin-top: 50px;">Error: No tutorial title provided.</h1>';
+        throw new Error("No tutorial title provided in query parameters.");
+      }
+
+      // Fetch the JSON data and populate the page
+      console.log("Fetching modern-login.json...");
+      fetch("modern-login.json")
+        .then((response) => {
+          console.log("Fetch response:", response);
+          if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+          }
+          return response.json();
+        })
+        .then((data) => {
+          console.log("JSON data:", data);
+          // Find the post with the matching title
+          const post = data.posts.find((item) => item["card-title"] === title);
+          console.log("Found post:", post);
+          if (!post) {
+            document.body.innerHTML =
+              '<h1 style="color: white; text-align: center; margin-top: 50px;">Error: Tutorial not found.</h1>';
+            throw new Error("Post not found: " + title);
+          }
+
+          // Populate the page with data
+          document.title = `${post["card-title"]} - Coder.in`;
+          document.getElementById("tutorial-title").innerText =
+            post["card-title"];
+          document.getElementById("tutorial-meta").innerText =
+            post["card-text"];
+          document.getElementById("tutorial-image").src = post.image;
+          document.getElementById("tutorial-image").alt = post["card-title"];
+          document.getElementById("tutorial-description").innerText =
+            post.description;
+
+          // Populate code blocks
+          document.getElementById("html-code").innerText = escapeHTML(
+            post["html-code"]
+          );
+          document.getElementById("css-code").innerText = escapeHTML(
+            post["css-code"]
+          );
+
+          // Check if JavaScript code exists and display the JS code block
+          const jsCodeBlock = document.getElementById("js-code-block");
+          if (post["js-code"] && post["js-code"].trim() !== "") {
+            jsCodeBlock.style.display = "block";
+            document.getElementById("js-code").innerText = escapeHTML(
+              post["js-code"]
+            );
+          }
+
+          // Hide the Preview Section if JavaScript code exists
+          const previewSection = document.getElementById("preview-section");
+          if (post["js-code"] && post["js-code"].trim() !== "") {
+            previewSection.style.display = "none";
+          } else {
+            // Render the preview only if there’s no JavaScript code
+            try {
+              console.log("Rendering preview content...");
+              const previewContainer =
+                document.getElementById("preview-container");
+              if (!previewContainer) {
+                throw new Error("Preview container element not found");
+              }
+
+              // Create a Shadow DOM to isolate styles
+              const shadow = previewContainer.attachShadow({ mode: "open" });
+
+              // Create a container for the preview content
+              const previewWrapper = document.createElement("div");
+              previewWrapper.style.width = "100%";
+              previewWrapper.style.minHeight = "400px";
+              // Center the content using Flexbox
+              previewWrapper.style.display = "flex";
+              previewWrapper.style.justifyContent = "center";
+              previewWrapper.style.alignItems = "center";
+              previewWrapper.style.overflow = "auto"; // Ensure content is scrollable if it overflows
+
+              // Add the HTML content
+              previewWrapper.innerHTML = post["html-code"];
+
+              // Add the CSS as a <style> tag
+              const styleElement = document.createElement("style");
+              styleElement.textContent = post["css-code"];
+              shadow.appendChild(styleElement);
+
+              // Append the HTML content
+              shadow.appendChild(previewWrapper);
+
+              // Dynamically set the height of the preview container to match the HTML code block
+              console.log("Setting preview height...");
+              const htmlCodeBlock = document
+                .getElementById("html-code-block")
+                .querySelector("pre");
+              if (!htmlCodeBlock) {
+                throw new Error("HTML code block <pre> element not found");
+              }
+              const htmlCodeHeight = htmlCodeBlock.offsetHeight;
+              console.log("HTML code block height:", htmlCodeHeight);
+              previewContainer.style.height = htmlCodeHeight + "px";
+              // Ensure the previewWrapper matches the dynamic height
+              previewWrapper.style.minHeight = htmlCodeHeight + "px";
+            } catch (error) {
+              console.error("Error rendering preview:", error);
+              previewSection.innerHTML +=
+                '<p style="color: red;">Error rendering preview: ' +
+                error.message +
+                "</p>";
+            }
+          }
+
+          // Set up the download button
+          let allCode = `${post["html-code"]}\n\n/* CSS Code */\n${post["css-code"]}`;
+          if (post["js-code"] && post["js-code"].trim() !== "") {
+            allCode += `\n\n/* JavaScript Code */\n${post["js-code"]}`;
+          }
+          const encodedCode = encodeURIComponent(allCode);
+          const fileName = `${post["card-title"]
+            .toLowerCase()
+            .replace(/ /g, "-")}-source.txt`;
+          const downloadBtn = document.getElementById("download-btn");
+          downloadBtn.href = `data:text/plain;charset=utf-8,${encodedCode}`;
+          downloadBtn.download = fileName;
+
+          // Populate the conclusion
+          const conclusionText1 = document.getElementById("conclusion-text-1");
+          conclusionText1.innerText = `In conclusion, creating ${
+            post["card-title"]
+          } using HTML and CSS ${
+            post["js-code"] && post["js-code"].trim() !== ""
+              ? "and JavaScript"
+              : ""
+          } is a creative way to enhance your web development skills. This project adds a modern and interactive touch to your portfolio.`;
+        })
+        .catch((error) => {
+          console.error("Error loading JSON:", error);
+          document.body.innerHTML =
+            '<h1 style="color: white; text-align: center; margin-top: 50px;">Error: Failed to load tutorial data.</h1>';
+        });
+    </script>
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+  </body>
+</html>

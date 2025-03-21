@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coder.in</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="coder.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+      <div class="container">
+        <div class="navbar-nav-container">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a
+                class="nav-link"
+                href="https://www.instagram.com/coder.s?igsh=M2F6Zzd0cDVzMjJh"
+                ><i class="fa-brands fa-instagram"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="https://t.me/mrmg_999">
+                <i class="fa-brands fa-telegram"></i>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#resources">
+                <i class="fa-solid fa-book"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+      <div class="hero-container">
+        <!-- Profile Image (Left Side) -->
+        <div class="profile-image">
+          <img src="ERENYE_1 (1).jpg" alt="Coder.in Profile" />
+        </div>
+
+        <!-- Profile Info (Right Side) -->
+        <div class="profile-info">
+          <h1 class="username">coder.in</h1>
+          <div class="stats">
+            <div class="stat">
+              <span class="stat-number">29</span>
+              <span class="stat-label">posts</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number" id="follower-count">0</span>
+              <span class="stat-label">followers</span>
+            </div>
+            <div class="stat">
+              <span class="stat-number">0</span>
+              <span class="stat-label">following</span>
+            </div>
+          </div>
+          <div class="bio">
+            <p>Education</p>
+            <p>💻 Keep coding ❤️</p>
+            <p>🚀 Beginner-Friendly Coding Reels 🖥️</p>
+            <p>🎥 Free Projects...</p>
+          </div>
+          <button
+            class="btn btn-primary get-started-btn"
+            onclick="openInstagram()"
+          >
+            Get Started
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Resources Section -->
+    <section class="resources-section" id="resources">
+      <div class="container">
+        <h2 class="text-center mb-4">Explore Resources</h2>
+        <div class="row justify-content-center">
+          <!-- HTML Resources Card -->
+          <div class="col-md-4 mb-4">
+            <div class="card resource-card" data-category="html">
+              <div class="card-body text-center">
+                <img
+                  src="./images/HTML5_logo_.svg"
+                  alt="HTML"
+                  class="resource-icon"
+                />
+                <h5 class="card-title">HTML Resources</h5>
+                <p class="card-text">Guides and tutorials to master HTML.</p>
+                <a href="#" class="btn btn-primary mt-3">Explore Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- CSS Resources Card -->
+          <div class="col-md-4 mb-4">
+            <div class="card resource-card" data-category="css">
+              <div class="card-body text-center">
+                <img
+                  src="./images/CSS3_logo_.svg"
+                  alt="CSS"
+                  class="resource-icon"
+                />
+                <h5 class="card-title">CSS Resources</h5>
+                <p class="card-text">Learn styling with our CSS resources.</p>
+                <a href="#" class="btn btn-primary mt-3">Explore Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- JavaScript Resources Card -->
+          <div class="col-md-4 mb-4">
+            <div class="card resource-card" data-category="js">
+              <div class="card-body text-center">
+                <img
+                  src="./images/JavaScript_logo_.svg"
+                  alt="JS"
+                  class="resource-icon"
+                />
+                <h5 class="card-title">JavaScript Resources</h5>
+                <p class="card-text">
+                  Enhance your skills with JavaScript guides.
+                </p>
+                <a href="#" class="btn btn-primary mt-3">Explore Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- SQL Resources Card -->
+          <div class="col-md-4 mb-4">
+            <div class="card resource-card" data-category="sql">
+              <div class="card-body text-center">
+                <img
+                  src="./images/sql_image.jpg"
+                  alt="SQL"
+                  class="resource-icon"
+                />
+                <h5 class="card-title">SQL Resources</h5>
+                <p class="card-text">Master SQL and database management.</p>
+                <a href="#" class="btn btn-primary mt-3">Explore Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Logic Building Resources Card -->
+          <div class="col-md-4 mb-4">
+            <div class="card resource-card" data-category="logic-building">
+              <div class="card-body text-center">
+                <img
+                  src="./images/Logic_image.jpg"
+                  alt="Logic Building"
+                  class="resource-icon"
+                />
+                <h5 class="card-title">Logic Building</h5>
+                <p class="card-text">
+                  Learn problem-solving from basics to advanced.
+                </p>
+                <a href="#" class="btn btn-primary mt-3">Explore Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Portfolio Resources Card -->
+          <div class="col-md-4 mb-4">
+            <div class="card resource-card" data-category="portfolio">
+              <div class="card-body text-center">
+                <img
+                  src="./images/protfolio_image.jpg"
+                  alt="Portfolio"
+                  class="resource-icon"
+                />
+                <h5 class="card-title">Portfolio Resources</h5>
+                <p class="card-text">
+                  250+ ideas to build a standout portfolio.
+                </p>
+                <a href="#" class="btn btn-primary mt-3">Explore Now</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Web Development Projects Card -->
+          <div class="col-md-4 mb-4">
+            <div class="card resource-card" data-category="web-dev-projects">
+              <div class="card-body text-center">
+                <img
+                  src="./images/Project_image.jpg"
+                  alt="Web Dev Projects"
+                  class="resource-icon"
+                />
+                <h5 class="card-title">Web Dev Projects</h5>
+                <p class="card-text">345 project ideas for web development.</p>
+                <a href="#" class="btn btn-primary mt-3">Explore Now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Featured Posts Section -->
+    <section id="posts">
+      <div class="container">
+        <h2 class="text-center mb-4">Featured Posts</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-4 mb-4">
+            <div class="card post-card">
+              <div class="card-body text-center">
+                <img
+                  src="./images/Animated-Slider.png"
+                  alt="Master Frontend"
+                  class="card-img-top"
+                />
+                <h5 class="card-title">Animated Image Gallery</h5>
+                <p class="card-text">By Coder.in | 15 March 2025</p>
+                <a
+                  href="#"
+                  class="btn btn-primary mt-3"
+                  onclick="openTutorial('modern-login.json', 'Animated Image Gallery')"
+                  >HTML & CSS</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card post-card">
+              <div class="card-body text-center">
+                <img
+                  src="./images/login.png"
+                  alt="Modern Login"
+                  class="card-img-top"
+                />
+                <h5 class="card-title">How to make Login Form</h5>
+                <p class="card-text">By Coder.in | 15 March 2025</p>
+                <a
+                  href="#"
+                  class="btn login btn-primary mt-3"
+                  onclick="openTutorial('modern-login.json', 'How to make Modern Login Form')"
+                  >HTML & CSS</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card post-card">
+              <div class="card-body text-center">
+                <img
+                  src="./images/home-game.png"
+                  alt="I Love You"
+                  class="card-img-top"
+                />
+                <h5 class="card-title">How to make Modern Game</h5>
+                <p class="card-text">By Coder.in | 15 March 2025</p>
+                <a
+                  href="#"
+                  class="btn btn-primary mt-3"
+                  onclick="openTutorial('modern-login.json', 'How to make Modern Game')"
+                  >HTML & CSS & JS</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card post-card">
+              <div class="card-body text-center">
+                <img
+                  src="./images/slider.png"
+                  alt="Round Slider"
+                  class="card-img-top"
+                />
+                <h5 class="card-title">Round Image Slider</h5>
+                <p class="card-text">By Coder.in | 15 March 2025</p>
+                <a
+                  href="#"
+                  class="btn btn-primary mt-3"
+                  onclick="openTutorial('modern-login.json', 'Round Image Slider')"
+                  >HTML & CSS</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card post-card">
+              <div class="card-body text-center">
+                <img
+                  src="./images/panda_login.png"
+                  alt="Round Slider"
+                  class="card-img-top"
+                />
+                <h5 class="card-title">Panda Login Page</h5>
+                <p class="card-text">By Coder.in | 17 March 2025</p>
+                <a
+                  href="#"
+                  class="btn btn-primary mt-3"
+                  onclick="openTutorial('modern-login.json', 'Panda Login Page')"
+                  >HTML, CSS & JS</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card post-card">
+              <div class="card-body text-center">
+                <img
+                  src="./images/Animatedlogin_signup.png"
+                  alt="Round Slider"
+                  class="card-img-top"
+                />
+                <h5 class="card-title">Animated Login Signup</h5>
+                <p class="card-text">By Coder.in | 17 March 2025</p>
+                <a
+                  href="#"
+                  class="btn btn-primary mt-3"
+                  onclick="openTutorial('modern-login.json', 'Animated Login Signup')"
+                  >HTML, CSS & JS</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card post-card">
+              <div class="card-body text-center">
+                <img
+                  src="./images/coder.png"
+                  alt="Round Slider"
+                  class="card-img-top"
+                />
+                <h5 class="card-title">Coder Text Animated</h5>
+                <p class="card-text">By Coder.in | 17 March 2025</p>
+                <a
+                  href="#"
+                  class="btn btn-primary mt-3"
+                  onclick="openTutorial('modern-login.json', 'Coder Text Animated')"
+                  >HTML, CSS</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card post-card">
+              <div class="card-body text-center">
+                <img
+                  src="./images/code_driven.png"
+                  alt="Round Slider"
+                  class="card-img-top"
+                />
+                <h5 class="card-title">Code Driven Animated</h5>
+                <p class="card-text">By Coder.in | 17 March 2025</p>
+                <a
+                  href="#"
+                  class="btn btn-primary mt-3"
+                  onclick="openTutorial('modern-login.json', 'Code Driven Animated')"
+                  >HTML, CSS</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="coder.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

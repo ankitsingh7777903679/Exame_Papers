@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resources - Coder.in</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "Poppins", sans-serif;
+      }
+
+      body {
+        background-color: #1a3c34;
+        color: #333;
+        line-height: 1.6;
+        padding: 0;
+        margin: 0;
+      }
+
+      /* Header Section */
+      .header {
+        background-color: #07251f;
+        color: white;
+        padding: 1.5rem 0;
+        text-align: center;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        position: sticky;
+        top: 0;
+        z-index: 1000;
+      }
+
+      .header h1 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        margin-bottom: 0.5rem;
+      }
+
+      .header p {
+        font-size: 1rem;
+        opacity: 0.8;
+      }
+
+      /* Main Container */
+      .resources-container {
+        max-width: 1200px;
+        margin: 2rem auto;
+        padding: 0 1.5rem;
+      }
+
+      /* Intro Section */
+      .intro-section {
+        text-align: center;
+        margin-bottom: 3rem;
+      }
+
+      .intro-section h2 {
+        font-size: 2rem;
+        color: #fff;
+        font-weight: 500;
+      }
+
+      .intro-section p {
+        font-size: 1.1rem;
+        color: #ccc;
+        margin-top: 0.5rem;
+      }
+
+      /* Resource Cards */
+      .resources-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 1.4rem;
+      }
+
+      .resource-card {
+        background: rgb(203, 202, 202);
+        border-radius: 10px;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        padding: 0.8rem;
+        text-align: center;
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        width: 75%;
+        margin-left: 12%;
+      }
+
+      .resource-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+      }
+
+      .resource-card img {
+        width: 55%;
+        height: 70%;
+        object-fit: cover;
+        border-radius: 8px;
+        margin-bottom: 1rem;
+      }
+
+      .resource-card h3 {
+        font-size: 1.3rem;
+        font-weight: 500;
+        color: #1a1a2e;
+        margin-bottom: 0.5rem;
+      }
+
+      .resource-card p {
+        font-size: 0.9rem;
+        color: #555;
+        margin-bottom: 1rem;
+      }
+
+      .download-btn {
+        display: inline-block;
+        background: #6f42c1;
+        color: white;
+        padding: 0.5rem 1.5rem;
+        border-radius: 25px;
+        text-decoration: none;
+        font-size: 0.9rem;
+        font-weight: 500;
+        transition: background 0.3s ease, transform 0.3s ease;
+      }
+
+      .download-btn:hover {
+        background: #5a3290;
+        transform: scale(1.05);
+      }
+
+      .download-btn i {
+        margin-right: 0.5rem;
+      }
+
+      /* Responsive Design */
+      @media (max-width: 768px) {
+        .header {
+          padding: 0.6rem 0;
+        }
+
+        .header h1 {
+          font-size: 1.5rem;
+        }
+
+        .header p {
+          font-size: 0.8rem;
+        }
+        .resources-container {
+          padding: 0 0.4rem;
+        }
+        .intro-section h2 {
+          font-size: 1.5rem;
+        }
+        .introto h2 {
+          font-size: 1rem;
+        }
+        .introto p {
+          font-size: 0.6rem;
+        }
+        .intro-section p {
+          font-size: 0.9rem;
+        }
+
+        .resources-container {
+          padding: 0 1rem;
+        }
+
+        .resource-card {
+          padding: 1rem;
+          width: 85%;
+          margin-left: 7%;
+        }
+
+        .resource-card img {
+          height: 120px;
+        }
+
+        .resource-card h3 {
+          font-size: 1.1rem;
+        }
+
+        .resource-card p {
+          font-size: 0.8rem;
+        }
+
+        .download-btn {
+          padding: 0.4rem 1.2rem;
+          font-size: 0.8rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Header -->
+    <div class="header">
+      <h1 id="category-title">Resources</h1>
+      <p>Explore our curated resources to enhance your skills!</p>
+    </div>
+
+    <!-- Main Container -->
+    <div class="resources-container">
+      <!-- Intro Section -->
+      <div class="intro-section">
+        <h2 id="intro-title"></h2>
+        <p id="intro-description"></p>
+      </div>
+
+      <!-- Resources Grid -->
+      <div class="resources-grid" id="resources-grid"></div>
+    </div>
+    <br />
+    <br />
+    <div class="intro-section introto">
+      <h2 id="intro-title ">
+        Coder.in – Your Hub for Tech & Creative Content!
+      </h2>
+      <p id="intro-description">
+        At Coder.in, we bring engaging and valuable content to tech enthusiasts,
+        students, and aspiring developers. Our Instagram presence is focused on
+        providing coding tips, programming tutorials, IT-related insights, and
+        digital creativity. Whether you're looking for C, C++, Java, JavaScript,
+        DSA notes, interview questions, or motivational and relatable reels
+        about love, friendship, and emotions, we’ve got something for you!
+      </p>
+    </div>
+    <script>
+      // Get the category from the query parameter
+      const urlParams = new URLSearchParams(window.location.search);
+      const category = urlParams.get("category");
+
+      if (!category) {
+        document.body.innerHTML =
+          '<h1 style="color: white; text-align: center; margin-top: 50px;">Error: No category provided.</h1>';
+        throw new Error("No category provided in query parameters.");
+      }
+
+      // Map category to display title and description
+      const categoryMap = {
+        html: {
+          title: "HTML Resources",
+          description:
+            "Discover the best resources to master HTML and build amazing web pages.",
+        },
+        css: {
+          title: "CSS Resources",
+          description:
+            "Enhance your styling skills with these curated CSS resources.",
+        },
+        js: {
+          title: "JavaScript Resources",
+          description:
+            "Level up your JavaScript skills with these comprehensive guides.",
+        },
+      };
+
+      // Set the page title and intro section
+      document.title = `${
+        categoryMap[category]?.title || "Resources"
+      } - Coder.in`;
+      document.getElementById("category-title").innerText =
+        categoryMap[category]?.title || "Resources";
+      document.getElementById("intro-title").innerText =
+        categoryMap[category]?.title || "Resources";
+      document.getElementById("intro-description").innerText =
+        categoryMap[category]?.description || "Explore our curated resources.";
+
+      // Fetch the JSON data and populate the resources
+      fetch("resources.json")
+        .then((response) => {
+          if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+          }
+          return response.json();
+        })
+        .then((data) => {
+          const resourcesGrid = document.getElementById("resources-grid");
+          const categoryKey = `${category}-sources`; // e.g., "html-sources"
+          const resources = data[categoryKey] || [];
+
+          if (resources.length === 0) {
+            resourcesGrid.innerHTML =
+              '<p style="color: white; text-align: center;">No resources found for this category.</p>';
+            return;
+          }
+
+          // Populate the resources grid
+          resources.forEach((resource) => {
+            const card = document.createElement("div");
+            card.className = "resource-card";
+            card.innerHTML = `
+              <img src="${resource["pdf-image"]}" alt="${resource["pdf-name"]}" />
+              <h3>${resource["pdf-name"]}</h3>
+              <p>${resource["pdf-description"]}</p>
+              <a href="${resource["pdf-url"]}" class="download-btn" target="_blank">
+                <i class="fas fa-download"></i> Download PDF
+              </a>
+            `;
+            resourcesGrid.appendChild(card);
+          });
+        })
+        .catch((error) => {
+          console.error("Error loading JSON:", error);
+          document.body.innerHTML =
+            '<h1 style="color: white; text-align: center; margin-top: 50px;">Error: Failed to load resources.</h1>';
+        });
+    </script>
+  </body>
+</html>
