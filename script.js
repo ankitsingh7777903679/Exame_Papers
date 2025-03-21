@@ -47,7 +47,7 @@ const bcaLinks = [
   "bca_sem1.html",
   "bca_sem2.html",
   "bca_sem3.html",
-  "bca_sem4.html",
+  "bca-sem4-solution.html",
   "bca_sem5.html",
   "bca_sem6.html"
 ];

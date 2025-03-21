@@ -1,22 +1,12 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-G-0EFVRCHG68"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-G-0EFVRCHG68'); // Replace with your tracking ID
-</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Bca Semester 4 - Previous Year Exam Papers | QuestionBanker</title>
     <link rel="icon" href="favicon.ico" type="icon">
     <meta name="description" content="Download previous year exam papers for Bca Semester 4 at QuestionBanker.">
     <meta name="keywords" content="bca, BCA, Bca Sem 4 papers, Bca previous year papers, university exam papers, vnsju, surat, gujrat, QuestionBanker">
-    <!-- SEO -->
     <meta property="og:title" content="Bca Semester 4 - Previous Year Exam Papers | QuestionBanker">
     <meta property="og:description" content="Get previous year Bca Semester 4 exam papers for university BCA courses at QuestionBanker.">
     <meta property="og:image" content="favicon.ico">
@@ -31,7 +21,6 @@
           "url": "https://questionbanker.in/bca_sem4.html"
         }
     </script>
-    <!-- SEO -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     
@@ -145,7 +134,6 @@
             color: #FFFFFF;
             margin-bottom: 10px;
         }
-        /* Styling for Code Blocks in All Sections */
         .code-block {
             background-color: #1E1E1E;
             border: 1px solid #FF8C00;
@@ -186,7 +174,6 @@
             background-color: #45a049;
             opacity: 0.8;
         }
-        /* Styling for One Marks Section */
         .onemarks-section .card-body {
             padding: 15px;
         }
@@ -201,7 +188,6 @@
             margin-bottom: 15px;
             white-space: pre-wrap;
         }
-        /* Image Styling */
         .card .image-gallery {
             display: flex;
             flex-wrap: wrap;
@@ -213,20 +199,19 @@
             border-radius: 4px;
             max-width: 100%;
             height: auto;
-            flex: 1 1 calc(25% - 10px); /* Adjusts for 4 images per row with gap */
+            flex: 1 1 calc(25% - 10px);
             object-fit: cover;
         }
         @media (max-width: 768px) {
             .card .image-gallery img {
-                flex: 1 1 calc(50% - 10px); /* 2 images per row on smaller screens */
+                flex: 1 1 calc(50% - 10px);
             }
         }
         @media (max-width: 576px) {
             .card .image-gallery img {
-                flex: 1 1 100%; /* 1 image per row on very small screens */
+                flex: 1 1 100%;
             }
         }
-        /* Back to Top Button Styling */
         #backToTopBtn {
             display: none;
             position: fixed;
@@ -253,42 +238,85 @@
             color: #B0BEC5;
             margin-bottom: 15px;
             white-space: pre-wrap;
-            list-style: none; /* Remove default list styling */
+            list-style: none;
         }
-
-        /* Style for the white dot */
         .onemarks-section .answer-text::before {
-            content: "○"; /* White circle */
-            color: #E0E0E0; /* Match text color */
+            content: "○";
+            color: #E0E0E0;
             margin-right: 8px;
         }
-        /* Suggestions Dropdown Styling */
-.suggestions {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background-color: #2F2F2F; /* Match your card background */
-    border: 1px solid #4CAF50;
-    border-radius: 4px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-    z-index: 1000;
-    max-height: 200px;
-    overflow-y: auto;
-    display: none;
-}
-.suggestion-item {
-    padding: 8px 12px;
-    color: #E0E0E0;
-    cursor: pointer;
-    border-bottom: 1px solid #4CAF50;
-}
-.suggestion-item:last-child {
-    border-bottom: none;
-}
-.suggestion-item:hover {
-    background-color: #3A3A3A;
-}
+        .suggestions {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            right: 0;
+            background-color: #2F2F2F;
+            border: 1px solid #4CAF50;
+            border-radius: 4px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+            z-index: 1000;
+            max-height: 200px;
+            overflow-y: auto;
+            display: none;
+        }
+        .suggestion-item {
+            padding: 8px 12px;
+            color: #E0E0E0;
+            cursor: pointer;
+            border-bottom: 1px solid #4CAF50;
+        }
+        .suggestion-item:last-child {
+            border-bottom: none;
+        }
+        .suggestion-item:hover {
+            background-color: #3A3A3A;
+        }
+        .btn-clear {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 0 4px 4px 0;
+            padding: 0 10px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            display: none;
+        }
+        .btn-clear:hover {
+            background-color: #45a049;
+        }
+        .input-group {
+            position: relative;
+            display: flex;
+        }
+        .input-group .form-control {
+            border-radius: 4px 0 0 4px;
+            border-right: none;
+        }
+        .btn-years .btn {
+            background-color: #07251F;
+            color: #E0E0E0;
+            border: 1px solid #4CAF50;
+            padding: 10px 20px;
+            font-size: 1rem;
+            border-radius: 8px;
+            transition: background-color 0.3s, color 0.3s, transform 0.3s;
+            width: 100%;
+            max-width: 200px;
+            margin: 10px auto;
+        }
+        .btn-years .btn:hover,
+        .btn-years .btn:focus {
+            background-color: #4CAF50;
+            color: white;
+            transform: scale(1.05);
+            box-shadow: 0 4px 8px rgba(76, 175, 80, 0.3);
+        }
+        .btn-years .col {
+            padding: 0 10px;
+        }
+        .btn-years {
+            justify-content: center;
+        }
     </style>
 </head>
 
@@ -323,18 +351,21 @@
     </div>
 
     <div class="container">
+        <p style="text-align: center; color: #FF5555; font-weight: bold;">
+            If the question doesn't load, refresh the page.
+        </p>
         <ul class="nav nav-pills nav-sub justify-content-center mt-3" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
                 <button class="btn" id="pills-iot-tab" data-bs-toggle="pill" data-bs-target="#pills-iot" type="button" role="tab" aria-controls="pills-iot" aria-selected="false">IOT</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="btn " id="pills-java-tab" data-bs-toggle="pill" data-bs-target="#pills-java" type="button" role="tab" aria-controls="pills-java" aria-selected="true">JAVA</button>
+                <button class="btn" id="pills-java-tab" data-bs-toggle="pill" data-bs-target="#pills-java" type="button" role="tab" aria-controls="pills-java" aria-selected="true">JAVA</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="btn " id="pills-wd-tab" data-bs-toggle="pill" data-bs-target="#pills-wd" type="button" role="tab" aria-controls="pills-wd" aria-selected="false">WD</button>
+                <button class="btn" id="pills-wd-tab" data-bs-toggle="pill" data-bs-target="#pills-wd" type="button" role="tab" aria-controls="pills-wd" aria-selected="false">WD</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="btn " id="pills-mad-tab" data-bs-toggle="pill" data-bs-target="#pills-mad" type="button" role="tab" aria-controls="pills-mad" aria-selected="false">MAD</button>
+                <button class="btn" id="pills-mad-tab" data-bs-toggle="pill" data-bs-target="#pills-mad" type="button" role="tab" aria-controls="pills-mad" aria-selected="false">MAD</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="btn active" id="pills-net-tab" data-bs-toggle="pill" data-bs-target="#pills-net" type="button" role="tab" aria-controls="pills-net" aria-selected="false">.NET</button>
@@ -342,24 +373,25 @@
             <li class="nav-item" role="presentation">
                 <button class="btn" id="pills-practical-tab" data-bs-toggle="pill" data-bs-target="#pills-practical" type="button" role="tab" aria-controls="pills-practical" aria-selected="false">PRACTICAL</button>
             </li>
+            <li class="nav-item" role="presentation">
+                <button class="btn" id="pills-papers-tab" data-bs-toggle="pill" data-bs-target="#pills-papers" type="button" role="tab" aria-controls="pills-papers" aria-selected="false">Papers</button>
+            </li>
         </ul>
     </div>
 
     <div class="container con-qes mt-3">
-        <!-- Search Bar -->
-        <!-- <div class="search-bar">
-            <input type="text" id="searchInput" class="form-control" placeholder="Search questions..." aria-label="Search questions">
-        </div> -->
-
-        <!-- Search Bar with Suggestions -->
         <div class="search-bar" style="position: relative;">
-            <input type="text" id="searchInput" class="form-control" placeholder="Search questions..."
-                aria-label="Search questions" autocomplete="off">
+            <div class="input-group">
+                <input type="text" id="searchInput" class="form-control" placeholder="Search questions..."
+                    aria-label="Search questions" autocomplete="off">
+                <button class="btn btn-clear" type="button" aria-label="Clear search">
+                    <i class="fa-solid fa-xmark"></i>
+                </button>
+            </div>
             <div id="suggestions" class="suggestions"></div>
         </div>
 
         <div class="text-white tab-content" id="pills-tabContent">
-            <!-- IOT Tab -->
             <div class="fade tab-pane" id="pills-iot" role="tabpanel" aria-labelledby="pills-iot-tab" tabindex="0">
                 <div class="d-flex gap-1 mb-3 q-head">
                     <a href="#iot-mcq" class="btn">MCQ</a>
@@ -381,8 +413,7 @@
                 <a href="path/to/iot_paper.pdf" class="btn btn-primary" download aria-label="Download IOT Paper">Download IOT Paper</a>
             </div>
 
-            <!-- JAVA Tab -->
-            <div class=" fade  tab-pane" id="pills-java" role="tabpanel" aria-labelledby="pills-java-tab" tabindex="0">
+            <div class="fade tab-pane" id="pills-java" role="tabpanel" aria-labelledby="pills-java-tab" tabindex="0">
                 <div class="d-flex gap-1 mb-3 q-head">
                     <a href="#java-mcq" class="btn">MCQ</a>
                     <a href="#java-onemarks" class="btn">Short Questions</a>
@@ -403,8 +434,7 @@
                 <a href="path/to/java_paper.pdf" class="btn btn-primary" download aria-label="Download JAVA Paper">Download JAVA Paper</a>
             </div>
 
-            <!-- WD Tab -->
-            <div class=" fade  tab-pane" id="pills-wd" role="tabpanel" aria-labelledby="pills-wd-tab" tabindex="0">
+            <div class="fade tab-pane" id="pills-wd" role="tabpanel" aria-labelledby="pills-wd-tab" tabindex="0">
                 <div class="d-flex gap-1 mb-3 q-head">
                     <a href="#wd-mcq" class="btn">MCQ</a>
                     <a href="#wd-onemarks" class="btn">Short Questions</a>
@@ -425,8 +455,7 @@
                 <a href="https://drive.google.com/drive/folders/10evH0-dxRKPZ_HhQTx2cEI6HsxPrOnNH" class="btn btn-primary" download aria-label="Download WD Paper">Download WD Paper</a>
             </div>
 
-            <!-- MAD Tab -->
-            <div class=" fade  tab-pane" id="pills-mad" role="tabpanel" aria-labelledby="pills-mad-tab" tabindex="0">
+            <div class="fade tab-pane" id="pills-mad" role="tabpanel" aria-labelledby="pills-mad-tab" tabindex="0">
                 <div class="d-flex gap-1 mb-3 q-head">
                     <a href="#mad-mcq" class="btn">MCQ</a>
                     <a href="#mad-onemarks" class="btn">Short Questions</a>
@@ -447,7 +476,6 @@
                 <a href="path/to/wd_paper.pdf" class="btn btn-primary" download aria-label="Download mad Paper">Download WD Paper</a>
             </div>
 
-            <!-- .NET Tab -->
             <div class="active fade show tab-pane" id="pills-net" role="tabpanel" aria-labelledby="pills-net-tab" tabindex="0">
                 <div class="d-flex gap-1 mb-3 q-head">
                     <a href="#net-mcq" class="btn">MCQ</a>
@@ -469,7 +497,6 @@
                 <a href="path/to/net_paper.pdf" class="btn btn-primary" download aria-label="Download .NET Paper">Download .NET Paper</a>
             </div>
 
-            <!-- PRACTICAL Tab -->
             <div class="fade tab-pane" id="pills-practical" role="tabpanel" aria-labelledby="pills-practical-tab" tabindex="0">
                 <div class="d-flex gap-1 mb-3 q-head">
                     <a href="#practical-mcq" class="btn">MCQ</a>
@@ -490,339 +517,485 @@
                 </div>
                 <a href="path/to/practical_paper.pdf" class="btn btn-primary" download aria-label="Download Practical Paper">Download Practical Paper</a>
             </div>
+
+            <div class="fade tab-pane" id="pills-papers" role="tabpanel" aria-labelledby="pills-papers-tab" tabindex="0">
+                <h4 class="text-center fw-bolder">SEM_4 Exam Papers</h4>
+                <div class="row nav-sub row-cols-1 text-center btn-years gy-2 py-5 mx-lg-5">
+                    <div class="col"><a href="https://drive.google.com/drive/folders/1MnLTIcwWZldcRNlEMmzllaCOrLw_vhL2" target="_blank"><button class="btn">OCT-NOV-2023</button></a></div>
+                    <div class="col"><a href="https://drive.google.com/drive/folders/10evH0-dxRKPZ_HhQTx2cEI6HsxPrOnNH" target="_blank"><button class="btn">JULY-2023</button></a></div>
+                    <div class="col"><a href="https://drive.google.com/drive/folders/1v4jBDIXSB9FLhMuTccIecGsIdw_MixhW" target="_blank"><button class="btn">APRIL-2023</button></a></div>
+                    <div class="col"><a href="https://drive.google.com/drive/folders/1QwsOUC1QBrgIk_5fovvSVkuNtA2uX4ff" target="_blank"><button class="btn">APRIL-2022</button></a></div>
+                    <div class="col"><a href="https://drive.google.com/drive/folders/1PX24AC1N1fQh_-MNGgp1TzXzGFcgLKet" target="_blank"><button class="btn">OCT-2019</button></a></div>
+                    <div class="col"><a href="https://drive.google.com/drive/folders/1hLANhg2DFj1TLJSzyUZHvo7pfdy0ZUJz" target="_blank"><button class="btn">MARCH-2019</button></a></div>
+                    <div class="col"><a href="https://drive.google.com/drive/folders/18xtiWXsqUIryLfjNBgJoPtd6yLvVQ_NO" target="_blank"><button class="btn">OCT-2018</button></a></div>
+                    <div class="col"><a href="https://drive.google.com/drive/folders/1og0kMOErq6VG-AepEa2srj_ARgIyqf7O" target="_blank"><button class="btn">MARCH-2018</button></a></div>
+                    <div class="col"><a href="https://drive.google.com/drive/folders/1TLKmpwFFJmymrUZyjiTJFXipGiQjt0vK" target="_blank"><button class="btn">OCT-2017</button></a></div>
+                    <div class="col"><a href="https://drive.google.com/drive/folders/1JYNMGKf4fTjoPReId-4eAWEPRnx1Jv7p" target="_blank"><button class="btn">MARCH-2017</button></a></div>
+                    <div class="col"><a href="https://drive.google.com/drive/folders/168iIojgaC25-qJN-QOsr1NlUuPrW7H5h" target="_blank"><button class="btn">OCT-2016</button></a></div>
+                    <div class="col"><a href="https://drive.google.com/drive/folders/1fJEaPCeGFPukcM4NyI1abMup-xK06Cn2" target="_blank"><button class="btn">MARCH-2016</button></a></div>
+                    <div class="col"><a href="https://drive.google.com/drive/folders/1ZDFUzhywNhclCnmEJ09gsm-MNNEWKtPA" target="_blank"><button class="btn">OCT-2015</button></a></div>
+                    <div class="col"><a href="https://drive.google.com/drive/folders/1IWQNyre7tZwXwFWfld0MuUgD28jOc3UF" target="_blank"><button class="btn">MARCH-2015</button></a></div>
+                </div>
+            </div>
         </div>
     </div>
 
-    <!-- Back to Top Button -->
     <button id="backToTopBtn" aria-label="Back to Top">
         <i class="fa-arrow-up fa-solid"></i>
     </button>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script>
+        // Helper function to escape HTML special characters for attributes
+        function escapeHtmlForAttribute(str) {
+            return str
+                .replace(/"/g, '"')
+                .replace(/'/g, '\'')
+                .replace(/</g, '<')
+                .replace(/>/g, '>');
+        }
 
- 
+        // Global array to store all questions for autocomplete suggestions
+        let allQuestions = [];
+        // Global mapping of question key to DOM element and tab
+        let questionMap = {};
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-<script>
-    // Helper function to escape HTML special characters for attributes
-    function escapeHtmlForAttribute(str) {
-        return str
-        .replace(/&/g, '&amp;')
-                .replace(/"/g, '&quot;')
-                .replace(/'/g, '&#39;')
-                .replace(/</g, '&lt;')
-                .replace(/>/g, '&gt;');
-    }
+        // Function to tokenize text into words
+        function tokenize(text) {
+            return text.toLowerCase()
+                .replace(/[^\w\s]/g, '') // Remove punctuation
+                .split(/\s+/); // Split by whitespace
+        }
 
-    // Global array to store all questions for autocomplete suggestions
-    let allQuestions = [];
-    // Global mapping of question key to DOM element and tab
-    let questionMap = {};
-
-    // Function to tokenize text into words
-    function tokenize(text) {
-        return text.toLowerCase()
-            .replace(/[^\w\s]/g, '') // Remove punctuation
-            .split(/\s+/); // Split by whitespace
-    }
-
-    // Fetch Questions from JSON File
-    fetch('questions.json')
-        .then(response => response.json())
-        .then(data => {
-            // Collect all questions for autocomplete suggestions
-            const subjects = ['iot', 'java', 'wd', 'mad', 'net', 'practical'];
-            subjects.forEach(subject => {
-                const subjectData = data[subject];
-                const sections = [
-                    { name: 'mcq', questions: subjectData.mcq || [] },
-                    { name: 'onemarks', questions: subjectData.onemarks || [] },
-                    { name: 'long', questions: subjectData.long || [] }
-                ];
-                sections.forEach(section => {
-                    section.questions.forEach(q => {
-                        // Use a unique key for each question to handle duplicates
-                        const questionKey = `${subject}-${section.name}-${q.question}`;
-                        allQuestions.push(q.question);
-                        questionMap[questionKey] = { subject, section: section.name, element: null };
+        // Fetch Questions from JSON File
+        fetch('questions.json')
+            .then(response => {
+                if (!response.ok) throw new Error('Failed to fetch questions');
+                return response.json();
+            })
+            .then(data => {
+                // Collect all questions for autocomplete suggestions
+                const subjects = ['iot', 'java', 'wd', 'mad', 'net', 'practical'];
+                subjects.forEach(subject => {
+                    const subjectData = data[subject];
+                    const sections = [
+                        { name: 'mcq', questions: subjectData.mcq || [] },
+                        { name: 'onemarks', questions: subjectData.onemarks || [] },
+                        { name: 'long', questions: subjectData.long || [] }
+                    ];
+                    sections.forEach(section => {
+                        section.questions.forEach((q, index) => {
+                            const questionKey = `${subject}-${section.name}-${index}`;
+                            allQuestions.push({ question: q.question, subject: subject, key: questionKey });
+                            questionMap[questionKey] = { subject, section: section.name, element: null, questionText: q.question };
+                        });
                     });
                 });
+
+                // Render Questions for Each Subject
+                renderQuestions('iot-mcq-questions', data.iot.mcq, true, false, 'iot', 'mcq');
+                renderQuestions('iot-onemarks-questions', data.iot.onemarks, false, true, 'iot', 'onemarks');
+                renderQuestions('iot-long-questions', data.iot.long, false, false, 'iot', 'long');
+
+                renderQuestions('java-mcq-questions', data.java.mcq, true, false, 'java', 'mcq');
+                renderQuestions('java-onemarks-questions', data.java.onemarks, false, true, 'java', 'onemarks');
+                renderQuestions('java-long-questions', data.java.long, false, false, 'java', 'long');
+
+                renderQuestions('wd-mcq-questions', data.wd.mcq, true, false, 'wd', 'mcq');
+                renderQuestions('wd-onemarks-questions', data.wd.onemarks, false, true, 'wd', 'onemarks');
+                renderQuestions('wd-long-questions', data.wd.long, false, false, 'wd', 'long');
+
+                renderQuestions('mad-mcq-questions', data.mad.mcq, true, false, 'mad', 'mcq');
+                renderQuestions('mad-onemarks-questions', data.mad.onemarks, false, true, 'mad', 'onemarks');
+                renderQuestions('mad-long-questions', data.mad.long, false, false, 'mad', 'long');
+
+                renderQuestions('net-mcq-questions', data.net.mcq, true, false, 'net', 'mcq');
+                renderQuestions('net-onemarks-questions', data.net.onemarks, false, true, 'net', 'onemarks');
+                renderQuestions('net-long-questions', data.net.long, false, false, 'net', 'long');
+
+                renderQuestions('practical-mcq-questions', data.practical.mcq, true, false, 'practical', 'mcq');
+                renderQuestions('practical-onemarks-questions', data.practical.onemarks, false, true, 'practical', 'onemarks');
+                renderQuestions('practical-long-questions', data.practical.long, false, false, 'practical', 'long');
+
+                // Add event listener for tab switching to ensure content is rendered
+                document.querySelectorAll('.nav-pills .nav-link').forEach(tab => {
+                    tab.addEventListener('shown.bs.tab', function (e) {
+                        const targetTab = e.target.id.replace('pills-', '').replace('-tab', '');
+                        const questions = document.querySelectorAll('.question');
+                        questions.forEach(q => {
+                            const questionSubject = q.id.split('-')[0];
+                            q.style.display = (questionSubject === targetTab) ? '' : 'none';
+                        });
+                    });
+                });
+            })
+            .catch(error => {
+                console.error('Error fetching questions:', error);
+                document.querySelector('.con-qes').innerHTML = '<p>Error loading questions. Please try again later.</p>';
             });
 
-            // Render Questions for Each Subject
-            renderQuestions('iot-mcq-questions', data.iot.mcq, true, false, 'iot', 'mcq');
-            renderQuestions('iot-onemarks-questions', data.iot.onemarks, false, true, 'iot', 'onemarks');
-            renderQuestions('iot-long-questions', data.iot.long, false, false, 'iot', 'long');
-
-            renderQuestions('java-mcq-questions', data.java.mcq, true, false, 'java', 'mcq');
-            renderQuestions('java-onemarks-questions', data.java.onemarks, false, true, 'java', 'onemarks');
-            renderQuestions('java-long-questions', data.java.long, false, false, 'java', 'long');
-
-            renderQuestions('wd-mcq-questions', data.wd.mcq, true, false, 'wd', 'mcq');
-            renderQuestions('wd-onemarks-questions', data.wd.onemarks, false, true, 'wd', 'onemarks');
-            renderQuestions('wd-long-questions', data.wd.long, false, false, 'wd', 'long');
-
-            renderQuestions('net-mcq-questions', data.net.mcq, true, false, 'net', 'mcq');
-            renderQuestions('net-onemarks-questions', data.net.onemarks, false, true, 'net', 'onemarks');
-            renderQuestions('net-long-questions', data.net.long, false, false, 'net', 'long');
-
-            renderQuestions('practical-mcq-questions', data.practical.mcq, true, false, 'practical', 'mcq');
-            renderQuestions('practical-onemarks-questions', data.practical.onemarks, false, true, 'practical', 'onemarks');
-            renderQuestions('practical-long-questions', data.practical.long, false, false, 'practical', 'long');
-
-            // Add MAD section
-            renderQuestions('mad-mcq-questions', data.mad.mcq, true, false, 'mad', 'mcq');
-            renderQuestions('mad-onemarks-questions', data.mad.onemarks, false, true, 'mad', 'onemarks');
-            renderQuestions('mad-long-questions', data.mad.long, false, false, 'mad', 'long');
-        })
-        .catch(error => console.error('Error fetching questions:', error));
-
-    // Function to Render Questions (MCQ, One Marks, Long) with Multiple Image Support
-    function renderQuestions(containerId, questions, isMcq = false, isOneMarks = false, subject, section) {
-        const container = document.getElementById(containerId);
-        if (!questions || questions.length === 0) {
-            container.innerHTML = '<p>No questions available.</p>';
-            return;
-        }
-        questions.forEach((q, index) => {
-            const questionDiv = document.createElement('div');
-            questionDiv.classList.add('card', 'question');
-            // Assign a unique ID to each question div
-            const questionId = `${subject}-${section}-${index}`;
-            questionDiv.setAttribute('id', questionId);
-            // Update the questionMap with the DOM element
-            const questionKey = `${subject}-${section}-${q.question}`;
-            if (questionMap[questionKey]) {
-                questionMap[questionKey].element = questionDiv;
+        // Function to Render Questions (MCQ, One Marks, Long) with Multiple Image Support
+        function renderQuestions(containerId, questions, isMcq = false, isOneMarks = false, subject, section) {
+            const container = document.getElementById(containerId);
+            if (!container) {
+                console.error(`Container with ID ${containerId} not found.`);
+                return;
             }
-            
-            // Render images if they exist
-            let imagesHtml = '';
-            if (q.images && Array.isArray(q.images) && q.images.length > 0) {
-                imagesHtml = `
-                    <div class="image-gallery">
-                        ${q.images.map(img => `
-                            <img src="${img}" alt="Diagram for ${q.question}" class="img-fluid">
-                        `).join('')}
-                    </div>
-                `;
+            if (!questions || questions.length === 0) {
+                container.innerHTML = '<p>No questions available.</p>';
+                return;
             }
+            questions.forEach((q, index) => {
+                const questionDiv = document.createElement('div');
+                questionDiv.classList.add('card', 'question');
+                const questionId = `${subject}-${section}-${index}`;
+                questionDiv.setAttribute('id', questionId);
+                const questionKey = `${subject}-${section}-${index}`;
+                if (questionMap[questionKey]) {
+                    questionMap[questionKey].element = questionDiv;
+                }
 
-            if (isOneMarks) {
-                // One Marks: Display question, answer, multiple images, and optional code
-                questionDiv.innerHTML = `
-                    <div class="card-body">
-                        <p class="question-text">${q.question.replace(/</g, '<').replace(/>/g, '>')}</p>
-                        <p class="answer-text">${q.answer.replace(/</g, '<').replace(/>/g, '>')}</p>
-                        ${imagesHtml}
-                        ${q.code ? `
-                            <div class="code-block" style="position: relative;">
-                                <pre>${q.code.replace(/</g, '<').replace(/>/g, '>')}</pre>
-                                <button class="copy-btn" data-code="${escapeHtmlForAttribute(q.code)}" aria-label="Copy code">Copy</button>
-                            </div>
-                        ` : ''}
-                    </div>
-                `;
-            } else if (isMcq) {
-                // MCQ: Display question, options, and optional code (no images for simplicity here)
-                questionDiv.innerHTML = `
-                    <div class="card-body">
-                        <h4 class="card-title">${q.question.replace(/</g, '<').replace(/>/g, '>')}</h4>
-                        ${q.options.map((option, index) => `
-                            <input type="radio" name="${q.id}" value="${String.fromCharCode(97 + index)}"> ${option.replace(/</g, '<').replace(/>/g, '>')}<br>
-                        `).join('')}
-                        <button class="btn btn-primary mt-2" onclick="checkAnswer('${q.id}', '${q.correctAnswer}')" aria-label="Submit answer for ${q.question}">Submit</button>
-                        <p id="${q.id}-feedback" class="mt-2"></p>
-                        ${q.code ? `
-                            <div class="code-block" style="position: relative;">
-                                <pre>${q.code.replace(/</g, '<').replace(/>/g, '>')}</pre>
-                                <button class="copy-btn" data-code="${escapeHtmlForAttribute(q.code)}" aria-label="Copy code">Copy</button>
-                            </div>
-                        ` : ''}
-                    </div>
-                `;
-            } else {
-                // Long Questions: Display question, answer, multiple images, and optional code
-                questionDiv.innerHTML = `
-                    <div class="card-body">
-                        <h4 class="card-title">${q.question.replace(/</g, '<').replace(/>/g, '>')}</h4>
-                        <p class="card-text">${q.answer.replace(/</g, '<').replace(/>/g, '>')}</p>
-                        ${imagesHtml}
-                        ${q.code ? `
-                            <div class="code-block" style="position: relative;">
-                                <pre>${q.code.replace(/</g, '<').replace(/>/g, '>')}</pre>
-                                <button class="copy-btn" data-code="${escapeHtmlForAttribute(q.code)}" aria-label="Copy code">Copy</button>
-                            </div>
-                        ` : ''}
-                    </div>
-                `;
-            }
-            container.appendChild(questionDiv);
-        });
+                let imagesHtml = '';
+                if (q.images && Array.isArray(q.images) && q.images.length > 0) {
+                    imagesHtml = `
+                        <div class="image-gallery">
+                            ${q.images.map(img => `
+                                <img src="${img}" alt="Diagram for ${q.question}" class="img-fluid">
+                            `).join('')}
+                        </div>
+                    `;
+                }
 
-        // Add event listeners for copy buttons after rendering
-        const copyButtons = document.querySelectorAll('.copy-btn');
-        copyButtons.forEach(button => {
-            button.addEventListener('click', function() {
-                const code = this.getAttribute('data-code');
-                navigator.clipboard.writeText(code).then(() => {
-                    this.textContent = 'Copied!';
-                    this.classList.add('copied');
-                    setTimeout(() => {
-                        this.textContent = 'Copy';
-                        this.classList.remove('copied');
-                    }, 2000);
-                }).catch(err => {
-                    console.error('Failed to copy text: ', err);
+                if (isOneMarks) {
+                    questionDiv.innerHTML = `
+                        <div class="card-body">
+                            <p class="question-text">${q.question.replace(/</g, '<').replace(/>/g, '>')}</p>
+                            <p class="answer-text">${q.answer.replace(/</g, '<').replace(/>/g, '>')}</p>
+                            ${imagesHtml}
+                            ${q.code ? `
+                                <div class="code-block" style="position: relative;">
+                                    <pre>${q.code.replace(/</g, '<').replace(/>/g, '>')}</pre>
+                                    <button class="copy-btn" data-code="${escapeHtmlForAttribute(q.code)}" aria-label="Copy code">Copy</button>
+                                </div>
+                            ` : ''}
+                        </div>
+                    `;
+                } else if (isMcq) {
+                    questionDiv.innerHTML = `
+                        <div class="card-body">
+                            <h4 class="card-title">${q.question.replace(/</g, '<').replace(/>/g, '>')}</h4>
+                            ${q.options.map((option, index) => `
+                                <input type="radio" name="${q.id}" value="${String.fromCharCode(97 + index)}"> ${option.replace(/</g, '<').replace(/>/g, '>')}<br>
+                            `).join('')}
+                            <button class="btn btn-primary mt-2" onclick="checkAnswer('${q.id}', '${q.correctAnswer}')" aria-label="Submit answer for ${q.question}">Submit</button>
+                            <p id="${q.id}-feedback" class="mt-2"></p>
+                            ${q.code ? `
+                                <div class="code-block" style="position: relative;">
+                                    <pre>${q.code.replace(/</g, '<').replace(/>/g, '>')}</pre>
+                                    <button class="copy-btn" data-code="${escapeHtmlForAttribute(q.code)}" aria-label="Copy code">Copy</button>
+                                </div>
+                            ` : ''}
+                        </div>
+                    `;
+                } else {
+                    questionDiv.innerHTML = `
+                        <div class="card-body">
+                            <h4 class="card-title">${q.question.replace(/</g, '<').replace(/>/g, '>')}</h4>
+                            <p class="card-text">${q.answer.replace(/</g, '<').replace(/>/g, '>')}</p>
+                            ${imagesHtml}
+                            ${q.code ? `
+                                <div class="code-block" style="position: relative;">
+                                    <pre>${q.code.replace(/</g, '<').replace(/>/g, '>')}</pre>
+                                    <button class="copy-btn" data-code="${escapeHtmlForAttribute(q.code)}" aria-label="Copy code">Copy</button>
+                                </div>
+                            ` : ''}
+                        </div>
+                    `;
+                }
+                container.appendChild(questionDiv);
+            });
+
+            // Updated Copy Button Logic with Fallback
+            const copyButtons = document.querySelectorAll('.copy-btn');
+            copyButtons.forEach(button => {
+                button.addEventListener('click', function() {
+                    const code = this.getAttribute('data-code');
+                    // Try using navigator.clipboard first
+                    if (navigator.clipboard && window.isSecureContext) {
+                        navigator.clipboard.writeText(code).then(() => {
+                            this.textContent = 'Copied!';
+                            this.classList.add('copied');
+                            setTimeout(() => {
+                                this.textContent = 'Copy';
+                                this.classList.remove('copied');
+                            }, 2000);
+                        }).catch(err => {
+                            console.error('Failed to copy using clipboard API:', err);
+                            // Fallback to document.execCommand
+                            fallbackCopyText(code, this);
+                        });
+                    } else {
+                        // Fallback for non-secure contexts or unsupported browsers
+                        fallbackCopyText(code, this);
+                    }
                 });
             });
-        });
-    }
-
-    // MCQ Answer Checking
-    function checkAnswer(questionId, correctAnswer) {
-        const selected = document.querySelector(`input[name="${questionId}"]:checked`);
-        const feedback = document.getElementById(`${questionId}-feedback`);
-        if (selected && selected.value === correctAnswer) {
-            feedback.textContent = "Correct!";
-            feedback.style.color = "green";
-        } else {
-            feedback.textContent = "Incorrect. Try again!";
-            feedback.style.color = "red";
-        }
-    }
-
-    // Optimized Search Functionality with Autocomplete Suggestions
-    const searchInput = document.getElementById('searchInput');
-    const suggestionsDiv = document.getElementById('suggestions');
-
-    searchInput.addEventListener('input', function() {
-        const query = this.value.trim();
-        const queryTokens = tokenize(query);
-        const questions = document.querySelectorAll('.question');
-
-        // Clear previous suggestions
-        suggestionsDiv.innerHTML = '';
-        suggestionsDiv.style.display = 'none';
-
-        // If the search query is empty, show all questions and hide suggestions
-        if (!query) {
-            questions.forEach(q => {
-                q.style.display = '';
-            });
-            return;
         }
 
-        // Autocomplete Suggestions: Filter questions that match the query
-        const matchingQuestions = allQuestions.filter(question => {
-            const questionLower = question.toLowerCase();
-            return queryTokens.some(token => questionLower.includes(token));
-        });
+        // Fallback function for copying text
+        function fallbackCopyText(text, button) {
+            const textArea = document.createElement('textarea');
+            textArea.value = text;
+            document.body.appendChild(textArea);
+            textArea.select();
+            try {
+                document.execCommand('copy');
+                button.textContent = 'Copied!';
+                button.classList.add('copied');
+                setTimeout(() => {
+                    button.textContent = 'Copy';
+                    button.classList.remove('copied');
+                }, 2000);
+            } catch (err) {
+                console.error('Fallback copy failed:', err);
+                alert('Failed to copy text. Please copy manually.');
+            }
+            document.body.removeChild(textArea);
+        }
 
-        // Display up to 15 matching questions as suggestions
-        if (matchingQuestions.length > 0) {
-            matchingQuestions.slice(0, 15).forEach(question => {
-                const suggestionItem = document.createElement('div');
-                suggestionItem.classList.add('suggestion-item');
-                suggestionItem.textContent = question;
-                // Store the question text in a data attribute to use when clicked
-                suggestionItem.setAttribute('data-question', question);
-                suggestionItem.addEventListener('click', function() {
-                    const selectedQuestion = this.getAttribute('data-question');
-                    searchInput.value = selectedQuestion;
-                    suggestionsDiv.innerHTML = '';
-                    suggestionsDiv.style.display = 'none';
+        // MCQ Answer Checking
+        function checkAnswer(questionId, correctAnswer) {
+            const selected = document.querySelector(`input[name="${questionId}"]:checked`);
+            const feedback = document.getElementById(`${questionId}-feedback`);
+            if (selected && selected.value === correctAnswer) {
+                feedback.textContent = "Correct!";
+                feedback.style.color = "green";
+            } else {
+                feedback.textContent = "Incorrect. Try again!";
+                feedback.style.color = "red";
+            }
+        }
 
-                    // Find the question in the questionMap
-                    let found = false;
-                    for (let key in questionMap) {
-                        if (key.endsWith(`-${selectedQuestion}`)) {
-                            const questionInfo = questionMap[key];
-                            console.log('Found question in questionMap:', key, questionInfo);
+        // Optimized Search Functionality with Google-Like Features
+        const searchInput = document.getElementById('searchInput');
+        const suggestionsDiv = document.getElementById('suggestions');
+        const clearButton = document.querySelector('.btn-clear');
+        let debounceTimeout;
+
+        // Debounced Search Function
+        function debounceSearch() {
+            clearTimeout(debounceTimeout);
+            debounceTimeout = setTimeout(() => {
+                const query = searchInput.value.trim();
+                const queryTokens = tokenize(query);
+                const questions = document.querySelectorAll('.question');
+                const activeTab = document.querySelector('.nav-pills .active').id.replace('pills-', '').replace('-tab', '');
+
+                // Show or hide clear button based on input
+                clearButton.style.display = query ? 'inline-block' : 'none';
+
+                // Clear previous suggestions
+                suggestionsDiv.innerHTML = '';
+                suggestionsDiv.style.display = 'none';
+
+                // If the search query is empty, show all questions for the active tab
+                if (!query) {
+                    questions.forEach(q => {
+                        const questionSubject = q.id.split('-')[0];
+                        q.style.display = (questionSubject === activeTab) ? '' : 'none';
+                        // Remove highlighting
+                        const questionTextElement = q.querySelector('.question-text, .card-title, .card-text');
+                        if (questionTextElement) {
+                            questionTextElement.innerHTML = questionTextElement.textContent;
+                        }
+                    });
+                    return;
+                }
+
+                // Autocomplete Suggestions: Filter questions that match the query for the active tab only
+                const matchingQuestions = allQuestions.filter(q => 
+                    q.subject === activeTab && 
+                    tokenize(q.question).some(token => token.includes(queryTokens[0]))
+                );
+
+                // Display up to 10 matching questions as suggestions (Google-like)
+                if (matchingQuestions.length > 0) {
+                    matchingQuestions.slice(0, 10).forEach(q => {
+                        const suggestionItem = document.createElement('div');
+                        suggestionItem.classList.add('suggestion-item');
+                        suggestionItem.textContent = q.question;
+                        suggestionItem.setAttribute('data-key', q.key);
+                        suggestionItem.addEventListener('click', function() {
+                            searchInput.value = q.question;
+                            suggestionsDiv.innerHTML = '';
+                            suggestionsDiv.style.display = 'none';
+
+                            // Find the question in the questionMap using the key
+                            const questionInfo = questionMap[q.key];
                             if (questionInfo && questionInfo.element) {
-                                // Switch to the correct tab
-                                const tabId = `pills-${questionInfo.subject}`;
-                                const tabButton = document.getElementById(`pills-${questionInfo.subject}-tab`);
-                                if (tabButton) {
-                                    console.log('Switching to tab:', tabId);
-                                    const tab = new bootstrap.Tab(tabButton);
-                                    tab.show();
-                                } else {
-                                    console.error('Tab button not found for ID:', `pills-${questionInfo.subject}-tab`);
-                                }
-
-                                // Scroll to the specific question
-                                setTimeout(() => {
-                                    if (questionInfo.element) {
-                                        console.log('Scrolling to element:', questionInfo.element);
-                                        questionInfo.element.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                                        // Highlight the question
-                                        questionInfo.element.style.border = '2px solid #4CAF50';
-                                        setTimeout(() => {
-                                            questionInfo.element.style.border = '1px solid #4CAF50'; // Revert to original border
-                                        }, 2000);
-                                    } else {
-                                        console.error('Element not found for question:', selectedQuestion);
+                                // Hide all questions and show only the matching one
+                                questions.forEach(qq => {
+                                    const qqSubject = qq.id.split('-')[0];
+                                    qq.style.display = (qqSubject === activeTab && qq === questionInfo.element) ? '' : 'none';
+                                    // Remove highlighting from other questions
+                                    const qqTextElement = qq.querySelector('.question-text, .card-title, .card-text');
+                                    if (qqTextElement) {
+                                        qqTextElement.innerHTML = qqTextElement.textContent;
                                     }
-                                }, 300); // Delay to ensure tab switch completes
-                                found = true;
-                                break;
+                                });
+
+                                // Highlight the matching text
+                                highlightText(questionInfo.element, q.question);
+
+                                // Scroll to the specific question and highlight it
+                                setTimeout(() => {
+                                    questionInfo.element.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                                    questionInfo.element.style.border = '2px solid #4CAF50';
+                                    setTimeout(() => {
+                                        questionInfo.element.style.border = '1px solid #4CAF50';
+                                    }, 2000);
+                                }, 300);
+                            } else {
+                                console.error('Question not found in questionMap:', q.key);
                             }
+                        });
+                        suggestionsDiv.appendChild(suggestionItem);
+                    });
+                    suggestionsDiv.style.display = 'block';
+                }
+
+                // Filter questions based on the active tab and search query
+                let anyMatch = false;
+                questions.forEach(q => {
+                    const questionText = q.textContent.toLowerCase();
+                    const questionSubject = q.id.split('-')[0];
+                    const questionTokens = tokenize(questionText);
+                    const matches = (questionSubject === activeTab) && queryTokens.every(token => questionTokens.some(qToken => qToken.includes(token)));
+                    if (matches) {
+                        anyMatch = true;
+                        q.style.display = '';
+                        // Highlight the matching text within the question
+                        highlightText(q, query);
+                    } else {
+                        q.style.display = 'none';
+                        // Remove highlighting
+                        const questionTextElement = q.querySelector('.question-text, .card-title, .card-text');
+                        if (questionTextElement) {
+                            questionTextElement.innerHTML = questionTextElement.textContent;
                         }
                     }
-                    if (!found) {
-                        console.error('Question not found in questionMap:', selectedQuestion);
-                        console.log('Available keys in questionMap:', Object.keys(questionMap));
-                    }
                 });
-                suggestionsDiv.appendChild(suggestionItem);
+
+                // If no matches found, show a message
+                if (!anyMatch) {
+                    const activeTabContent = document.querySelector(`#pills-${activeTab}`);
+                    activeTabContent.innerHTML = '<p>No matching questions found in this tab.</p>';
+                }
+            }, 300); // 300ms debounce for smooth performance
+        }
+
+        // Highlight matching text in the question
+        function highlightText(element, query) {
+            const questionTextElement = element.querySelector('.question-text, .card-title, .card-text');
+            if (!questionTextElement) return;
+
+            const text = questionTextElement.textContent;
+            const regex = new RegExp(`(${query})`, 'gi');
+            const highlightedText = text.replace(regex, '<span style="background-color: yellow; color: black;">$1</span>');
+            questionTextElement.innerHTML = highlightedText;
+        }
+
+        // Add debounced search on input
+        searchInput.addEventListener('input', debounceSearch);
+
+        // Clear button functionality
+        clearButton.addEventListener('click', function() {
+            searchInput.value = '';
+            const questions = document.querySelectorAll('.question');
+            const activeTab = document.querySelector('.nav-pills .active').id.replace('pills-', '').replace('-tab', '');
+
+            // Show all questions for the active tab
+            questions.forEach(q => {
+                const questionSubject = q.id.split('-')[0];
+                q.style.display = (questionSubject === activeTab) ? '' : 'none';
+                // Remove highlighting
+                const questionTextElement = q.querySelector('.question-text, .card-title, .card-text');
+                if (questionTextElement) {
+                    questionTextElement.innerHTML = questionTextElement.textContent;
+                }
             });
-            suggestionsDiv.style.display = 'block';
-        }
 
-        // Improved Search Functionality: Token-based matching
-        questions.forEach(q => {
-            const questionText = q.textContent.toLowerCase();
-            const questionTokens = tokenize(questionText);
-            const matches = queryTokens.some(token => questionTokens.includes(token));
-            q.style.display = matches ? '' : 'none';
-        });
-    });
+            // Reset the tab content to show all sections
+            const activeTabContent = document.querySelector(`#pills-${activeTab}`);
+            activeTabContent.innerHTML = `
+                <div class="d-flex gap-1 mb-3 q-head">
+                    <a href="#${activeTab}-mcq" class="btn">MCQ</a>
+                    <a href="#${activeTab}-onemarks" class="btn">Short Questions</a>
+                    <a href="#${activeTab}-long" class="btn">Long</a>
+                </div>
+                <div id="${activeTab}-mcq">
+                    <h2>MCQ</h2>
+                    <div id="${activeTab}-mcq-questions"></div>
+                </div>
+                <div id="${activeTab}-onemarks" class="onemarks-section">
+                    <h2>Short Questions</h2>
+                    <div id="${activeTab}-onemarks-questions"></div>
+                </div>
+                <div id="${activeTab}-long">
+                    <h2>Long Questions</h2>
+                    <div id="${activeTab}-long-questions"></div>
+                </div>
+                <a href="path/to/${activeTab}_paper.pdf" class="btn btn-primary" download aria-label="Download ${activeTab.toUpperCase()} Paper">Download ${activeTab.toUpperCase()} Paper</a>
+            `;
 
-    // Hide suggestions when clicking outside the search bar
-    document.addEventListener('click', function(event) {
-        if (!searchInput.contains(event.target) && !suggestionsDiv.contains(event.target)) {
+            // Re-render the questions for the active tab
+            fetch('questions.json')
+                .then(response => response.json())
+                .then(data => {
+                    renderQuestions(`${activeTab}-mcq-questions`, data[activeTab].mcq, true, false, activeTab, 'mcq');
+                    renderQuestions(`${activeTab}-onemarks-questions`, data[activeTab].onemarks, false, true, activeTab, 'onemarks');
+                    renderQuestions(`${activeTab}-long-questions`, data[activeTab].long, false, false, activeTab, 'long');
+                });
+
+            clearButton.style.display = 'none';
             suggestionsDiv.style.display = 'none';
-        }
-    });
-
-    // Back to Top Button Functionality
-    const backToTopBtn = document.getElementById('backToTopBtn');
-    window.addEventListener('scroll', function() {
-        if (window.scrollY > 300) {
-            backToTopBtn.style.display = 'block';
-        } else {
-            backToTopBtn.style.display = 'none';
-        }
-    });
-    backToTopBtn.addEventListener('click', function() {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
         });
-    });
 
-    // Fallback if Font Awesome fails to load
-    document.addEventListener('DOMContentLoaded', () => {
-        const instagramIcon = document.querySelector('.fa-instagram');
-        const telegramIcon = document.querySelector('.fa-telegram');
-        const arrowIcon = document.querySelector('.fa-arrow-up');
-        if (!instagramIcon || !telegramIcon || !arrowIcon) {
-            console.warn('Font Awesome icons not loading. Check your internet connection or CDN.');
-            const modeBtn = document.querySelector('.mode-btn');
-            modeBtn.innerHTML = '<span style="color: #DBF8D7;">Icons Failed to Load</span>';
-            backToTopBtn.innerHTML = '↑';
-        }
-    });
-</script>
+        // Hide suggestions when clicking outside the search bar
+        document.addEventListener('click', function(event) {
+            if (!searchInput.contains(event.target) && !suggestionsDiv.contains(event.target) && !clearButton.contains(event.target)) {
+                suggestionsDiv.style.display = 'none';
+            }
+        });
+
+        // Back to Top Button Functionality
+        const backToTopBtn = document.getElementById('backToTopBtn');
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 300) {
+                backToTopBtn.style.display = 'block';
+            } else {
+                backToTopBtn.style.display = 'none';
+            }
+        });
+        backToTopBtn.addEventListener('click', function() {
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+        });
+
+        // Fallback if Font Awesome fails to load
+        document.addEventListener('DOMContentLoaded', () => {
+            const instagramIcon = document.querySelector('.fa-instagram');
+            const telegramIcon = document.querySelector('.fa-telegram');
+            const arrowIcon = document.querySelector('.fa-arrow-up');
+            if (!instagramIcon || !telegramIcon || !arrowIcon) {
+                console.warn('Font Awesome icons not loading. Check your internet connection or CDN.');
+                const modeBtn = document.querySelector('.mode-btn');
+                modeBtn.innerHTML = '<span style="color: #DBF8D7;">Icons Failed to Load</span>';
+                backToTopBtn.innerHTML = '↑';
+            }
+        });
+    </script>
 </body>
 </html>
