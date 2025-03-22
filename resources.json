@@ -54,5 +54,37 @@
       "pdf-url": "https://drive.google.com/file/d/1K8v2iG0R1bhOs0FmmBwsEvfxUg2yYRbt/view?usp=drivesdk ",
       "pdf-image": "./images/Project_image.jpg"
     }
+  ],
+  "dsa-book-sources": [
+    {
+      "pdf-name": "Advanced DSA Book",
+      "pdf-description": "An in-depth guide to advanced DSA concepts and problem-solving.",
+      "pdf-url": "https://drive.google.com/file/d/14rxvFGugzn2UMbzkecjcXYXa9K6O5eFN/view?usp=drivesdk ",
+      "pdf-image": "./images/DSABook.jpeg"
+    }
+  ],
+  "dsa-notes-sources": [
+    {
+      "pdf-name": "DSA Handwritten Notes - Advanced",
+      "pdf-description": "Detailed handwritten notes on advanced DSA topics and techniques.",
+      "pdf-url": "https://drive.google.com/file/d/1ZxVMdqXUtiz_SiPxlwLFtdwp2qW4vqKv/view?usp=drivesdk ",
+      "pdf-image": "./images/dsaHandwriten.jpeg"
+    }
+  ],
+  "full-stack-roadmap-sources": [
+    {
+      "pdf-name": "Full Stack Roadmap",
+      "pdf-description": "A step-by-step roadmap for beginners to become a Full Stack Developer.",
+      "pdf-url": "https://drive.google.com/file/d/12RfNwZWL77MxrrCerOqDTo-hTB8vBuPP/view?usp=drivesdk ",
+      "pdf-image": "./images/fullstackroadmap.png"
+    }
+  ],
+  "java-coding-questions-sources": [
+    {
+      "pdf-name": "Java Coding Questions",
+      "pdf-description": "A collection of beginner-level Java coding questions for practice.",
+      "pdf-url": "https://drive.google.com/file/d/1QTLiykOLj8cUmgyTIj7ZU0QQoJ84UiwH/view?usp=drivesdk ",
+      "pdf-image": "./images/javaquepdf.jpeg"
+    }
   ]
 }
