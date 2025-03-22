@@ -1,16 +1,360 @@
 {
   "iot": {
-    "mcq": [
-      {
-        "question": "1. What does IoT stand for?",
-        "options": [
-          "a) Internet of Things",
-          "b) Internet of Technology"
-        ],
-        "correctAnswer": "a",
-        "id": "iot-q1"
-      }
-    ],
+    
+      "mcq": [
+        {
+          "question": "1. Photo as a service is categorized under which type?",
+          "options": [
+            "a) Photo as a Service",
+            "b) Photo as a Software",
+            "c) Platform as a Service",
+            "d) Platform as a Software"
+          ],
+          "correctAnswer": "c",
+          "id": "iot-q1"
+        },
+        {
+          "question": "2. IoT is an advanced automation and analytics system which deals with?",
+          "options": [
+            "a) Sensor, networking",
+            "b) Electronic",
+            "c) Cloud messaging",
+            "d) All of the above"
+          ],
+          "correctAnswer": "d",
+          "id": "iot-q2"
+        },
+        {
+          "question": "3. Which of the following devices is used to measure gases or liquid?",
+          "options": [
+            "a) Optical Sensor",
+            "b) Gas Sensor",
+            "c) Smoke Sensor",
+            "d) Pressure Sensor"
+          ],
+          "correctAnswer": "d",
+          "id": "iot-q3"
+        },
+        {
+          "question": "4. What is another name of the tactile sensor?",
+          "options": [
+            "a) Weight Sensor",
+            "b) Imaging Sensor",
+            "c) Proximity Sensor",
+            "d) Touch Sensor"
+          ],
+          "correctAnswer": "d",
+          "id": "iot-q4"
+        },
+        {
+          "question": "5. How many types of capacitive touch sensors are there in IoT?",
+          "options": [
+            "a) Two types",
+            "b) Five types",
+            "c) Seven types",
+            "d) Nine types"
+          ],
+          "correctAnswer": "a",
+          "id": "iot-q5"
+        },
+        {
+          "question": "6. Which of the following touch sensors is used in a cell phone?",
+          "options": [
+            "a) Resistive touch sensor",
+            "b) Human sensor",
+            "c) Capacitive touch sensor",
+            "d) Follow sensor"
+          ],
+          "correctAnswer": "c",
+          "id": "iot-q6"
+        },
+        {
+          "question": "7. Actuators are used to:",
+          "options": [
+            "a) Sense an object",
+            "b) Activate a chemical",
+            "c) Make a mechanical movement",
+            "d) All of the above"
+          ],
+          "correctAnswer": "c",
+          "id": "iot-q7"
+        },
+        {
+          "question": "8. The smallest change which a sensor can detect is termed:",
+          "options": [
+            "a) Accuracy",
+            "b) Precision",
+            "c) Resolution",
+            "d) Scale"
+          ],
+          "correctAnswer": "c",
+          "id": "iot-q8"
+        },
+        {
+          "question": "9. The more correct a sensor can measure, the more it is:",
+          "options": [
+            "a) Accurate",
+            "b) Precise",
+            "c) Scaled",
+            "d) Extent"
+          ],
+          "correctAnswer": "b",
+          "id": "iot-q9"
+        },
+        {
+          "question": "10. Which type of sensor is used to measure the distance between the vehicle and other objects in its environment?",
+          "options": [
+            "a) Ultrasonic sensor",
+            "b) Tactile sensor",
+            "c) Motion sensor",
+            "d) None of these"
+          ],
+          "correctAnswer": "a",
+          "id": "iot-q10"
+        },
+        {
+          "question": "11. What is the full form of IaaS?",
+          "options": [
+            "a) Internet as a Software",
+            "b) Internet as a Service",
+            "c) Infrastructure as a Software",
+            "d) Infrastructure as a Service"
+          ],
+          "correctAnswer": "d",
+          "id": "iot-q11"
+        },
+        {
+          "question": "12. The core element is operated by?",
+          "options": [
+            "a) IaaS",
+            "b) PaaS",
+            "c) SaaS",
+            "d) IoT service Provider"
+          ],
+          "correctAnswer": "d",
+          "id": "iot-q12"
+        },
+        {
+          "question": "13. A ______ tends to convert a physical attribute to an electrical signal.",
+          "options": [
+            "a) Actuator",
+            "b) Compiler",
+            "c) Sensor",
+            "d) Motors"
+          ],
+          "correctAnswer": "c",
+          "id": "iot-q13"
+        },
+        {
+          "question": "14. A ______ tends to convert an electrical signal to physical action.",
+          "options": [
+            "a) Compiler",
+            "b) Sensor",
+            "c) Motors",
+            "d) Actuator"
+          ],
+          "correctAnswer": "d",
+          "id": "iot-q14"
+        },
+        {
+          "question": "15. SaaS stands for?",
+          "options": [
+            "a) Software as a Service",
+            "b) Service as a Software",
+            "c) Service as a Service",
+            "d) Software as a Software"
+          ],
+          "correctAnswer": "a",
+          "id": "iot-q15"
+        },
+        {
+          "question": "16. ______ means a large set of structured, unstructured, and semi-structured data.",
+          "options": [
+            "a) Big Data",
+            "b) Small Data",
+            "c) Physical Computing",
+            "d) Cloud Computing"
+          ],
+          "correctAnswer": "a",
+          "id": "iot-q16"
+        },
+        {
+          "question": "17. Following type of sensors are used to generate information in object grasping and obstacle avoidance.",
+          "options": [
+            "a) Hall Effect sensor",
+            "b) Proximity sensor",
+            "c) Light sensor",
+            "d) Optical sensors"
+          ],
+          "correctAnswer": "b",
+          "id": "iot-q17"
+        },
+        {
+          "question": "18. Thermocouple is an example of which type of sensor?",
+          "options": [
+            "a) Modulating sensor",
+            "b) Direct sensor",
+            "c) Interrogating sensor",
+            "d) None of the above"
+          ],
+          "correctAnswer": "b",
+          "id": "iot-q18"
+        },
+        {
+          "question": "19. WSN stands for?",
+          "options": [
+            "a) Wireless Sensor Network",
+            "b) Wired Sensor Network",
+            "c) Wired Sensor Node",
+            "d) Wireless Sensor Node"
+          ],
+          "correctAnswer": "a",
+          "id": "iot-q19"
+        },
+        {
+          "question": "20. WSN depends on ______ connectivity.",
+          "options": [
+            "a) Wireless",
+            "b) Wired",
+            "c) RF",
+            "d) None of the above"
+          ],
+          "correctAnswer": "a",
+          "id": "iot-q20"
+        },
+        {
+          "question": "21. WSN are spatially distributed ______ sensors.",
+          "options": [
+            "a) Autonomous sensors",
+            "b) Dependent sensors",
+            "c) Bi-directional sensors",
+            "d) None of the above"
+          ],
+          "correctAnswer": "a",
+          "id": "iot-q21"
+        },
+        {
+          "question": "22. WSN is built with?",
+          "options": [
+            "a) Nodes",
+            "b) Switches",
+            "c) Wires",
+            "d) Radio"
+          ],
+          "correctAnswer": "a",
+          "id": "iot-q22"
+        },
+        {
+          "question": "23. Which of the following are current embedded systems being used in modern technology?",
+          "options": [
+            "a) Microprocessors",
+            "b) Microcontrollers",
+            "c) DSP processors",
+            "d) All of the above"
+          ],
+          "correctAnswer": "d",
+          "id": "iot-q23"
+        },
+        {
+          "question": "24. Which of the following designed system factors are minimized for an embedded application?",
+          "options": [
+            "a) Cost",
+            "b) Size",
+            "c) Performance",
+            "d) Both a and b"
+          ],
+          "correctAnswer": "d",
+          "id": "iot-q24"
+        },
+        {
+          "question": "25. Which of the following designed system factors are optimized or enhanced for an embedded application?",
+          "options": [
+            "a) Performance",
+            "b) Reliability",
+            "c) Efficiency",
+            "d) All of the above"
+          ],
+          "correctAnswer": "d",
+          "id": "iot-q25"
+        },
+        {
+          "question": "26. Example of a good password is:",
+          "options": [
+            "a) Name of a partner or spouse",
+            "b) Word related to a job or hobby",
+            "c) Words containing multiple random digits",
+            "d) Name of a child or pet"
+          ],
+          "correctAnswer": "c",
+          "id": "iot-q26"
+        },
+        {
+          "question": "27. Many applications use ______ where two independent factors are used to identify a user.",
+          "options": [
+            "a) Cross-site request forgery",
+            "b) Cross-site scoring scripting",
+            "c) Two-factor authentication",
+            "d) Cross-site scripting"
+          ],
+          "correctAnswer": "c",
+          "id": "iot-q27"
+        },
+        {
+          "question": "28. The process of identifying a person before giving access is called?",
+          "options": [
+            "a) Authentication",
+            "b) Encryption",
+            "c) Auditing",
+            "d) Access control"
+          ],
+          "correctAnswer": "a",
+          "id": "iot-q28"
+        },
+        {
+          "question": "29. An IoT network is a collection of ______ devices.",
+          "options": [
+            "a) Signal",
+            "b) Machine to Machine",
+            "c) Interconnected",
+            "d) Network to Network"
+          ],
+          "correctAnswer": "c",
+          "id": "iot-q29"
+        },
+        {
+          "question": "30. Which one of the following is not an IoT device?",
+          "options": [
+            "a) Amazon Echo Voice Controller",
+            "b) Google Home",
+            "c) Nest Smoke Alarm",
+            "d) None of these"
+          ],
+          "correctAnswer": "d",
+          "id": "iot-q30"
+        },
+        {
+          "question": "31. What is the main purpose of WoT (Web of Things) in IoT?",
+          "options": [
+            "a) Improve the usability and interoperability",
+            "b) Reduce security",
+            "c) Complex the development",
+            "d) Increase the cost"
+          ],
+          "correctAnswer": "a",
+          "id": "iot-q31"
+        },
+        {
+          "question": "32. Which of the following is not an application of IoT?",
+          "options": [
+            "a) Wearables",
+            "b) Smart Grid",
+            "c) Arduino",
+            "d) Smart City"
+          ],
+          "correctAnswer": "c",
+          "id": "iot-q32"
+        }
+      ],
     "onemarks": [
       {
         "question": "1. Define IoT and list out components of IoT.",
@@ -578,14 +922,438 @@
   "wd": {
     "mcq": [
       {
-        "question": "1. What does HTML stand for?",
-        "options": [
-          "a) HyperText Markup Language",
-          "b) HyperTransfer Markup Language"
-        ],
-        "correctAnswer": "a",
-        "id": "wd-q1"
-      }
+            "question": "1. What is the purpose of XML?",
+            "options": [
+              "a) To store and transport data",
+              "b) To execute JavaScript code",
+              "c) To create animations",
+              "d) To interact with databases"
+            ],
+            "correctAnswer": "a",
+            "id": "wd-q1"
+          },
+          {
+            "question": "2. Which syntax is used to write a comment in XML?",
+            "options": [
+              "a) <!-- This is a comment -->",
+              "b) // This is a comment",
+              "c) /* This is a comment */",
+              "d) # This is a comment"
+            ],
+            "correctAnswer": "a",
+            "id": "wd-q2"
+          },
+          {
+            "question": "3. What is the main purpose of $(document).ready() in jQuery?",
+            "options": [
+              "a) To run code after the page is fully loaded",
+              "b) To execute JavaScript immediately",
+              "c) To style HTML elements",
+              "d) To declare global variables"
+            ],
+            "correctAnswer": "a",
+            "id": "wd-q3"
+          },
+          {
+            "question": "4. What does the jQuery css() method do?",
+            "options": [
+              "a) Retrieves or sets CSS properties of an element",
+              "b) Creates new HTML elements",
+              "c) Adds new JavaScript functionality",
+              "d) Defines a new CSS stylesheet"
+            ],
+            "correctAnswer": "a",
+            "id": "wd-q4"
+          },
+          {
+            "question": "5. Which of the following represents a valid JSON array?",
+            "options": [
+              "a) [1, 2, 3, 4, 5]",
+              "b) {1, 2, 3, 4, 5}",
+              "c) (1, 2, 3, 4, 5)",
+              "d) <1, 2, 3, 4, 5>"
+            ],
+            "correctAnswer": "a",
+            "id": "wd-q5"
+          },
+          {
+            "question": "6. What is the main difference between JSON and XML?",
+            "options": [
+              "a) JSON is lightweight and easier to read than XML",
+              "b) JSON uses tags like XML",
+              "c) XML is faster to parse than JSON",
+              "d) JSON cannot store structured data"
+            ],
+            "correctAnswer": "a",
+            "id": "wd-q6"
+          },
+          {
+            "question": "7. What is the role of the XMLHttpRequest object?",
+            "options": [
+              "a) To handle asynchronous communication with a server",
+              "b) To style HTML pages",
+              "c) To execute database queries",
+              "d) To process CSS animations"
+            ],
+            "correctAnswer": "a",
+            "id": "wd-q7"
+          },
+          {
+            "question": "8. What is the key difference between synchronous and asynchronous requests?",
+            "options": [
+              "a) Synchronous blocks further execution, asynchronous does not",
+              "b) Asynchronous blocks execution, synchronous does not",
+              "c) Both work in the same way",
+              "d) Synchronous requests are always faster"
+            ],
+            "correctAnswer": "a",
+            "id": "wd-q8"
+          },
+          {
+            "question": "9. What is the purpose of the require() function in Node.js?",
+            "options": [
+              "a) To import modules",
+              "b) To define variables",
+              "c) To execute system commands",
+              "d) To perform database operations"
+            ],
+            "correctAnswer": "a",
+            "id": "wd-q9"
+          },
+          {
+            "question": "10. What does the HTTP module in Node.js allow developers to do?",
+            "options": [
+              "a) Create web servers and handle HTTP requests",
+              "b) Execute SQL queries",
+              "c) Manage JavaScript variables",
+              "d) Encrypt user passwords"
+            ],
+            "correctAnswer": "a",
+            "id": "wd-q10"
+          },
+          {
+            "question": "11. Why is XML considered extensible?",
+            "options": [
+              "a) Users can define their own tags",
+              "b) XML can only use predefined tags",
+              "c) XML is faster than JSON",
+              "d) XML is not extensible"
+            ],
+            "correctAnswer": "a",
+            "id": "wd-q11"
+          },
+          {
+            "question": "12. What is a jQuery object?",
+            "options": [
+              "a) A wrapper around DOM elements",
+              "b) A new JavaScript framework",
+              "c) A replacement for CSS",
+              "d) A programming language"
+            ],
+            "correctAnswer": "a",
+            "id": "wd-q12"
+          },
+          {
+            "question": "13. Which of the following is a valid JSON data type?",
+            "options": [
+              "a) String",
+              "b) Function",
+              "c) Date",
+              "d) Undefined"
+            ],
+            "correctAnswer": "a",
+            "id": "wd-q13"
+          },
+          {
+            "question": "14. What is the purpose of the jQuery css() method?",
+            "options": [
+              "a) To get or set CSS properties of an element",
+              "b) To create new HTML elements",
+              "c) To interact with databases",
+              "d) To execute JavaScript functions"
+            ],
+            "correctAnswer": "a",
+            "id": "wd-q14"
+          },
+          {
+            "question": "15. How are arrays represented in JSON?",
+            "options": [
+              "a) Using square brackets []",
+              "b) Using curly braces {}",
+              "c) Using angle brackets <>",
+              "d) Using parentheses ()"
+            ],
+            "correctAnswer": "a",
+            "id": "wd-q15"
+          },
+          {
+            "question": "16. What does the fs.appendFile() method do in Node.js?",
+            "options": [
+              "a) Appends data to a file",
+              "b) Deletes a file",
+              "c) Creates a new file only if it does not exist",
+              "d) Renames a file"
+            ],
+            "correctAnswer": "a",
+            "id": "wd-q16"
+          },
+          {
+            "question": "17. What is the V8 engine used for in Node.js?",
+            "options": [
+              "a) Executes JavaScript code",
+              "b) Handles HTTP requests",
+              "c) Manages file system operations",
+              "d) Stores session data"
+            ],
+            "correctAnswer": "a",
+            "id": "wd-q17"
+          },
+          {
+            "question": "18. What does the readyState property indicate in XMLHttpRequest?",
+            "options": [
+              "a) The current state of an HTTP request",
+              "b) The size of the response",
+              "c) The content type of the request",
+              "d) The status of the server"
+            ],
+            "correctAnswer": "a",
+            "id": "wd-q18"
+          },
+          {
+            "question": "19. What are the request and response components in Node.js used for?",
+            "options": [
+              "a) Handling HTTP communication",
+              "b) Executing database queries",
+              "c) Managing file systems",
+              "d) Running JavaScript functions"
+            ],
+            "correctAnswer": "a",
+            "id": "wd-q19"
+          },
+          {
+            "question": "20. How can files be deleted using Node.js?",
+            "options": [
+              "a) Using fs.unlink()",
+              "b) Using fs.appendFile()",
+              "c) Using fs.writeFile()",
+              "d) Using fs.deleteFile()"
+            ],
+            "correctAnswer": "a",
+            "id": "wd-q20"
+          },
+          
+            {
+              "question": "21. What is the purpose of the XML declaration?",
+              "options": [
+                "a) To define the XML version and encoding",
+                "b) To execute JavaScript code",
+                "c) To style the document",
+                "d) To connect to a database"
+              ],
+              "correctAnswer": "a",
+              "id": "wd-q21"
+            },
+            {
+              "question": "22. Which jQuery method displays hidden elements?",
+              "options": [
+                "a) fadeOut()",
+                "b) hide()",
+                "c) show()",
+                "d) slideUp()"
+              ],
+              "correctAnswer": "c",
+              "id": "wd-22"
+            },
+            {
+              "question": "23. What does AJAX primarily enable in web applications?",
+              "options": [
+                "a) Full page reloads",
+                "b) Asynchronous data exchange",
+                "c) Static content delivery",
+                "d) Server-side rendering"
+              ],
+              "correctAnswer": "b",
+              "id": "wd-23"
+            },
+            {
+              "question": "24. Which jQuery selector targets elements by their class?",
+              "options": [
+                "a) $('#id')",
+                "b) $('.className')",
+                "c) $('tagName')",
+                "d) $('[attribute]')"
+              ],
+              "correctAnswer": "b",
+              "id": "wd-24"
+            },
+            {
+              "question": "25. What is the primary function of the XMLHttpRequest object?",
+              "options": [
+                "a) To style web pages",
+                "b) To manage asynchronous HTTP requests",
+                "c) To store local data",
+                "d) To generate animations"
+              ],
+              "correctAnswer": "b",
+              "id": "wd-25"
+            },
+            {
+              "question": "26. How are user-defined modules exported in Node.js?",
+              "options": [
+                "a) Using the 'require' keyword",
+                "b) Using the 'exports' keyword",
+                "c) Using the 'import' keyword",
+                "d) Using the 'module' keyword"
+              ],
+              "correctAnswer": "b",
+              "id": "wd-26"
+            },
+            {
+              "question": "27. In JSON, how is an array of objects represented?",
+              "options": [
+                "a) With curly braces {}",
+                "b) With square brackets []",
+                "c) With parentheses ()",
+                "d) With angle brackets <>"
+              ],
+              "correctAnswer": "b",
+              "id": "wd-27"
+            },
+            {
+              "question": "28. What is the root element in an XML document?",
+              "options": [
+                "a) The first element after the declaration",
+                "b) The last element in the document",
+                "c) The element with the most attributes",
+                "d) The element with no parent"
+              ],
+              "correctAnswer": "d",
+              "id": "wd-28"
+            },
+            {
+              "question": "29. Which field is NOT typically part of an employee JSON object?",
+              "options": [
+                "a) empCode",
+                "b) fullName",
+                "c) browserHistory",
+                "d) designation"
+              ],
+              "correctAnswer": "c",
+              "id": "wd-29"
+            },
+            {
+              "question": "30. What does the Node.js 'fs' module primarily handle?",
+              "options": [
+                "a) File system operations",
+                "b) Network requests",
+                "c) Database connections",
+                "d) User authentication"
+              ],
+              "correctAnswer": "a",
+              "id": "wd-30"
+            },
+            {
+              "question": "31. Which JSON data type represents an ordered list?",
+              "options": [
+                "a) Object",
+                "b) String",
+                "c) Array",
+                "d) Boolean"
+              ],
+              "correctAnswer": "c",
+              "id": "wd-31"
+            },
+            {
+              "question": "32. Which jQuery event fires when a form is submitted?",
+              "options": [
+                "a) click()",
+                "b) submit()",
+                "c) change()",
+                "d) mouseover()"
+              ],
+              "correctAnswer": "b",
+              "id": "wd-32"
+            },
+            {
+              "question": "33. Which library mimics jQuery syntax in Node.js?",
+              "options": [
+                "a) Express",
+                "b) Cheerio",
+                "c) Lodash",
+                "d) Axios"
+              ],
+              "correctAnswer": "b",
+              "id": "wd-33"
+            },
+            {
+              "question": "34. What is a multi-dimensional array in JSON?",
+              "options": [
+                "a) An array containing objects",
+                "b) An array containing other arrays",
+                "c) An array with key-value pairs",
+                "d) An array with a single value"
+              ],
+              "correctAnswer": "b",
+              "id": "wd-34"
+            },
+            {
+              "question": "35. Which jQuery method inserts content at the beginning of an element?",
+              "options": [
+                "a) append()",
+                "b) after()",
+                "c) prepend()",
+                "d) before()"
+              ],
+              "correctAnswer": "c",
+              "id": "wd-35"
+            },
+            {
+              "question": "36. In XML, how must attributes be enclosed?",
+              "options": [
+                "a) Parentheses ()",
+                "b) Square brackets []",
+                "c) Single or double quotes (' or \")",
+                "d) Curly braces {}"
+              ],
+              "correctAnswer": "c",
+              "id": "wd-36"
+            },
+            {
+              "question": "37. What is a key difference between JSON and XML?",
+              "options": [
+                "a) JSON uses tags, XML uses key-value pairs",
+                "b) JSON is more verbose than XML",
+                "c) JSON is lightweight, XML is more verbose",
+                "d) JSON is platform-dependent, XML is not"
+              ],
+              "correctAnswer": "c",
+              "id": "wd-37"
+            },
+            {
+              "question": "38. What is a core feature of Node.js?",
+              "options": [
+                "a) Multi-threaded processing",
+                "b) Asynchronous event-driven model",
+                "c) Blocking I/O operations",
+                "d) Built-in browser support"
+              ],
+              "correctAnswer": "b",
+              "id": "wd-38"
+            },
+            {
+              "question": "39. What does the fs.writeFile() method do in Node.js?",
+              "options": [
+                "a) Reads file contents",
+                "b) Deletes a file",
+                "c) Writes or overwrites file content",
+                "d) Renames a file"
+              ],
+              "correctAnswer": "c",
+              "id": "wd-39"
+            }
+          
+        
+      
     ],
     "onemarks": [
       {
@@ -1200,15 +1968,471 @@
   },
   "net": {
     "mcq": [
-      {
-        "question": "1. What is CTS?",
-        "options": [
-          "a) Common Language Specification",
-          "b) Code Translation System"
-        ],
-        "correctAnswer": "a",
-        "id": "net-q1"
-      }
+      
+        {
+          "question": "1. What is boxing in VB.NET?",
+          "options": [
+            "a) Declaring a variable",
+            "b) Creating a new array",
+            "c) Converting a value type to a reference type",
+            "d) Converting a reference type to a value type"
+          ],
+          "correctAnswer": "c",
+          "id": "net-1"
+        },
+        {
+          "question": "2. What executes unmanaged code?",
+          "options": [
+            "a) Common Language Runtime (CLR)",
+            "b) .NET Framework",
+            "c) Garbage Collector",
+            "d) Operating System"
+          ],
+          "correctAnswer": "d",
+          "id": "net-2"
+        },
+        {
+          "question": "3. What does the Filter property of OpenFileDialog do?",
+          "options": [
+            "a) Changes the dialog title",
+            "b) Limits displayed file types",
+            "c) Enables multi-file selection",
+            "d) Sets the file save location"
+          ],
+          "correctAnswer": "b",
+          "id": "net-3"
+        },
+        {
+          "question": "4. How does an Array differ from a Collection in VB.NET?",
+          "options": [
+            "a) Arrays store multiple types, Collections store one type",
+            "b) Arrays are slower than Collections",
+            "c) Arrays are dynamic, Collections are fixed",
+            "d) Arrays have a fixed size, Collections are dynamic"
+          ],
+          "correctAnswer": "d",
+          "id": "net-4"
+        },
+        {
+          "question": "5. Which statement resizes an array while preserving its values in VB.NET?",
+          "options": [
+            "a) Dim",
+            "b) Resize",
+            "c) ReDim",
+            "d) ReDim Preserve"
+          ],
+          "correctAnswer": "d",
+          "id": "net-5"
+        },
+        {
+          "question": "6. Which ListBox method adds an item at a specific index?",
+          "options": [
+            "a) Append()",
+            "b) Insert()",
+            "c) Add()",
+            "d) Push()"
+          ],
+          "correctAnswer": "b",
+          "id": "net-6"
+        },
+        {
+          "question": "7. Which dialog control is used to select a folder in VB.NET?",
+          "options": [
+            "a) SaveFileDialog",
+            "b) OpenFileDialog",
+            "c) ColorDialog",
+            "d) FolderBrowserDialog"
+          ],
+          "correctAnswer": "d",
+          "id": "net-7"
+        },
+        {
+          "question": "8. What does Option Explicit enforce in VB.NET?",
+          "options": [
+            "a) Variable declaration before use",
+            "b) Code optimization",
+            "c) Method overloading",
+            "d) Exception handling"
+          ],
+          "correctAnswer": "a",
+          "id": "net-8"
+        },
+        {
+          "question": "9. What does the MustInherit keyword define in VB.NET?",
+          "options": [
+            "a) A static class",
+            "b) An interface",
+            "c) An abstract class",
+            "d) A sealed class"
+          ],
+          "correctAnswer": "c",
+          "id": "net-9"
+        },
+        {
+          "question": "10. What is the purpose of the CType() function in VB.NET?",
+          "options": [
+            "a) To resize arrays",
+            "b) To convert data types",
+            "c) To handle exceptions",
+            "d) To declare variables"
+          ],
+          "correctAnswer": "b",
+          "id": "net-10"
+        },
+        {
+          "question": "11. What is the key difference between Dim and ReDim in VB.NET?",
+          "options": [
+            "a) Dim is for strings, ReDim is for numbers",
+            "b) Dim declares, ReDim resizes",
+            "c) Dim resizes, ReDim declares",
+            "d) Dim is static, ReDim is dynamic"
+          ],
+          "correctAnswer": "b",
+          "id": "net-11"
+        },
+        {
+          "question": "12. What is the purpose of a Namespace in VB.NET?",
+          "options": [
+            "a) To execute code",
+            "b) To handle exceptions",
+            "c) To manage memory",
+            "d) To avoid name conflicts"
+          ],
+          "correctAnswer": "d",
+          "id": "net-12"
+        },
+        {
+          "question": "13. What happens in Pass by Value in VB.NET?",
+          "options": [
+            "a) A reference is passed",
+            "b) Memory usage decreases",
+            "c) Original value is modified",
+            "d) A copy of the value is passed"
+          ],
+          "correctAnswer": "d",
+          "id": "net-13"
+        },
+        {
+          "question": "14. What drives Event-Driven Programming in VB.NET?",
+          "options": [
+            "a) Conditional statements",
+            "b) Loops",
+            "c) Events",
+            "d) Arrays"
+          ],
+          "correctAnswer": "c",
+          "id": "net-14"
+        },
+        {
+          "question": "15. How are default arguments specified in VB.NET?",
+          "options": [
+            "a) Using Static keyword",
+            "b) Using Required keyword",
+            "c) Using Optional keyword",
+            "d) Using Default keyword"
+          ],
+          "correctAnswer": "c",
+          "id": "net-15"
+        },
+        {
+          "question": "16. What does Metadata describe in VB.NET?",
+          "options": [
+            "a) Hardware details",
+            "b) Network status",
+            "c) User input",
+            "d) Other data"
+          ],
+          "correctAnswer": "d",
+          "id": "net-16"
+        },
+        {
+          "question": "17. Where are Shared Assemblies stored in .NET?",
+          "options": [
+            "a) Local disk",
+            "b) Global Assembly Cache (GAC)",
+            "c) Application directory",
+            "d) Temporary folder"
+          ],
+          "correctAnswer": "b",
+          "id": "net-17"
+        },
+        {
+          "question": "18. Which method preserves array values during resizing in VB.NET?",
+          "options": [
+            "a) Dim Preserve",
+            "b) ReDim Preserve",
+            "c) ReDim",
+            "d) Resize Preserve"
+          ],
+          "correctAnswer": "b",
+          "id": "net-18"
+        },
+        {
+          "question": "19. Which keyboard event occurs when a key is released in VB.NET?",
+          "options": [
+            "a) KeyPress",
+            "b) KeyDown",
+            "c) KeyHold",
+            "d) KeyUp"
+          ],
+          "correctAnswer": "d",
+          "id": "net-19"
+        },
+        {
+          "question": "20. What is the execution engine of the .NET Framework?",
+          "options": [
+            "a) ASP.NET",
+            "b) CLR",
+            "c) FCL",
+            "d) ADO.NET"
+          ],
+          "correctAnswer": "b",
+          "id": "net-20"
+        },
+        {
+          "question": "21. Which VB.NET loop repeats until a condition is true?",
+          "options": [
+            "a) While",
+            "b) Do Until",
+            "c) For",
+            "d) Do While"
+          ],
+          "correctAnswer": "b",
+          "id": "net-21"
+        },
+        {
+          "question": "22. What does the CLR use to convert IL code to machine code?",
+          "options": [
+            "a) Exception Handling",
+            "b) Security Checks",
+            "c) JIT Compilation",
+            "d) Garbage Collection"
+          ],
+          "correctAnswer": "c",
+          "id": "net-22"
+        },
+        {
+          "question": "23. Which control creates a dropdown menu in VB.NET?",
+          "options": [
+            "a) ToolStrip",
+            "b) StatusStrip",
+            "c) MenuStrip",
+            "d) ContextMenuStrip"
+          ],
+          "correctAnswer": "c",
+          "id": "net-23"
+        },
+        {
+          "question": "24. Which block always executes in VB.NET exception handling?",
+          "options": [
+            "a) Catch",
+            "b) Finally",
+            "c) Try",
+            "d) Throw"
+          ],
+          "correctAnswer": "b",
+          "id": "net-24"
+        },
+        {
+          "question": "25. What is a delegate in VB.NET?",
+          "options": [
+            "a) An exception handler",
+            "b) A loop structure",
+            "c) A type-safe function pointer",
+            "d) A variable type"
+          ],
+          "correctAnswer": "c",
+          "id": "net-25"
+        },
+        {
+          "question": "26. What does multithreading improve in VB.NET?",
+          "options": [
+            "a) Code readability",
+            "b) Application performance",
+            "c) Memory usage",
+            "d) Error handling"
+          ],
+          "correctAnswer": "b",
+          "id": "net-26"
+        },
+        {
+          "question": "27. What syntax does LINQ use in VB.NET?",
+          "options": [
+            "a) Try...Catch",
+            "b) For...Next",
+            "c) From...Where...Select",
+            "d) If...Then...Else"
+          ],
+          "correctAnswer": "c",
+          "id": "net-27"
+        },
+        {
+          "question": "28. What keyword defines a generic type in VB.NET?",
+          "options": [
+            "a) Type",
+            "b) Generic",
+            "c) Of",
+            "d) As"
+          ],
+          "correctAnswer": "c",
+          "id": "net-28"
+        },
+        {
+          "question": "29. What namespace is used for Reflection in VB.NET?",
+          "options": [
+            "a) System.IO",
+            "b) System.Reflection",
+            "c) System.Threading",
+            "d) System.Data"
+          ],
+          "correctAnswer": "b",
+          "id": "net-29"
+        },
+        {
+          "question": "30. Which class is used for binary serialization in VB.NET?",
+          "options": [
+            "a) StreamWriter",
+            "b) FileStream",
+            "c) BinaryFormatter",
+            "d) XmlSerializer"
+          ],
+          "correctAnswer": "c",
+          "id": "net-30"
+        },
+        {
+          "question": "31. What is a DataSet in ADO.NET?",
+          "options": [
+            "a) A SQL query",
+            "b) An in-memory data representation",
+            "c) A database connection",
+            "d) A data provider"
+          ],
+          "correctAnswer": "b",
+          "id": "net-31"
+        },
+        {
+          "question": "32. Which access modifier allows access within the same assembly?",
+          "options": [
+            "a) Protected",
+            "b) Private",
+            "c) Public",
+            "d) Friend"
+          ],
+          "correctAnswer": "d",
+          "id": "net-32"
+        },
+        {
+          "question": "33. Which ComboBox property gets the selected item?",
+          "options": [
+            "a) Text",
+            "b) SelectedItem",
+            "c) Items",
+            "d) SelectedIndex"
+          ],
+          "correctAnswer": "b",
+          "id": "net-33"
+        },
+        {
+          "question": "34. Which VB.NET string function converts text to uppercase?",
+          "options": [
+            "a) Mid()",
+            "b) LCase()",
+            "c) Len()",
+            "d) UCase()"
+          ],
+          "correctAnswer": "d",
+          "id": "net-34"
+        },
+        {
+          "question": "35. Which TreeView property manages its nodes?",
+          "options": [
+            "a) ShowLines",
+            "b) CheckBoxes",
+            "c) Nodes",
+            "d) SelectedNode"
+          ],
+          "correctAnswer": "c",
+          "id": "net-35"
+        },
+        {
+          "question": "36. Which VB.NET data type stores true/false values?",
+          "options": [
+            "a) Double",
+            "b) Boolean",
+            "c) Integer",
+            "d) String"
+          ],
+          "correctAnswer": "b",
+          "id": "net-36"
+        },
+        {
+          "question": "37. What does InputBox do in VB.NET?",
+          "options": [
+            "a) Shows a dialog box",
+            "b) Takes user input",
+            "c) Displays a message",
+            "d) Closes the application"
+          ],
+          "correctAnswer": "b",
+          "id": "net-37"
+        },
+        {
+          "question": "38. What converts code to machine language in the .NET Framework?",
+          "options": [
+            "a) FCL",
+            "b) ASP.NET",
+            "c) CLR",
+            "d) ADO.NET"
+          ],
+          "correctAnswer": "c",
+          "id": "net-38"
+        },
+        {
+          "question": "39. Which OOP concept hides implementation details in .NET?",
+          "options": [
+            "a) Polymorphism",
+            "b) Encapsulation",
+            "c) Abstraction",
+            "d) Inheritance"
+          ],
+          "correctAnswer": "c",
+          "id": "net-39"
+        },
+        {
+          "question": "40. What ADO.NET component bridges DataSet and database?",
+          "options": [
+            "a) DataReader",
+            "b) Command",
+            "c) Connection",
+            "d) DataAdapter"
+          ],
+          "correctAnswer": "d",
+          "id": "net-40"
+        },
+        {
+          "question": "41. Which FontDialog property sets the selected font?",
+          "options": [
+            "a) ShowColor",
+            "b) Font",
+            "c) Reset",
+            "d) ShowApply"
+          ],
+          "correctAnswer": "b",
+          "id": "net-41"
+        },
+        {
+          "question": "42. What does 'On Error Resume Next' do in VB.NET?",
+          "options": [
+            "a) Jumps to a label",
+            "b) Throws an exception",
+            "c) Stops execution",
+            "d) Ignores errors and continues"
+          ],
+          "correctAnswer": "d",
+          "id": "net-42"
+        }
+        
+
     ],
     "onemarks": [
       {
