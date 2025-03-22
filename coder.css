@@ -7,6 +7,7 @@ body {
 /* Navbar */
 .navbar {
   padding: 0.6rem 0;
+  background-color: #1a3c34;
 }
 
 .navbar-nav-container {
