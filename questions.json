@@ -505,226 +505,228 @@
   },
   "java": {
     "mcq": [
-      {
-        "question": "1. What does JVM stand for?",
-        "options": [
-          "a) Java Virtual Machine",
-          "b) Java Variable Machine",
-          "c) Java Visual Machine",
-          "d) Java Version Machine"
-        ],
-        "correctAnswer": "a",
-        "id": "java-q1"
-      },
-      {
-        "question": "2. Who is the creator of the Java programming language?",
-        "options": [
-          "a) James Gosling",
-          "b) Charles Babbage",
-          "c) M. P. Java",
-          "d) Blais Pascal"
-        ],
-        "correctAnswer": "a",
-        "id": "java-q2"
-      },
-      {
-        "question": "3. Which component provides the runtime environment for Java bytecode?",
-        "options": [
-          "a) JDK",
-          "b) JVM",
-          "c) JRE",
-          "d) JAVAC"
-        ],
-        "correctAnswer": "c",
-        "id": "java-q3"
-      },
-      {
-        "question": "4. Which statement is true about Java?",
-        "options": [
-          "a) Java is a sequence-dependent programming language",
-          "b) Java is a platform-dependent programming language",
-          "c) Java is a platform-independent programming language",
-          "d) Java is a code-dependent programming language"
-        ],
-        "correctAnswer": "c",
-        "id": "java-q4"
-      },
-      {
-        "question": "5. Which of these is a selection statement in Java?",
-        "options": [
-          "a) break",
-          "b) continue",
-          "c) for()",
-          "d) if()"
-        ],
-        "correctAnswer": "d",
-        "id": "java-q5"
-      },
-      {
-        "question": "6. Which keyword is used to define interfaces in Java?",
-        "options": [
-          "a) Intf",
-          "b) intf",
-          "c) interface",
-          "d) Interface"
-        ],
-        "correctAnswer": "c",
-        "id": "java-q6"
-      },
-      {
-        "question": "7. Which keyword is used for the block to be examined for exceptions?",
-        "options": [
-          "a) check",
-          "b) throw",
-          "c) catch",
-          "d) try"
-        ],
-        "correctAnswer": "d",
-        "id": "java-q7"
-      },
-      {
-        "question": "8. Which method of the String class is used to obtain the length of a String object?",
-        "options": [
-          "a) get()",
-          "b) sizeof()",
-          "c) lengthOf()",
-          "d) length()"
-        ],
-        "correctAnswer": "d",
-        "id": "java-q8"
-      },
-      {
-        "question": "9. Which keyword can be used to prevent method overriding in Java?",
-        "options": [
-          "a) static",
-          "b) constant",
-          "c) protected",
-          "d) final"
-        ],
-        "correctAnswer": "d",
-        "id": "java-q9"
-      },
-      {
-        "question": "10. Which of these is the correct way of inheriting class A by class B?",
-        "options": [
-          "a) class B + class A {}",
-          "b) class B inherits class A {}",
-          "c) class B extends A {}",
-          "d) class B extends class A {}"
-        ],
-        "correctAnswer": "c",
-        "id": "java-q10"
-      },
-      {
-        "question": "11. What is the numerical range of a char?",
-        "options": [
-          "a) -128 to 127",
-          "b) (215) to (215) -1",
-          "c) 0 to 32767",
-          "d) 0 to 65535"
-        ],
-        "correctAnswer": "d",
-        "id": "java-11"
-      },
-      {
-        "question": "12. The command javac:",
-        "options": [
-          "a) Converts a Java program into binary code",
-          "b) Converts a Java program into bytecode",
-          "c) Converts a Java program into machine language",
-          "d) None of the above"
-        ],
-        "correctAnswer": "b",
-        "id": "java-12"
-      },
-      {
-        "question": "13. What's the difference between an Applet and an application?",
-        "options": [
-          "a) An application is only available on Windows",
-          "b) Applets can paint words, applications cannot.",
-          "c) Applets can run over the web.",
-          "d) None of the above"
-        ],
-        "correctAnswer": "c",
-        "id": "java-13"
-      },
-      {
-        "question": "14. Which operator is used by Java runtime implementations to free the memory of an object when it is no longer needed?",
-        "options": [
-          "a) Delete",
-          "b) free",
-          "c) new",
-          "d) None of the above"
-        ],
-        "correctAnswer": "d",
-        "id": "java-14"
-      },
-      {
-        "question": "15. The class at the top of exception class hierarchy is...",
-        "options": [
-          "a) ArithmeticException",
-          "b) Throwable",
-          "c) Object",
-          "d) Exception"
-        ],
-        "correctAnswer": "b",
-        "id": "java-15"
-      },
-      {
-        "question": "16. What is the default value of priority variable MIN_PRIORITY AND MAX_PRIORITY?",
-        "options": [
-          "a) 0 & 256",
-          "b) 0 & 1",
-          "c) 1 & 10",
-          "d) 1 & 256"
-        ],
-        "correctAnswer": "c",
-        "id": "java-16"
-      },
-      {
-        "question": "17. Which of these class is used to create an object whose character sequence is mutable?",
-        "options": [
-          "a) String()",
-          "b) String() & StringBuffer()",
-          "c) StringBuffer()",
-          "d) None of the mentioned"
-        ],
-        "correctAnswer": "c",
-        "id": "java-17"
-      },
-      {
-        "question": "18. First Node of linked list is called as.",
-        "options": [
-          "a) Location",
-          "b) Head",
-          "c) Value",
-          "d) Tail"
-        ],
-        "correctAnswer": "b",
-        "id": "java-18"
-      },
-      {
-        "question": "19. In ________ Last item contains link of the first element as next and the first element has a link to the last element as previous.",
-        "options": [
-          "a) Singly Linked List",
-          "b) Doubly Linked List",
-          "c) Circular Linked List",
-          "d) All of the above"
-        ],
-        "correctAnswer": "c",
-        "id": "java-19"
-      },
-      {
-        "question": "20. Which of these data types is used to store command line arguments?",
-        "options": [
-          "a) Array",
-          "b) Stack",
-          "c) String",
-          "d) Integer"
-        ],
-        "correctAnswer": "c",
-        "id": "java-q20"
-      }
+      
+        {
+          "question": "1. What does JVM stand for?",
+          "options": [
+            "a) Java Visual Machine",
+            "b) Java Virtual Machine",
+            "c) Java Variable Machine",
+            "d) Java Version Machine"
+          ],
+          "correctAnswer": "b",
+          "id": "java-q1"
+        },
+        {
+          "question": "2. Who is the creator of the Java programming language?",
+          "options": [
+            "a) Blais Pascal",
+            "b) Charles Babbage",
+            "c) James Gosling",
+            "d) M. P. Java"
+          ],
+          "correctAnswer": "c",
+          "id": "java-q2"
+        },
+        {
+          "question": "3. Which component provides the runtime environment for Java bytecode?",
+          "options": [
+            "a) JVM",
+            "b) JAVAC",
+            "c) JDK",
+            "d) JRE"
+          ],
+          "correctAnswer": "d",
+          "id": "java-q3"
+        },
+        {
+          "question": "4. Which statement is true about Java?",
+          "options": [
+            "a) Java is a platform-independent programming language",
+            "b) Java is a sequence-dependent programming language",
+            "c) Java is a code-dependent programming language",
+            "d) Java is a platform-dependent programming language"
+          ],
+          "correctAnswer": "a",
+          "id": "java-q4"
+        },
+        {
+          "question": "5. Which of these is a selection statement in Java?",
+          "options": [
+            "a) for()",
+            "b) break",
+            "c) if()",
+            "d) continue"
+          ],
+          "correctAnswer": "c",
+          "id": "java-q5"
+        },
+        {
+          "question": "6. Which keyword is used to define interfaces in Java?",
+          "options": [
+            "a) Intf",
+            "b) Interface",
+            "c) intf",
+            "d) interface"
+          ],
+          "correctAnswer": "d",
+          "id": "java-q6"
+        },
+        {
+          "question": "7. Which keyword is used for the block to be examined for exceptions?",
+          "options": [
+            "a) catch",
+            "b) try",
+            "c) check",
+            "d) throw"
+          ],
+          "correctAnswer": "b",
+          "id": "java-q7"
+        },
+        {
+          "question": "8. Which method of the String class is used to obtain the length of a String object?",
+          "options": [
+            "a) lengthOf()",
+            "b) get()",
+            "c) length()",
+            "d) sizeof()"
+          ],
+          "correctAnswer": "c",
+          "id": "java-q8"
+        },
+        {
+          "question": "9. Which keyword can be used to prevent method overriding in Java?",
+          "options": [
+            "a) protected",
+            "b) final",
+            "c) static",
+            "d) constant"
+          ],
+          "correctAnswer": "b",
+          "id": "java-q9"
+        },
+        {
+          "question": "10. Which of these is the correct way of inheriting class A by class B?",
+          "options": [
+            "a) class B extends A {}",
+            "b) class B + class A {}",
+            "c) class B extends class A {}",
+            "d) class B inherits class A {}"
+          ],
+          "correctAnswer": "a",
+          "id": "java-q10"
+        },
+        {
+          "question": "11. What is the numerical range of a char?",
+          "options": [
+            "a) 0 to 32767",
+            "b) 0 to 65535",
+            "c) -128 to 127",
+            "d) (215) to (215) -1"
+          ],
+          "correctAnswer": "b",
+          "id": "java-11"
+        },
+        {
+          "question": "12. The command javac:",
+          "options": [
+            "a) Converts a Java program into machine language",
+            "b) None of the above",
+            "c) Converts a Java program into bytecode",
+            "d) Converts a Java program into binary code"
+          ],
+          "correctAnswer": "c",
+          "id": "java-12"
+        },
+        {
+          "question": "13. What's the difference between an Applet and an application?",
+          "options": [
+            "a) Applets can run over the web.",
+            "b) An application is only available on Windows",
+            "c) None of the above",
+            "d) Applets can paint words, applications cannot."
+          ],
+          "correctAnswer": "a",
+          "id": "java-13"
+        },
+        {
+          "question": "14. Which operator is used by Java runtime implementations to free the memory of an object when it is no longer needed?",
+          "options": [
+            "a) free",
+            "b) None of the above",
+            "c) Delete",
+            "d) new"
+          ],
+          "correctAnswer": "b",
+          "id": "java-14"
+        },
+        {
+          "question": "15. The class at the top of exception class hierarchy is...",
+          "options": [
+            "a) Object",
+            "b) ArithmeticException",
+            "c) Throwable",
+            "d) Exception"
+          ],
+          "correctAnswer": "c",
+          "id": "java-15"
+        },
+        {
+          "question": "16. What is the default value of priority variable MIN_PRIORITY AND MAX_PRIORITY?",
+          "options": [
+            "a) 0 & 1",
+            "b) 1 & 10",
+            "c) 0 & 256",
+            "d) 1 & 256"
+          ],
+          "correctAnswer": "b",
+          "id": "java-16"
+        },
+        {
+          "question": "17. Which of these class is used to create an object whose character sequence is mutable?",
+          "options": [
+            "a) String()",
+            "b) None of the mentioned",
+            "c) StringBuffer()",
+            "d) String() & StringBuffer()"
+          ],
+          "correctAnswer": "c",
+          "id": "java-17"
+        },
+        {
+          "question": "18. First Node of linked list is called as.",
+          "options": [
+            "a) Tail",
+            "b) Value",
+            "c) Head",
+            "d) Location"
+          ],
+          "correctAnswer": "c",
+          "id": "java-18"
+        },
+        {
+          "question": "19. In ________ Last item contains link of the first element as next and the first element has a link to the last element as previous.",
+          "options": [
+            "a) Doubly Linked List",
+            "b) Circular Linked List",
+            "c) Singly Linked List",
+            "d) All of the above"
+          ],
+          "correctAnswer": "b",
+          "id": "java-19"
+        },
+        {
+          "question": "20. Which of these data types is used to store command line arguments?",
+          "options": [
+            "a) Stack",
+            "b) Integer",
+            "c) Array",
+            "d) String"
+          ],
+          "correctAnswer": "d",
+          "id": "java-q20"
+        }
+      
     ],
     "onemarks": [
       {
@@ -921,436 +923,437 @@
   },
   "wd": {
     "mcq": [
-      {
-            "question": "1. What is the purpose of XML?",
-            "options": [
-              "a) To store and transport data",
-              "b) To execute JavaScript code",
-              "c) To create animations",
-              "d) To interact with databases"
-            ],
-            "correctAnswer": "a",
-            "id": "wd-q1"
-          },
-          {
-            "question": "2. Which syntax is used to write a comment in XML?",
-            "options": [
-              "a) <!-- This is a comment -->",
-              "b) // This is a comment",
-              "c) /* This is a comment */",
-              "d) # This is a comment"
-            ],
-            "correctAnswer": "a",
-            "id": "wd-q2"
-          },
-          {
-            "question": "3. What is the main purpose of $(document).ready() in jQuery?",
-            "options": [
-              "a) To run code after the page is fully loaded",
-              "b) To execute JavaScript immediately",
-              "c) To style HTML elements",
-              "d) To declare global variables"
-            ],
-            "correctAnswer": "a",
-            "id": "wd-q3"
-          },
-          {
-            "question": "4. What does the jQuery css() method do?",
-            "options": [
-              "a) Retrieves or sets CSS properties of an element",
-              "b) Creates new HTML elements",
-              "c) Adds new JavaScript functionality",
-              "d) Defines a new CSS stylesheet"
-            ],
-            "correctAnswer": "a",
-            "id": "wd-q4"
-          },
-          {
-            "question": "5. Which of the following represents a valid JSON array?",
-            "options": [
-              "a) [1, 2, 3, 4, 5]",
-              "b) {1, 2, 3, 4, 5}",
-              "c) (1, 2, 3, 4, 5)",
-              "d) <1, 2, 3, 4, 5>"
-            ],
-            "correctAnswer": "a",
-            "id": "wd-q5"
-          },
-          {
-            "question": "6. What is the main difference between JSON and XML?",
-            "options": [
-              "a) JSON is lightweight and easier to read than XML",
-              "b) JSON uses tags like XML",
-              "c) XML is faster to parse than JSON",
-              "d) JSON cannot store structured data"
-            ],
-            "correctAnswer": "a",
-            "id": "wd-q6"
-          },
-          {
-            "question": "7. What is the role of the XMLHttpRequest object?",
-            "options": [
-              "a) To handle asynchronous communication with a server",
-              "b) To style HTML pages",
-              "c) To execute database queries",
-              "d) To process CSS animations"
-            ],
-            "correctAnswer": "a",
-            "id": "wd-q7"
-          },
-          {
-            "question": "8. What is the key difference between synchronous and asynchronous requests?",
-            "options": [
-              "a) Synchronous blocks further execution, asynchronous does not",
-              "b) Asynchronous blocks execution, synchronous does not",
-              "c) Both work in the same way",
-              "d) Synchronous requests are always faster"
-            ],
-            "correctAnswer": "a",
-            "id": "wd-q8"
-          },
-          {
-            "question": "9. What is the purpose of the require() function in Node.js?",
-            "options": [
-              "a) To import modules",
-              "b) To define variables",
-              "c) To execute system commands",
-              "d) To perform database operations"
-            ],
-            "correctAnswer": "a",
-            "id": "wd-q9"
-          },
-          {
-            "question": "10. What does the HTTP module in Node.js allow developers to do?",
-            "options": [
-              "a) Create web servers and handle HTTP requests",
-              "b) Execute SQL queries",
-              "c) Manage JavaScript variables",
-              "d) Encrypt user passwords"
-            ],
-            "correctAnswer": "a",
-            "id": "wd-q10"
-          },
-          {
-            "question": "11. Why is XML considered extensible?",
-            "options": [
-              "a) Users can define their own tags",
-              "b) XML can only use predefined tags",
-              "c) XML is faster than JSON",
-              "d) XML is not extensible"
-            ],
-            "correctAnswer": "a",
-            "id": "wd-q11"
-          },
-          {
-            "question": "12. What is a jQuery object?",
-            "options": [
-              "a) A wrapper around DOM elements",
-              "b) A new JavaScript framework",
-              "c) A replacement for CSS",
-              "d) A programming language"
-            ],
-            "correctAnswer": "a",
-            "id": "wd-q12"
-          },
-          {
-            "question": "13. Which of the following is a valid JSON data type?",
-            "options": [
-              "a) String",
-              "b) Function",
-              "c) Date",
-              "d) Undefined"
-            ],
-            "correctAnswer": "a",
-            "id": "wd-q13"
-          },
-          {
-            "question": "14. What is the purpose of the jQuery css() method?",
-            "options": [
-              "a) To get or set CSS properties of an element",
-              "b) To create new HTML elements",
-              "c) To interact with databases",
-              "d) To execute JavaScript functions"
-            ],
-            "correctAnswer": "a",
-            "id": "wd-q14"
-          },
-          {
-            "question": "15. How are arrays represented in JSON?",
-            "options": [
-              "a) Using square brackets []",
-              "b) Using curly braces {}",
-              "c) Using angle brackets <>",
-              "d) Using parentheses ()"
-            ],
-            "correctAnswer": "a",
-            "id": "wd-q15"
-          },
-          {
-            "question": "16. What does the fs.appendFile() method do in Node.js?",
-            "options": [
-              "a) Appends data to a file",
-              "b) Deletes a file",
-              "c) Creates a new file only if it does not exist",
-              "d) Renames a file"
-            ],
-            "correctAnswer": "a",
-            "id": "wd-q16"
-          },
-          {
-            "question": "17. What is the V8 engine used for in Node.js?",
-            "options": [
-              "a) Executes JavaScript code",
-              "b) Handles HTTP requests",
-              "c) Manages file system operations",
-              "d) Stores session data"
-            ],
-            "correctAnswer": "a",
-            "id": "wd-q17"
-          },
-          {
-            "question": "18. What does the readyState property indicate in XMLHttpRequest?",
-            "options": [
-              "a) The current state of an HTTP request",
-              "b) The size of the response",
-              "c) The content type of the request",
-              "d) The status of the server"
-            ],
-            "correctAnswer": "a",
-            "id": "wd-q18"
-          },
-          {
-            "question": "19. What are the request and response components in Node.js used for?",
-            "options": [
-              "a) Handling HTTP communication",
-              "b) Executing database queries",
-              "c) Managing file systems",
-              "d) Running JavaScript functions"
-            ],
-            "correctAnswer": "a",
-            "id": "wd-q19"
-          },
-          {
-            "question": "20. How can files be deleted using Node.js?",
-            "options": [
-              "a) Using fs.unlink()",
-              "b) Using fs.appendFile()",
-              "c) Using fs.writeFile()",
-              "d) Using fs.deleteFile()"
-            ],
-            "correctAnswer": "a",
-            "id": "wd-q20"
-          },
-          
-            {
-              "question": "21. What is the purpose of the XML declaration?",
-              "options": [
-                "a) To define the XML version and encoding",
-                "b) To execute JavaScript code",
-                "c) To style the document",
-                "d) To connect to a database"
-              ],
-              "correctAnswer": "a",
-              "id": "wd-q21"
-            },
-            {
-              "question": "22. Which jQuery method displays hidden elements?",
-              "options": [
-                "a) fadeOut()",
-                "b) hide()",
-                "c) show()",
-                "d) slideUp()"
-              ],
-              "correctAnswer": "c",
-              "id": "wd-22"
-            },
-            {
-              "question": "23. What does AJAX primarily enable in web applications?",
-              "options": [
-                "a) Full page reloads",
-                "b) Asynchronous data exchange",
-                "c) Static content delivery",
-                "d) Server-side rendering"
-              ],
-              "correctAnswer": "b",
-              "id": "wd-23"
-            },
-            {
-              "question": "24. Which jQuery selector targets elements by their class?",
-              "options": [
-                "a) $('#id')",
-                "b) $('.className')",
-                "c) $('tagName')",
-                "d) $('[attribute]')"
-              ],
-              "correctAnswer": "b",
-              "id": "wd-24"
-            },
-            {
-              "question": "25. What is the primary function of the XMLHttpRequest object?",
-              "options": [
-                "a) To style web pages",
-                "b) To manage asynchronous HTTP requests",
-                "c) To store local data",
-                "d) To generate animations"
-              ],
-              "correctAnswer": "b",
-              "id": "wd-25"
-            },
-            {
-              "question": "26. How are user-defined modules exported in Node.js?",
-              "options": [
-                "a) Using the 'require' keyword",
-                "b) Using the 'exports' keyword",
-                "c) Using the 'import' keyword",
-                "d) Using the 'module' keyword"
-              ],
-              "correctAnswer": "b",
-              "id": "wd-26"
-            },
-            {
-              "question": "27. In JSON, how is an array of objects represented?",
-              "options": [
-                "a) With curly braces {}",
-                "b) With square brackets []",
-                "c) With parentheses ()",
-                "d) With angle brackets <>"
-              ],
-              "correctAnswer": "b",
-              "id": "wd-27"
-            },
-            {
-              "question": "28. What is the root element in an XML document?",
-              "options": [
-                "a) The first element after the declaration",
-                "b) The last element in the document",
-                "c) The element with the most attributes",
-                "d) The element with no parent"
-              ],
-              "correctAnswer": "d",
-              "id": "wd-28"
-            },
-            {
-              "question": "29. Which field is NOT typically part of an employee JSON object?",
-              "options": [
-                "a) empCode",
-                "b) fullName",
-                "c) browserHistory",
-                "d) designation"
-              ],
-              "correctAnswer": "c",
-              "id": "wd-29"
-            },
-            {
-              "question": "30. What does the Node.js 'fs' module primarily handle?",
-              "options": [
-                "a) File system operations",
-                "b) Network requests",
-                "c) Database connections",
-                "d) User authentication"
-              ],
-              "correctAnswer": "a",
-              "id": "wd-30"
-            },
-            {
-              "question": "31. Which JSON data type represents an ordered list?",
-              "options": [
-                "a) Object",
-                "b) String",
-                "c) Array",
-                "d) Boolean"
-              ],
-              "correctAnswer": "c",
-              "id": "wd-31"
-            },
-            {
-              "question": "32. Which jQuery event fires when a form is submitted?",
-              "options": [
-                "a) click()",
-                "b) submit()",
-                "c) change()",
-                "d) mouseover()"
-              ],
-              "correctAnswer": "b",
-              "id": "wd-32"
-            },
-            {
-              "question": "33. Which library mimics jQuery syntax in Node.js?",
-              "options": [
-                "a) Express",
-                "b) Cheerio",
-                "c) Lodash",
-                "d) Axios"
-              ],
-              "correctAnswer": "b",
-              "id": "wd-33"
-            },
-            {
-              "question": "34. What is a multi-dimensional array in JSON?",
-              "options": [
-                "a) An array containing objects",
-                "b) An array containing other arrays",
-                "c) An array with key-value pairs",
-                "d) An array with a single value"
-              ],
-              "correctAnswer": "b",
-              "id": "wd-34"
-            },
-            {
-              "question": "35. Which jQuery method inserts content at the beginning of an element?",
-              "options": [
-                "a) append()",
-                "b) after()",
-                "c) prepend()",
-                "d) before()"
-              ],
-              "correctAnswer": "c",
-              "id": "wd-35"
-            },
-            {
-              "question": "36. In XML, how must attributes be enclosed?",
-              "options": [
-                "a) Parentheses ()",
-                "b) Square brackets []",
-                "c) Single or double quotes (' or \")",
-                "d) Curly braces {}"
-              ],
-              "correctAnswer": "c",
-              "id": "wd-36"
-            },
-            {
-              "question": "37. What is a key difference between JSON and XML?",
-              "options": [
-                "a) JSON uses tags, XML uses key-value pairs",
-                "b) JSON is more verbose than XML",
-                "c) JSON is lightweight, XML is more verbose",
-                "d) JSON is platform-dependent, XML is not"
-              ],
-              "correctAnswer": "c",
-              "id": "wd-37"
-            },
-            {
-              "question": "38. What is a core feature of Node.js?",
-              "options": [
-                "a) Multi-threaded processing",
-                "b) Asynchronous event-driven model",
-                "c) Blocking I/O operations",
-                "d) Built-in browser support"
-              ],
-              "correctAnswer": "b",
-              "id": "wd-38"
-            },
-            {
-              "question": "39. What does the fs.writeFile() method do in Node.js?",
-              "options": [
-                "a) Reads file contents",
-                "b) Deletes a file",
-                "c) Writes or overwrites file content",
-                "d) Renames a file"
-              ],
-              "correctAnswer": "c",
-              "id": "wd-39"
-            }
+      
+        {
+          "question": "1. What is the purpose of XML?",
+          "options": [
+            "a) To store and transport data",
+            "b) To execute JavaScript code",
+            "c) To interact with databases",
+            "d) To create animations"
+          ],
+          "correctAnswer": "a",
+          "id": "wd-q1"
+        },
+        {
+          "question": "2. Which syntax is used to write a comment in XML?",
+          "options": [
+            "a) /* This is a comment */",
+            "b) <!-- This is a comment -->",
+            "c) # This is a comment",
+            "d) // This is a comment"
+          ],
+          "correctAnswer": "b",
+          "id": "wd-q2"
+        },
+        {
+          "question": "3. What is the main purpose of $(document).ready() in jQuery?",
+          "options": [
+            "a) To execute JavaScript immediately",
+            "b) To style HTML elements",
+            "c) To run code after the page is fully loaded",
+            "d) To declare global variables"
+          ],
+          "correctAnswer": "c",
+          "id": "wd-q3"
+        },
+        {
+          "question": "4. What does the jQuery css() method do?",
+          "options": [
+            "a) Creates new HTML elements",
+            "b) Defines a new CSS stylesheet",
+            "c) Retrieves or sets CSS properties of an element",
+            "d) Adds new JavaScript functionality"
+          ],
+          "correctAnswer": "c",
+          "id": "wd-q4"
+        },
+        {
+          "question": "5. Which of the following represents a valid JSON array?",
+          "options": [
+            "a) (1, 2, 3, 4, 5)",
+            "b) [1, 2, 3, 4, 5]",
+            "c) {1, 2, 3, 4, 5}",
+            "d) <1, 2, 3, 4, 5>"
+          ],
+          "correctAnswer": "b",
+          "id": "wd-q5"
+        },
+        {
+          "question": "6. What is the main difference between JSON and XML?",
+          "options": [
+            "a) JSON uses tags like XML",
+            "b) JSON is lightweight and easier to read than XML",
+            "c) XML is faster to parse than JSON",
+            "d) JSON cannot store structured data"
+          ],
+          "correctAnswer": "b",
+          "id": "wd-q6"
+        },
+        {
+          "question": "7. What is the role of the XMLHttpRequest object?",
+          "options": [
+            "a) To handle asynchronous communication with a server",
+            "b) To style HTML pages",
+            "c) To process CSS animations",
+            "d) To execute database queries"
+          ],
+          "correctAnswer": "a",
+          "id": "wd-q7"
+        },
+        {
+          "question": "8. What is the key difference between synchronous and asynchronous requests?",
+          "options": [
+            "a) Synchronous blocks further execution, asynchronous does not",
+            "b) Synchronous requests are always faster",
+            "c) Asynchronous blocks execution, synchronous does not",
+            "d) Both work in the same way"
+          ],
+          "correctAnswer": "a",
+          "id": "wd-q8"
+        },
+        {
+          "question": "9. What is the purpose of the require() function in Node.js?",
+          "options": [
+            "a) To perform database operations",
+            "b) To execute system commands",
+            "c) To define variables",
+            "d) To import modules"
+          ],
+          "correctAnswer": "d",
+          "id": "wd-q9"
+        },
+        {
+          "question": "10. What does the HTTP module in Node.js allow developers to do?",
+          "options": [
+            "a) Create web servers and handle HTTP requests",
+            "b) Manage JavaScript variables",
+            "c) Encrypt user passwords",
+            "d) Execute SQL queries"
+          ],
+          "correctAnswer": "a",
+          "id": "wd-q10"
+        },
+        {
+          "question": "11. Why is XML considered extensible?",
+          "options": [
+            "a) XML is faster than JSON",
+            "b) Users can define their own tags",
+            "c) XML can only use predefined tags",
+            "d) XML is not extensible"
+          ],
+          "correctAnswer": "b",
+          "id": "wd-q11"
+        },
+        {
+          "question": "12. What is a jQuery object?",
+          "options": [
+            "a) A new JavaScript framework",
+            "b) A programming language",
+            "c) A wrapper around DOM elements",
+            "d) A replacement for CSS"
+          ],
+          "correctAnswer": "c",
+          "id": "wd-q12"
+        },
+        {
+          "question": "13. Which of the following is a valid JSON data type?",
+          "options": [
+            "a) String",
+            "b) Function",
+            "c) Date",
+            "d) Undefined"
+          ],
+          "correctAnswer": "a",
+          "id": "wd-q13"
+        },
+        {
+          "question": "14. What is the purpose of the jQuery css() method?",
+          "options": [
+            "a) To create new HTML elements",
+            "b) To get or set CSS properties of an element",
+            "c) To interact with databases",
+            "d) To execute JavaScript functions"
+          ],
+          "correctAnswer": "b",
+          "id": "wd-q14"
+        },
+        {
+          "question": "15. How are arrays represented in JSON?",
+          "options": [
+            "a) Using angle brackets <>",
+            "b) Using curly braces {}",
+            "c) Using square brackets []",
+            "d) Using parentheses ()"
+          ],
+          "correctAnswer": "c",
+          "id": "wd-q15"
+        },
+        {
+          "question": "16. What does the fs.appendFile() method do in Node.js?",
+          "options": [
+            "a) Creates a new file only if it does not exist",
+            "b) Appends data to a file",
+            "c) Deletes a file",
+            "d) Renames a file"
+          ],
+          "correctAnswer": "b",
+          "id": "wd-q16"
+        },
+        {
+          "question": "17. What is the V8 engine used for in Node.js?",
+          "options": [
+            "a) Executes JavaScript code",
+            "b) Stores session data",
+            "c) Handles HTTP requests",
+            "d) Manages file system operations"
+          ],
+          "correctAnswer": "a",
+          "id": "wd-q17"
+        },
+        {
+          "question": "18. What does the readyState property indicate in XMLHttpRequest?",
+          "options": [
+            "a) The size of the response",
+            "b) The current state of an HTTP request",
+            "c) The content type of the request",
+            "d) The status of the server"
+          ],
+          "correctAnswer": "b",
+          "id": "wd-q18"
+        },
+        {
+          "question": "19. What are the request and response components in Node.js used for?",
+          "options": [
+            "a) Running JavaScript functions",
+            "b) Handling HTTP communication",
+            "c) Executing database queries",
+            "d) Managing file systems"
+          ],
+          "correctAnswer": "b",
+          "id": "wd-q19"
+        },
+        {
+          "question": "20. How can files be deleted using Node.js?",
+          "options": [
+            "a) Using fs.unlink()",
+            "b) Using fs.deleteFile()",
+            "c) Using fs.writeFile()",
+            "d) Using fs.appendFile()"
+          ],
+          "correctAnswer": "a",
+          "id": "wd-q20"
+        },
+        {
+          "question": "21. What is the purpose of the XML declaration?",
+          "options": [
+            "a) To define the XML version and encoding",
+            "b) To style the document",
+            "c) To connect to a database",
+            "d) To execute JavaScript code"
+          ],
+          "correctAnswer": "a",
+          "id": "wd-q21"
+        },
+        {
+          "question": "22. Which jQuery method displays hidden elements?",
+          "options": [
+            "a) fadeOut()",
+            "b) slideUp()",
+            "c) show()",
+            "d) hide()"
+          ],
+          "correctAnswer": "c",
+          "id": "wd-22"
+        },
+        {
+          "question": "23. What does AJAX primarily enable in web applications?",
+          "options": [
+            "a) Server-side rendering",
+            "b) Full page reloads",
+            "c) Static content delivery",
+            "d) Asynchronous data exchange"
+          ],
+          "correctAnswer": "d",
+          "id": "wd-23"
+        },
+        {
+          "question": "24. Which jQuery selector targets elements by their class?",
+          "options": [
+            "a) $('tagName')",
+            "b) $('.className')",
+            "c) $('[attribute]')",
+            "d) $('#id')"
+          ],
+          "correctAnswer": "b",
+          "id": "wd-24"
+        },
+        {
+          "question": "25. What is the primary function of the XMLHttpRequest object?",
+          "options": [
+            "a) To manage asynchronous HTTP requests",
+            "b) To generate animations",
+            "c) To store local data",
+            "d) To style web pages"
+          ],
+          "correctAnswer": "a",
+          "id": "wd-25"
+        },
+        {
+          "question": "26. How are user-defined modules exported in Node.js?",
+          "options": [
+            "a) Using the 'module' keyword",
+            "b) Using the 'exports' keyword",
+            "c) Using the 'import' keyword",
+            "d) Using the 'require' keyword"
+          ],
+          "correctAnswer": "b",
+          "id": "wd-26"
+        },
+        {
+          "question": "27. In JSON, how is an array of objects represented?",
+          "options": [
+            "a) With square brackets []",
+            "b) With curly braces {}",
+            "c) With angle brackets <>",
+            "d) With parentheses ()"
+          ],
+          "correctAnswer": "a",
+          "id": "wd-27"
+        },
+        {
+          "question": "28. What is the root element in an XML document?",
+          "options": [
+            "a) The last element in the document",
+            "b) The element with no parent",
+            "c) The first element after the declaration",
+            "d) The element with the most attributes"
+          ],
+          "correctAnswer": "b",
+          "id": "wd-28"
+        },
+        {
+          "question": "29. Which field is NOT typically part of an employee JSON object?",
+          "options": [
+            "a) empCode",
+            "b) browserHistory",
+            "c) designation",
+            "d) fullName"
+          ],
+          "correctAnswer": "b",
+          "id": "wd-29"
+        },
+        {
+          "question": "30. What does the Node.js 'fs' module primarily handle?",
+          "options": [
+            "a) File system operations",
+            "b) User authentication",
+            "c) Network requests",
+            "d) Database connections"
+          ],
+          "correctAnswer": "a",
+          "id": "wd-30"
+        },
+        {
+          "question": "31. Which JSON data type represents an ordered list?",
+          "options": [
+            "a) Array",
+            "b) Object",
+            "c) String",
+            "d) Boolean"
+          ],
+          "correctAnswer": "a",
+          "id": "wd-31"
+        },
+        {
+          "question": "32. Which jQuery event fires when a form is submitted?",
+          "options": [
+            "a) mouseover()",
+            "b) submit()",
+            "c) click()",
+            "d) change()"
+          ],
+          "correctAnswer": "b",
+          "id": "wd-32"
+        },
+        {
+          "question": "33. Which library mimics jQuery syntax in Node.js?",
+          "options": [
+            "a) Cheerio",
+            "b) Express",
+            "c) Axios",
+            "d) Lodash"
+          ],
+          "correctAnswer": "a",
+          "id": "wd-33"
+        },
+        {
+          "question": "34. What is a multi-dimensional array in JSON?",
+          "options": [
+            "a) An array containing other arrays",
+            "b) An array with key-value pairs",
+            "c) An array containing objects",
+            "d) An array with a single value"
+          ],
+          "correctAnswer": "a",
+          "id": "wd-34"
+        },
+        {
+          "question": "35. Which jQuery method inserts content at the beginning of an element?",
+          "options": [
+            "a) prepend()",
+            "b) append()",
+            "c) before()",
+            "d) after()"
+          ],
+          "correctAnswer": "a",
+          "id": "wd-35"
+        },
+        {
+          "question": "36. In XML, how must attributes be enclosed?",
+          "options": [
+            "a) Single or double quotes (' or \")",
+            "b) Curly braces {}",
+            "c) Square brackets []",
+            "d) Parentheses ()"
+          ],
+          "correctAnswer": "a",
+          "id": "wd-36"
+        },
+        {
+          "question": "37. What is a key difference between JSON and XML?",
+          "options": [
+            "a) JSON is lightweight, XML is more verbose",
+            "b) JSON uses tags, XML uses key-value pairs",
+            "c) JSON is more verbose than XML",
+            "d) JSON is platform-dependent, XML is not"
+          ],
+          "correctAnswer": "a",
+          "id": "wd-37"
+        },
+        {
+          "question": "38. What is a core feature of Node.js?",
+          "options": [
+            "a) Asynchronous event-driven model",
+            "b) Built-in browser support",
+            "c) Blocking I/O operations",
+            "d) Multi-threaded processing"
+          ],
+          "correctAnswer": "a",
+          "id": "wd-38"
+        },
+        {
+          "question": "39. What does the fs.writeFile() method do in Node.js?",
+          "options": [
+            "a) Deletes a file",
+            "b) Writes or overwrites file content",
+            "c) Reads file contents",
+            "d) Renames a file"
+          ],
+          "correctAnswer": "b",
+          "id": "wd-39"
+        }
+      
           
         
       
