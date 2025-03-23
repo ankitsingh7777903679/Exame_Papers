@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-0EFVRCHG68"></script>
+     <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G-0EFVRCHG68"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-0EFVRCHG68');
+    gtag('config', 'G-G-0EFVRCHG68'); // Replace with your tracking ID
 </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -32,8 +32,8 @@
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <link rel="stylesheet" href="hide.css">
-<script src="hide.js"></script>
+    <script src="hide.js"></script>
+    <script src="sems.js"></script>
     <style>
         body {
             background-color: #1A3C34;
@@ -211,6 +211,7 @@
             height: auto;
             flex: 1 1 calc(25% - 10px);
             object-fit: cover;
+            loading: lazy; /* Lazy load images */
         }
         @media (max-width: 768px) {
             .card .image-gallery img {
@@ -281,6 +282,10 @@
         .suggestion-item:hover {
             background-color: #3A3A3A;
         }
+        .suggestion-item.loading {
+            text-align: center;
+            color: #B0BEC5;
+        }
         .btn-clear {
             background-color: #4CAF50;
             color: white;
@@ -327,6 +332,92 @@
         .btn-years {
             justify-content: center;
         }
+        /* Comment Box Styles */
+        .comment-section {
+            background-color: #2F2F2F;
+            border: 1px solid #4CAF50;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        .comment-section h4 {
+            margin-bottom: 15px;
+        }
+        .comment-form {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .comment-form textarea {
+            background-color: #3A3A3A;
+            color: #E0E0E0;
+            border: 1px solid #4CAF50;
+            border-radius: 4px;
+            padding: 10px;
+            flex: 1;
+            resize: none;
+        }
+        .comment-form textarea:focus {
+            outline: none;
+            border-color: #4CAF50;
+            box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+        }
+        .comment-form button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        .comment-form button:hover {
+            background-color: #45a049;
+        }
+        .comment-form button:disabled {
+            background-color: #3A3A3A;
+            cursor: not-allowed;
+        }
+        .comment-list {
+            max-height: 300px;
+            overflow-y: auto;
+        }
+        .comment {
+            background-color: #3A3A3A;
+            border-radius: 4px;
+            padding: 10px;
+            margin-bottom: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+        }
+        .comment-text {
+            color: #E0E0E0;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+        }
+        .comment-timestamp {
+            color: #B0BEC5;
+            font-size: 0.85rem;
+        }
+        .load-more-btn {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+            cursor: pointer;
+            display: block;
+            margin: 10px auto;
+            transition: background-color 0.3s;
+        }
+        .load-more-btn:hover {
+            background-color: #45a049;
+        }
+        .load-more-btn:disabled {
+            background-color: #3A3A3A;
+            cursor: not-allowed;
+        }
     </style>
 </head>
 
@@ -353,7 +444,6 @@
                 <i class="fa-angle-left fa-solid"></i>
                 <a href="index.html" aria-label="Go to Home Page">HOME</a>
             </div>
-            
         </div>
     </div>
 
@@ -363,10 +453,10 @@
         </p>
         <ul class="nav nav-pills nav-sub justify-content-center mt-3" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
-                <button class="btn active" id="pills-iot-tab" data-bs-toggle="pill" data-bs-target="#pills-iot" type="button" role="tab" aria-controls="pills-iot" aria-selected="false">IOT</button>
+                <button class="btn active" id="pills-iot-tab" data-bs-toggle="pill" data-bs-target="#pills-iot" type="button" role="tab" aria-controls="pills-iot" aria-selected="true">IOT</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="btn " id="pills-java-tab" data-bs-toggle="pill" data-bs-target="#pills-java" type="button" role="tab" aria-controls="pills-java" aria-selected="true">JAVA</button>
+                <button class="btn" id="pills-java-tab" data-bs-toggle="pill" data-bs-target="#pills-java" type="button" role="tab" aria-controls="pills-java" aria-selected="false">JAVA</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="btn" id="pills-wd-tab" data-bs-toggle="pill" data-bs-target="#pills-wd" type="button" role="tab" aria-controls="pills-wd" aria-selected="false">WD</button>
@@ -375,7 +465,7 @@
                 <button class="btn" id="pills-mad-tab" data-bs-toggle="pill" data-bs-target="#pills-mad" type="button" role="tab" aria-controls="pills-mad" aria-selected="false">MAD</button>
             </li>
             <li class="nav-item" role="presentation">
-                <button class="btn " id="pills-net-tab" data-bs-toggle="pill" data-bs-target="#pills-net" type="button" role="tab" aria-controls="pills-net" aria-selected="false">.NET</button>
+                <button class="btn" id="pills-net-tab" data-bs-toggle="pill" data-bs-target="#pills-net" type="button" role="tab" aria-controls="pills-net" aria-selected="false">.NET</button>
             </li>
             <li class="nav-item" role="presentation">
                 <button class="btn" id="pills-practical-tab" data-bs-toggle="pill" data-bs-target="#pills-practical" type="button" role="tab" aria-controls="pills-practical" aria-selected="false">PRACTICAL</button>
@@ -404,6 +494,7 @@
                     <a href="#iot-mcq" class="btn">MCQ</a>
                     <a href="#iot-onemarks" class="btn">Short Questions</a>
                     <a href="#iot-long" class="btn">Long</a>
+                    <a href="#iot-imp" class="btn" data-subject="iot">IMP</a>
                 </div>
                 <div id="iot-mcq">
                     <h2>MCQ</h2>
@@ -417,7 +508,10 @@
                     <h2>Long Questions</h2>
                     <div id="iot-long-questions"></div>
                 </div>
-                <!-- <a href="path/to/iot_paper.pdf" class="btn btn-primary" download aria-label="Download IOT Paper">Download IOT Paper</a> -->
+                <div id="iot-imp">
+                    <h2>Important Questions</h2>
+                    <div id="iot-imp-questions"></div>
+                </div>
             </div>
 
             <div class="fade tab-pane" id="pills-java" role="tabpanel" aria-labelledby="pills-java-tab" tabindex="0">
@@ -425,6 +519,7 @@
                     <a href="#java-mcq" class="btn">MCQ</a>
                     <a href="#java-onemarks" class="btn">Short Questions</a>
                     <a href="#java-long" class="btn">Long</a>
+                    <a href="#java-imp" class="btn" data-subject="java">IMP</a>
                 </div>
                 <div id="java-mcq">
                     <h2>MCQ</h2>
@@ -438,7 +533,10 @@
                     <h2>Long Questions</h2>
                     <div id="java-long-questions"></div>
                 </div>
-                <!-- <a href="path/to/java_paper.pdf" class="btn btn-primary" download aria-label="Download JAVA Paper">Download JAVA Paper</a> -->
+                <div id="java-imp">
+                    <h2>Important Questions</h2>
+                    <div id="java-imp-questions"></div>
+                </div>
             </div>
 
             <div class="fade tab-pane" id="pills-wd" role="tabpanel" aria-labelledby="pills-wd-tab" tabindex="0">
@@ -446,6 +544,7 @@
                     <a href="#wd-mcq" class="btn">MCQ</a>
                     <a href="#wd-onemarks" class="btn">Short Questions</a>
                     <a href="#wd-long" class="btn">Long</a>
+                    <a href="#wd-imp" class="btn" data-subject="wd">IMP</a>
                 </div>
                 <div id="wd-mcq">
                     <h2>MCQ</h2>
@@ -459,7 +558,10 @@
                     <h2>Long Questions</h2>
                     <div id="wd-long-questions"></div>
                 </div>
-                <!-- <a href="https://drive.google.com/drive/folders/10evH0-dxRKPZ_HhQTx2cEI6HsxPrOnNH" class="btn btn-primary" download aria-label="Download WD Paper">Download WD Paper</a> -->
+                <div id="wd-imp">
+                    <h2>Important Questions</h2>
+                    <div id="wd-imp-questions"></div>
+                </div>
             </div>
 
             <div class="fade tab-pane" id="pills-mad" role="tabpanel" aria-labelledby="pills-mad-tab" tabindex="0">
@@ -467,6 +569,7 @@
                     <a href="#mad-mcq" class="btn">MCQ</a>
                     <a href="#mad-onemarks" class="btn">Short Questions</a>
                     <a href="#mad-long" class="btn">Long</a>
+                    <a href="#mad-imp" class="btn" data-subject="mad">IMP</a>
                 </div>
                 <div id="mad-mcq">
                     <h2>MCQ</h2>
@@ -480,7 +583,10 @@
                     <h2>Long Questions</h2>
                     <div id="mad-long-questions"></div>
                 </div>
-                <!-- <a href="path/to/wd_paper.pdf" class="btn btn-primary" download aria-label="Download mad Paper">Download WD Paper</a> -->
+                <div id="mad-imp">
+                    <h2>Important Questions</h2>
+                    <div id="mad-imp-questions"></div>
+                </div>
             </div>
 
             <div class="fade tab-pane" id="pills-net" role="tabpanel" aria-labelledby="pills-net-tab" tabindex="0">
@@ -488,6 +594,7 @@
                     <a href="#net-mcq" class="btn">MCQ</a>
                     <a href="#net-onemarks" class="btn">Short Questions</a>
                     <a href="#net-long" class="btn">Long</a>
+                    <a href="#net-imp" class="btn" data-subject="net">IMP</a>
                 </div>
                 <div id="net-mcq">
                     <h2>MCQ</h2>
@@ -501,7 +608,10 @@
                     <h2>Long Questions</h2>
                     <div id="net-long-questions"></div>
                 </div>
-                <!-- <a href="path/to/net_paper.pdf" class="btn btn-primary" download aria-label="Download .NET Paper">Download .NET Paper</a> -->
+                <div id="net-imp">
+                    <h2>Important Questions</h2>
+                    <div id="net-imp-questions"></div>
+                </div>
             </div>
 
             <div class="fade tab-pane" id="pills-practical" role="tabpanel" aria-labelledby="pills-practical-tab" tabindex="0">
@@ -509,6 +619,7 @@
                     <a href="#practical-mcq" class="btn">MCQ</a>
                     <a href="#practical-onemarks" class="btn">Short Questions</a>
                     <a href="#practical-long" class="btn">Long</a>
+                    <a href="#practical-imp" class="btn" data-subject="practical">IMP</a>
                 </div>
                 <div id="practical-mcq">
                     <h2>MCQ</h2>
@@ -522,7 +633,10 @@
                     <h2>Long Questions</h2>
                     <div id="practical-long-questions"></div>
                 </div>
-                <!-- <a href="path/to/practical_paper.pdf" class="btn btn-primary" download aria-label="Download Practical Paper">Download Practical Paper</a> -->
+                <div id="practical-imp">
+                    <h2>Important Questions</h2>
+                    <div id="practical-imp-questions"></div>
+                </div>
             </div>
 
             <div class="fade tab-pane" id="pills-papers" role="tabpanel" aria-labelledby="pills-papers-tab" tabindex="0">
@@ -545,6 +659,17 @@
                 </div>
             </div>
         </div>
+
+        <!-- Comment Section -->
+        <div class="container comment-section">
+            <h4>Comments</h4>
+            <div class="comment-form">
+                <textarea id="commentInput" rows="3" placeholder="Write a comment..." maxlength="500" aria-label="Write a comment"></textarea>
+                <button id="postCommentBtn" aria-label="Post comment">Post</button>
+            </div>
+            <div class="comment-list" id="commentList"></div>
+            <button id="loadMoreCommentsBtn" class="load-more-btn" style="display: none;" aria-label="Load more comments">Load More</button>
+        </div>
     </div>
 
     <button id="backToTopBtn" aria-label="Back to Top">
@@ -552,27 +677,74 @@
     </button>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <script>
+    <script type="module">
+        // Import Firebase SDKs
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-analytics.js";
+        import { getFirestore, collection, addDoc, query, orderBy, limit, getDocs, startAfter } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-firestore.js";
+
+        // Your web app's Firebase configuration
+        const firebaseConfig = {
+            apiKey: "AIzaSyBHewNLmqJPFMpLpvj2amQEapBNX9vZAuU",
+            authDomain: "questionbanker-79ff9.firebaseapp.com",
+            projectId: "questionbanker-79ff9",
+            storageBucket: "questionbanker-79ff9.firebasestorage.app",
+            messagingSenderId: "534281169916",
+            appId: "1:534281169916:web:44a98c2559cf984527e079",
+            measurementId: "G-YTYLDW22PH"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+        const db = getFirestore(app);
+
         // Helper function to escape HTML special characters for attributes
         function escapeHtmlForAttribute(str) {
             return str
-                .replace(/&/g, '&amp;')
-                .replace(/"/g, '&quot;')
-                .replace(/'/g, '&#39;')
-                .replace(/</g, '&lt;')
-                .replace(/>/g, '&gt;');
+            .replace(/&/g, '&amp;')
+        .replace(/"/g, '&quot;')
+        .replace(/'/g, '&#39;')
+        .replace(/</g, '&lt;')
+        .replace(/>/g, '&gt;');
         }
 
         // Global array to store all questions for autocomplete suggestions
         let allQuestions = [];
         // Global mapping of question key to DOM element and tab
         let questionMap = {};
+        // Cache for tokenized questions and keywords
+        let tokenizedCache = new Map();
 
         // Function to tokenize text into words
         function tokenize(text) {
             return text.toLowerCase()
                 .replace(/[^\w\s]/g, '') // Remove punctuation
                 .split(/\s+/); // Split by whitespace
+        }
+
+        // Function to calculate relevance score for search results
+        function calculateRelevance(queryTokens, questionTokens, keywordTokens) {
+            let score = 0;
+            queryTokens.forEach(qToken => {
+                // Check question text
+                questionTokens.forEach(qt => {
+                    if (qt.includes(qToken)) {
+                        score += 1; // Base score for question match
+                        if (qt === qToken) score += 2; // Bonus for exact match
+                        if (qt.startsWith(qToken)) score += 1; // Bonus for match at the start
+                    }
+                });
+                // Check keywords (higher weight)
+                keywordTokens.forEach(kt => {
+                    if (kt.includes(qToken)) {
+                        score += 3; // Higher score for keyword match
+                        if (kt === qToken) score += 5; // Bonus for exact keyword match
+                        if (kt.startsWith(qToken)) score += 2; // Bonus for keyword match at the start
+                    }
+                });
+            });
+            return score;
         }
 
         // Fetch Questions from JSON File
@@ -582,7 +754,7 @@
                 return response.json();
             })
             .then(data => {
-                // Collect all questions for autocomplete suggestions
+                // Collect all questions for autocomplete suggestions and cache tokenized versions
                 const subjects = ['iot', 'java', 'wd', 'mad', 'net', 'practical'];
                 subjects.forEach(subject => {
                     const subjectData = data[subject];
@@ -594,7 +766,17 @@
                     sections.forEach(section => {
                         section.questions.forEach((q, index) => {
                             const questionKey = `${subject}-${section.name}-${index}`;
-                            allQuestions.push({ question: q.question, subject: subject, key: questionKey });
+                            const questionTokens = tokenize(q.question);
+                            const keywordTokens = q.keywords ? tokenize(q.keywords.join(' ')) : [];
+                            allQuestions.push({
+                                question: q.question,
+                                subject: subject,
+                                key: questionKey,
+                                type: section.name,
+                                questionTokens: questionTokens,
+                                keywordTokens: keywordTokens
+                            });
+                            tokenizedCache.set(questionKey, { questionTokens, keywordTokens });
                             questionMap[questionKey] = { subject, section: section.name, element: null, questionText: q.question };
                         });
                     });
@@ -668,7 +850,7 @@
                     imagesHtml = `
                         <div class="image-gallery">
                             ${q.images.map(img => `
-                                <img src="${img}" alt="Diagram for ${q.question}" class="img-fluid">
+                                <img src="${img}" alt="Diagram for ${q.question}" class="img-fluid" loading="lazy">
                             `).join('')}
                         </div>
                     `;
@@ -677,12 +859,12 @@
                 if (isOneMarks) {
                     questionDiv.innerHTML = `
                         <div class="card-body">
-                            <p class="question-text">${q.question.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>
-                            <p class="answer-text">${q.answer.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>
+                            <p class="question-text">${q.question.replace(/</g, '<').replace(/>/g, '>')}</p>
+                            <p class="answer-text">${q.answer.replace(/</g, '<').replace(/>/g, '>')}</p>
                             ${imagesHtml}
                             ${q.code ? `
                                 <div class="code-block" style="position: relative;">
-                                    <pre>${q.code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>
+                                    <pre>${q.code.replace(/</g, '<').replace(/>/g, '>')}</pre>
                                     <button class="copy-btn" data-code="${escapeHtmlForAttribute(q.code)}" aria-label="Copy code">Copy</button>
                                 </div>
                             ` : ''}
@@ -691,15 +873,16 @@
                 } else if (isMcq) {
                     questionDiv.innerHTML = `
                         <div class="card-body">
-                            <h4 class="card-title">${q.question.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</h4>
+                            <h4 class="card-title">${q.question.replace(/</g, '<').replace(/>/g, '>')}</h4>
                             ${q.options.map((option, index) => `
-                                <input type="radio" name="${q.id}" value="${String.fromCharCode(97 + index)}"> ${option.replace(/</g, '&lt;').replace(/>/g, '&gt;')}<br>
+                                <input type="radio" name="${q.id}" value="${String.fromCharCode(97 + index)}" id="${q.id}-option-${index}">
+                                <label for="${q.id}-option-${index}">${option.replace(/</g, '<').replace(/>/g, '>')}</label><br>
                             `).join('')}
                             <button class="btn btn-primary mt-2" onclick="checkAnswer('${q.id}', '${q.correctAnswer}')" aria-label="Submit answer for ${q.question}">Submit</button>
                             <p id="${q.id}-feedback" class="mt-2"></p>
                             ${q.code ? `
                                 <div class="code-block" style="position: relative;">
-                                    <pre>${q.code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>
+                                    <pre>${q.code.replace(/</g, '<').replace(/>/g, '>')}</pre>
                                     <button class="copy-btn" data-code="${escapeHtmlForAttribute(q.code)}" aria-label="Copy code">Copy</button>
                                 </div>
                             ` : ''}
@@ -708,12 +891,12 @@
                 } else {
                     questionDiv.innerHTML = `
                         <div class="card-body">
-                            <h4 class="card-title">${q.question.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</h4>
-                            <p class="card-text">${q.answer.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>
+                            <h4 class="card-title">${q.question.replace(/</g, '<').replace(/>/g, '>')}</h4>
+                            <p class="card-text">${q.answer.replace(/</g, '<').replace(/>/g, '>')}</p>
                             ${imagesHtml}
                             ${q.code ? `
                                 <div class="code-block" style="position: relative;">
-                                    <pre>${q.code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>
+                                    <pre>${q.code.replace(/</g, '<').replace(/>/g, '>')}</pre>
                                     <button class="copy-btn" data-code="${escapeHtmlForAttribute(q.code)}" aria-label="Copy code">Copy</button>
                                 </div>
                             ` : ''}
@@ -728,7 +911,6 @@
             copyButtons.forEach(button => {
                 button.addEventListener('click', function() {
                     const code = this.getAttribute('data-code');
-                    // Try using navigator.clipboard first
                     if (navigator.clipboard && window.isSecureContext) {
                         navigator.clipboard.writeText(code).then(() => {
                             this.textContent = 'Copied!';
@@ -739,16 +921,61 @@
                             }, 2000);
                         }).catch(err => {
                             console.error('Failed to copy using clipboard API:', err);
-                            // Fallback to document.execCommand
                             fallbackCopyText(code, this);
                         });
                     } else {
-                        // Fallback for non-secure contexts or unsupported browsers
                         fallbackCopyText(code, this);
                     }
                 });
             });
         }
+
+        // Function to Render Important Questions
+        function renderImportantQuestions(subject) {
+            const container = document.getElementById(`${subject}-imp-questions`);
+            if (!container) {
+                console.error(`Container with ID ${subject}-imp-questions not found.`);
+                return;
+            }
+            container.innerHTML = '';
+
+            fetch('questions.json')
+                .then(response => response.json())
+                .then(data => {
+                    const importantQuestions = data[subject].mcq.filter(q => q.isImportant)
+                        .concat(data[subject].onemarks.filter(q => q.isImportant))
+                        .concat(data[subject].long.filter(q => q.isImportant));
+
+                    if (importantQuestions.length === 0) {
+                        container.innerHTML = '<p>No important questions available for this subject.</p>';
+                        return;
+                    }
+
+                    importantQuestions.forEach(q => {
+                        const questionDiv = document.createElement('div');
+                        questionDiv.classList.add('card', 'question');
+                        questionDiv.innerHTML = `
+                            <div class="card-body">
+                                <h4 class="card-title">${q.question.replace(/</g, '<').replace(/>/g, '>')}</h4>
+                                <p class="card-text">${q.answer ? q.answer.replace(/</g, '<').replace(/>/g, '>') : ''}</p>
+                            </div>
+                        `;
+                        container.appendChild(questionDiv);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching questions:', error);
+                    container.innerHTML = '<p>Error loading important questions.</p>';
+                });
+        }
+
+        // Add event listeners for IMP buttons
+        document.querySelectorAll('.q-head .btn[data-subject]').forEach(button => {
+            button.addEventListener('click', function() {
+                const subject = this.getAttribute('data-subject');
+                renderImportantQuestions(subject);
+            });
+        });
 
         // Fallback function for copying text
         function fallbackCopyText(text, button) {
@@ -784,11 +1011,15 @@
             }
         }
 
-        // Optimized Search Functionality with Google-Like Features
+        // Optimized Search Functionality with Keywords
         const searchInput = document.getElementById('searchInput');
         const suggestionsDiv = document.getElementById('suggestions');
         const clearButton = document.querySelector('.btn-clear');
         let debounceTimeout;
+
+        // Add a loading indicator for suggestions
+        suggestionsDiv.insertAdjacentHTML('beforeend', '<div class="suggestion-item loading" style="display: none;">Loading...</div>');
+        const loadingIndicator = suggestionsDiv.querySelector('.loading');
 
         // Debounced Search Function
         function debounceSearch() {
@@ -802,9 +1033,11 @@
                 // Show or hide clear button based on input
                 clearButton.style.display = query ? 'inline-block' : 'none';
 
-                // Clear previous suggestions
+                // Clear previous suggestions and show loading indicator
                 suggestionsDiv.innerHTML = '';
-                suggestionsDiv.style.display = 'none';
+                suggestionsDiv.appendChild(loadingIndicator);
+                suggestionsDiv.style.display = query ? 'block' : 'none';
+                loadingIndicator.style.display = query ? 'block' : 'none';
 
                 // If the search query is empty, show all questions for the active tab
                 if (!query) {
@@ -814,19 +1047,28 @@
                         // Remove highlighting
                         const questionTextElement = q.querySelector('.question-text, .card-title, .card-text');
                         if (questionTextElement) {
-                            questionTextElement.innerHTML = questionTextElement.textContent;
+                            const originalText = questionTextElement.getAttribute('data-original-text') || questionTextElement.textContent;
+                            questionTextElement.innerHTML = originalText;
+                            questionTextElement.setAttribute('data-original-text', originalText);
                         }
                     });
+                    suggestionsDiv.style.display = 'none';
                     return;
                 }
 
-                // Autocomplete Suggestions: Filter questions that match the query for the active tab only
-                const matchingQuestions = allQuestions.filter(q => 
-                    q.subject === activeTab && 
-                    tokenize(q.question).some(token => token.includes(queryTokens[0]))
-                );
+                // Autocomplete Suggestions: Filter and rank questions based on query
+                const matchingQuestions = allQuestions
+                    .map(q => {
+                        if (q.subject !== activeTab) return null;
+                        const { questionTokens, keywordTokens } = tokenizedCache.get(q.key);
+                        const relevance = calculateRelevance(queryTokens, questionTokens, keywordTokens);
+                        return relevance > 0 ? { ...q, relevance } : null;
+                    })
+                    .filter(q => q !== null)
+                    .sort((a, b) => b.relevance - a.relevance);
 
-                // Display up to 10 matching questions as suggestions (Google-like)
+                // Display up to 10 matching questions as suggestions
+                loadingIndicator.style.display = 'none';
                 if (matchingQuestions.length > 0) {
                     matchingQuestions.slice(0, 10).forEach(q => {
                         const suggestionItem = document.createElement('div');
@@ -848,7 +1090,9 @@
                                     // Remove highlighting from other questions
                                     const qqTextElement = qq.querySelector('.question-text, .card-title, .card-text');
                                     if (qqTextElement) {
-                                        qqTextElement.innerHTML = qqTextElement.textContent;
+                                        const originalText = qqTextElement.getAttribute('data-original-text') || qqTextElement.textContent;
+                                        qqTextElement.innerHTML = originalText;
+                                        qqTextElement.setAttribute('data-original-text', originalText);
                                     }
                                 });
 
@@ -870,15 +1114,26 @@
                         suggestionsDiv.appendChild(suggestionItem);
                     });
                     suggestionsDiv.style.display = 'block';
+                } else {
+                    suggestionsDiv.innerHTML = '<div class="suggestion-item">No suggestions found.</div>';
+                    suggestionsDiv.style.display = 'block';
                 }
 
                 // Filter questions based on the active tab and search query
                 let anyMatch = false;
+                const activeTabContent = document.querySelector(`#pills-${activeTab}`);
+                const originalContent = activeTabContent.innerHTML;
                 questions.forEach(q => {
-                    const questionText = q.textContent.toLowerCase();
                     const questionSubject = q.id.split('-')[0];
-                    const questionTokens = tokenize(questionText);
-                    const matches = (questionSubject === activeTab) && queryTokens.every(token => questionTokens.some(qToken => qToken.includes(token)));
+                    if (questionSubject !== activeTab) {
+                        q.style.display = 'none';
+                        return;
+                    }
+                    const { questionTokens, keywordTokens } = tokenizedCache.get(q.id) || { questionTokens: tokenize(q.textContent), keywordTokens: [] };
+                    const matches = queryTokens.every(token =>
+                        questionTokens.some(qToken => qToken.includes(token)) ||
+                        keywordTokens.some(kToken => kToken.includes(token))
+                    );
                     if (matches) {
                         anyMatch = true;
                         q.style.display = '';
@@ -889,15 +1144,31 @@
                         // Remove highlighting
                         const questionTextElement = q.querySelector('.question-text, .card-title, .card-text');
                         if (questionTextElement) {
-                            questionTextElement.innerHTML = questionTextElement.textContent;
+                            const originalText = questionTextElement.getAttribute('data-original-text') || questionTextElement.textContent;
+                            questionTextElement.innerHTML = originalText;
+                            questionTextElement.setAttribute('data-original-text', originalText);
                         }
                     }
                 });
 
                 // If no matches found, show a message
                 if (!anyMatch) {
-                    const activeTabContent = document.querySelector(`#pills-${activeTab}`);
-                    activeTabContent.innerHTML = '<p>No matching questions found in this tab.</p>';
+                    activeTabContent.innerHTML = `
+                        <p>No matching questions found in this tab.</p>
+                        <p>Try searching for related terms or check other tabs.</p>
+                    `;
+                } else {
+                    // Restore the original content if matches are found
+                    if (!activeTabContent.innerHTML.includes('id="' + activeTab + '-mcq"')) {
+                        activeTabContent.innerHTML = originalContent;
+                        fetch('questions.json')
+                            .then(response => response.json())
+                            .then(data => {
+                                renderQuestions(`${activeTab}-mcq-questions`, data[activeTab].mcq, true, false, activeTab, 'mcq');
+                                renderQuestions(`${activeTab}-onemarks-questions`, data[activeTab].onemarks, false, true, activeTab, 'onemarks');
+                                renderQuestions(`${activeTab}-long-questions`, data[activeTab].long, false, false, activeTab, 'long');
+                            });
+                    }
                 }
             }, 300); // 300ms debounce for smooth performance
         }
@@ -908,6 +1179,7 @@
             if (!questionTextElement) return;
 
             const text = questionTextElement.textContent;
+            questionTextElement.setAttribute('data-original-text', text); // Store original text
             const regex = new RegExp(`(${query})`, 'gi');
             const highlightedText = text.replace(regex, '<span style="background-color: yellow; color: black;">$1</span>');
             questionTextElement.innerHTML = highlightedText;
@@ -929,7 +1201,9 @@
                 // Remove highlighting
                 const questionTextElement = q.querySelector('.question-text, .card-title, .card-text');
                 if (questionTextElement) {
-                    questionTextElement.innerHTML = questionTextElement.textContent;
+                    const originalText = questionTextElement.getAttribute('data-original-text') || questionTextElement.textContent;
+                    questionTextElement.innerHTML = originalText;
+                    questionTextElement.setAttribute('data-original-text', originalText);
                 }
             });
 
@@ -940,6 +1214,7 @@
                     <a href="#${activeTab}-mcq" class="btn">MCQ</a>
                     <a href="#${activeTab}-onemarks" class="btn">Short Questions</a>
                     <a href="#${activeTab}-long" class="btn">Long</a>
+                    <a href="#${activeTab}-imp" class="btn" data-subject="${activeTab}">IMP</a>
                 </div>
                 <div id="${activeTab}-mcq">
                     <h2>MCQ</h2>
@@ -953,7 +1228,10 @@
                     <h2>Long Questions</h2>
                     <div id="${activeTab}-long-questions"></div>
                 </div>
-                <a href="path/to/${activeTab}_paper.pdf" class="btn btn-primary" download aria-label="Download ${activeTab.toUpperCase()} Paper">Download ${activeTab.toUpperCase()} Paper</a>
+                <div id="${activeTab}-imp">
+                    <h2>Important Questions</h2>
+                    <div id="${activeTab}-imp-questions"></div>
+                </div>
             `;
 
             // Re-render the questions for the active tab
@@ -990,6 +1268,130 @@
                 top: 0,
                 behavior: 'smooth'
             });
+        });
+
+        // Comment Box Functionality Using Firebase Firestore
+        const commentInput = document.getElementById('commentInput');
+        const postCommentBtn = document.getElementById('postCommentBtn');
+        const commentList = document.getElementById('commentList');
+        const loadMoreCommentsBtn = document.getElementById('loadMoreCommentsBtn');
+        let displayedComments = [];
+        const COMMENTS_PER_PAGE = 10;
+        let currentPage = 0;
+        let lastVisible = null;
+
+        // Function to fetch and display comments from Firestore
+        async function fetchComments(page = 0) {
+            try {
+                let q = query(
+                    collection(db, 'comments'),
+                    orderBy('timestamp', 'desc'),
+                    limit(COMMENTS_PER_PAGE)
+                );
+
+                if (page > 0 && lastVisible) {
+                    q = query(
+                        collection(db, 'comments'),
+                        orderBy('timestamp', 'desc'),
+                        startAfter(lastVisible),
+                        limit(COMMENTS_PER_PAGE)
+                    );
+                }
+
+                const snapshot = await getDocs(q);
+                const comments = [];
+                snapshot.forEach(doc => {
+                    comments.push({ id: doc.id, ...doc.data() });
+                });
+
+                if (page === 0) {
+                    displayedComments = comments;
+                    commentList.innerHTML = '';
+                } else {
+                    displayedComments = [...displayedComments, ...comments];
+                }
+
+                lastVisible = snapshot.docs[snapshot.docs.length - 1];
+
+                // Render comments
+                comments.forEach(comment => {
+                    if (!document.querySelector(`[data-comment-id="${comment.id}"]`)) {
+                        const commentDiv = document.createElement('div');
+                        commentDiv.classList.add('comment');
+                        commentDiv.setAttribute('data-comment-id', comment.id);
+                        commentDiv.innerHTML = `
+                            <p class="comment-text">${comment.text.replace(/</g, '<').replace(/>/g, '>')}</p>
+                            <p class="comment-timestamp">${new Date(comment.timestamp).toLocaleString()}</p>
+                        `;
+                        commentList.appendChild(commentDiv);
+                    }
+                });
+
+                // Show or hide Load More button
+                if (comments.length < COMMENTS_PER_PAGE) {
+                    loadMoreCommentsBtn.style.display = 'none';
+                } else {
+                    loadMoreCommentsBtn.style.display = 'block';
+                }
+
+                // Scroll to the bottom of the comment list
+                if (page === 0) {
+                    commentList.scrollTop = commentList.scrollHeight;
+                }
+            } catch (error) {
+                console.error('Error fetching comments from Firestore:', error);
+                commentList.innerHTML = '<p>Error loading comments. Please try again later.</p>';
+            }
+        }
+
+        // Function to post a new comment to Firestore
+        async function postComment() {
+            const commentText = commentInput.value.trim();
+            if (!commentText) {
+                alert('Please enter a comment.');
+                return;
+            }
+            if (commentText.length > 500) {
+                alert('Comment cannot exceed 500 characters.');
+                return;
+            }
+
+            postCommentBtn.disabled = true;
+            try {
+                await addDoc(collection(db, 'comments'), {
+                    text: commentText,
+                    timestamp: new Date().toISOString()
+                });
+                commentInput.value = '';
+                currentPage = 0;
+                lastVisible = null;
+                fetchComments(currentPage);
+                postCommentBtn.disabled = false;
+            } catch (error) {
+                console.error('Error posting comment to Firestore:', error);
+                alert('Failed to post comment. Please try again.');
+                postCommentBtn.disabled = false;
+            }
+        }
+
+        // Event listeners for posting comments
+        postCommentBtn.addEventListener('click', postComment);
+        commentInput.addEventListener('keypress', (e) => {
+            if (e.key === 'Enter' && !e.shiftKey) {
+                e.preventDefault();
+                postComment();
+            }
+        });
+
+        // Load more comments
+        loadMoreCommentsBtn.addEventListener('click', () => {
+            currentPage++;
+            fetchComments(currentPage);
+        });
+
+        // Fetch comments when the page loads
+        document.addEventListener('DOMContentLoaded', () => {
+            fetchComments(currentPage);
         });
 
         // Fallback if Font Awesome fails to load
