@@ -1,39 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-G-0EFVRCHG68"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'G-G-0EFVRCHG68'); // Replace with your tracking ID
-</script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bca Semester 4 - Previous Year Exam Papers With Solution | QuestionBanker</title>
-    <link rel="icon" href="favicon.ico" type="icon">
-    <meta name="description" content="Download previous year exam papers for Bca Semester 4 at QuestionBanker.">
+    <title>BCA Semester 4 - Previous Year Exam Papers With Solution | QuestionBanker</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <meta name="description" content="Download previous year exam papers for BCA Semester 4 at QuestionBanker.">
     <meta name="keywords" content="bca, BCA, Bca Sem 4 papers, Bca previous year papers, university exam papers, vnsju, surat, gujrat, QuestionBanker">
-    <meta property="og:title" content="Bca Semester 4 - Previous Year Exam Papers | QuestionBanker">
-    <meta property="og:description" content="Get previous year Bca Semester 4 exam papers for university BCA courses at QuestionBanker.">
+    <meta property="og:title" content="BCA Semester 4 - Previous Year Exam Papers | QuestionBanker">
+    <meta property="og:description" content="Get previous year BCA Semester 4 exam papers for university BCA courses at QuestionBanker.">
     <meta property="og:image" content="favicon.ico">
-    <meta property="og:url" content="https://questionbanker.in/bca_sem4.html">
+    <meta property="og:url" content="https://questionbanker.in/bca-sem4-solution.html">
     <meta property="og:type" content="article">
     <script type="application/ld+json">
         {
           "@context": "https://schema.org",
           "@type": "WebPage",
-          "name": "Bca Semester 4 - Previous Year Exam Papers",
-          "description": "Download previous year exam papers for Bca Semester 4 at QuestionBanker.",
-          "url": "https://questionbanker.in/bca_sem4.html"
+          "name": "BCA Semester 4 - Previous Year Exam Papers",
+          "description": "Download previous year exam papers for BCA Semester 4 at QuestionBanker.",
+          "url": "https://questionbanker.in/bca-sem4-solution.html"
         }
     </script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-    <script src="hide.js"></script>
-    <script src="sems.js"></script>
     <style>
         body {
             background-color: #1A3C34;
@@ -211,7 +200,7 @@
             height: auto;
             flex: 1 1 calc(25% - 10px);
             object-fit: cover;
-            loading: lazy; /* Lazy load images */
+            loading: lazy;
         }
         @media (max-width: 768px) {
             .card .image-gallery img {
@@ -390,6 +379,21 @@
             display: flex;
             flex-direction: column;
             gap: 5px;
+        }
+        .comment-header {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .comment-image {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .comment-name {
+            font-weight: bold;
+            color: #E0E0E0;
         }
         .comment-text {
             color: #E0E0E0;
@@ -663,7 +667,11 @@
         <!-- Comment Section -->
         <div class="container comment-section">
             <h4>Comments</h4>
-            <div class="comment-form">
+            <div id="auth-section">
+                <button id="signInBtn" class="btn btn-primary">Sign in with Google</button>
+                <p id="userInfo" style="display: none;"></p>
+            </div>
+            <div class="comment-form" style="display: none;">
                 <textarea id="commentInput" rows="3" placeholder="Write a comment..." maxlength="500" aria-label="Write a comment"></textarea>
                 <button id="postCommentBtn" aria-label="Post comment">Post</button>
             </div>
@@ -677,11 +685,12 @@
     </button>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <!-- <script type="module">
+    <script type="module">
         // Import Firebase SDKs
         import { initializeApp } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-app.js";
         import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-analytics.js";
         import { getFirestore, collection, addDoc, query, orderBy, limit, getDocs, startAfter } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-firestore.js";
+        import { getAuth, signInWithPopup, GoogleAuthProvider } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-auth.js";
 
         // Your web app's Firebase configuration
         const firebaseConfig = {
@@ -698,6 +707,48 @@
         const app = initializeApp(firebaseConfig);
         const analytics = getAnalytics(app);
         const db = getFirestore(app);
+        const auth = getAuth(app);
+        const provider = new GoogleAuthProvider();
+
+        // Authentication Handling
+        const signInBtn = document.getElementById("signInBtn");
+        const userInfo = document.getElementById("userInfo");
+        const commentForm = document.querySelector(".comment-form");
+        let currentUser = null;
+
+        signInBtn.addEventListener("click", () => {
+            signInWithPopup(auth, provider)
+                .then((result) => {
+                    currentUser = result.user;
+                    signInBtn.style.display = "none";
+                    userInfo.style.display = "block";
+                    userInfo.textContent = `Signed in as: ${currentUser.displayName}`;
+                    commentForm.style.display = "flex";
+                })
+                .catch((error) => {
+                    console.error("Sign-in error:", {
+                        code: error.code,
+                        message: error.message,
+                        details: error
+                    });
+                    alert(`Failed to sign in with Google: ${error.code} - ${error.message}\nCheck if your domain (e.g., localhost or questionbanker.in) is added to Firebase Console > Authentication > Settings > Authorized Domains.`);
+                });
+        });
+
+        auth.onAuthStateChanged((user) => {
+            if (user) {
+                currentUser = user;
+                signInBtn.style.display = "none";
+                userInfo.style.display = "block";
+                userInfo.textContent = `Signed in as: ${user.displayName}`;
+                commentForm.style.display = "flex";
+            } else {
+                currentUser = null;
+                signInBtn.style.display = "block";
+                userInfo.style.display = "none";
+                commentForm.style.display = "none";
+            }
+        });
 
         // Helper function to escape HTML special characters for attributes
         function escapeHtmlForAttribute(str) {
@@ -719,42 +770,39 @@
         // Function to tokenize text into words
         function tokenize(text) {
             return text.toLowerCase()
-                .replace(/[^\w\s]/g, '') // Remove punctuation
-                .split(/\s+/); // Split by whitespace
+                .replace(/[^\w\s]/g, '')
+                .split(/\s+/);
         }
 
         // Function to calculate relevance score for search results
         function calculateRelevance(queryTokens, questionTokens, keywordTokens) {
             let score = 0;
             queryTokens.forEach(qToken => {
-                // Check question text
                 questionTokens.forEach(qt => {
                     if (qt.includes(qToken)) {
-                        score += 1; // Base score for question match
-                        if (qt === qToken) score += 2; // Bonus for exact match
-                        if (qt.startsWith(qToken)) score += 1; // Bonus for match at the start
+                        score += 1;
+                        if (qt === qToken) score += 2;
+                        if (qt.startsWith(qToken)) score += 1;
                     }
                 });
-                // Check keywords (higher weight)
                 keywordTokens.forEach(kt => {
                     if (kt.includes(qToken)) {
-                        score += 3; // Higher score for keyword match
-                        if (kt === qToken) score += 5; // Bonus for exact keyword match
-                        if (kt.startsWith(qToken)) score += 2; // Bonus for keyword match at the start
+                        score += 3;
+                        if (kt === qToken) score += 5;
+                        if (kt.startsWith(qToken)) score += 2;
                     }
                 });
             });
             return score;
         }
 
-        // Fetch Questions from JSON File
+        // Fetch Questions from JSON File (Assuming questions.json exists)
         fetch('questions.json')
             .then(response => {
                 if (!response.ok) throw new Error('Failed to fetch questions');
                 return response.json();
             })
             .then(data => {
-                // Collect all questions for autocomplete suggestions and cache tokenized versions
                 const subjects = ['iot', 'java', 'wd', 'mad', 'net', 'practical'];
                 subjects.forEach(subject => {
                     const subjectData = data[subject];
@@ -782,7 +830,6 @@
                     });
                 });
 
-                // Render Questions for Each Subject
                 renderQuestions('iot-mcq-questions', data.iot.mcq, true, false, 'iot', 'mcq');
                 renderQuestions('iot-onemarks-questions', data.iot.onemarks, false, true, 'iot', 'onemarks');
                 renderQuestions('iot-long-questions', data.iot.long, false, false, 'iot', 'long');
@@ -806,18 +853,6 @@
                 renderQuestions('practical-mcq-questions', data.practical.mcq, true, false, 'practical', 'mcq');
                 renderQuestions('practical-onemarks-questions', data.practical.onemarks, false, true, 'practical', 'onemarks');
                 renderQuestions('practical-long-questions', data.practical.long, false, false, 'practical', 'long');
-
-                // Add event listener for tab switching to ensure content is rendered
-                document.querySelectorAll('.nav-pills .nav-link').forEach(tab => {
-                    tab.addEventListener('shown.bs.tab', function (e) {
-                        const targetTab = e.target.id.replace('pills-', '').replace('-tab', '');
-                        const questions = document.querySelectorAll('.question');
-                        questions.forEach(q => {
-                            const questionSubject = q.id.split('-')[0];
-                            q.style.display = (questionSubject === targetTab) ? '' : 'none';
-                        });
-                    });
-                });
             })
             .catch(error => {
                 console.error('Error fetching questions:', error);
@@ -874,11 +909,13 @@
                     questionDiv.innerHTML = `
                         <div class="card-body">
                             <h4 class="card-title">${q.question.replace(/</g, '<').replace(/>/g, '>')}</h4>
-                            ${q.options.map((option, index) => `
-                                <input type="radio" name="${q.id}" value="${String.fromCharCode(97 + index)}" id="${q.id}-option-${index}">
-                                <label for="${q.id}-option-${index}">${option.replace(/</g, '<').replace(/>/g, '>')}</label><br>
+                            ${q.options.map((option, idx) => `
+                                <div>
+                                    <input type="radio" name="${q.id}" value="${String.fromCharCode(97 + idx)}" id="${q.id}-option-${idx}">
+                                    <label for="${q.id}-option-${idx}">${option.replace(/</g, '<').replace(/>/g, '>')}</label>
+                                </div>
                             `).join('')}
-                            <button class="btn btn-primary mt-2" onclick="checkAnswer('${q.id}', '${q.correctAnswer}')" aria-label="Submit answer for ${q.question}">Submit</button>
+                            <button class="btn btn-primary mt-2 submit-btn" data-question-id="${q.id}" data-correct-answer="${q.correctAnswer}" aria-label="Submit answer for ${q.question}">Submit</button>
                             <p id="${q.id}-feedback" class="mt-2"></p>
                             ${q.code ? `
                                 <div class="code-block" style="position: relative;">
@@ -906,724 +943,6 @@
                 container.appendChild(questionDiv);
             });
 
-            // Updated Copy Button Logic with Fallback
-            const copyButtons = document.querySelectorAll('.copy-btn');
-            copyButtons.forEach(button => {
-                button.addEventListener('click', function() {
-                    const code = this.getAttribute('data-code');
-                    if (navigator.clipboard && window.isSecureContext) {
-                        navigator.clipboard.writeText(code).then(() => {
-                            this.textContent = 'Copied!';
-                            this.classList.add('copied');
-                            setTimeout(() => {
-                                this.textContent = 'Copy';
-                                this.classList.remove('copied');
-                            }, 2000);
-                        }).catch(err => {
-                            console.error('Failed to copy using clipboard API:', err);
-                            fallbackCopyText(code, this);
-                        });
-                    } else {
-                        fallbackCopyText(code, this);
-                    }
-                });
-            });
-        }
-
-        // Function to Render Important Questions
-        function renderImportantQuestions(subject) {
-            const container = document.getElementById(`${subject}-imp-questions`);
-            if (!container) {
-                console.error(`Container with ID ${subject}-imp-questions not found.`);
-                return;
-            }
-            container.innerHTML = '';
-
-            fetch('questions.json')
-                .then(response => response.json())
-                .then(data => {
-                    const importantQuestions = data[subject].mcq.filter(q => q.isImportant)
-                        .concat(data[subject].onemarks.filter(q => q.isImportant))
-                        .concat(data[subject].long.filter(q => q.isImportant));
-
-                    if (importantQuestions.length === 0) {
-                        container.innerHTML = '<p>No important questions available for this subject.</p>';
-                        return;
-                    }
-
-                    importantQuestions.forEach(q => {
-                        const questionDiv = document.createElement('div');
-                        questionDiv.classList.add('card', 'question');
-                        questionDiv.innerHTML = `
-                            <div class="card-body">
-                                <h4 class="card-title">${q.question.replace(/</g, '<').replace(/>/g, '>')}</h4>
-                                <p class="card-text">${q.answer ? q.answer.replace(/</g, '<').replace(/>/g, '>') : ''}</p>
-                            </div>
-                        `;
-                        container.appendChild(questionDiv);
-                    });
-                })
-                .catch(error => {
-                    console.error('Error fetching questions:', error);
-                    container.innerHTML = '<p>Error loading important questions.</p>';
-                });
-        }
-
-        // Add event listeners for IMP buttons
-        document.querySelectorAll('.q-head .btn[data-subject]').forEach(button => {
-            button.addEventListener('click', function() {
-                const subject = this.getAttribute('data-subject');
-                renderImportantQuestions(subject);
-            });
-        });
-
-        // Fallback function for copying text
-        function fallbackCopyText(text, button) {
-            const textArea = document.createElement('textarea');
-            textArea.value = text;
-            document.body.appendChild(textArea);
-            textArea.select();
-            try {
-                document.execCommand('copy');
-                button.textContent = 'Copied!';
-                button.classList.add('copied');
-                setTimeout(() => {
-                    button.textContent = 'Copy';
-                    button.classList.remove('copied');
-                }, 2000);
-            } catch (err) {
-                console.error('Fallback copy failed:', err);
-                alert('Failed to copy text. Please copy manually.');
-            }
-            document.body.removeChild(textArea);
-        }
-
-        // MCQ Answer Checking
-        function checkAnswer(questionId, correctAnswer) {
-            const selected = document.querySelector(`input[name="${questionId}"]:checked`);
-            const feedback = document.getElementById(`${questionId}-feedback`);
-            if (selected && selected.value === correctAnswer) {
-                feedback.textContent = "Correct!";
-                feedback.style.color = "green";
-            } else {
-                feedback.textContent = "Incorrect. Try again!";
-                feedback.style.color = "red";
-            }
-        }
-
-        // Optimized Search Functionality with Keywords
-        const searchInput = document.getElementById('searchInput');
-        const suggestionsDiv = document.getElementById('suggestions');
-        const clearButton = document.querySelector('.btn-clear');
-        let debounceTimeout;
-
-        // Add a loading indicator for suggestions
-        suggestionsDiv.insertAdjacentHTML('beforeend', '<div class="suggestion-item loading" style="display: none;">Loading...</div>');
-        const loadingIndicator = suggestionsDiv.querySelector('.loading');
-
-        // Debounced Search Function
-        function debounceSearch() {
-            clearTimeout(debounceTimeout);
-            debounceTimeout = setTimeout(() => {
-                const query = searchInput.value.trim();
-                const queryTokens = tokenize(query);
-                const questions = document.querySelectorAll('.question');
-                const activeTab = document.querySelector('.nav-pills .active').id.replace('pills-', '').replace('-tab', '');
-
-                // Show or hide clear button based on input
-                clearButton.style.display = query ? 'inline-block' : 'none';
-
-                // Clear previous suggestions and show loading indicator
-                suggestionsDiv.innerHTML = '';
-                suggestionsDiv.appendChild(loadingIndicator);
-                suggestionsDiv.style.display = query ? 'block' : 'none';
-                loadingIndicator.style.display = query ? 'block' : 'none';
-
-                // If the search query is empty, show all questions for the active tab
-                if (!query) {
-                    questions.forEach(q => {
-                        const questionSubject = q.id.split('-')[0];
-                        q.style.display = (questionSubject === activeTab) ? '' : 'none';
-                        // Remove highlighting
-                        const questionTextElement = q.querySelector('.question-text, .card-title, .card-text');
-                        if (questionTextElement) {
-                            const originalText = questionTextElement.getAttribute('data-original-text') || questionTextElement.textContent;
-                            questionTextElement.innerHTML = originalText;
-                            questionTextElement.setAttribute('data-original-text', originalText);
-                        }
-                    });
-                    suggestionsDiv.style.display = 'none';
-                    return;
-                }
-
-                // Autocomplete Suggestions: Filter and rank questions based on query
-                const matchingQuestions = allQuestions
-                    .map(q => {
-                        if (q.subject !== activeTab) return null;
-                        const { questionTokens, keywordTokens } = tokenizedCache.get(q.key);
-                        const relevance = calculateRelevance(queryTokens, questionTokens, keywordTokens);
-                        return relevance > 0 ? { ...q, relevance } : null;
-                    })
-                    .filter(q => q !== null)
-                    .sort((a, b) => b.relevance - a.relevance);
-
-                // Display up to 10 matching questions as suggestions
-                loadingIndicator.style.display = 'none';
-                if (matchingQuestions.length > 0) {
-                    matchingQuestions.slice(0, 10).forEach(q => {
-                        const suggestionItem = document.createElement('div');
-                        suggestionItem.classList.add('suggestion-item');
-                        suggestionItem.textContent = q.question;
-                        suggestionItem.setAttribute('data-key', q.key);
-                        suggestionItem.addEventListener('click', function() {
-                            searchInput.value = q.question;
-                            suggestionsDiv.innerHTML = '';
-                            suggestionsDiv.style.display = 'none';
-
-                            // Find the question in the questionMap using the key
-                            const questionInfo = questionMap[q.key];
-                            if (questionInfo && questionInfo.element) {
-                                // Hide all questions and show only the matching one
-                                questions.forEach(qq => {
-                                    const qqSubject = qq.id.split('-')[0];
-                                    qq.style.display = (qqSubject === activeTab && qq === questionInfo.element) ? '' : 'none';
-                                    // Remove highlighting from other questions
-                                    const qqTextElement = qq.querySelector('.question-text, .card-title, .card-text');
-                                    if (qqTextElement) {
-                                        const originalText = qqTextElement.getAttribute('data-original-text') || qqTextElement.textContent;
-                                        qqTextElement.innerHTML = originalText;
-                                        qqTextElement.setAttribute('data-original-text', originalText);
-                                    }
-                                });
-
-                                // Highlight the matching text
-                                highlightText(questionInfo.element, q.question);
-
-                                // Scroll to the specific question and highlight it
-                                setTimeout(() => {
-                                    questionInfo.element.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                                    questionInfo.element.style.border = '2px solid #4CAF50';
-                                    setTimeout(() => {
-                                        questionInfo.element.style.border = '1px solid #4CAF50';
-                                    }, 2000);
-                                }, 300);
-                            } else {
-                                console.error('Question not found in questionMap:', q.key);
-                            }
-                        });
-                        suggestionsDiv.appendChild(suggestionItem);
-                    });
-                    suggestionsDiv.style.display = 'block';
-                } else {
-                    suggestionsDiv.innerHTML = '<div class="suggestion-item">No suggestions found.</div>';
-                    suggestionsDiv.style.display = 'block';
-                }
-
-                // Filter questions based on the active tab and search query
-                let anyMatch = false;
-                const activeTabContent = document.querySelector(`#pills-${activeTab}`);
-                const originalContent = activeTabContent.innerHTML;
-                questions.forEach(q => {
-                    const questionSubject = q.id.split('-')[0];
-                    if (questionSubject !== activeTab) {
-                        q.style.display = 'none';
-                        return;
-                    }
-                    const { questionTokens, keywordTokens } = tokenizedCache.get(q.id) || { questionTokens: tokenize(q.textContent), keywordTokens: [] };
-                    const matches = queryTokens.every(token =>
-                        questionTokens.some(qToken => qToken.includes(token)) ||
-                        keywordTokens.some(kToken => kToken.includes(token))
-                    );
-                    if (matches) {
-                        anyMatch = true;
-                        q.style.display = '';
-                        // Highlight the matching text within the question
-                        highlightText(q, query);
-                    } else {
-                        q.style.display = 'none';
-                        // Remove highlighting
-                        const questionTextElement = q.querySelector('.question-text, .card-title, .card-text');
-                        if (questionTextElement) {
-                            const originalText = questionTextElement.getAttribute('data-original-text') || questionTextElement.textContent;
-                            questionTextElement.innerHTML = originalText;
-                            questionTextElement.setAttribute('data-original-text', originalText);
-                        }
-                    }
-                });
-
-                // If no matches found, show a message
-                if (!anyMatch) {
-                    activeTabContent.innerHTML = `
-                        <p>No matching questions found in this tab.</p>
-                        <p>Try searching for related terms or check other tabs.</p>
-                    `;
-                } else {
-                    // Restore the original content if matches are found
-                    if (!activeTabContent.innerHTML.includes('id="' + activeTab + '-mcq"')) {
-                        activeTabContent.innerHTML = originalContent;
-                        fetch('questions.json')
-                            .then(response => response.json())
-                            .then(data => {
-                                renderQuestions(`${activeTab}-mcq-questions`, data[activeTab].mcq, true, false, activeTab, 'mcq');
-                                renderQuestions(`${activeTab}-onemarks-questions`, data[activeTab].onemarks, false, true, activeTab, 'onemarks');
-                                renderQuestions(`${activeTab}-long-questions`, data[activeTab].long, false, false, activeTab, 'long');
-                            });
-                    }
-                }
-            }, 300); // 300ms debounce for smooth performance
-        }
-
-        // Highlight matching text in the question
-        function highlightText(element, query) {
-            const questionTextElement = element.querySelector('.question-text, .card-title, .card-text');
-            if (!questionTextElement) return;
-
-            const text = questionTextElement.textContent;
-            questionTextElement.setAttribute('data-original-text', text); // Store original text
-            const regex = new RegExp(`(${query})`, 'gi');
-            const highlightedText = text.replace(regex, '<span style="background-color: yellow; color: black;">$1</span>');
-            questionTextElement.innerHTML = highlightedText;
-        }
-
-        // Add debounced search on input
-        searchInput.addEventListener('input', debounceSearch);
-
-        // Clear button functionality
-        clearButton.addEventListener('click', function() {
-            searchInput.value = '';
-            const questions = document.querySelectorAll('.question');
-            const activeTab = document.querySelector('.nav-pills .active').id.replace('pills-', '').replace('-tab', '');
-
-            // Show all questions for the active tab
-            questions.forEach(q => {
-                const questionSubject = q.id.split('-')[0];
-                q.style.display = (questionSubject === activeTab) ? '' : 'none';
-                // Remove highlighting
-                const questionTextElement = q.querySelector('.question-text, .card-title, .card-text');
-                if (questionTextElement) {
-                    const originalText = questionTextElement.getAttribute('data-original-text') || questionTextElement.textContent;
-                    questionTextElement.innerHTML = originalText;
-                    questionTextElement.setAttribute('data-original-text', originalText);
-                }
-            });
-
-            // Reset the tab content to show all sections
-            const activeTabContent = document.querySelector(`#pills-${activeTab}`);
-            activeTabContent.innerHTML = `
-                <div class="d-flex gap-1 mb-3 q-head">
-                    <a href="#${activeTab}-mcq" class="btn">MCQ</a>
-                    <a href="#${activeTab}-onemarks" class="btn">Short Questions</a>
-                    <a href="#${activeTab}-long" class="btn">Long</a>
-                    <a href="#${activeTab}-imp" class="btn" data-subject="${activeTab}">IMP</a>
-                </div>
-                <div id="${activeTab}-mcq">
-                    <h2>MCQ</h2>
-                    <div id="${activeTab}-mcq-questions"></div>
-                </div>
-                <div id="${activeTab}-onemarks" class="onemarks-section">
-                    <h2>Short Questions</h2>
-                    <div id="${activeTab}-onemarks-questions"></div>
-                </div>
-                <div id="${activeTab}-long">
-                    <h2>Long Questions</h2>
-                    <div id="${activeTab}-long-questions"></div>
-                </div>
-                <div id="${activeTab}-imp">
-                    <h2>Important Questions</h2>
-                    <div id="${activeTab}-imp-questions"></div>
-                </div>
-            `;
-
-            // Re-render the questions for the active tab
-            fetch('questions.json')
-                .then(response => response.json())
-                .then(data => {
-                    renderQuestions(`${activeTab}-mcq-questions`, data[activeTab].mcq, true, false, activeTab, 'mcq');
-                    renderQuestions(`${activeTab}-onemarks-questions`, data[activeTab].onemarks, false, true, activeTab, 'onemarks');
-                    renderQuestions(`${activeTab}-long-questions`, data[activeTab].long, false, false, activeTab, 'long');
-                });
-
-            clearButton.style.display = 'none';
-            suggestionsDiv.style.display = 'none';
-        });
-
-        // Hide suggestions when clicking outside the search bar
-        document.addEventListener('click', function(event) {
-            if (!searchInput.contains(event.target) && !suggestionsDiv.contains(event.target) && !clearButton.contains(event.target)) {
-                suggestionsDiv.style.display = 'none';
-            }
-        });
-
-        // Back to Top Button Functionality
-        const backToTopBtn = document.getElementById('backToTopBtn');
-        window.addEventListener('scroll', function() {
-            if (window.scrollY > 300) {
-                backToTopBtn.style.display = 'block';
-            } else {
-                backToTopBtn.style.display = 'none';
-            }
-        });
-        backToTopBtn.addEventListener('click', function() {
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
-        });
-
-        // Comment Box Functionality Using Firebase Firestore
-        const commentInput = document.getElementById('commentInput');
-        const postCommentBtn = document.getElementById('postCommentBtn');
-        const commentList = document.getElementById('commentList');
-        const loadMoreCommentsBtn = document.getElementById('loadMoreCommentsBtn');
-        let displayedComments = [];
-        const COMMENTS_PER_PAGE = 10;
-        let currentPage = 0;
-        let lastVisible = null;
-
-        // Function to fetch and display comments from Firestore
-        async function fetchComments(page = 0) {
-            try {
-                let q = query(
-                    collection(db, 'comments'),
-                    orderBy('timestamp', 'desc'),
-                    limit(COMMENTS_PER_PAGE)
-                );
-
-                if (page > 0 && lastVisible) {
-                    q = query(
-                        collection(db, 'comments'),
-                        orderBy('timestamp', 'desc'),
-                        startAfter(lastVisible),
-                        limit(COMMENTS_PER_PAGE)
-                    );
-                }
-
-                const snapshot = await getDocs(q);
-                const comments = [];
-                snapshot.forEach(doc => {
-                    comments.push({ id: doc.id, ...doc.data() });
-                });
-
-                if (page === 0) {
-                    displayedComments = comments;
-                    commentList.innerHTML = '';
-                } else {
-                    displayedComments = [...displayedComments, ...comments];
-                }
-
-                lastVisible = snapshot.docs[snapshot.docs.length - 1];
-
-                // Render comments
-                comments.forEach(comment => {
-                    if (!document.querySelector(`[data-comment-id="${comment.id}"]`)) {
-                        const commentDiv = document.createElement('div');
-                        commentDiv.classList.add('comment');
-                        commentDiv.setAttribute('data-comment-id', comment.id);
-                        commentDiv.innerHTML = `
-                            <p class="comment-text">${comment.text.replace(/</g, '<').replace(/>/g, '>')}</p>
-                            <p class="comment-timestamp">${new Date(comment.timestamp).toLocaleString()}</p>
-                        `;
-                        commentList.appendChild(commentDiv);
-                    }
-                });
-
-                // Show or hide Load More button
-                if (comments.length < COMMENTS_PER_PAGE) {
-                    loadMoreCommentsBtn.style.display = 'none';
-                } else {
-                    loadMoreCommentsBtn.style.display = 'block';
-                }
-
-                // Scroll to the bottom of the comment list
-                if (page === 0) {
-                    commentList.scrollTop = commentList.scrollHeight;
-                }
-            } catch (error) {
-                console.error('Error fetching comments from Firestore:', error);
-                commentList.innerHTML = '<p>Error loading comments. Please try again later.</p>';
-            }
-        }
-
-        // Function to post a new comment to Firestore
-        async function postComment() {
-            const commentText = commentInput.value.trim();
-            if (!commentText) {
-                alert('Please enter a comment.');
-                return;
-            }
-            if (commentText.length > 500) {
-                alert('Comment cannot exceed 500 characters.');
-                return;
-            }
-
-            postCommentBtn.disabled = true;
-            try {
-                await addDoc(collection(db, 'comments'), {
-                    text: commentText,
-                    timestamp: new Date().toISOString()
-                });
-                commentInput.value = '';
-                currentPage = 0;
-                lastVisible = null;
-                fetchComments(currentPage);
-                postCommentBtn.disabled = false;
-            } catch (error) {
-                console.error('Error posting comment to Firestore:', error);
-                alert('Failed to post comment. Please try again.');
-                postCommentBtn.disabled = false;
-            }
-        }
-
-        // Event listeners for posting comments
-        postCommentBtn.addEventListener('click', postComment);
-        commentInput.addEventListener('keypress', (e) => {
-            if (e.key === 'Enter' && !e.shiftKey) {
-                e.preventDefault();
-                postComment();
-            }
-        });
-
-        // Load more comments
-        loadMoreCommentsBtn.addEventListener('click', () => {
-            currentPage++;
-            fetchComments(currentPage);
-        });
-
-        // Fetch comments when the page loads
-        document.addEventListener('DOMContentLoaded', () => {
-            fetchComments(currentPage);
-        });
-
-        // Fallback if Font Awesome fails to load
-        document.addEventListener('DOMContentLoaded', () => {
-            const instagramIcon = document.querySelector('.fa-instagram');
-            const telegramIcon = document.querySelector('.fa-telegram');
-            const arrowIcon = document.querySelector('.fa-arrow-up');
-            if (!instagramIcon || !telegramIcon || !arrowIcon) {
-                console.warn('Font Awesome icons not loading. Check your internet connection or CDN.');
-                const modeBtn = document.querySelector('.mode-btn');
-                modeBtn.innerHTML = '<span style="color: #DBF8D7;">Icons Failed to Load</span>';
-                backToTopBtn.innerHTML = '↑';
-            }
-        });
-    </script> -->
-    <script type="module">
-        // Import Firebase SDKs
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-analytics.js";
-        import { getFirestore, collection, addDoc, query, orderBy, limit, getDocs, startAfter } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-firestore.js";
-    
-        // Your web app's Firebase configuration
-        const firebaseConfig = {
-            apiKey: "AIzaSyBHewNLmqJPFMpLpvj2amQEapBNX9vZAuU",
-            authDomain: "questionbanker-79ff9.firebaseapp.com",
-            projectId: "questionbanker-79ff9",
-            storageBucket: "questionbanker-79ff9.firebasestorage.app",
-            messagingSenderId: "534281169916",
-            appId: "1:534281169916:web:44a98c2559cf984527e079",
-            measurementId: "G-YTYLDW22PH"
-        };
-    
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-        const db = getFirestore(app);
-    
-        // Helper function to escape HTML special characters for attributes
-        function escapeHtmlForAttribute(str) {
-            return str
-                .replace(/&/g, '&amp;')
-                .replace(/"/g, '&quot;')
-                .replace(/'/g, '&#39;')
-                .replace(/</g, '&lt;')
-                .replace(/>/g, '&gt;');
-        }
-    
-        // Global array to store all questions for autocomplete suggestions
-        let allQuestions = [];
-        // Global mapping of question key to DOM element and tab
-        let questionMap = {};
-        // Cache for tokenized questions and keywords
-        let tokenizedCache = new Map();
-    
-        // Function to tokenize text into words
-        function tokenize(text) {
-            return text.toLowerCase()
-                .replace(/[^\w\s]/g, '') // Remove punctuation
-                .split(/\s+/); // Split by whitespace
-        }
-    
-        // Function to calculate relevance score for search results
-        function calculateRelevance(queryTokens, questionTokens, keywordTokens) {
-            let score = 0;
-            queryTokens.forEach(qToken => {
-                questionTokens.forEach(qt => {
-                    if (qt.includes(qToken)) {
-                        score += 1; // Base score for question match
-                        if (qt === qToken) score += 2; // Bonus for exact match
-                        if (qt.startsWith(qToken)) score += 1; // Bonus for match at the start
-                    }
-                });
-                keywordTokens.forEach(kt => {
-                    if (kt.includes(qToken)) {
-                        score += 3; // Higher score for keyword match
-                        if (kt === qToken) score += 5; // Bonus for exact keyword match
-                        if (kt.startsWith(qToken)) score += 2; // Bonus for keyword match at the start
-                    }
-                });
-            });
-            return score;
-        }
-    
-        // Fetch Questions from JSON File
-        fetch('questions.json')
-            .then(response => {
-                if (!response.ok) throw new Error('Failed to fetch questions');
-                return response.json();
-            })
-            .then(data => {
-                const subjects = ['iot', 'java', 'wd', 'mad', 'net', 'practical'];
-                subjects.forEach(subject => {
-                    const subjectData = data[subject];
-                    const sections = [
-                        { name: 'mcq', questions: subjectData.mcq || [] },
-                        { name: 'onemarks', questions: subjectData.onemarks || [] },
-                        { name: 'long', questions: subjectData.long || [] }
-                    ];
-                    sections.forEach(section => {
-                        section.questions.forEach((q, index) => {
-                            const questionKey = `${subject}-${section.name}-${index}`;
-                            const questionTokens = tokenize(q.question);
-                            const keywordTokens = q.keywords ? tokenize(q.keywords.join(' ')) : [];
-                            allQuestions.push({
-                                question: q.question,
-                                subject: subject,
-                                key: questionKey,
-                                type: section.name,
-                                questionTokens: questionTokens,
-                                keywordTokens: keywordTokens
-                            });
-                            tokenizedCache.set(questionKey, { questionTokens, keywordTokens });
-                            questionMap[questionKey] = { subject, section: section.name, element: null, questionText: q.question };
-                        });
-                    });
-                });
-    
-                // Render Questions for Each Subject
-                renderQuestions('iot-mcq-questions', data.iot.mcq, true, false, 'iot', 'mcq');
-                renderQuestions('iot-onemarks-questions', data.iot.onemarks, false, true, 'iot', 'onemarks');
-                renderQuestions('iot-long-questions', data.iot.long, false, false, 'iot', 'long');
-    
-                renderQuestions('java-mcq-questions', data.java.mcq, true, false, 'java', 'mcq');
-                renderQuestions('java-onemarks-questions', data.java.onemarks, false, true, 'java', 'onemarks');
-                renderQuestions('java-long-questions', data.java.long, false, false, 'java', 'long');
-    
-                renderQuestions('wd-mcq-questions', data.wd.mcq, true, false, 'wd', 'mcq');
-                renderQuestions('wd-onemarks-questions', data.wd.onemarks, false, true, 'wd', 'onemarks');
-                renderQuestions('wd-long-questions', data.wd.long, false, false, 'wd', 'long');
-    
-                renderQuestions('mad-mcq-questions', data.mad.mcq, true, false, 'mad', 'mcq');
-                renderQuestions('mad-onemarks-questions', data.mad.onemarks, false, true, 'mad', 'onemarks');
-                renderQuestions('mad-long-questions', data.mad.long, false, false, 'mad', 'long');
-    
-                renderQuestions('net-mcq-questions', data.net.mcq, true, false, 'net', 'mcq');
-                renderQuestions('net-onemarks-questions', data.net.onemarks, false, true, 'net', 'onemarks');
-                renderQuestions('net-long-questions', data.net.long, false, false, 'net', 'long');
-    
-                renderQuestions('practical-mcq-questions', data.practical.mcq, true, false, 'practical', 'mcq');
-                renderQuestions('practical-onemarks-questions', data.practical.onemarks, false, true, 'practical', 'onemarks');
-                renderQuestions('practical-long-questions', data.practical.long, false, false, 'practical', 'long');
-            })
-            .catch(error => {
-                console.error('Error fetching questions:', error);
-                document.querySelector('.con-qes').innerHTML = '<p>Error loading questions. Please try again later.</p>';
-            });
-    
-        // Function to Render Questions (MCQ, One Marks, Long) with Multiple Image Support
-        function renderQuestions(containerId, questions, isMcq = false, isOneMarks = false, subject, section) {
-            const container = document.getElementById(containerId);
-            if (!container) {
-                console.error(`Container with ID ${containerId} not found.`);
-                return;
-            }
-            if (!questions || questions.length === 0) {
-                container.innerHTML = '<p>No questions available.</p>';
-                return;
-            }
-            questions.forEach((q, index) => {
-                const questionDiv = document.createElement('div');
-                questionDiv.classList.add('card', 'question');
-                const questionId = `${subject}-${section}-${index}`;
-                questionDiv.setAttribute('id', questionId);
-                const questionKey = `${subject}-${section}-${index}`;
-                if (questionMap[questionKey]) {
-                    questionMap[questionKey].element = questionDiv;
-                }
-    
-                let imagesHtml = '';
-                if (q.images && Array.isArray(q.images) && q.images.length > 0) {
-                    imagesHtml = `
-                        <div class="image-gallery">
-                            ${q.images.map(img => `
-                                <img src="${img}" alt="Diagram for ${q.question}" class="img-fluid" loading="lazy">
-                            `).join('')}
-                        </div>
-                    `;
-                }
-    
-                if (isOneMarks) {
-                    questionDiv.innerHTML = `
-                        <div class="card-body">
-                            <p class="question-text">${q.question.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>
-                            <p class="answer-text">${q.answer.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>
-                            ${imagesHtml}
-                            ${q.code ? `
-                                <div class="code-block" style="position: relative;">
-                                    <pre>${q.code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>
-                                    <button class="copy-btn" data-code="${escapeHtmlForAttribute(q.code)}" aria-label="Copy code">Copy</button>
-                                </div>
-                            ` : ''}
-                        </div>
-                    `;
-                } else if (isMcq) {
-                    questionDiv.innerHTML = `
-                        <div class="card-body">
-                            <h4 class="card-title">${q.question.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</h4>
-                            ${q.options.map((option, idx) => `
-                                <div>
-                                    <input type="radio" name="${q.id}" value="${String.fromCharCode(97 + idx)}" id="${q.id}-option-${idx}">
-                                    <label for="${q.id}-option-${idx}">${option.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</label>
-                                </div>
-                            `).join('')}
-                            <button class="btn btn-primary mt-2 submit-btn" data-question-id="${q.id}" data-correct-answer="${q.correctAnswer}" aria-label="Submit answer for ${q.question}">Submit</button>
-                            <p id="${q.id}-feedback" class="mt-2"></p>
-                            ${q.code ? `
-                                <div class="code-block" style="position: relative;">
-                                    <pre>${q.code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>
-                                    <button class="copy-btn" data-code="${escapeHtmlForAttribute(q.code)}" aria-label="Copy code">Copy</button>
-                                </div>
-                            ` : ''}
-                        </div>
-                    `;
-                } else {
-                    questionDiv.innerHTML = `
-                        <div class="card-body">
-                            <h4 class="card-title">${q.question.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</h4>
-                            <p class="card-text">${q.answer.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>
-                            ${imagesHtml}
-                            ${q.code ? `
-                                <div class="code-block" style="position: relative;">
-                                    <pre>${q.code.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</pre>
-                                    <button class="copy-btn" data-code="${escapeHtmlForAttribute(q.code)}" aria-label="Copy code">Copy</button>
-                                </div>
-                            ` : ''}
-                        </div>
-                    `;
-                }
-                container.appendChild(questionDiv);
-            });
-    
-            // Add event listeners for MCQ submit buttons
             if (isMcq) {
                 const submitButtons = container.querySelectorAll('.submit-btn');
                 submitButtons.forEach(button => {
@@ -1632,13 +951,13 @@
                         const correctAnswer = this.getAttribute('data-correct-answer');
                         const selected = container.querySelector(`input[name="${questionId}"]:checked`);
                         const feedback = container.querySelector(`#${questionId}-feedback`);
-    
+
                         if (!selected) {
                             feedback.textContent = "Please select an option!";
                             feedback.style.color = "orange";
                             return;
                         }
-    
+
                         if (selected.value === correctAnswer) {
                             feedback.textContent = "Correct!";
                             feedback.style.color = "green";
@@ -1649,8 +968,7 @@
                     });
                 });
             }
-    
-            // Updated Copy Button Logic with Fallback
+
             const copyButtons = container.querySelectorAll('.copy-btn');
             copyButtons.forEach(button => {
                 button.addEventListener('click', function() {
@@ -1673,8 +991,7 @@
                 });
             });
         }
-    
-        // Fallback function for copying text
+
         function fallbackCopyText(text, button) {
             const textArea = document.createElement('textarea');
             textArea.value = text;
@@ -1694,19 +1011,15 @@
             }
             document.body.removeChild(textArea);
         }
-    
-        // Rest of your existing code (e.g., search, comments, etc.) remains unchanged below...
-    
-        // Optimized Search Functionality with Keywords
+
         const searchInput = document.getElementById('searchInput');
         const suggestionsDiv = document.getElementById('suggestions');
         const clearButton = document.querySelector('.btn-clear');
         let debounceTimeout;
-    
-        // Add a loading indicator for suggestions
+
         suggestionsDiv.insertAdjacentHTML('beforeend', '<div class="suggestion-item loading" style="display: none;">Loading...</div>');
         const loadingIndicator = suggestionsDiv.querySelector('.loading');
-    
+
         function debounceSearch() {
             clearTimeout(debounceTimeout);
             debounceTimeout = setTimeout(() => {
@@ -1714,14 +1027,14 @@
                 const queryTokens = tokenize(query);
                 const questions = document.querySelectorAll('.question');
                 const activeTab = document.querySelector('.nav-pills .active').id.replace('pills-', '').replace('-tab', '');
-    
+
                 clearButton.style.display = query ? 'inline-block' : 'none';
-    
+
                 suggestionsDiv.innerHTML = '';
                 suggestionsDiv.appendChild(loadingIndicator);
                 suggestionsDiv.style.display = query ? 'block' : 'none';
                 loadingIndicator.style.display = query ? 'block' : 'none';
-    
+
                 if (!query) {
                     questions.forEach(q => {
                         const questionSubject = q.id.split('-')[0];
@@ -1736,7 +1049,7 @@
                     suggestionsDiv.style.display = 'none';
                     return;
                 }
-    
+
                 const matchingQuestions = allQuestions
                     .map(q => {
                         if (q.subject !== activeTab) return null;
@@ -1746,7 +1059,7 @@
                     })
                     .filter(q => q !== null)
                     .sort((a, b) => b.relevance - a.relevance);
-    
+
                 loadingIndicator.style.display = 'none';
                 if (matchingQuestions.length > 0) {
                     matchingQuestions.slice(0, 10).forEach(q => {
@@ -1758,7 +1071,7 @@
                             searchInput.value = q.question;
                             suggestionsDiv.innerHTML = '';
                             suggestionsDiv.style.display = 'none';
-    
+
                             const questionInfo = questionMap[q.key];
                             if (questionInfo && questionInfo.element) {
                                 questions.forEach(qq => {
@@ -1771,9 +1084,9 @@
                                         qqTextElement.setAttribute('data-original-text', originalText);
                                     }
                                 });
-    
+
                                 highlightText(questionInfo.element, q.question);
-    
+
                                 setTimeout(() => {
                                     questionInfo.element.scrollIntoView({ behavior: 'smooth', block: 'center' });
                                     questionInfo.element.style.border = '2px solid #4CAF50';
@@ -1790,7 +1103,7 @@
                     suggestionsDiv.innerHTML = '<div class="suggestion-item">No suggestions found.</div>';
                     suggestionsDiv.style.display = 'block';
                 }
-    
+
                 let anyMatch = false;
                 const activeTabContent = document.querySelector(`#pills-${activeTab}`);
                 const originalContent = activeTabContent.innerHTML;
@@ -1819,7 +1132,7 @@
                         }
                     }
                 });
-    
+
                 if (!anyMatch) {
                     activeTabContent.innerHTML = `
                         <p>No matching questions found in this tab.</p>
@@ -1839,25 +1152,25 @@
                 }
             }, 300);
         }
-    
+
         function highlightText(element, query) {
             const questionTextElement = element.querySelector('.question-text, .card-title, .card-text');
             if (!questionTextElement) return;
-    
+
             const text = questionTextElement.textContent;
             questionTextElement.setAttribute('data-original-text', text);
             const regex = new RegExp(`(${query})`, 'gi');
             const highlightedText = text.replace(regex, '<span style="background-color: yellow; color: black;">$1</span>');
             questionTextElement.innerHTML = highlightedText;
         }
-    
+
         searchInput.addEventListener('input', debounceSearch);
-    
+
         clearButton.addEventListener('click', function() {
             searchInput.value = '';
             const questions = document.querySelectorAll('.question');
             const activeTab = document.querySelector('.nav-pills .active').id.replace('pills-', '').replace('-tab', '');
-    
+
             questions.forEach(q => {
                 const questionSubject = q.id.split('-')[0];
                 q.style.display = (questionSubject === activeTab) ? '' : 'none';
@@ -1868,7 +1181,7 @@
                     questionTextElement.setAttribute('data-original-text', originalText);
                 }
             });
-    
+
             const activeTabContent = document.querySelector(`#pills-${activeTab}`);
             activeTabContent.innerHTML = `
                 <div class="d-flex gap-1 mb-3 q-head">
@@ -1894,7 +1207,7 @@
                     <div id="${activeTab}-imp-questions"></div>
                 </div>
             `;
-    
+
             fetch('questions.json')
                 .then(response => response.json())
                 .then(data => {
@@ -1902,17 +1215,17 @@
                     renderQuestions(`${activeTab}-onemarks-questions`, data[activeTab].onemarks, false, true, activeTab, 'onemarks');
                     renderQuestions(`${activeTab}-long-questions`, data[activeTab].long, false, false, activeTab, 'long');
                 });
-    
+
             clearButton.style.display = 'none';
             suggestionsDiv.style.display = 'none';
         });
-    
+
         document.addEventListener('click', function(event) {
             if (!searchInput.contains(event.target) && !suggestionsDiv.contains(event.target) && !clearButton.contains(event.target)) {
                 suggestionsDiv.style.display = 'none';
             }
         });
-    
+
         const backToTopBtn = document.getElementById('backToTopBtn');
         window.addEventListener('scroll', function() {
             if (window.scrollY > 300) {
@@ -1927,17 +1240,15 @@
                 behavior: 'smooth'
             });
         });
-    
+
         // Comment Box Functionality Using Firebase Firestore
         const commentInput = document.getElementById('commentInput');
         const postCommentBtn = document.getElementById('postCommentBtn');
         const commentList = document.getElementById('commentList');
         const loadMoreCommentsBtn = document.getElementById('loadMoreCommentsBtn');
-        let displayedComments = [];
         const COMMENTS_PER_PAGE = 10;
-        let currentPage = 0;
         let lastVisible = null;
-    
+
         async function fetchComments(page = 0) {
             try {
                 let q = query(
@@ -1945,7 +1256,7 @@
                     orderBy('timestamp', 'desc'),
                     limit(COMMENTS_PER_PAGE)
                 );
-    
+
                 if (page > 0 && lastVisible) {
                     q = query(
                         collection(db, 'comments'),
@@ -1954,50 +1265,42 @@
                         limit(COMMENTS_PER_PAGE)
                     );
                 }
-    
+
                 const snapshot = await getDocs(q);
                 const comments = [];
                 snapshot.forEach(doc => {
                     comments.push({ id: doc.id, ...doc.data() });
                 });
-    
+
                 if (page === 0) {
-                    displayedComments = comments;
                     commentList.innerHTML = '';
-                } else {
-                    displayedComments = [...displayedComments, ...comments];
                 }
-    
-                lastVisible = snapshot.docs[snapshot.docs.length - 1];
-    
+
                 comments.forEach(comment => {
                     if (!document.querySelector(`[data-comment-id="${comment.id}"]`)) {
                         const commentDiv = document.createElement('div');
                         commentDiv.classList.add('comment');
                         commentDiv.setAttribute('data-comment-id', comment.id);
                         commentDiv.innerHTML = `
-                            <p class="comment-text">${comment.text.replace(/</g, '&lt;').replace(/>/g, '&gt;')}</p>
+                            <div class="comment-header">
+                                <img src="${comment.image || 'https://via.placeholder.com/50'}" alt="${comment.name}'s profile" class="comment-image">
+                                <span class="comment-name">${comment.name || 'Anonymous'}</span>
+                            </div>
+                            <p class="comment-text">${comment.text.replace(/</g, '<').replace(/>/g, '>')}</p>
                             <p class="comment-timestamp">${new Date(comment.timestamp).toLocaleString()}</p>
                         `;
                         commentList.appendChild(commentDiv);
                     }
                 });
-    
-                if (comments.length < COMMENTS_PER_PAGE) {
-                    loadMoreCommentsBtn.style.display = 'none';
-                } else {
-                    loadMoreCommentsBtn.style.display = 'block';
-                }
-    
-                if (page === 0) {
-                    commentList.scrollTop = commentList.scrollHeight;
-                }
+
+                lastVisible = snapshot.docs[snapshot.docs.length - 1];
+                loadMoreCommentsBtn.style.display = comments.length < COMMENTS_PER_PAGE ? 'none' : 'block';
             } catch (error) {
                 console.error('Error fetching comments from Firestore:', error);
                 commentList.innerHTML = '<p>Error loading comments. Please try again later.</p>';
             }
         }
-    
+
         async function postComment() {
             const commentText = commentInput.value.trim();
             if (!commentText) {
@@ -2008,25 +1311,30 @@
                 alert('Comment cannot exceed 500 characters.');
                 return;
             }
-    
+            if (!currentUser) {
+                alert('Please sign in to post a comment.');
+                return;
+            }
+
             postCommentBtn.disabled = true;
             try {
-                await addDoc(collection(db, 'comments'), {
+                const commentData = {
                     text: commentText,
+                    name: currentUser.displayName || "Anonymous",
+                    image: currentUser.photoURL || "https://via.placeholder.com/50",
                     timestamp: new Date().toISOString()
-                });
+                };
+                await addDoc(collection(db, 'comments'), commentData);
                 commentInput.value = '';
-                currentPage = 0;
-                lastVisible = null;
-                fetchComments(currentPage);
-                postCommentBtn.disabled = false;
+                fetchComments(0);
             } catch (error) {
                 console.error('Error posting comment to Firestore:', error);
                 alert('Failed to post comment. Please try again.');
+            } finally {
                 postCommentBtn.disabled = false;
             }
         }
-    
+
         postCommentBtn.addEventListener('click', postComment);
         commentInput.addEventListener('keypress', (e) => {
             if (e.key === 'Enter' && !e.shiftKey) {
@@ -2034,16 +1342,15 @@
                 postComment();
             }
         });
-    
+
         loadMoreCommentsBtn.addEventListener('click', () => {
-            currentPage++;
-            fetchComments(currentPage);
+            fetchComments(lastVisible ? 1 : 0);
         });
-    
+
         document.addEventListener('DOMContentLoaded', () => {
-            fetchComments(currentPage);
+            fetchComments(0);
         });
-    
+
         document.addEventListener('DOMContentLoaded', () => {
             const instagramIcon = document.querySelector('.fa-instagram');
             const telegramIcon = document.querySelector('.fa-telegram');
