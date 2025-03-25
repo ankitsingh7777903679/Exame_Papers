@@ -1,7 +1,7 @@
 function openTutorial(file, title) {
   // Open code.html with the title as a query parameter
   const tutorialWindow = window.open(
-    `code.html?title=${encodeURIComponent(title)}`,
+    `https://questionbanker.in/code?title=${encodeURIComponent(title)}`,
     "_blank"
   );
   if (!tutorialWindow) {
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.querySelectorAll(".resource-card").forEach((card) => {
   card.addEventListener("click", () => {
     const category = card.getAttribute("data-category");
-    window.location.href = `resources.html?category=${category}`;
+    window.location.href = `https://questionbanker.in/resources?category=${category}`;
   });
 });
 

@@ -44,21 +44,21 @@ function generateCards(containerId, course, links) {
 
 // Links for BCA and B.Com semesters
 const bcaLinks = [
-  "bca_sem1.html",
-  "bca_sem2.html",
-  "bca_sem3.html",
-  "bca-sem4-solution.html",
-  "bca_sem5.html",
-  "bca_sem6.html"
+  "https://questionbanker.in/bca_sem1",
+  "https://questionbanker.in/bca_sem2",
+  "https://questionbanker.in/bca_sem3",
+  "https://questionbanker.in/bca-sem4-solution",
+  "https://questionbanker.in/bca_sem5",
+  "https://questionbanker.in/bca_sem6"
 ];
 
 const bcomLinks = [
-  "bcom_sem1.html",
-  "bcom_sem2.html",
-  "bcom_sem3.html",
-  "bcom_sem4.html",
-  "bcom_sem5.html",
-  "bcom_sem6.html"
+  "https://questionbanker.in/bcom_sem1",
+  "https://questionbanker.in/bcom_sem2",
+  "https://questionbanker.in/bcom_sem3",
+  "https://questionbanker.in/bcom_sem4",
+  "https://questionbanker.in/bcom_sem5",
+  "https://questionbanker.in/bcom_sem6"
 ];
 
 // Generate cards for BCA and B.Com
