@@ -3,6 +3,17 @@
     
       "mcq": [
         {
+        "question": "1. Photo as a service is categorized under which type?",
+          "options": [
+            "a) Photo as a Service",
+            "b) Photo as a Software",
+            "c) Platform as a Service",
+            "d) Platform as a Software"
+          ],
+          "correctAnswer": "c"
+          
+        },
+        {
           "question": "1. Photo as a service is categorized under which type?",
           "options": [
             "a) Photo as a Service",
