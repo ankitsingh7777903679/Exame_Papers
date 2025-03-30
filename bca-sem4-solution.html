@@ -1,15 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- Google tag (gtag.js) -->
+    <!-- Google Analytics (GA4) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-G-0EFVRCHG68"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
         function gtag() { dataLayer.push(arguments); }
         gtag('js', new Date());
-        gtag('config', 'G-G-0EFVRCHG68');
+        gtag('config', 'G-G-0EFVRCHG68', {
+            'page_title': 'BCA Semester 4 - Previous Year Exam Papers With Solution | QuestionBanker',
+            'page_path': '/bca-sem4-solution.html'
+        });
     </script>
-    <!-- Optimized meta tags for SEO -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="Download BCA Semester 4 previous year exam papers with solutions at QuestionBanker. Access IOT, Java, WD, MAD, .NET, and practical papers for VNSGU, Surat.">
@@ -31,7 +33,6 @@
     <link rel="canonical" href="https://questionbanker.in/bca-sem4-solution.html">
     <title>BCA Semester 4 - Previous Year Exam Papers With Solution | QuestionBanker</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
-    <!-- Structured data with FAQPage schema -->
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -56,22 +57,13 @@
       ]
     }
     </script>
-    <!-- Deferred CSS loading -->
-    <!-- <link rel="stylesheet" href="hide.css" media="print" onload="this.media='all'">
-    <script src="hide.js" defer></script> -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" media="print" onload="this.media='all'" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.min.js" integrity="sha512-Pf2tsDSvNbVzF8G8KB5Z1ypo91VYZ7TQqPsS+ozEBtiNzibxAW3i5Ap+Df52yY0vD2ll0qbDC0a+5iWJ6X7zWRA==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" media="print" onload="this.media='all'">
-    <link rel="stylesheet" href="bca_4_solution.css" media="print" onload="this.media='all'">
-    
-    <!-- JavaScript Dependencies -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    
-    <!-- Application Modules -->
-    <script type="module" src="auth.js"></script>
-    <script type="module" src="comments.js"></script>
-    <script type="module" src="questions.js"></script>
-    <script type="module" src="utils.js"></script>
-    <script type="module" src="app.js"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- <link rel="stylesheet" href="hide.css"> -->
+    <!-- <script src="hide.js"></script> -->
+
 </head>
 
 <body>
@@ -107,7 +99,7 @@
         <p style="text-align: center; color: #FF5555; font-weight: bold;">
             If the question doesn't load, refresh the page.
         </p>
-        <ul class="nav nav-pills nav-sub justify-content-center mt-3" id="pills-tab" role="tablist">
+        <ul class="nav nav-pills nav-sub justify-content-center mt-3 gap-1" id="pills-tab" role="tablist">
             <li class="nav-item" role="presentation">
                 <button class="btn active" id="pills-iot-tab" data-bs-toggle="pill" data-bs-target="#pills-iot" type="button" role="tab" aria-controls="pills-iot" aria-selected="true">IOT</button>
             </li>
@@ -133,15 +125,16 @@
     </div>
 
     <div class="container con-qes mt-3">
-        <div class="search-bar d-flex d-none">
+        <div class="search-bar" style="position: relative;">
             <div class="input-group">
                 <label for="searchInput" class="visually-hidden">Search questions</label>
                 <input type="text" id="searchInput" class="form-control" placeholder="Search questions..." aria-label="Search questions" autocomplete="off">
-                <button class="btn-clear" type="button" aria-label="Clear search">
+                <button class="btn btn-clear" type="button" aria-label="Clear search">
                     <i class="fa-solid fa-xmark"></i>
                 </button>
+                <button id="showAllBtn" class="btn btn-secondary" style="display: none; margin-left: 10px;">Show All</button>
             </div>
-            <div id="suggestions" class="suggestions" role="listbox"></div>
+            <div id="suggestions" class="suggestions"></div>
         </div>
 
         <div class="text-white tab-content" id="pills-tabContent">
@@ -316,7 +309,6 @@
             </div>
         </div>
 
-        <!-- Comment Section -->
         <div class="container comment-section">
             <h4>Comments</h4>
             <div id="auth-section">
@@ -340,5 +332,7 @@
         <i class="fa-arrow-up fa-solid"></i>
     </button>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script type="module" src="js/main.js"></script>
 </body>
 </html>
