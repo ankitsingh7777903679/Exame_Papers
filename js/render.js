@@ -129,9 +129,6 @@ function renderQuestions(containerId, questions, isMcq = false, isOneMarks = fal
                             <span class="question-number">Q${startIndex + index + 1}</span>
                             <div class="question-content">
                                 <h3 class="question-text">${formattedQuestion}</h3>
-                                <button class="copy-btn" data-text="${escapeHtmlForAttribute(q.question)}" aria-label="Copy question">
-                                    <i class="fas fa-copy"></i> Copy
-                                </button>
                             </div>
                         </div>
                         <div class="answer-section">
