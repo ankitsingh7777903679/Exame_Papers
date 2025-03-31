@@ -1,7 +1,7 @@
 function openTutorial(file, title) {
   // Open code.html with the title as a query parameter
   const tutorialWindow = window.open(
-    `https://questionbanker.in/code?title=${encodeURIComponent(title)}`,
+    `code.html?title=${encodeURIComponent(title)}`,
     "_blank"
   );
   if (!tutorialWindow) {
@@ -15,7 +15,7 @@ function openTutorial(file, title) {
 document.addEventListener("DOMContentLoaded", () => {
   const followerCount = document.getElementById("follower-count");
   let count = 0;
-  const target = 8000;
+  const target = 8594;
   const duration = 4000; // 4 seconds
   const increment = target / (duration / 16); // Increment per frame (60fps)
 
@@ -40,7 +40,7 @@ document.addEventListener("DOMContentLoaded", () => {
 document.querySelectorAll(".resource-card").forEach((card) => {
   card.addEventListener("click", () => {
     const category = card.getAttribute("data-category");
-    window.location.href = `https://questionbanker.in/resources?category=${category}`;
+    window.location.href = `resources.html?category=${category}`;
   });
 });
 
@@ -50,3 +50,25 @@ function openInstagram() {
     "_blank"
   );
 }
+// Popup functionality
+document.addEventListener("DOMContentLoaded", () => {
+  const popupOverlay = document.getElementById("popupOverlay");
+  const closePopupBtn = document.getElementById("closePopupBtn");
+
+  // Check if the popup has already been shown in this session
+  const hasPopupBeenShown = sessionStorage.getItem("popupShown");
+
+  if (!hasPopupBeenShown) {
+    // Show the popup after 3 seconds
+    setTimeout(() => {
+      popupOverlay.classList.add("active");
+      // Mark the popup as shown in this session
+      sessionStorage.setItem("popupShown", "true");
+    }, 3000);
+  }
+
+  // Close the popup when the close button is clicked
+  closePopupBtn.addEventListener("click", () => {
+    popupOverlay.classList.remove("active");
+  });
+});

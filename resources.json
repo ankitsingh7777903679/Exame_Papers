@@ -23,6 +23,22 @@
       "pdf-image": "./images/JavaScript_logo_.svg"
     }
   ],
+  "jspt1-sources": [
+    {
+      "pdf-name": "JavaScript Part-1",
+      "pdf-description": "🚀 Free JavaScript Course! 🔥 Learn JavaScript from scratch with video lectures & free notes! 📚💻 Perfect for beginners &  those looking to level up their coding skills. 💡✨",
+      "pdf-url": "https://drive.google.com/drive/folders/1OtM1Pzb_NCwK2nOk9MTjJFDEs8indV96?usp=drive_link",
+      "pdf-image": "./images/JavaScript_logo_.svg"
+    }
+  ],
+  "jspt2-sources": [
+    {
+      "pdf-name": "JavaScript Part-2",
+      "pdf-description": "🚀 Advanced JavaScript Course – FREE! 🔥 Master ES6+,asynchronous programming, event loop, and advanced conceptswith in-depth video lectures & free notes!💻 Perfect for developers looking to level up! 🚀",
+      "pdf-url": "https://drive.google.com/drive/folders/1SyViwHw9Ye_P_F1XtLE_EKvIhAbxKpO2?usp=sharing",
+      "pdf-image": "./images/JavaScript_logo_.svg"
+    }
+  ],
   "sql-sources": [
     {
       "pdf-name": "SQL Basics",
@@ -85,6 +101,30 @@
       "pdf-description": "A collection of beginner-level Java coding questions for practice.",
       "pdf-url": "https://drive.google.com/file/d/1QTLiykOLj8cUmgyTIj7ZU0QQoJ84UiwH/view?usp=drivesdk ",
       "pdf-image": "./images/javaquepdf.jpeg"
+    }
+  ],
+  "python-interview-questions-sources": [
+    {
+      "pdf-name": "Top 36 Python Interview Questions 2025",
+      "pdf-description": "A comprehensive guide with 36 essential Python interview questions, covering basic to advanced topics for data professionals.",
+      "pdf-url": "https://drive.google.com/file/d/1NUDvntmhzH2H9CxZ25AHvBSJ4YfmYpL4/view?usp=sharing",
+      "pdf-image": "./images/pythoninterviewQ.jpg"
+    }
+  ],
+  "data-analyst-roadmap-sources": [
+    {
+      "pdf-name": "Data Analyst Roadmap - Beginner",
+      "pdf-description": "A step-by-step roadmap for beginners to become a Data Analyst, covering Python, SQL, and data visualization.",
+      "pdf-url": "https://drive.google.com/file/d/15xxhchNcXAwobrYgaE-0nd1mWAQgqljl/view?usp=sharing",
+      "pdf-image": "./images/dataAnalystroadmap.png"
+    }
+  ],
+  "leetcode-important-questions-sources": [
+    {
+      "pdf-name": "LeetCode Essentials for Data Science",
+      "pdf-description": "A curated list of essential LeetCode questions for data science and data analyst interviews, focusing on Python.",
+      "pdf-url": "https://drive.google.com/file/d/1xOHwzpyMl6tiyT_dcxh9md5PeBHzSUvu/view?usp=sharing",
+      "pdf-image": "./images/leetcode-important-questions.png"
     }
   ]
 }
