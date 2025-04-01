@@ -1,5 +1,3 @@
-// script.js
-
 // Function to generate cards dynamically
 function generateCards(containerId, course, links) {
   const container = document.getElementById(containerId);
@@ -47,7 +45,7 @@ const bcaLinks = [
   "https://questionbanker.in/bca_sem1",
   "https://questionbanker.in/bca_sem2",
   "https://questionbanker.in/bca_sem3",
-  "https://questionbanker.in/bca-sem4-solution",
+  "bca-sem4-solution",
   "https://questionbanker.in/bca_sem5",
   "https://questionbanker.in/bca_sem6"
 ];
@@ -61,14 +59,7 @@ const bcomLinks = [
   "https://questionbanker.in/bcom_sem6"
 ];
 
-// Generate cards for BCA and B.Com
-document.addEventListener('DOMContentLoaded', () => {
-  console.log("DOM fully loaded, generating cards...");
-  generateCards('bca-papers', 'BCA', bcaLinks);
-  generateCards('bcom-papers', 'B.Com', bcomLinks);
-});
-
-// Dark/Light Mode Logic (Unchanged)
+// Selectors
 const mode = document.querySelector(".mode-icon");
 const bodys = document.querySelector(".bodys");
 const card = document.querySelectorAll(".card");
@@ -79,14 +70,22 @@ const hero_img = document.querySelectorAll(".hero-img img");
 const menu_heading = document.querySelector(".menu-heading");
 const contact_form_label = document.querySelectorAll(".form-label");
 const contact_form_input = document.querySelectorAll(".form-control");
-const footer = document.querySelector(".footer");
+const footerSection = document.querySelector('.footer-section');
+const footerHeadings = document.querySelectorAll('.footer-heading');
+const footerText = document.querySelectorAll('.footer-text');
+const footerLinks = document.querySelectorAll('.footer-link');
+const socialIcons = document.querySelectorAll('.social-icon');
+const footerCopyright = document.querySelector('.footer-copyright');
 const footer_icon = document.querySelectorAll(".media-nav i");
 
 let mode_code = localStorage.getItem("mode") === "dark" ? 0 : 1;
 
 const applyMode = () => {
   const alertModalButton = document.querySelector('.modal-content .btn-close');
+  
   if (mode_code === 1) {
+    bodys.classList.remove('dark-mode');
+    bodys.classList.add('light-mode');
     mode.style.color = "black";
     mode.textContent = "";
     bodys.style.backgroundColor = "white";
@@ -107,13 +106,22 @@ const applyMode = () => {
     for (let i of contact_form_input) {
       i.style.backgroundColor = "white";
     }
-    footer.style.color = "black";
-    footer.style.borderTop = "1px solid #ccc";
     for (let i of footer_icon) {
       i.style.color = "black";
     }
     alertModalButton.style.backgroundColor = "#3cff00";
+    
+    // Footer light mode
+    footerSection.style.backgroundColor = "#EAF9E1";
+    footerSection.style.borderTop = "1px solid #ccc";
+    footerHeadings.forEach(h => h.style.color = "#07251F");
+    footerText.forEach(t => t.style.color = "#07251F");
+    footerLinks.forEach(l => l.style.color = "#185B04");
+    socialIcons.forEach(i => i.style.color = "#07251F");
+    footerCopyright.style.color = "#07251F";
   } else {
+    bodys.classList.remove('light-mode');
+    bodys.classList.add('dark-mode');
     bodys.style.backgroundColor = "#07251F";
     mode.style.color = "#3cff00";
     mode.textContent = "";
@@ -134,17 +142,31 @@ const applyMode = () => {
     for (let i of contact_form_input) {
       i.style.backgroundColor = "#cecece";
     }
-    footer.style.color = "#3cff00";
-    footer.style.borderTop = "1px solid #3cff00";
     for (let i of footer_icon) {
       i.style.color = "white";
     }
     alertModalButton.style.backgroundColor = "#3cff00";
+    
+    // Footer dark mode
+    footerSection.style.backgroundColor = "#07251F";
+    footerSection.style.borderTop = "1px solid #3cff00";
+    footerHeadings.forEach(h => h.style.color = "#3cff00");
+    footerText.forEach(t => t.style.color = "#EAF9E1");
+    footerLinks.forEach(l => l.style.color = "#EAF9E1");
+    socialIcons.forEach(i => i.style.color = "#EAF9E1");
+    footerCopyright.style.color = "#3cff00";
   }
 };
 
-applyMode();
+// Generate cards and apply mode on page load
+document.addEventListener('DOMContentLoaded', () => {
+  console.log("DOM fully loaded, applying mode and generating cards...");
+  generateCards('bca-papers', 'BCA', bcaLinks);
+  generateCards('bcom-papers', 'B.Com', bcomLinks);
+  applyMode();
+});
 
+// Mode toggle
 mode.addEventListener("click", () => {
   mode_code = mode_code === 1 ? 0 : 1;
   localStorage.setItem("mode", mode_code === 1 ? "light" : "dark");

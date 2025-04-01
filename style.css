@@ -23,7 +23,6 @@
 
 .nav-link {
   color: #3cff00;
-  font-family: poppins;
   font-size: 18px;
   margin: auto 15px;
 }
@@ -43,14 +42,12 @@
 }
 
 .hero-text h2 {
-  font-family: poppins;
   font-weight: 700;
   color: #000000;
   font-size: 32px;
 }
 
 .hero-text p {
-  font-family: poppins;
   font-weight: 400;
   color: #000000;
   font-size: 20px;
@@ -65,8 +62,6 @@
 .card {
   display: flex;
   flex-direction: column;
-  font-family: K2D, serif;
-  /* background: linear-gradient(to bottom, #F2FFEE 17%, #b6faa2 59%, #65DE40 100%); */
   border: none !important;
   background-color: #EAF9E1;
 }
@@ -79,7 +74,6 @@
   background-color: #DBF8D7;
   padding: 10px;
   border-radius: 10px;
-  font-family: K2D, serif;
 }
 
 .card-icon i {
@@ -103,18 +97,15 @@
   color: #07251F;
 }
 
-
 .flip-card-text {
   font-size: 18px;
   color: #07251F;
 }
 
-
 .flip-card-tick {
   font-size: 20px;
   font-weight: bolder;
   color: #185B04;
-  
 }
 
 .flip-card-link {
@@ -129,21 +120,12 @@
   box-shadow: 0px 0px 20px 5px #baffa5 !important;
   background-color: #07251F;
   border: 2px solid #EAF9E1 !important;
-  
-  .flip-card-head {
-   color: #EAF9E1;
-  }
-  
-  .flip-card-subhead {
-   
-    color: #EAF9E1;
-  }
-  
-  
-  .flip-card-text {
-    color: #EAF9E1;
-  }
-  
+}
+
+.card:hover .flip-card-head,
+.card:hover .flip-card-subhead,
+.card:hover .flip-card-text {
+  color: #EAF9E1;
 }
 
 .modal-content button {
@@ -156,21 +138,24 @@
   background-color: #000000;
 }
 
-.mode-btn{
+.mode-btn {
   background: transparent;
   border: none;
   padding: 5px;
 }
-.mode-btn span{
+
+.mode-btn span {
   font-size: 25px;
 }
-.mode-btn>a i{
+
+.mode-btn > a i {
   border-radius: 50%;
   font-size: 27px;
   padding: 0px;
   margin: 0px;
 }
-.mode-btn i:hover{
+
+.mode-btn i:hover {
   transition: 0.5s;
   background-color: #3cff00;
   color: #ffffff;
@@ -185,9 +170,92 @@
 body.dark-mode .contact-form .form-control:focus {
   border-color: #3cff00;
   box-shadow: 0 0 0 0.2rem rgba(60, 255, 0, 0.25);
-} 
+}
 
-.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
-    color: #29b000;
-    background-color: #eaf9e1;
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #29b000;
+  background-color: #eaf9e1;
+}
+
+.footer-section {
+  background-color: #EAF9E1;
+  border-top: 1px solid #ccc;
+  transition: all 0.3s ease;
+}
+
+.footer-heading {
+  font-weight: 700;
+  color: #07251F;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.footer-text {
+  color: #07251F;
+  font-size: 16px;
+}
+
+.footer-links li {
+  margin-bottom: 8px;
+}
+
+.footer-link {
+  color: #185B04;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-link:hover {
+  color: #3cff00;
+}
+
+.social-icon {
+  color: #07251F;
+  font-size: 24px;
+  transition: all 0.3s ease;
+}
+
+.social-icon:hover {
+  color: #3cff00;
+  transform: scale(1.1);
+}
+
+.footer-copyright {
+  color: #07251F;
+  font-size: 14px;
+}
+
+/* Dark Mode Styles */
+body.dark-mode .footer-section {
+  background-color: #07251F;
+  border-top: 1px solid #3cff00;
+}
+
+body.dark-mode .footer-heading {
+  color: #3cff00;
+}
+
+body.dark-mode .footer-text {
+  color: #EAF9E1;
+}
+
+body.dark-mode .footer-link {
+  color: #EAF9E1;
+}
+
+body.dark-mode .footer-link:hover {
+  color: #3cff00;
+}
+
+body.dark-mode .social-icon {
+  color: #EAF9E1;
+}
+
+body.dark-mode .social-icon:hover {
+  color: #3cff00;
+}
+
+body.dark-mode .footer-copyright {
+  color: #3cff00;
 }
