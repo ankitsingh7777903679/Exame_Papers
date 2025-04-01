@@ -98,7 +98,7 @@
 
 <body class="bodys">
   <!-- Navbar -->
-  <div class="main-nav" style="z-index: 1;">
+  <div class="main-nav" style="z-index: 1; font-family: 'K2D', serif;">
     <nav class="container-fluid navbar navbar-expand-lg bg-dark navbar-dark" style="z-index: 1;">
       <div class="container">
         <a class="navbar-brand fw-bolder me-0" href="#" aria-label="QuestionBanker Home"><img src="logo.webp" alt="QuestionBanker Logo" height="35px"></a>
@@ -120,7 +120,7 @@
         </div>
       </div>
     </nav>
-    <nav class="container media-nav" style="z-index: 1;">
+    <nav class="container media-nav" style="z-index: 1; font-family: 'K2D', serif;">
       <div class="d-flex justify-content-end align-items-center">
         <button class="mode-btn d-flex align-items-center gap-3" style="border: none;">
           <a href="https://questionbanker.in/codermain" target="_blank" aria-label="Visit our Projects">
@@ -139,7 +139,7 @@
   </div>
 
   <!-- Board Exam Papers Section -->
-  <div class="container-fluid" style="z-index: 0;" id="paper">
+  <div class="container-fluid" style="z-index: 0; font-family: 'K2D', serif;" id="paper">
     <div class="container mt-1 mb-4 mt-4">
       <div class="bord-section px-lg-5">
         <div class="d-flex justify-content-center align-items-center gap-2 course-headings px-lg-5">
@@ -260,7 +260,7 @@
   </div>
 
   <!-- College Sems Papers Section (Using Bootstrap Nav Tabs) -->
-  <div class="container-fluid" style="z-index: 0;" id="paper">
+  <div class="container-fluid" style="z-index: 0; font-family: 'K2D', serif;" id="paper">
     <div class="container mt-1 mb-4 mt-4">
       <div class="d-flex justify-content-center align-items-center gap-2 course-headings px-lg-5">
         <i class="fa-solid fa-graduation-cap fw-bolder"></i>
@@ -268,7 +268,7 @@
       </div>
 
       <!-- Nav Tabs for BCA and B.Com -->
-      <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist">
+      <ul class="nav nav-pills mb-3 justify-content-center" id="pills-tab" role="tablist" style="font-family: 'K2D', serif;">
         <li class="nav-item" role="presentation">
           <button class="nav-link active" id="pills-bca-tab" data-bs-toggle="pill" data-bs-target="#pills-bca" type="button" role="tab" aria-controls="pills-bca" aria-selected="true">BCA</button>
         </li>
@@ -278,7 +278,7 @@
       </ul>
 
       <!-- Tab Content -->
-      <div class="tab-content" id="pills-tabContent">
+      <div class="tab-content" id="pills-tabContent" style="font-family: 'K2D', serif;">
         <!-- BCA Tab Pane -->
         <div class="tab-pane fade show active" id="pills-bca" role="tabpanel" aria-labelledby="pills-bca-tab">
           <h1 class="menu-heading text-center mb-2 mb-md-4"><span style="color: #C2FEA2;">BCA</span></h1>
@@ -299,7 +299,7 @@
   </div>
 
   <!-- About Us Section -->
-  <div class="container-fluid" style="z-index: 0;" id="about">
+  <div class="container-fluid" style="z-index: 0; font-family: 'K2D', serif;" id="about">
     <div class="container hero-section">
       <div class="row row-col-lg-2 row-cols-1" style="width: 100%;">
         <div class="hero-img col" style="width: 50%;">
@@ -319,7 +319,7 @@
   </div>
 
   <!-- Feedback Section -->
-  <div class="container-fluid" style="z-index: 0;" id="Feedback">
+  <div class="container-fluid" style="z-index: 0; font-family: 'K2D', serif;" id="Feedback" >
     <div class="container hero-section">
       <div class="row row-col-lg-2 row-cols-1" style="width: 100%;">
         <div class="col hero-text contact-form my-2 pb-2 my-md-1 pb-md-1" style="width: 50%; border: none;">
@@ -351,51 +351,127 @@
   </div>
 
   <!-- Footer -->
-  <footer class="footer-section container-fluid py-5 mt-4">
-    <div class="container">
-      <div class="row">
-        <!-- About Column -->
-        <div class="col-md-4 mb-4 mb-md-0">
-          <h5 class="footer-heading">About QuestionBanker</h5>
-          <p class="footer-text">
-            Your trusted source for previous year exam papers. Helping students excel in B.Com, BCA, 10th, and 12th exams since 2024.
-          </p>
+  <footer class="footer-section" style="  font-family: 'K2D', serif;">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer-logo text-center mb-4">
+          <img src="logo.webp" alt="QuestionBanker Logo" class="footer-brand-logo">
         </div>
+        <div class="row g-4">
+          <!-- About Column -->
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-card">
+              <h5 class="footer-heading">
+                <i class="fas fa-info-circle me-2"></i>
+                About QuestionBanker
+              </h5>
+              <p class="footer-text">
+                Your trusted source for previous year exam papers. Helping students excel in B.Com, BCA, 10th, and 12th exams since 2024.
+              </p>
+            </div>
+          </div>
 
-        <!-- Quick Links Column -->
-        <div class="col-md-4 mb-4 mb-md-0">
-          <h5 class="footer-heading">Quick Links</h5>
-          <ul class="footer-links list-unstyled">
-            <li><a href="#paper" class="footer-link">Exam Papers</a></li>
-            <li><a href="#about" class="footer-link">About Us</a></li>
-            <li><a href="#Feedback" class="footer-link">Feedback</a></li>
-            <li><a href="https://questionbanker.in/codermain" target="_blank" class="footer-link">Projects</a></li>
-          </ul>
-        </div>
+          <!-- Quick Links Column -->
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-card">
+              <h5 class="footer-heading">
+                <i class="fas fa-link me-2"></i>
+                Quick Links
+              </h5>
+              <ul class="footer-links list-unstyled">
+                <li><a href="#paper" class="footer-link"><i class="fas fa-chevron-right me-2"></i>Exam Papers</a></li>
+                <li><a href="#about" class="footer-link"><i class="fas fa-chevron-right me-2"></i>About Us</a></li>
+                <li><a href="#Feedback" class="footer-link"><i class="fas fa-chevron-right me-2"></i>Feedback</a></li>
+                <li><a href="https://questionbanker.in/codermain" target="_blank" class="footer-link"><i class="fas fa-chevron-right me-2"></i>CoderMain</a></li>
+              </ul>
+            </div>
+          </div>
 
-        <!-- Social Media Column -->
-        <div class="col-md-4">
-          <h5 class="footer-heading">Connect With Us</h5>
-          <div class="social-links d-flex gap-3">
-            <a href="https://www.instagram.com/questionbanker_77/" target="_blank" class="social-icon" aria-label="Instagram">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="https://t.me/questionbanker_BOT" target="_blank" class="social-icon" aria-label="Telegram">
-              <i class="fa-brands fa-telegram"></i>
-            </a>
-            <a href="https://questionbanker.in/codermain" target="_blank" class="social-icon" aria-label="Projects">
-              <i class="fa-solid fa-laptop-code"></i>
-            </a>
+          <!-- Board Solutions Column -->
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-card">
+              <h5 class="footer-heading">
+                <i class="fas fa-graduation-cap me-2"></i>
+                Board Solutions
+              </h5>
+              <ul class="footer-links list-unstyled">
+                <li><a href="https://questionbanker.in/tenth" target="_blank" class="footer-link"><i class="fas fa-chevron-right me-2"></i>10th Board</a></li>
+                <li><a href="https://questionbanker.in/comm" target="_blank" class="footer-link"><i class="fas fa-chevron-right me-2"></i>12th Commerce</a></li>
+                <li><a href="https://questionbanker.in/sci" target="_blank" class="footer-link"><i class="fas fa-chevron-right me-2"></i>12th Science</a></li>
+                <li><a href="https://questionbanker.in/arts" target="_blank" class="footer-link"><i class="fas fa-chevron-right me-2"></i>12th Arts</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <!-- College Solutions Column -->
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-card">
+              <h5 class="footer-heading">
+                <i class="fas fa-university me-2"></i>
+                College Solutions
+              </h5>
+              <div class="row">
+                <!-- BCA Links -->
+                <div class="col-md-6">
+                  <h6 class="footer-subheading">BCA</h6>
+                  <ul class="footer-links list-unstyled">
+                    <li><a href="https://questionbanker.in/bca/sem1" target="_blank" class="footer-link"><i class="fas fa-chevron-right me-2"></i>Semester 1</a></li>
+                    <li><a href="https://questionbanker.in/bca/sem2" target="_blank" class="footer-link"><i class="fas fa-chevron-right me-2"></i>Semester 2</a></li>
+                    <li><a href="https://questionbanker.in/bca/sem3" target="_blank" class="footer-link"><i class="fas fa-chevron-right me-2"></i>Semester 3</a></li>
+                    <li><a href="https://questionbanker.in/bca/sem4" target="_blank" class="footer-link"><i class="fas fa-chevron-right me-2"></i>Semester 4</a></li>
+                    <li><a href="https://questionbanker.in/bca/sem5" target="_blank" class="footer-link"><i class="fas fa-chevron-right me-2"></i>Semester 5</a></li>
+                    <li><a href="https://questionbanker.in/bca/sem6" target="_blank" class="footer-link"><i class="fas fa-chevron-right me-2"></i>Semester 6</a></li>
+                  </ul>
+                </div>
+                <!-- B.Com Links -->
+                <div class="col-md-6">
+                  <h6 class="footer-subheading">B.Com</h6>
+                  <ul class="footer-links list-unstyled">
+                    <li><a href="https://questionbanker.in/bcom/sem1" target="_blank" class="footer-link"><i class="fas fa-chevron-right me-2"></i>Semester 1</a></li>
+                    <li><a href="https://questionbanker.in/bcom/sem2" target="_blank" class="footer-link"><i class="fas fa-chevron-right me-2"></i>Semester 2</a></li>
+                    <li><a href="https://questionbanker.in/bcom/sem3" target="_blank" class="footer-link"><i class="fas fa-chevron-right me-2"></i>Semester 3</a></li>
+                    <li><a href="https://questionbanker.in/bcom/sem4" target="_blank" class="footer-link"><i class="fas fa-chevron-right me-2"></i>Semester 4</a></li>
+                    <li><a href="https://questionbanker.in/bcom/sem5" target="_blank" class="footer-link"><i class="fas fa-chevron-right me-2"></i>Semester 5</a></li>
+                    <li><a href="https://questionbanker.in/bcom/sem6" target="_blank" class="footer-link"><i class="fas fa-chevron-right me-2"></i>Semester 6</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Social Media Column -->
+          <div class="col-lg-4 col-md-6">
+            <div class="footer-card">
+              <h5 class="footer-heading">
+                <i class="fas fa-share-alt me-2"></i>
+                Connect With Us
+              </h5>
+              <div class="social-links d-flex gap-3">
+                <a href="https://www.instagram.com/questionbanker_77/" target="_blank" class="social-icon" aria-label="Instagram">
+                  <i class="fa-brands fa-instagram"></i>
+                </a>
+                <a href="https://t.me/questionbanker_BOT" target="_blank" class="social-icon" aria-label="Telegram">
+                  <i class="fa-brands fa-telegram"></i>
+                </a>
+                <a href="https://questionbanker.in/codermain" target="_blank" class="social-icon" aria-label="CoderMain">
+                  <i class="fa-solid fa-laptop-code"></i>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
+    </div>
 
-      <!-- Copyright -->
-      <div class="row mt-4">
-        <div class="col-12 text-center">
-          <p class="footer-copyright mb-0">
-            © 2024 QuestionBanker | All Rights Reserved
-          </p>
+    <!-- Copyright -->
+    <div class="footer-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 text-center">
+            <p class="footer-copyright mb-0">
+              © 2024 QuestionBanker | All Rights Reserved
+            </p>
+          </div>
         </div>
       </div>
     </div>

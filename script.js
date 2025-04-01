@@ -45,7 +45,7 @@ const bcaLinks = [
   "https://questionbanker.in/bca_sem1",
   "https://questionbanker.in/bca_sem2",
   "https://questionbanker.in/bca_sem3",
-  "bca-sem4-solution",
+  "https://questionbanker.in/bca-sem4-solution",
   "https://questionbanker.in/bca_sem5",
   "https://questionbanker.in/bca_sem6"
 ];
