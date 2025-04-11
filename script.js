@@ -160,7 +160,7 @@ const bcomLinks = [
   "https://questionbanker.in/bcom_sem1",
   "https://questionbanker.in/bcom_sem2",
   "https://questionbanker.in/bcom_sem3",
-  "https://questionbanker.in/bcom_sem4",
+  "https://questionbanker.in/bcom_sem4_solution",
   "https://questionbanker.in/bcom_sem5",
   "https://questionbanker.in/bcom_sem6"
 ];
