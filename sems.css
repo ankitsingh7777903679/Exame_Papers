@@ -1,92 +1,260 @@
-body{
+
+    body {
+    font-family: Arial, sans-serif;
     margin: 0;
-    height: 100vh;
-    background-color: #07251F; 
+    padding: 0;
+    background-color: #f0f5f2;
+    color: #333;
+    line-height: 1.3;
 }
-h4{
-    color: #DBF8D7;
-    margin-top: 20px;
+
+.exam-papers {
+    background-color: #e8f5e9;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
-.row{
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.back-btn {
+    display: inline-block;
+    padding: 8px 15px;
+    background-color: #fff;
+    color: #2e7d32;
+    text-decoration: none;
+    border: 1px solid #2e7d32;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 0.9em;
+    transition: background-color 0.3s;
 }
-.btn-years{
-    border-radius: 25px;
-    border: 2px solid #DBF8D7;
+
+.back-btn:hover {
+    background-color: #2e7d32;
+    color: #fff;
 }
-.btn-years button{
-    width: 200px;
-    font-weight: bolder;
-    padding: 8px;
-    border-radius: 15px;
-    background-color: #DBF8D7;
-    font-size: 18px;
+
+.exam-papers h1 {
+    color: #2e7d32;
+    font-size: 2.5em;
+    margin: 0 0 10px 0;
 }
-.btn-years button:hover{
-    box-shadow: 0px 0px 20px 3px #baffa5;
-    transform: scale(1.05);
-    transition: 0.5s;
-    background-color: #07251F;
-    color: #DBF8D7;
+
+.exam-papers p {
+    color: #666;
+    font-size: 1em;
+    margin: 0px;
 }
-.back-btn{
-    position: static;                                   ;
-    
+
+.exam-section {
+    margin-bottom: 30px;
+    background-color: #e0ece1;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.exam-section h2 {
+    color: #2e7d32;
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+.paper-card {
+    background-color: #fff;
+    padding:0 10px;
+    border-radius: 5px;
+    margin-bottom: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
-    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-height: 60px;
 }
-.back-btn div{
-    background-color: #DBF8D7;
+.subject-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    gap: 5px;
-    padding: 5px 7px;
-    border-radius: 7px;
-    
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-height: 60px;
 }
-.back-btn div i,a{
-    font-size: 20px;
+.resource-card {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    min-height: 60px;
+}
+
+.paper-card span {
+    color: #333;
+    font-size: 1.2em;
+    margin: 0;
+    flex-grow: 1;
+}
+
+.subject-card h3 {
+    color: #2e7d32;
+    font-size: 1.3em;
+    margin: 0 0 5px 0;
+}
+.subject-card h3 {
+    color: #2e7d32;
+    font-size: 1.3em;
+    margin: 0 0 5px 0;
+}
+
+
+.subject-card p{
+    color: #666;
+    font-size: 1em;
+    margin: 0 0 10px 0;
+}
+
+.resource-card p {
+    color: #666;
+    font-size: 1em;
+    margin: 0 0 10px 0;
+}
+
+.btn {
+    display: inline-block;
+    padding: 7px 10px;
+    background-color: #fff;
+    color: #2e7d32;
     text-decoration: none;
-    font-weight: bolder;
-    color: #07251F;
+    border: 1px solid #2e7d32;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-size: 1em;
+    white-space: nowrap;
+    /* min-width: 120px; */
+    text-align: center;
 }
 
-/* solution page */
-.con-qes{
-    border: 1px solid #ffffff;
+.btn.green {
+    background-color: #2e7d32;
+    color: #fff;
+    border: none;
 }
 
-.q-head{
-    margin-top: 10px;
+.btn.green:hover {
+    background-color: #1b5e20;
 }
 
-.q-head a{
-    background-color: #DBF8D7;
-    color: #07251F;
-    padding: 2px 5px;
-    font-size: 18px;
-}
-.nav-sub button{
-    background-color: #DBF8D7 !important;
-    color: #07251F;
-    padding: 2px 5px;
-    font-size: 18px;
-  margin: auto 2px;
-}
-.nav-sub button:active{
-    color: black;
-}
-#mcq,#onemarks,#long{
-    border-bottom: 2px solid #DBF8D7;
+.btn:hover {
+    background-color: #2e7d32;
+    color: #fff;
 }
 
+.subject-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
 
+.subject-card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex: 1 1 calc(25.33%);
+    min-width: 250px;
+}
 
-/* solution page */
+.resource-card {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    flex: 1 1 calc(33.33% - 13.33px);
+    min-width: 250px;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .exam-papers {
+        padding: 10px;
+    }
+    .exam-papers h1 {
+        font-size: 1.8em;
+    }
+    .exam-papers p {
+        font-size: 0.85em;
+    }
+    .exam-section h2 {
+        font-size: 1.5em;
+    }
+    .paper-card {
+        flex-direction: row;
+        text-align: center;
+        padding: 10px;
+        min-height: auto;
+    }
+    .subject-card {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+        min-height: auto;
+    }
+    .resource-card {
+        flex-direction: column;
+        text-align: start;
+        padding: 10px;
+        min-height: auto;
+    }
+    .paper-card span {
+        margin-bottom: 10px;
+    }
+    .subject-card h3 {
+        margin-bottom: 10px;
+    }
+    .resource-card h3 {
+        margin:0 0 10px 0;
+    }
+    .subject-cards {
+        flex-direction: column;
+    }
+    .subject-card{
+        flex: 1 1 100%;
+    }
+    .resource-card {
+        flex: 1 1 100%;
+    }
+    .container {
+        padding: 5px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 1024px) {
+    .exam-papers {
+        padding: 15px;
+    }
+    .exam-papers h1 {
+        font-size: 2em;
+    }
+    .exam-section h2 {
+        font-size: 1.6em;
+    }
+    .subject-cards {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .resource-card {
+        flex: 1 1 calc(50% - 10px);
+    }
+    .btn {
+        font-size: 0.95em;
+    }
+}
+
+@media (min-width: 1025px) {
+    /* .exam-papers {
+        max-width: 1025 px;
+        margin: 0 auto;
+    } */
+}

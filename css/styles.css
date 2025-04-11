@@ -36,11 +36,7 @@ body {
 .mode-btn a:hover {
     color: #4CAF50;
 }
-.back-btn {
-    display: flex;
-    justify-content: space-between;
-    padding: 10px 0;
-}
+
 .back-btn a {
     color: #DBF8D7;
     text-decoration: none;
