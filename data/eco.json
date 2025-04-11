@@ -1,0 +1,407 @@
+{
+  "mcq": [
+    {
+      "question": "1. 'Supply always creates its own demand' - which economist established this?",
+      "options": [
+        "a) J.B. Say",
+        "b) Ricardo",
+        "c) J.S. Mill",
+        "d) Prof. Pigou"
+      ],
+      "correctAnswer": "a",
+      "id": "eco-q1",
+      "isImportant": false
+    },
+    {
+      "question": "2. Whose function is consumption?",
+      "options": [
+        "a) Income",
+        "b) Cost",
+        "c) Price",
+        "d) All"
+      ],
+      "correctAnswer": "a",
+      "id": "eco-q2",
+      "isImportant": false
+    },
+    {
+      "question": "3. When was the concept of employment multiplier introduced by Prof. R.F. Kahn?",
+      "options": [
+        "a) 1931",
+        "b) 1932",
+        "c) 1948",
+        "d) 1951"
+      ],
+      "correctAnswer": "a",
+      "id": "eco-q3",
+      "isImportant": false
+    },
+    {
+      "question": "4. A trade cycle is alternation of boom and bust situation in an economy - who proposed this?",
+      "options": [
+        "a) Keynes",
+        "b) Haberler",
+        "c) Prof. Michel",
+        "d) Ricardo"
+      ],
+      "correctAnswer": "b",
+      "id": "eco-q4",
+      "isImportant": false
+    },
+    {
+      "question": "5. Internal trade is trade between us while international trade is between us and them - who said this?",
+      "options": [
+        "a) Prof. Ohlin",
+        "b) Fredric List",
+        "c) Prof. Haberler",
+        "d) Marshall"
+      ],
+      "correctAnswer": "a",
+      "id": "eco-q5",
+      "isImportant": false
+    },
+    {
+      "question": "6. Any country's balance of accounts becomes balanced through price changes - who proposed this?",
+      "options": [
+        "a) Keynes",
+        "b) David Ricardo",
+        "c) Prof. Kesal",
+        "d) All"
+      ],
+      "correctAnswer": "b",
+      "id": "eco-q6",
+      "isImportant": false
+    },
+    {
+      "question": "7. When two countries are on the gold standard, exchange rates are determined by what principle?",
+      "options": [
+        "a) The principle of equal purchasing power",
+        "b) Principle of balance of payment",
+        "c) Principle of mint parity",
+        "d) None"
+      ],
+      "correctAnswer": "c",
+      "id": "eco-q7",
+      "isImportant": false
+    },
+    {
+      "question": "8. When did the Goods and Services Tax come into effect in India?",
+      "options": [
+        "a) 1 April 1951",
+        "b) 1 May 1961",
+        "c) 1 July 2017",
+        "d) 1 April 2011"
+      ],
+      "correctAnswer": "c",
+      "id": "eco-q8",
+      "isImportant": false
+    },
+    {
+      "question": "9. A modern state is known as which state?",
+      "options": [
+        "a) Police state",
+        "b) Progressive state",
+        "c) Welfare state",
+        "d) All"
+      ],
+      "correctAnswer": "c",
+      "id": "eco-q9",
+      "isImportant": false
+    },
+    {
+      "question": "10. When was the compulsory saving scheme introduced in India?",
+      "options": [
+        "a) 1962",
+        "b) 1964",
+        "c) 1963",
+        "d) 1965"
+      ],
+      "correctAnswer": "c",
+      "id": "eco-q10",
+      "isImportant": false
+    }
+  ],
+  "onemarks": [
+    {
+      "question": "1. In which year was there an economic recession in the world?",
+      "answer": "2008",
+      "isImportant": false
+    },
+    {
+      "question": "2. Marginal consumption propensity always tends to be __________ than unity.",
+      "answer": "Less",
+      "isImportant": false
+    },
+    {
+      "question": "3. International trade and economic development are __________.",
+      "answer": "Interdependent",
+      "isImportant": false
+    },
+    {
+      "question": "4. A fall in the value of a country's currency, if certain and premeditated, is called __________.",
+      "answer": "Devaluation",
+      "isImportant": false
+    },
+    {
+      "question": "5. According to which economist, tax incidence is the search for tax payment?",
+      "answer": "David Ricardo",
+      "isImportant": false
+    },
+    {
+      "question": "6. What is Effective demand?",
+      "answer": "Effective demand is the total demand for goods and services in an economy at a given price level that is backed by the ability to pay.",
+      "isImportant": false
+    },
+    {
+      "question": "7. Write the consumption function?",
+      "answer": "C = a + bY, where C is consumption, a is autonomous consumption, b is marginal propensity to consume, and Y is income.",
+      "isImportant": false
+    },
+    {
+      "question": "8. Who gave the principle of capital investment multiplier?",
+      "answer": "J.M. Keynes",
+      "isImportant": false
+    },
+    {
+      "question": "9. State the types of Trade cycle.",
+      "answer": "Boom, Recession, Depression, and Recovery.",
+      "isImportant": false
+    },
+    {
+      "question": "10. Write the meaning of International Trade.",
+      "answer": "International trade is the exchange of goods and services between countries.",
+      "isImportant": false
+    },
+    {
+      "question": "11. What is Balance of Trade?",
+      "answer": "Balance of Trade is the difference between the value of a country's exports and imports of goods.",
+      "isImportant": false
+    },
+    {
+      "question": "12. Give Dr. Dalton's Definition of Public Finance.",
+      "answer": "Dr. Dalton defined public finance as the study of income and expenditure of public authorities.",
+      "isImportant": false
+    },
+    {
+      "question": "13. What is Incidence?",
+      "answer": "Incidence refers to the final burden of a tax on individuals or entities.",
+      "isImportant": false
+    },
+    {
+      "question": "14. What is full employment?",
+      "answer": "Full employment occurs when all willing and able workers have jobs, with only natural unemployment (e.g., 4-5%) present. It doesn’t mean zero unemployment but optimal resource use, like during economic booms. It ensures maximum output without inflationary pressure.",
+      "isImportant": false
+    },
+    {
+      "question": "15. Write the formula of the consumption function.",
+      "answer": "The consumption function is C = a + bY, where C is consumption, a is autonomous consumption (e.g., ₹5,000), b is the marginal propensity to consume (e.g., 0.8), and Y is disposable income. It shows how income affects spending. Keynes introduced this concept.",
+      "isImportant": false
+    },
+    {
+      "question": "16. What is Internal and International trade?",
+      "answer": "Internal trade is buying and selling goods within a country’s borders (e.g., ₹10,000 goods in Gujarat). International trade involves exchange across nations (e.g., ₹1 crore exports to the US). Both boost economic activity, differing in scale and regulations.",
+      "isImportant": false
+    },
+    {
+      "question": "17. State main sections of public finance.",
+      "answer": "Public finance includes public revenue (e.g., taxes like GST), public expenditure (e.g., ₹50 crore on roads), public debt (e.g., ₹10 lakh crore borrowing), and fiscal policy (e.g., budget adjustments). These sections manage government funds. They ensure economic stability and growth.",
+      "isImportant": false
+    },
+    {
+      "question": "18. What is tax shifting?",
+      "answer": "Tax shifting is transferring a tax burden from one party to another, like a seller raising prices (e.g., ₹100 to ₹110) after a ₹10 tax. It depends on demand elasticity—less elastic goods shift more. It affects consumers or producers based on market conditions.",
+      "isImportant": false
+    },
+    {
+      "question": "19. What is meant by money?",
+      "answer": "Money is anything widely accepted as a medium of exchange, unit of account, store of value, and standard of deferred payment, facilitating economic transactions.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "20. State the objectives of liquidity preference.",
+      "answer": "Liquidity preference, per Keynes, explains why people hold money:\n○ Transaction Motive: For daily expenses.\n○ Precautionary Motive: For emergencies.\n○ Speculative Motive: To benefit from future interest rate changes.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "21. Explain the equation P = KR/M",
+      "answer": "The equation P = KR/M is from the Cambridge Cash Balance approach:\n○ P: Price level.\n○ K: Proportion of income held as cash.\n○ R: Real income (output).\n○ M: Money supply.\n○ It suggests price levels rise if money supply increases, assuming K and R are constant.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "22. What is inflation?",
+      "answer": "Inflation is a sustained increase in the general price level of goods and services in an economy over time, reducing purchasing power.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "23. State the main objectives of International Monetary Fund.",
+      "answer": "The IMF aims to:\n○ Promote global monetary cooperation.\n○ Ensure exchange rate stability.\n○ Facilitate international trade.\n○ Provide financial assistance to countries with balance of payments issues.\n○ Foster economic stability and growth.",
+      "code": "",
+      "isImportant": false
+    }
+  ],
+  "long": [
+    {
+      "question": "1. Explain the theory of purchasing power parity.",
+      "answer": "Purchasing Power Parity (PPP) is a fundamental economic theory that compares the purchasing power of different countries' currencies based on the cost of a common basket of goods and services. It aims to determine the 'real' exchange rate between two currencies. Below is a detailed explanation:\n\n1. Concept and Definition: PPP suggests that in an efficient market with no barriers, the exchange rate between two currencies should equalize the price of an identical basket of goods in both countries. For instance, if a basket costs $100 in the USA and ₹8000 in India, the exchange rate should be 1 USD = 80 INR.\n\n2. Types of PPP:\n   - Absolute PPP: This assumes that the price levels in two countries are directly comparable when expressed in a common currency. It implies perfect price equality after adjusting for exchange rates.\n   - Relative PPP: This focuses on the rate of change in price levels (inflation). It states that the difference in inflation rates between two countries will drive changes in their exchange rates over time.\n\n3. Theoretical Basis: PPP is rooted in the 'Law of One Price,' which states that identical goods should have the same price globally when transportation costs and trade barriers are absent. This ensures that arbitrage opportunities are minimized.\n\n4. Practical Example: If a pair of shoes costs $50 in the USA and £40 in the UK, with an exchange rate of 1 USD = 0.8 GBP, PPP holds because $50 × 0.8 = £40. If this equality doesn’t exist, arbitrageurs could buy cheap in one country and sell high in another, adjusting the exchange rate.\n\n5. Limitations: PPP faces real-world challenges:\n   - Trade Barriers: Tariffs, quotas, and taxes distort prices.\n   - Non-tradable Goods: Services like haircuts can’t be traded internationally, affecting price comparisons.\n   - Transportation Costs: Shipping expenses create price differences.\n   - Market Imperfections: Monopolies or subsidies can skew prices.\n\n6. Applications: PPP is widely used by economists to compare living standards, calculate 'real' GDP across nations, and assess whether a currency is overvalued or undervalued (e.g., The Economist’s Big Mac Index).\n\nConclusion: While PPP provides a theoretical framework to understand exchange rates and price levels, its practical application is limited by external factors. Nonetheless, it remains a critical tool in international economics.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "2. Explain the remedies to remove imbalance in the balance of payment.",
+      "answer": "The Balance of Payments (BoP) records all economic transactions between a country and the rest of the world. An imbalance occurs when the current account (trade) or capital account shows a persistent deficit or surplus. Below are detailed remedies to correct a BoP deficit:\n\n1. Currency Devaluation: Reducing the value of the domestic currency makes exports cheaper and imports costlier. For example, if India devalues the rupee from 1 USD = 80 INR to 1 USD = 90 INR, Indian goods become more competitive abroad, boosting exports and reducing the trade deficit.\n\n2. Import Restrictions: Governments can impose tariffs, quotas, or import licensing to limit foreign goods entering the country. This reduces import expenditure, improving the current account. However, this may invite retaliation from trade partners.\n\n3. Export Promotion: Policies like subsidies, tax incentives, or marketing support for exporters increase the competitiveness of domestic goods in global markets. For instance, offering tax breaks to textile exporters can enhance foreign exchange earnings.\n\n4. Tight Monetary Policy: Central banks can raise interest rates to attract foreign investment. Higher returns on savings or bonds draw capital inflows, strengthening the capital account. However, this may slow domestic growth.\n\n5. Fiscal Discipline: Reducing government spending or increasing taxes lowers aggregate demand, including for imported goods. For example, cutting subsidies on luxury imports can reduce the outflow of foreign currency.\n\n6. Encouraging Foreign Investment and Aid: Attracting Foreign Direct Investment (FDI) or securing loans from institutions like the IMF can provide immediate funds to cover deficits. For instance, FDI in infrastructure projects brings long-term capital inflows.\n\n7. Exchange Controls: Restricting currency outflows (e.g., limiting how much citizens can spend abroad) preserves foreign reserves. This is a short-term fix but can harm investor confidence.\n\nConclusion: Correcting a BoP imbalance requires a mix of short-term (devaluation, controls) and long-term (export growth, investment) measures. The choice depends on the country’s economic structure, trade relationships, and global conditions.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "3. Importance of the concept of marginal efficiency of capital.",
+      "answer": "The Marginal Efficiency of Capital (MEC) is a key concept in economics, introduced by John Maynard Keynes, representing the expected rate of return on an additional unit of capital investment. Its importance lies in the following aspects:\n\n1. Investment Decisions: MEC guides businesses in deciding whether to invest in new capital goods. If MEC exceeds the interest rate, investment is profitable.\n2. Economic Growth: Higher MEC encourages capital formation, leading to increased production capacity and economic expansion.\n3. Interest Rate Link: MEC connects investment to monetary policy. When interest rates fall below MEC, firms borrow and invest more, stimulating the economy.\n4. Business Cycle Analysis: MEC fluctuates with economic conditions—high during booms, low during recessions—helping explain cyclical patterns.\n5. Resource Allocation: It ensures capital is allocated efficiently, as firms prioritize projects with the highest MEC.\n6. Policy Formulation: Governments use MEC to design fiscal and monetary policies, like tax incentives, to boost investment.\n7. Profit Expectation: MEC reflects entrepreneurs’ optimism or pessimism, influencing aggregate demand.\n8. Dynamic Nature: Unlike static models, MEC accounts for future expectations, making it a forward-looking tool.\n\nConclusion: MEC is crucial for understanding investment behavior, economic stability, and growth, bridging microeconomic decisions with macroeconomic outcomes.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "4. Characteristics of trade cycle.",
+      "answer": "A trade cycle, or business cycle, refers to the recurring fluctuations in economic activity over time. Its main characteristics are:\n\n1. Periodicity: Trade cycles occur in a rhythmic pattern, though the duration of each phase (expansion, peak, contraction, trough) varies.\n2. Phases: It has four stages—boom (growth), peak (maximum output), recession (decline), and trough (lowest activity)—forming a complete cycle.\n3. Widespread Impact: Affects all sectors—production, employment, income, and prices—not just isolated industries.\n4. Self-Correcting: Cycles tend to reverse naturally; booms lead to overproduction and recessions, while troughs stimulate recovery.\n5. Asymmetry: The length and intensity of expansion and contraction phases differ; booms may last longer than recessions.\n6. International Linkages: Trade cycles in one country influence others due to global trade and investment flows.\n7. Investment Fluctuations: Changes in business investment, driven by profit expectations, are a key driver of cycles.\n8. Psychological Factors: Optimism during booms and pessimism during recessions amplify economic swings.\n\nConclusion: These characteristics highlight the dynamic and interconnected nature of trade cycles, essential for economic forecasting and policy-making.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "5. Difference between private finance and public finance.",
+      "answer": "Private finance deals with the financial activities of individuals or firms, while public finance pertains to government revenue and expenditure. Key differences include:\n\n1. Objective: Private finance aims at profit or personal welfare; public finance focuses on social welfare and economic stability.\n2. Scope: Private finance is limited to individual or corporate budgets; public finance covers national or regional economies.\n3. Revenue Sources: Private finance relies on income, savings, or loans; public finance uses taxes, public debt, and grants.\n4. Expenditure: Private spending is for personal needs (e.g., food, housing); public spending is for collective goods (e.g., roads, defense).\n5. Budget Balancing: Private entities must balance income and expenditure; governments can run deficits, borrowing to meet goals.\n6. Scale: Private finance operates on a smaller, micro level; public finance is macro, affecting entire populations.\n7. Accountability: Private finance is accountable to owners or shareholders; public finance is accountable to citizens via democratic processes.\n8. Adjustment: Private finance adjusts to market forces; public finance adjusts to policy goals and economic conditions.\n\nConclusion: These distinctions show how private finance serves individual interests, while public finance supports societal needs and economic management.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "6. Difference between impact and incidence.",
+      "answer": "In economics, 'impact' and 'incidence' refer to different aspects of taxation or economic burden. Their differences are:\n\n1. Definition: Impact is the initial burden of a tax on the person or entity paying it; incidence is the final resting place of the tax burden after shifting.\n2. Point of Application: Impact occurs at the point of tax collection; incidence reflects who ultimately bears the cost.\n3. Example: If a sales tax is imposed on a seller (impact), they may raise prices, passing it to consumers (incidence).\n4. Shifting: Impact is direct and immediate; incidence involves shifting through market mechanisms like price changes.\n5. Economic Entity: Impact affects the payer (e.g., producer); incidence may fall on others (e.g., consumers, workers).\n6. Elasticity Factor: Incidence depends on demand and supply elasticity—e.g., inelastic demand shifts tax to buyers.\n7. Policy Relevance: Governments analyze impact for tax collection efficiency and incidence for fairness and economic effects.\n8. Time Frame: Impact is short-term and visible; incidence is long-term and requires analysis to determine.\n\nConclusion: Understanding impact vs. incidence is vital for designing equitable tax policies and predicting economic behavior.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "7. Why is the relationship between the Marginal Saving Propensity (MPS) and the Multiplier inverse?",
+      "answer": "In macroeconomics, the relationship between the Marginal Propensity to Save (MPS) and the investment multiplier is considered inverse. This means as one increases, the other decreases. This inverse relation can be explained as follows:\n\n1. Definition:\nThe multiplier is a measure that shows how an initial change in investment leads to a greater change in national income.\nIt is given by the formula: Multiplier (K) = 1 / MPS.\n\n2. Role of MPS:\nMPS refers to the fraction of additional income that is saved rather than spent.\nA higher MPS means people are saving more and consuming less.\n\n3. Effect on Multiplier:\nIf people save more, then less money is spent in the economy.\nAs a result, the circular flow of income slows down and national income rises by a smaller amount.\n\n4. Mathematical Explanation:\nAs per the formula K = 1 / MPS, if MPS is 0.2, the multiplier is 5.\nIf MPS increases to 0.5, the multiplier reduces to 2.\nThus, more saving leads to a smaller multiplier.\n\n5. Conclusion:\nThis inverse relationship shows that the power of investment to create income depends greatly on how much people spend (consume) and save.\nTherefore, a lower MPS (higher consumption) leads to a higher multiplier, and vice versa.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "8. Why is the consumption behavior of the rich class lower than the poor class?",
+      "answer": "The consumption behavior of rich people is generally lower compared to poor people when measured in terms of proportion of income spent. The reasons are explained below:\n\n1. Income Proportion:\nPoor people spend a larger portion of their income on basic needs like food, clothing, and shelter.\nRich people, even though they have higher income, spend a smaller fraction of it because their basic needs are already fulfilled.\n\n2. Marginal Propensity to Consume (MPC):\nMPC is higher for poor people because most of their additional income is used for consumption.\nRich people tend to save or invest their additional income.\n\n3. Satisfaction of Basic Needs:\nAs income increases, the need to spend on necessities decreases.\nRich people spend more on luxury goods, which are not bought regularly.\n\n4. Saving and Investment Behavior:\nRich individuals tend to allocate more of their income towards savings, stocks, or real estate.\nPoor people are more focused on meeting immediate consumption needs.\n\n5. Consumption Pattern:\nPoor people's consumption is more reactive to changes in income.\nRich people's consumption remains relatively stable even if their income changes.\n\n6. Conclusion:\nThe poor class has a higher MPC and thus higher consumption behavior.\nThe rich class has lower MPC and higher savings, leading to lower consumption behavior overall.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "9. Why are inter-regional trade and international trade different?",
+      "answer": "Inter-regional trade and international trade both involve the exchange of goods and services, but they differ significantly due to geographic, political, and economic boundaries. The differences are explained below:\n\n1. Definition:\nInter-regional trade refers to trade between different regions within the same country.\nInternational trade refers to trade between different countries across national borders.\n\n2. Currency:\nInter-regional trade uses a common national currency.\nInternational trade often involves currency exchange and foreign exchange markets.\n\n3. Legal System:\nInter-regional trade follows the same set of national laws.\nInternational trade requires compliance with the laws of multiple countries and international trade agreements.\n\n4. Trade Barriers:\nThere are usually no tariffs or customs duties in inter-regional trade.\nInternational trade involves tariffs, quotas, and sometimes political restrictions.\n\n5. Transportation and Documentation:\nInter-regional trade involves simpler logistics and fewer formalities.\nInternational trade requires customs documentation, shipping insurance, and longer transit times.\n\n6. Cultural and Language Differences:\nInter-regional trade occurs within a common cultural and linguistic context.\nInternational trade must overcome language, cultural, and business practice differences.\n\n7. Conclusion:\nThese factors make international trade more complex, expensive, and risky compared to inter-regional trade.\nHowever, both are essential for economic development and market expansion.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "10. Why does the government spend on public expenditure?",
+      "answer": "Public expenditure refers to government spending on goods, services, and welfare schemes. It plays a crucial role in national development. The reasons for public expenditure are as follows:\n\n1. Public Welfare:\nTo provide essential services like education, healthcare, sanitation, and housing.\nThese services improve the quality of life, especially for poor and underprivileged sections.\n\n2. Economic Development:\nPublic expenditure on infrastructure like roads, bridges, and energy boosts industrial and agricultural productivity.\nThis leads to economic growth and development.\n\n3. Income Redistribution:\nThrough subsidies, pensions, and social welfare schemes, the government reduces income inequality.\nThis ensures social justice and balanced development.\n\n4. Employment Generation:\nGovernment projects create jobs directly and indirectly.\nSchemes like MGNREGA in India provide income support to rural households.\n\n5. Stabilizing the Economy:\nDuring recession, government increases spending to boost demand.\nDuring inflation, it may cut spending to control prices.\n\n6. National Security and Administration:\nPublic expenditure is needed to maintain law and order, defense, and government functioning.\n\n7. Conclusion:\nGovernment spending is essential for overall economic stability, equitable development, and improving the living standards of citizens.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "11 Explain Prof. Pigou's theory of wage cut. ",
+      "answer": "Professor A.C. Pigou, a classical economist, argued that wage cuts could restore full employment in an economy facing unemployment.\n\n○ Core Idea:\n  ○ In a depression, unemployment arises due to rigid wages above the equilibrium level.\n  ○ Reducing wages lowers production costs, enabling firms to hire more workers.\n○ Mechanism:\n  ○ Lower wages increase demand for labor by making it cheaper, restoring equilibrium in the labor market.\n  ○ Assumes price flexibility and that lower wages don’t significantly reduce aggregate demand.\n○ Criticism:\n  ○ Keynes countered that wage cuts reduce workers’ income, lowering consumption and aggregate demand, potentially worsening unemployment.\n  ○ Ignores sticky wages and labor market rigidities in practice.\n○ Conclusion:\n  ○ Pigou’s theory supports classical self-correcting markets but overlooks demand-side effects highlighted by Keynes.",
+      "isImportant": false
+    },
+    {
+      "question": "12. Explain the importance of the concept of marginal efficiency of capital.",
+      "answer": "The Marginal Efficiency of Capital (MEC) is a key concept in economics, introduced by John Maynard Keynes, which measures the expected rate of return on an additional unit of capital investment over its cost.\n\n○ Definition:\n  ○ MEC is the rate at which the present value of expected future returns from a capital asset equals its supply price.\n○ Importance:\n  ○ Investment Decisions:\n    ○ Firms invest if MEC exceeds the interest rate, guiding capital allocation.\n  ○ Economic Growth:\n    ○ High MEC drives investment, expanding production capacity.\n  ○ Business Cycles:\n    ○ MEC fluctuations reflect optimism (booms) or pessimism (recessions).\n  ○ Monetary Policy:\n    ○ Interest rate adjustments influence MEC, managing economic activity.\n○ Limitations:\n  ○ Relies on uncertain future return forecasts.\n○ Conclusion:\n  ○ MEC links investment to economic dynamics, critical for policy and growth.",
+      "isImportant": false
+    },
+    {
+      "question": "13 Discuss the factors affecting propensity to consume. ",
+      "answer": "Propensity to consume (APC or MPC) refers to the fraction of income spent on consumption.\n\n○ Factors Affecting It:\n  ○ Income Levels:\n    ○ Higher income increases consumption but MPC decreases as income rises (Keynes’ law).\n  ○ Wealth:\n    ○ Greater wealth boosts consumption by reducing the need to save.\n  ○ Interest Rates:\n    ○ Lower rates encourage spending; higher rates promote saving.\n  ○ Expectations:\n    ○ Optimism about future income increases current consumption.\n  ○ Price Levels:\n    ○ Inflation erodes purchasing power, reducing consumption.\n  ○ Distribution of Income:\n    ○ More equitable distribution raises overall consumption (poor have higher MPC).\n  ○ Taxes:\n    ○ Higher taxes reduce disposable income, lowering consumption.\n○ Conclusion:\n  ○ These factors shape consumption patterns, influencing economic demand.",
+      "isImportant": false
+    },
+    {
+      "question": "14 Describe various stages of trade cycle with help of diagram.",
+      "answer": "The trade cycle (business cycle) has four stages: Expansion, Peak, Contraction, and Trough.\n\n○ Stages:\n  ○ Expansion:\n    ○ Rising GDP, employment, and investment; optimism drives growth.\n  ○ Peak:\n    ○ Economy at maximum output; inflation may rise, signaling overcapacity.\n  ○ Contraction (Recession):\n    ○ Falling GDP, rising unemployment, and declining investment.\n  ○ Trough:\n    ○ Lowest point; economic activity bottoms out before recovery.\n○ Diagram Description (Textual):\n  ○ Imagine a wave-like graph:\n    ○ X-axis: Time\n    ○ Y-axis: Economic Activity (GDP)\n    ○ Starts at Trough (low point), rises steeply in Expansion, flattens at Peak, dips in Contraction, and bottoms at Trough again.\n○ Note:\n  ○ If you’d like an image, please confirm, and I can assist further!\n○ Conclusion:\n  ○ Cycles reflect economic fluctuations driven by demand, investment, and policy.",
+      "isImportant": false
+    },
+    {
+      "question": "15 Explain the reasons for imbalance in the balance of payments.",
+      "answer": "The Balance of Payments (BoP) records a country’s transactions with the world. An imbalance occurs when receipts don’t equal payments.\n\n○ Reasons:\n  ○ Trade Deficit/Surplus:\n    ○ Excessive imports over exports (deficit) or vice versa.\n  ○ Capital Flows:\n    ○ Low foreign investment inflows or high outflows (e.g., debt repayment).\n  ○ Exchange Rate:\n    ○ Overvalued currency reduces exports, increasing deficits.\n  ○ Economic Conditions:\n    ○ Recession abroad lowers export demand; domestic boom increases imports.\n  ○ Inflation:\n    ○ High domestic inflation makes exports less competitive.\n  ○ Political Instability:\n    ○ Deters foreign investment, worsening capital account.\n○ Conclusion:\n  ○ Imbalances require policy adjustments like devaluation or trade promotion.",
+      "isImportant": false
+    },
+    {
+      "question": "16 Clarify the difference between Private Finance and Public Finance.",
+      "answer": "Private Finance and Public Finance differ in scope and purpose:\n\n○ Private Finance:\n  ○ Concerns individuals, households, or firms managing income, expenditure, and savings.\n  ○ Objective: Maximize personal profit or utility.\n  ○ Sources: Salaries, profits, loans.\n○ Public Finance:\n  ○ Involves government managing revenue, expenditure, and debt for public welfare.\n  ○ Objective: Economic stability, growth, and social equity.\n  ○ Sources: Taxes, public borrowing.\n○ Key Differences:\n  ○ Scope: Private is micro; public is macro.\n  ○ Motive: Private seeks self-interest; public seeks collective good.\n  ○ Flexibility: Private adjusts freely; public is policy-driven.\n○ Conclusion:\n  ○ Both manage resources but serve distinct entities and goals.",
+      "isImportant": false
+    },
+    {
+      "question": "17 Write Short Notes. 1. Leakages of multiplier",
+      "answer": "Leakages of the multiplier refer to withdrawals from the circular flow of income that reduce the multiplier effect.\n\n○ Definition:\n  ○ The multiplier measures how initial spending increases total income.\n○ Leakages:\n  ○ Savings: Income saved rather than spent.\n  ○ Taxes: Income taken by the government.\n  ○ Imports: Spending on foreign goods, leaving the domestic economy.\n○ Impact:\n  ○ Larger leakages reduce the multiplier, limiting economic expansion.\n○ Example:\n  ○ If MPC is 0.8 and leakages (savings) are 0.2, the multiplier is 5 (1/0.2).\n○ Conclusion:\n  ○ Leakages dampen the ripple effect of spending.",
+      "isImportant": false
+    },
+    {
+      "question": "18 Write Short Notes.2. The relative form of Purchasing Power Parity theory",
+      "answer": "The relative form of Purchasing Power Parity (PPP) explains changes in exchange rates based on inflation differences.\n\n○ Definition:\n  ○ States that the rate of change in the exchange rate between two currencies equals the difference in their inflation rates.\n○ Formula:\n  ○ S1/S0 = (1 + InflationA)/(1 + InflationB), where S is the exchange rate.\n○ Assumption:\n  ○ Prices adjust due to inflation, affecting currency value.\n○ Example:\n  ○ If US inflation is 3% and India’s is 5%, the dollar should appreciate relative to the rupee.\n○ Limitation:\n  ○ Ignores trade barriers or capital flows.\n○ Conclusion:\n  ○ Useful for predicting long-term exchange rate trends.",
+      "isImportant": false
+    },
+    {
+      "question": "19. Explain the functions of money.",
+      "answer": "Money serves several key functions in an economy:\n\n○ Medium of Exchange:\n  ○ Money facilitates the buying and selling of goods and services, eliminating the inefficiencies of barter.\n○ Unit of Account:\n  ○ Money provides a standard measure of value, allowing prices and debts to be expressed consistently.\n○ Store of Value:\n  ○ Money retains value over time, enabling individuals to save and use it for future transactions (though inflation can erode this function).\n○ Standard of Deferred Payment:\n  ○ Money is used to settle debts or payments due in the future, supporting credit and loans.\n\nThese functions make money essential for economic transactions and stability.",
+      "isImportant": false
+    },
+    {
+      "question": "20. Explain the factors affecting supply of money.",
+      "answer": "The supply of money in an economy is influenced by several factors:\n\n○ Central Bank Policies:\n  ○ The central bank controls money supply through tools like open market operations, reserve requirements, and interest rates.\n○ Commercial Bank Lending:\n  ○ Credit creation by banks increases money supply when loans are issued.\n○ Public Behavior:\n  ○ The preference for holding cash versus depositing it in banks affects the money multiplier and overall supply.\n○ Government Fiscal Policy:\n  ○ Deficit financing or public borrowing can increase money supply by injecting funds into the economy.\n○ External Factors:\n  ○ Foreign exchange inflows (e.g., exports or remittances) can increase money supply, while outflows reduce it.\n\nThese factors interact dynamically to determine the total money available.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "21. Discuss critically Prof. Fisher’s theory.",
+      "answer": "Professor Irving Fisher’s Quantity Theory of Money posits that the money supply (M) multiplied by its velocity (V) equals the price level (P) times the volume of transactions (T), expressed as MV = PT.\n\n○ Key Points:\n  ○ Assumes velocity (V) and transactions (T) are stable in the short run.\n  ○ Suggests that changes in money supply directly affect price levels (inflation).\n\n○ Critical Analysis:\n  ○ Strengths:\n    ○ Provides a clear link between money supply and inflation, supported by historical data.\n    ○ Simple and mathematically elegant.\n  ○ Weaknesses:\n    ○ Assumes V and T are constant, which is unrealistic—velocity fluctuates with economic conditions.\n    ○ Ignores demand-side factors and real economic output changes.\n    ○ Fails in the short run during recessions when money supply increases may not raise prices.\n\n○ Conclusion:\n  ○ Fisher’s theory is a useful long-run framework but oversimplifies complex economic dynamics.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "22. Explain the developmental functions of Central Bank of India.",
+      "answer": "The Reserve Bank of India (RBI), not the 'Central Bank of India' (which is a commercial bank), performs developmental functions to promote economic growth:\n\n○ Promotion of Banking:\n  ○ Expands banking access in rural areas through branch licensing and financial inclusion programs.\n○ Agricultural Development:\n  ○ Ensures credit flow to agriculture via priority sector lending norms.\n○ Industrial Finance:\n  ○ Supports small-scale industries and MSMEs through credit policies and development banks.\n○ Infrastructure Development:\n  ○ Facilitates long-term financing for infrastructure projects.\n○ Economic Planning:\n  ○ Aligns monetary policy with government development goals, like controlling inflation to support growth.\n○ Research and Training:\n  ○ Conducts economic research and trains banking personnel to strengthen the financial system.\n\nThese functions aim to foster inclusive and sustainable development.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "23. Explain the concept of inflationary gap.",
+      "answer": "An inflationary gap occurs when aggregate demand (AD) exceeds aggregate supply (AS) at the full employment level of output.\n\n○ Definition:\n  ○ The excess demand pushes prices upward, causing inflation.\n○ Causes:\n  ○ Increased government spending, consumer confidence, or investment beyond the economy’s capacity.\n○ Effects:\n  ○ Rising prices, overheating of the economy, and potential wage-price spirals.\n○ Measurement:\n  ○ The gap is the difference between actual output (beyond full employment) and potential output.\n○ Solution:\n  ○ Contractionary fiscal or monetary policies (e.g., higher taxes or interest rates) to reduce AD.\n\nIt reflects an economy operating above its sustainable limit.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "24. World Bank and India.",
+      "answer": "The World Bank has played a significant role in India’s development:\n\n○ Financial Assistance:\n  ○ Provides loans and grants for infrastructure, education, health, and poverty alleviation projects.\n○ Key Projects:\n  ○ Supports initiatives like the Swachh Bharat Mission, National Highways Development, and renewable energy programs.\n○ Technical Expertise:\n  ○ Offers policy advice and capacity building for economic reforms.\n○ Focus Areas:\n  ○ Rural development, urban infrastructure, and climate resilience.\n○ Impact:\n  ○ Helped India reduce poverty and improve human development indices, though challenges like implementation delays persist.\n○ Current Engagement:\n  ○ As of 2025, collaboration continues on sustainable growth and digital economy initiatives.\n\nThe partnership aligns with India’s developmental goals.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "25. Difference between money and near-money.",
+      "answer": "Money and near-money differ in liquidity and function:\n\n○ Money:\n  ○ Fully liquid assets used as a medium of exchange (e.g., cash, demand deposits).\n  ○ Directly usable for transactions.\n○ Near-Money:\n  ○ Assets that are not immediately usable as money but can be converted into cash easily (e.g., savings accounts, government bonds, fixed deposits).\n  ○ Less liquid than money.\n○ Key Differences:\n  ○ Liquidity: Money is instantly usable; near-money requires conversion.\n  ○ Acceptance: Money is universally accepted; near-money is not.\n  ○ Function: Money serves all functions (exchange, store of value); near-money primarily serves as a store of value.\n\nBoth are part of the broader money supply spectrum.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "26. Demand Pull and Cost-Push inflation.",
+      "answer": "Inflation can arise from different sources:\n\n○ Demand-Pull Inflation:\n  ○ Occurs when aggregate demand exceeds aggregate supply, often due to increased consumer spending, government expenditure, or exports.\n  ○ Example: Economic boom causing price rises.\n○ Cost-Push Inflation:\n  ○ Occurs when production costs (e.g., wages, raw materials) increase, forcing producers to raise prices.\n  ○ Example: Oil price hikes increasing goods prices.\n○ Key Differences:\n  ○ Cause: Demand-pull is demand-driven; cost-push is supply-driven.\n  ○ Policy Response: Demand-pull may need tighter monetary policy; cost-push may require supply-side solutions.\n\nBoth can coexist, complicating economic management.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "27. Bank rate policy.",
+      "answer": "Bank rate policy is a tool used by a central bank to control money supply:\n\n○ Definition:\n  ○ The bank rate is the interest rate at which the central bank lends to commercial banks without collateral.\n○ Mechanism:\n  ○ Raising the bank rate increases borrowing costs, reducing money supply and curbing inflation.\n  ○ Lowering the bank rate encourages borrowing, boosting money supply and economic activity.\n○ Objectives:\n  ○ Control inflation, stabilize the economy, and influence credit availability.\n○ Limitations:\n  ○ Effectiveness depends on commercial banks’ response and economic conditions.\n  ○ May not work in liquidity traps.\n\nIt’s a key monetary policy instrument.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "28. Functions of the World Bank.",
+      "answer": "The World Bank has several critical functions:\n\n○ Providing Financial Assistance:\n  ○ Offers loans, credits, and grants to developing nations for infrastructure, education, and health.\n○ Poverty Reduction:\n  ○ Funds projects to improve living standards and reduce inequality.\n○ Technical Assistance:\n  ○ Provides expertise and policy advice for economic reforms and development strategies.\n○ Promoting Sustainable Development:\n  ○ Supports climate-friendly projects and renewable energy initiatives.\n○ Global Knowledge Sharing:\n  ○ Conducts research and shares best practices on development issues.\n○ Crisis Response:\n  ○ Aids countries during economic crises, pandemics, or natural disasters.\n\nIts dual institutions (IBRD and IDA) cater to different income-level countries.",
+      "code": "",
+      "isImportant": false
+    }
+  ]
+}

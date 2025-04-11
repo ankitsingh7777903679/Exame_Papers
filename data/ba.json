@@ -1,0 +1,388 @@
+{
+  "mcq": [
+    {
+      "question": "1. ______ is the Planning, Co-ordination, Directing and Controlling of sales activities.",
+      "options": [
+        "a) Production Management",
+        "b) Financial Management",
+        "c) Sales Management",
+        "d) Human Resource Management"
+      ],
+      "correctAnswer": "c",
+      "id": "ba-q1",
+      "isImportant": false
+    },
+    {
+      "question": "2. In which concept of marketing, the interest of consumers, society and entire nation is maintained?",
+      "options": [
+        "a) Marketing concept",
+        "b) Societal marketing concept",
+        "c) Product oriented concept",
+        "d) Production oriented concept"
+      ],
+      "correctAnswer": "b",
+      "id": "ba-q2",
+      "isImportant": false
+    },
+    {
+      "question": "3. Which type of market has a very large number of customers?",
+      "options": [
+        "a) Government Markets",
+        "b) Consumer Market",
+        "c) Reseller Market",
+        "d) Industrial Market"
+      ],
+      "correctAnswer": "b",
+      "id": "ba-q3",
+      "isImportant": false
+    },
+    {
+      "question": "4. Who has given the concept of Marketing Mix?",
+      "options": [
+        "a) E. M. Mazze",
+        "b) Filip Kotler",
+        "c) Neil Borden",
+        "d) Dr. R. S. Davar"
+      ],
+      "correctAnswer": "c",
+      "id": "ba-q4",
+      "isImportant": false
+    },
+    {
+      "question": "5. Which is the most important factor affecting Price?",
+      "options": [
+        "a) Cost",
+        "b) Distribution Channels",
+        "c) Service",
+        "d) Government Controls"
+      ],
+      "correctAnswer": "a",
+      "id": "ba-q5",
+      "isImportant": false
+    },
+    {
+      "question": "6. Sex is ______ base of market segmentation.",
+      "options": [
+        "a) Psychologic base",
+        "b) Demographic base",
+        "c) Geographic base",
+        "d) Behavioristic base"
+      ],
+      "correctAnswer": "b",
+      "id": "ba-q6",
+      "isImportant": false
+    },
+    {
+      "question": "7. What is the set of factors and variables that surround and potentially affect the marketing of a certain type of product?",
+      "options": [
+        "a) Marketing Mix",
+        "b) Marketing Environment",
+        "c) Marketing Management",
+        "d) Marketing Control"
+      ],
+      "correctAnswer": "b",
+      "id": "ba-q7",
+      "isImportant": false
+    },
+    {
+      "question": "8. What is called when the manufacturers give special mark, imprint, symbol or name to their Product?",
+      "options": [
+        "a) Packaging",
+        "b) Branding",
+        "c) Product Development",
+        "d) Product Mix"
+      ],
+      "correctAnswer": "b",
+      "id": "ba-q8",
+      "isImportant": false
+    },
+    {
+      "question": "9. It is printed, oral and illustrated Art of Selling.",
+      "options": [
+        "a) Sales Promotion",
+        "b) Advertising",
+        "c) Publicity",
+        "d) Personal Selling"
+      ],
+      "correctAnswer": "b",
+      "id": "ba-q9",
+      "isImportant": false
+    },
+    {
+      "question": "10. It is a method of evaluating the entire marketing process.",
+      "options": [
+        "a) Marketing Mix",
+        "b) Market Segmentation",
+        "c) Marketing Audit",
+        "d) Market Research"
+      ],
+      "correctAnswer": "c",
+      "id": "ba-q10",
+      "isImportant": false
+    }
+  ],
+  "onemarks": [
+    {
+      "question": "1. In ________ concept the customer orientation is seen.",
+      "answer": "Marketing concept",
+      "isImportant": false
+    },
+    {
+      "question": "2. All individuals and families who buy goods or services for their personal use are called ________ market.",
+      "answer": "Consumer market",
+      "isImportant": false
+    },
+    {
+      "question": "3. In the Government market ________ is the largest customer.",
+      "answer": "Central Government",
+      "isImportant": false
+    },
+    {
+      "question": "4. Online Retail Marketing is done through ________.",
+      "answer": "E-commerce platforms",
+      "isImportant": false
+    },
+    {
+      "question": "5. ________ means to increase in sale through Advertisement, Personal selling, Publicity and Sales Promotion.",
+      "answer": "Promotional Mix",
+      "isImportant": false
+    },
+    {
+      "question": "6. What is Marketing?",
+      "answer": "Marketing is the process of planning, pricing, promoting, and distributing products or services to satisfy customer needs and achieve organizational goals.",
+      "isImportant": false
+    },
+    {
+      "question": "7. Explain the Societal marketing concept.",
+      "answer": "Societal marketing concept focuses on fulfilling customer needs while also considering the well-being of society and environmental sustainability.",
+      "isImportant": false
+    },
+    {
+      "question": "8. Define Market Segmentation.",
+      "answer": "Market segmentation is the process of dividing a market into distinct groups of buyers with similar needs or characteristics.",
+      "isImportant": false
+    },
+    {
+      "question": "9. What is meant by Publicity?",
+      "answer": "Publicity is a non-paid form of promotion where media covers a product, service, or organization, often as news or public interest.",
+      "isImportant": false
+    },
+    {
+      "question": "10. What is meant by Marketing Audit?",
+      "answer": "Marketing audit is a systematic examination and evaluation of an organization’s marketing environment, objectives, strategies, and activities.",
+      "isImportant": false
+    },
+    {
+      "question": "11. Who buys in the Government market?",
+      "answer": "In the Government market, purchases are made by government departments, agencies, and public sector undertakings.",
+      "isImportant": false
+    },
+    {
+      "question": "12. State the stages of Product Life Cycle.",
+      "answer": "The stages of Product Life Cycle are: Introduction, Growth, Maturity, and Decline.",
+      "isImportant": false
+    },
+    {
+      "question": "13. What is Marketing Threat?",
+      "answer": "Marketing threat refers to external factors that can negatively affect the marketing performance or market position of a business.",
+      "isImportant": false
+    },
+    {
+      "question": "14 Give the definition of Marketing.",
+      "answer": "Marketing is the process of promoting, selling, and distributing goods or services to satisfy customer needs and achieve business goals. It involves understanding consumer behavior and creating value, like advertising a ₹500 product to boost sales. It’s key to connecting businesses with markets.",
+      "id": "mkt-q1",
+      "isImportant": false
+    },
+    {
+      "question": "15 State the elements of Marketing Mix.",
+      "answer": "The marketing mix comprises four elements: Product (e.g., a smartphone), Price (e.g., ₹20,000), Place (distribution channels like stores), and Promotion (advertising campaigns). These ‘4 Ps’ help businesses strategize effectively. They balance offerings with market demands.",
+      "id": "mkt-q2",
+      "isImportant": false
+    },
+    {
+      "question": "16 What is Product life cycle?",
+      "answer": "The Product Life Cycle (PLC) describes a product’s stages: Introduction, Growth, Maturity, and Decline. For example, a new gadget (₹10,000) starts with low sales, peaks during maturity, then fades as trends shift. It guides marketing and production decisions.",
+      "id": "mkt-q3",
+      "isImportant": false
+    },
+    {
+      "question": "17 What is Online retail marketing?",
+      "answer": "Online retail marketing involves selling goods through digital platforms like websites or apps (e.g., Amazon). It uses targeted ads and promotions (e.g., discounts on ₹5,000 clothing) to reach customers globally. It offers convenience and wider market access.",
+      "id": "mkt-q4",
+      "isImportant": false
+    },
+    {
+      "question": "18 What is Branding?",
+      "answer": "Branding is creating a unique identity for a product or company using names, logos, or designs (e.g., Nike’s swoosh). It builds customer recognition and loyalty, distinguishing a ₹1,000 shoe from competitors. It’s essential for market positioning.",
+      "id": "mkt-q5",
+      "isImportant": false
+    },
+    {
+      "question": "19 State the meaning of career planning.",
+      "answer": "Career planning is the process of setting individual career goals and identifying the steps, skills, and resources needed to achieve them over time.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "20 Difference between arbitration and conciliation. (any two)",
+      "answer": "○ Decision: Arbitration results in a binding decision by the arbitrator; conciliation offers a non-binding recommendation.\n○ Process: Arbitration is formal and adversarial; conciliation is informal and collaborative.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "21 What is work-load analysis?",
+      "answer": "Work-load analysis is a method to assess the volume and nature of tasks assigned to employees to determine staffing needs and optimize productivity.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "22 Meaning of executive development.",
+      "answer": "Executive development refers to the systematic process of enhancing the skills, knowledge, and abilities of managers to improve their performance and prepare them for higher responsibilities.",
+      "code": "",
+      "isImportant": false
+    },
+    {
+      "question": "23 What is E-training?",
+      "answer": "E-training is the use of electronic platforms, such as online courses or virtual simulations, to deliver training and skill development to employees remotely.",
+      "code": "",
+      "isImportant": false
+    }
+  ],
+  "long": [
+    {
+      "question": "1. Discuss the Demographic bases of Market Segmentation.",
+      "answer": "Demographic segmentation is one of the most common and important types of market segmentation. It divides the market based on various demographic factors. These bases include:\n\n1. Age: Consumers of different age groups have different needs and preferences. Products are often marketed differently to children, teenagers, adults, and seniors.\n\n2. Gender: Some products are specifically designed for males or females, so gender is a crucial factor in segmentation.\n\n3. Income: Income level affects purchasing power and product preferences. Consumers are segmented into low, middle, and high-income groups.\n\n4. Education: The level of education influences consumer behavior and preferences. It helps marketers to target well-informed or technical audiences.\n\n5. Occupation: Professionals, students, businessmen, and laborers all have different needs and lifestyle preferences.\n\n6. Family Size: Family size can affect buying behavior, especially in sectors like housing, automobiles, and FMCG products.\n\n7. Religion and Caste: In some countries like India, religion and caste also play an important role in buying preferences and habits.\n\nConclusion: Demographic segmentation allows marketers to understand their customers better and design specific marketing strategies to target each segment effectively.",
+      "isImportant": false
+    },
+    {
+      "question": "2. Explain the Elements of Market Mix.",
+      "answer": "The marketing mix refers to the combination of various marketing tools that a company uses to achieve its marketing objectives. The traditional marketing mix consists of four main elements, also known as the 4Ps:\n\n1. Product: This refers to the goods or services offered by the company. It includes design, features, quality, branding, and warranties. A good product must satisfy customer needs and expectations.\n\n2. Price: Price is the amount charged for a product. It affects demand, profitability, and market positioning. Pricing strategies include penetration pricing, skimming, and competitive pricing.\n\n3. Place: This is the distribution strategy used to make the product available to customers at the right place and time. It involves selecting distribution channels, logistics, and inventory management.\n\n4. Promotion: Promotion involves all activities that communicate the product's benefits to customers. It includes advertising, personal selling, sales promotion, and publicity.\n\nConclusion: The marketing mix is a dynamic and flexible model that must be adjusted based on market conditions, consumer behavior, and business objectives. A well-balanced marketing mix ensures effective positioning and success in the market.",
+      "isImportant": false
+    },
+    {
+      "question": "3. Disadvantages of Online Retail Marketing",
+      "answer": "Online retail marketing has become a popular method for buying and selling products, but it also has several disadvantages:\n\n1. Lack of Physical Interaction:\n   Customers cannot touch or feel the product, which leads to uncertainty about quality and satisfaction.\n\n2. Delivery Issues:\n   Delays in shipping, wrong items, or damaged goods can reduce customer satisfaction.\n\n3. Security Concerns:\n   Online transactions require sensitive information; any data breach can lead to fraud or identity theft.\n\n4. High Return Rates:\n   Customers may return products frequently due to unmet expectations, increasing return handling costs.\n\n5. Technical Glitches:\n   Website downtime, slow loading, or payment gateway errors can frustrate users and cause loss of sales.\n\n6. Dependence on Internet:\n   Online retail requires internet access. Poor connectivity can hinder the shopping experience.\n\n7. Fierce Competition:\n   Online platforms face global competition, requiring more marketing and discounts, which reduce profit margins.",
+      "isImportant": false
+    },
+    {
+      "question": "4. Resellers Market",
+      "answer": "Reseller market refers to individuals or businesses that purchase goods for the purpose of reselling them at a profit. This market plays a crucial role in the distribution chain.\n\n1. Definition:\n   A reseller market includes wholesalers, retailers, and distributors who buy finished goods and resell them to consumers or other businesses.\n\n2. Purpose:\n   Resellers do not consume the product themselves. Their goal is to earn profit by reselling the product.\n\n3. Examples:\n   Supermarkets, e-commerce sellers (like Amazon resellers), and wholesalers.\n\n4. Buying Motive:\n   Their buying decisions are influenced by factors like price, demand, profit margin, and supplier reliability.\n\n5. Services Provided:\n   Resellers often provide additional services such as packaging, advertising, and after-sale service.\n\n6. Role in Economy:\n   They create utility by making products available at convenient locations and times.\n\n7. Importance:\n   A strong reseller network helps in wider distribution and greater market penetration.",
+      "isImportant": false
+    },
+    {
+      "question": "5. Pricing Objectives",
+      "answer": "Pricing objectives are the goals that guide a business in setting the price of its products or services. These objectives differ according to the company’s marketing and financial strategy.\n\n1. Profit Maximization:\n   Aim is to set prices to achieve the highest possible profit.\n\n2. Market Share:\n   Set lower prices to increase market share and compete with rivals.\n\n3. Survival:\n   During tough economic times or high competition, prices may be reduced just to keep the business running.\n\n4. Product Quality Leadership:\n   High prices can be set to reflect premium quality and maintain a luxury brand image.\n\n5. Revenue Generation:\n   Focus on maximizing sales volume and total revenue through pricing.\n\n6. Competitive Pricing:\n   Set prices based on competitors’ pricing strategies to stay relevant in the market.\n\n7. Customer Retention:\n   Prices are kept stable to retain loyal customers and avoid dissatisfaction.",
+      "isImportant": false
+    },
+    {
+      "question": "6. Difference between Advertisement and Publicity",
+      "answer": "Advertisement and publicity are both important marketing tools used to promote products and services, but they differ in several aspects:\n\n1. Definition:\n   Advertisement is a paid form of promotion controlled by the company. Publicity is unpaid media coverage, often initiated by third parties.\n\n2. Cost:\n   Advertisement requires payment for space or time in media. Publicity is free and not paid by the business.\n\n3. Control:\n   In advertisement, the business controls the message, timing, and placement. Publicity is not controlled by the business.\n\n4. Credibility:\n   Publicity is considered more credible as it comes from independent sources. Advertisement may be viewed as biased.\n\n5. Purpose:\n   Advertisement is used to promote specific products or services. Publicity may arise due to events, news, or social impact.\n\n6. Duration:\n   Advertisements run for a scheduled period. Publicity can be short-lived or long-lasting depending on media interest.\n\n7. Examples:\n   TV commercials, online ads (Advertisement) vs. news coverage about a company’s CSR activity (Publicity).",
+      "isImportant": false
+    },
+    {
+      "question": "7. Anushka Ltd, is producing and selling electrical appliances since last 20 years.Demand of these appliances is increasing constantly Company has rich and upper middle class type customers. Company is conscious about product quality and have objective of maximum profit and prestige, Due to media, the demand of product has increased as well as competition has increased due to high profit margin. Which Strategies should be adopted by company to increase and maintain sales.",
+      "answer": "To increase and maintain sales, Anushka Ltd. should adopt the following strategies:\n\n1. Product Quality Maintenance:\n   Continue focusing on superior product quality to retain the trust of rich and upper middle-class customers.\n\n2. Product Innovation:\n   Introduce innovative features and technology in appliances to stay ahead of competitors.\n\n3. Targeted Promotion:\n   Use media channels preferred by the target class (like digital ads, elite magazines) to enhance brand visibility and attract new customers.\n\n4. Competitive Pricing:\n   Adopt competitive pricing while maintaining value for money to stay relevant in the high-profit margin segment.\n\n5. Strong Distribution Network:\n   Expand dealership and service centers in urban and semi-urban areas to improve availability and service support.\n\n6. Customer Relationship Management:\n   Provide after-sales services, loyalty programs, and exclusive offers to strengthen customer relationships.\n\n7. Brand Positioning:\n   Position the brand as a symbol of luxury, quality, and reliability to match the lifestyle of high-income customers.\n\nBy implementing these strategies, the company can not only maintain its current market share but also achieve growth and long-term sustainability."
+    },
+    {
+      "question": "8 Explain the scope of Marketing management.",
+      "answer": "Marketing management encompasses a wide range of activities aimed at identifying, anticipating, and satisfying customer needs while achieving organizational goals. Its scope is extensive and dynamic, covering the following key areas:\n\n○ Market Analysis:\n  ○ Involves researching consumer behavior, market trends, and competitor strategies to identify opportunities and threats.\n  ○ Includes SWOT analysis, demand forecasting, and market segmentation.\n○ Product Planning and Development:\n  ○ Designing products or services that meet customer expectations, including features, quality, and branding.\n  ○ Involves innovation, product differentiation, and lifecycle management.\n○ Pricing Strategies:\n  ○ Setting prices to balance profitability, competitiveness, and perceived value.\n  ○ Considers cost-based, value-based, or competition-based pricing models.\n○ Distribution Management:\n  ○ Ensuring products reach customers efficiently through channels like wholesalers, retailers, or e-commerce.\n  ○ Involves logistics, supply chain management, and channel relationships.\n○ Promotional Activities:\n  ○ Communicating product value through advertising, sales promotions, public relations, and personal selling.\n  ○ Aims to build brand awareness and drive sales.\n○ Customer Relationship Management (CRM):\n  ○ Building long-term relationships with customers through loyalty programs, feedback systems, and personalized services.\n  ○ Focuses on retention and customer satisfaction.\n○ Digital Marketing:\n  ○ Leveraging online platforms, social media, and data analytics to reach modern consumers.\n  ○ Includes SEO, content marketing, and influencer collaborations.\n○ Global Marketing:\n  ○ Adapting strategies for international markets, considering cultural, legal, and economic differences.\n\n○ Conclusion:\n  ○ The scope of marketing management is broad, integrating strategic planning with execution to align organizational objectives with market demands. It evolves with technology and consumer preferences, making it central to business success.",
+      "isImportant": false
+    },
+    {
+      "question": "9 Explain the Marketing oriented concept of marketing.",
+      "answer": "The marketing-oriented concept, also known as the marketing concept, is a business philosophy that places customer needs at the core of all activities, aiming to deliver superior value while achieving profitability.\n\n○ Key Principles:\n  ○ Customer-Centricity:\n    ○ Businesses identify and prioritize customer needs through research, ensuring products/services solve real problems.\n    ○ Example: A company designs eco-friendly packaging based on consumer demand for sustainability.\n  ○ Market Research:\n    ○ Involves collecting data on preferences, behaviors, and trends to inform strategy.\n    ○ Helps anticipate changes in demand or competition.\n  ○ Integrated Marketing Efforts:\n    ○ All departments (production, finance, marketing) align to deliver a consistent customer experience.\n    ○ Ensures product quality, pricing, and promotion work cohesively.\n  ○ Long-Term Profitability:\n    ○ Focuses on building customer loyalty and repeat business rather than short-term sales.\n    ○ Satisfied customers drive sustainable profits through word-of-mouth and retention.\n\n○ Comparison with Other Concepts:\n  ○ Unlike the product-oriented concept (focus on quality) or selling-oriented concept (focus on aggressive sales), the marketing concept balances customer satisfaction with business goals.\n\n○ Benefits:\n  ○ Enhances brand loyalty, improves market share, and fosters innovation.\n  ○ Reduces risks by aligning offerings with demand.\n\n○ Challenges:\n  ○ Requires continuous investment in research and adaptation.\n  ○ May face conflicts between customer desires and cost constraints.\n\n○ Conclusion:\n  ○ The marketing-oriented concept drives businesses to create value for customers, ensuring competitiveness and long-term success in dynamic markets.",
+      "isImportant": false
+    },
+    {
+      "question": "10 Explain the stages of Product life cycle.",
+      "answer": "The Product Life Cycle (PLC) describes the stages a product goes through from launch to discontinuation, each with distinct characteristics, strategies, and challenges.\n\n○ Stages:\n  ○ Introduction:\n    ○ Product is launched, with high marketing and production costs.\n    ○ Sales are low as awareness builds; profits are often negative.\n    ○ Strategy: Heavy promotion, selective distribution, and competitive pricing.\n    ○ Example: A new smartphone model advertised heavily to gain traction.\n  ○ Growth:\n    ○ Sales rise rapidly as the product gains acceptance.\n    ○ Profits increase due to economies of scale; competition intensifies.\n    ○ Strategy: Expand distribution, improve product features, and target new segments.\n    ○ Example: The smartphone gains market share with added features.\n  ○ Maturity:\n    ○ Sales peak, but growth slows as the market saturates.\n    ○ Competition is fierce, leading to price wars or differentiation efforts.\n    ○ Strategy: Retain customers through loyalty programs, diversify product lines, or cut costs.\n    ○ Example: The smartphone brand offers discounts or new variants.\n  ○ Decline:\n    ○ Sales and profits fall due to changing preferences, technology shifts, or substitutes.\n    ○ Strategy: Phase out the product, reduce costs, or focus on niche markets.\n    ○ Example: The smartphone is replaced by newer models and discontinued.\n\n○ Importance:\n  ○ Helps businesses plan marketing strategies, allocate resources, and anticipate challenges.\n  ○ Guides decisions on product innovation or withdrawal.\n\n○ Limitations:\n  ○ Not all products follow a standard PLC; some skip stages or revive.\n  ○ Length of stages varies by industry or market.\n\n○ Conclusion:\n  ○ The PLC provides a framework to manage products effectively, aligning strategies with market dynamics.",
+      "isImportant": false
+    },
+    {
+      "question": "11 Explain the Demographic bases of Market segmentation.",
+      "answer": "Demographic segmentation divides a market based on measurable population characteristics, enabling businesses to target specific customer groups effectively.\n\n○ Key Bases:\n  ○ Age:\n    ○ Different age groups have unique needs (e.g., toys for kids, healthcare for seniors).\n    ○ Example: A cosmetic brand targets teens with acne products and adults with anti-aging creams.\n  ○ Gender:\n    ○ Products are tailored for men, women, or non-binary consumers.\n    ○ Example: Apparel brands design distinct lines for male and female customers.\n  ○ Income:\n    ○ Segments customers by purchasing power (low, middle, high income).\n    ○ Example: Luxury cars target high-income groups; budget brands focus on middle-income buyers.\n  ○ Family Size/Life Cycle:\n    ○ Targets singles, small families, or large households.\n    ○ Example: Food brands offer single-serve packs for individuals and bulk packs for families.\n  ○ Occupation:\n    ○ Caters to professionals, students, or retirees with relevant products.\n    ○ Example: Software companies target office workers with productivity tools.\n  ○ Education:\n    ○ Influences preferences for specialized products (e.g., academic books for scholars).\n\n○ Advantages:\n  ○ Easy to measure and access demographic data.\n  ○ Helps tailor marketing messages and product features.\n  ○ Aligns with consumer behavior patterns.\n\n○ Limitations:\n  ○ May oversimplify complex consumer preferences.\n  ○ Needs combination with psychographic or behavioral segmentation for precision.\n\n○ Conclusion:\n  ○ Demographic segmentation is a foundational strategy, enabling businesses to reach diverse audiences with customized offerings.",
+      "isImportant": false
+    },
+    {
+      "question": "12 Explain the Constituents of Promotional mix.",
+      "answer": "The promotional mix comprises tools businesses use to communicate with customers and persuade them to buy. Each element serves a unique role:\n\n○ Advertising:\n  ○ Paid, non-personal promotion through media (TV, radio, online, print).\n  ○ Reaches large audiences to build awareness or reinforce brand image.\n  ○ Example: A soft drink ad during a sports event.\n○ Personal Selling:\n  ○ Direct, face-to-face interaction to convince customers.\n  ○ Effective for high-value or complex products like cars or insurance.\n  ○ Example: A salesperson explaining product features at a store.\n○ Sales Promotion:\n  ○ Short-term incentives to boost sales (discounts, coupons, contests).\n  ○ Encourages immediate purchases or trials.\n  ○ Example: Buy-one-get-one offers at a supermarket.\n○ Public Relations (PR):\n  ○ Managing brand reputation through unpaid media, events, or sponsorships.\n  ○ Builds trust and goodwill.\n  ○ Example: A company sponsoring a charity event.\n○ Direct Marketing:\n  ○ Targeted communication via emails, SMS, or catalogs.\n  ○ Personalizes offers to specific customers.\n  ○ Example: A retailer sending discount codes to loyal customers.\n\n○ Integration:\n  ○ Combining these tools ensures consistent messaging and maximizes impact.\n  ○ Choice depends on product type, target audience, and budget.\n\n○ Conclusion:\n  ○ The promotional mix drives customer engagement, balancing cost and effectiveness to achieve marketing goals.",
+      "isImportant": false
+    },
+    {
+      "question": "13 Explain the Importance of Market Research.",
+      "answer": "Market research is the systematic process of gathering, analyzing, and interpreting data about markets, customers, and competitors. Its importance lies in:\n\n○ Understanding Customer Needs:\n  ○ Identifies preferences, pain points, and expectations to design relevant products.\n  ○ Example: A phone brand discovers demand for longer battery life.\n○ Reducing Business Risks:\n  ○ Provides data to avoid costly mistakes in product launches or pricing.\n  ○ Example: Research prevents launching an overpriced item in a price-sensitive market.\n○ Enhancing Competitiveness:\n  ○ Uncovers competitor strategies and market gaps for differentiation.\n  ○ Example: A café adds vegan options after spotting a trend.\n○ Guiding Strategic Decisions:\n  ○ Informs marketing, product development, and expansion plans.\n  ○ Example: Research supports entering a new region with high demand.\n○ Improving Efficiency:\n  ○ Optimizes resource allocation by targeting the right audience.\n  ○ Example: Ads focus on social media for younger demographics.\n○ Supporting Innovation:\n  ○ Reveals emerging trends, fostering new product ideas.\n  ○ Example: Tech firms develop AI tools based on market demand.\n\n○ Challenges:\n  ○ Can be costly and time-consuming.\n  ○ Requires accurate data to avoid misleading conclusions.\n\n○ Conclusion:\n  ○ Market research is indispensable for informed decision-making, ensuring businesses stay customer-focused and competitive.",
+      "isImportant": false
+    },
+    {
+      "question": "14 Explain the Government market.",
+      "answer": "The government market refers to public sector organizations purchasing goods and services to fulfill public needs or deliver services.\n\n○ Characteristics:\n  ○ Buyers: Central, state, or local governments, public agencies, and institutions.\n  ○ Products/Services: Infrastructure (roads, bridges), defense equipment, healthcare supplies, education materials, or IT systems.\n  ○ Objective: Serve public welfare, not profit maximization.\n  ○ Scale: Large-volume purchases with long-term contracts.\n\n○ Buying Process:\n  ○ Competitive Bidding: Transparent tenders or RFPs ensure fairness.\n  ○ Regulations: Strict compliance with budgets, quality standards, and anti-corruption laws.\n  ○ Payment: Stable but often delayed due to bureaucracy.\n\n○ Challenges:\n  ○ Complex documentation and lengthy approval processes.\n  ○ Price sensitivity due to taxpayer funding.\n  ○ Political influences may affect decisions.\n\n○ Opportunities:\n  ○ Reliable demand, especially in developing economies like India.\n  ○ Long-term partnerships with government bodies.\n\n○ Example:\n  ○ A company supplying computers to public schools under a government contract.\n\n○ Conclusion:\n  ○ The government market offers stability but requires patience and compliance, making it distinct from private markets.",
+      "id": "mkt-q12",
+      "isImportant": false
+    },
+    {
+      "question": "15 Explain the External Factors of Marketing environment.",
+      "answer": "The external marketing environment includes uncontrollable factors that influence a business’s strategies. These are analyzed under the PESTLE framework:\n\n○ Economic Factors:\n  ○ Income levels, inflation, unemployment, and economic growth affect purchasing power.\n  ○ Example: A recession reduces demand for luxury goods.\n○ Social Factors:\n  ○ Cultural values, demographics, and lifestyle trends shape consumer preferences.\n  ○ Example: Rising health awareness boosts demand for organic foods.\n○ Technological Factors:\n  ○ Innovations in production, distribution, or communication create opportunities or threats.\n  ○ Example: E-commerce growth shifts sales online.\n○ Political/Legal Factors:\n  ○ Government policies, taxes, trade regulations, and consumer protection laws impact operations.\n  ○ Example: Stricter advertising rules limit promotional claims.\n○ Competitive Factors:\n  ○ Rival strategies, market share, and pricing affect a firm’s position.\n  ○ Example: A competitor’s discount forces price adjustments.\n○ Environmental Factors:\n  ○ Sustainability concerns and climate change influence product design and operations.\n  ○ Example: Demand for eco-friendly packaging grows.\n\n○ Impact:\n  ○ Businesses must adapt to these factors to remain relevant.\n  ○ Proactive monitoring (e.g., via market research) helps mitigate risks.\n\n○ Conclusion:\n  ○ External factors shape the marketing landscape, requiring flexibility and strategic foresight.",
+      "isImportant": false
+    },
+    {
+      "question": "16. Riya and Co. Ltd. makes various biscuits, with its high-quality glucose biscuits in great demand. A 100 gm packet costs Rs. 7.00, but rising production and expenditure prompt management to increase the price by Rs. 3.00 to maintain profit margins. Managers suggest: (1) Immediate Rs. 3.00 increase. (2) Gradual 50 paise increase monthly for six months. (3) Reduce quantity to 80 gm at Rs. 7.00. (4) Cut advertisement and distribution costs. Answer: (1) Which suggestions should be accepted? Why? (2) Which suggestions should not be accepted? Why?",
+      "answer": "Riya and Co. Ltd. faces rising costs for its popular 100 gm glucose biscuits, priced at Rs. 7.00, requiring a Rs. 3.00 price increase to maintain margins. The suggestions are evaluated below:\n\n○ (1) Suggestions to Accept:\n  ○ (2) Gradual 50 paise increase monthly for six months:\n    ○ Why: A gradual increase (Rs. 7.00 to Rs. 10.00 over six months) minimizes customer resistance, especially in a price-sensitive market. It allows consumers to adjust, preserving demand for a high-quality, popular product. Gradual changes maintain brand loyalty and reduce the risk of competitors capturing market share.\n    ○ Example: Similar strategies work for FMCG brands during inflation.\n  ○ (3) Reduce quantity to 80 gm at Rs. 7.00:\n    ○ Why: Maintaining the Rs. 7.00 price point while reducing quantity by 20% effectively increases the price per gram without alienating budget-conscious buyers. This subtle adjustment aligns with industry practices (e.g., ‘shrinkflation’) and preserves perceived affordability, protecting sales volume.\n    ○ Example: Many snack brands reduce pack sizes during cost pressures.\n\n○ (2) Suggestions to Reject:\n  ○ (1) Immediate Rs. 3.00 increase:\n    ○ Why: A sudden 43% price hike (Rs. 7.00 to Rs. 10.00) risks shocking customers, particularly in a competitive biscuit market. Price-sensitive consumers may switch to cheaper alternatives, reducing sales and market share. The immediate jump could also harm the brand’s value-for-money image.\n    ○ Example: Abrupt price hikes often lead to backlash in FMCG sectors.\n  ○ (4) Cut advertisement and distribution costs:\n    ○ Why: Reducing marketing and distribution for a high-demand product could weaken its market presence. Advertising sustains brand visibility, while efficient distribution ensures availability. Cutting these risks losing shelf space to competitors and diminishing long-term sales, outweighing short-term savings.\n    ○ Example: FMCG brands rely on consistent promotion to maintain demand.\n\n○ Strategic Considerations:\n  ○ Combining suggestions (2) and (3) could be optimal: start with a quantity reduction to 80 gm at Rs. 7.00, then gradually increase the price later if costs persist. This balances immediate margin needs with customer retention.\n  ○ Monitor competitor pricing and consumer feedback to adjust strategies.\n\n○ Conclusion:\n  ○ Accepting gradual price increases and quantity reduction best maintains profitability while protecting demand. Immediate price hikes and cost-cutting in promotion/distribution are risky and likely to harm the brand’s market position.",
+      "isImportant": false
+    },
+    {
+      "question": "17. Difference between human resource management and personnel management. (7)",
+      "answer": "Human Resource Management (HRM) and Personnel Management (PM) differ in scope, approach, and objectives. Here are seven key differences:\n\n○ Scope:\n  ○ PM: Focuses on administrative tasks like recruitment, payroll, and compliance with labor laws.\n  ○ HRM: Encompasses strategic planning, employee development, and organizational growth.\n○ Approach:\n  ○ PM: Reactive, dealing with immediate employee issues.\n  ○ HRM: Proactive, aligning HR policies with business goals.\n○ Employee Role:\n  ○ PM: Treats employees as costs or resources to manage.\n  ○ HRM: Views employees as assets to develop and invest in.\n○ Function:\n  ○ PM: Limited to traditional functions (e.g., hiring, record-keeping).\n  ○ HRM: Includes modern practices like talent management and succession planning.\n○ Time Horizon:\n  ○ PM: Short-term focus on day-to-day operations.\n  ○ HRM: Long-term focus on career development and organizational success.\n○ Decision-Making:\n  ○ PM: Centralized, top-down approach with little employee input.\n  ○ HRM: Participative, involving employees in strategic decisions.\n○ Objective:\n  ○ PM: Ensures compliance and basic employee welfare.\n  ○ HRM: Enhances productivity, engagement, and competitive advantage.\n\n○ Conclusion:\n  ○ PM is operational and traditional, while HRM is strategic and holistic, reflecting evolving workplace needs.",
+      "isImportant": false
+    },
+    {
+      "question": "18. Management.",
+      "answer": "It seems the question is incomplete. Assuming it’s ‘Explain Management,’ here’s a detailed response:\n\nManagement is the process of planning, organizing, leading, and controlling resources (human, financial, physical) to achieve organizational goals efficiently and effectively.\n\n○ Key Functions:\n  ○ Planning: Setting objectives and strategies (e.g., increasing sales by 10%).\n  ○ Organizing: Allocating resources and defining roles (e.g., assigning teams).\n  ○ Leading: Motivating and directing employees to execute plans.\n  ○ Controlling: Monitoring performance and correcting deviations.\n○ Levels:\n  ○ Top Management: Sets vision (e.g., CEOs).\n  ○ Middle Management: Implements policies (e.g., department heads).\n  ○ Lower Management: Supervises daily tasks (e.g., supervisors).\n○ Importance:\n  ○ Ensures goal achievement, resource optimization, and adaptability to change.\n○ Theories:\n  ○ Classical (e.g., Taylor’s scientific management): Focus on efficiency.\n  ○ Behavioral (e.g., Mayo’s human relations): Emphasize employee motivation.\n  ○ Modern (e.g., systems theory): View organizations as interconnected systems.\n\n○ Conclusion:\n  ○ Management is a dynamic process, critical for organizational success across industries.",
+      "isImportant": false
+    },
+    {
+      "question": "19. Discuss the effect of external factors of human resource planning.",
+      "answer": "Human Resource Planning (HRP) is influenced by external factors beyond an organization’s control, impacting workforce strategies.\n\n○ Economic Factors:\n  ○ Effect: Recession reduces hiring; growth increases demand for skilled labor.\n  ○ Example: A downturn may lead to layoffs, complicating talent retention.\n○ Technological Factors:\n  ○ Effect: Automation reduces manual jobs but increases need for tech-savvy workers.\n  ○ Example: AI adoption requires reskilling employees.\n○ Legal Factors:\n  ○ Effect: Labor laws (e.g., minimum wage, quotas) dictate hiring and compensation.\n  ○ Example: Reservation policies in India shape recruitment.\n○ Demographic Factors:\n  ○ Effect: Aging populations or youth bulges alter workforce availability.\n  ○ Example: A young workforce may demand flexible work options.\n○ Social Factors:\n  ○ Effect: Cultural shifts (e.g., diversity focus) influence hiring practices.\n  ○ Example: Demand for work-life balance affects retention policies.\n○ Political Factors:\n  ○ Effect: Government policies (e.g., visa restrictions) limit foreign talent.\n  ○ Example: Brexit impacted UK firms’ HRP.\n○ Competitive Factors:\n  ○ Effect: Rival firms’ talent strategies force adjustments.\n  ○ Example: Higher competitor salaries trigger wage revisions.\n\n○ Conclusion:\n  ○ External factors necessitate adaptive HRP to align workforce capabilities with market realities.",
+      "isImportant": false
+    },
+    {
+      "question": "20. Write notes on Need for Executive Development.",
+      "answer": "Executive Development (ED) enhances managerial skills for higher responsibilities. Its need arises from:\n\n○ Changing Business Environment:\n  ○ Rapid technological and market shifts require updated skills (e.g., digital transformation).\n○ Leadership Gap:\n  ○ Organizations need competent leaders to replace retiring executives or drive growth.\n○ Performance Improvement:\n  ○ ED boosts decision-making, strategic thinking, and productivity (e.g., training in data analysis).\n○ Succession Planning:\n  ○ Prepares internal talent for promotions, ensuring continuity.\n○ Employee Retention:\n  ○ Development opportunities reduce turnover by showing career growth paths.\n○ Global Competition:\n  ○ Executives need cross-cultural and innovative skills to compete internationally.\n○ Organizational Goals:\n  ○ Aligns managerial capabilities with long-term objectives (e.g., sustainability focus).\n\n○ Methods:\n  ○ Workshops, mentoring, case studies, and on-the-job training.\n\n○ Conclusion:\n  ○ ED is essential for organizational resilience, leadership readiness, and competitive edge.",
+      "isImportant": false
+    },
+    {
+      "question": "21. Discuss the objective or purpose for career planning.",
+      "answer": "Career planning helps individuals and organizations set and achieve professional goals. Its objectives include:\n\n○ Goal Setting:\n  ○ Define clear career aspirations (e.g., becoming a manager in 5 years).\n○ Skill Development:\n  ○ Identify and acquire skills needed for advancement (e.g., certifications).\n○ Motivation:\n  ○ Boost employee morale by providing a growth roadmap.\n○ Job Satisfaction:\n  ○ Align roles with personal interests, reducing discontent.\n○ Productivity:\n  ○ Focused employees contribute more effectively to organizational goals.\n○ Retention:\n  ○ Reduce turnover by offering career progression opportunities.\n○ Succession Readiness:\n  ○ Prepare employees for future roles, supporting organizational stability.\n\n○ Example:\n  ○ An engineer plans to transition to project management via training.\n\n○ Conclusion:\n  ○ Career planning fosters personal fulfillment and organizational success through structured growth.",
+      "isImportant": false
+    },
+    {
+      "question": "22. Discuss the objective or purpose for career planning.",
+      "answer": "Note: This repeats question 5. Assuming it’s intentional, here’s a slightly varied response:\n\nCareer planning aims to align individual ambitions with organizational needs. Its purposes are:\n\n○ Personal Growth:\n  ○ Enable employees to achieve higher roles through skill enhancement.\n○ Career Clarity:\n  ○ Provide direction, reducing uncertainty about future prospects.\n○ Talent Utilization:\n  ○ Match employee strengths to suitable positions.\n○ Engagement:\n  ○ Increase commitment by showing investment in their future.\n○ Efficiency:\n  ○ Streamline efforts toward meaningful career milestones.\n○ Adaptability:\n  ○ Prepare for industry changes (e.g., tech advancements).\n○ Organizational Benefit:\n  ○ Build a skilled workforce for competitive advantage.\n\n○ Conclusion:\n  ○ It’s a dual-benefit process, enhancing employee careers and organizational capability.",
+      "isImportant": false
+    },
+    {
+      "question": "23. Discuss the objective or purpose for career planning.",
+      "answer": "Note: Repeated again. Here’s another variation:\n\nThe purpose of career planning is to create a structured path for professional advancement. Objectives include:\n\n○ Self-Assessment:\n  ○ Help individuals evaluate strengths and weaknesses.\n○ Career Alignment:\n  ○ Match personal goals with job opportunities.\n○ Skill Upgradation:\n  ○ Encourage continuous learning for higher roles.\n○ Confidence Building:\n  ○ Provide a sense of control over career trajectory.\n○ Resource Optimization:\n  ○ Utilize training and development efficiently.\n○ Employee Loyalty:\n  ○ Strengthen ties by supporting career goals.\n○ Future Preparedness:\n  ○ Equip individuals for leadership or specialized roles.\n\n○ Conclusion:\n  ○ Career planning drives individual success and organizational resilience.",
+      "isImportant": false
+    },
+    {
+      "question": "24. Discuss the duties or responsibilities of trade union.",
+      "answer": "Trade unions represent workers to protect their rights and improve working conditions. Their duties include:\n\n○ Collective Bargaining:\n  ○ Negotiate wages, hours, and benefits with employers (e.g., securing overtime pay).\n○ Worker Welfare:\n  ○ Ensure safe working conditions, health benefits, and job security.\n○ Dispute Resolution:\n  ○ Mediate conflicts between workers and management, escalating to arbitration if needed.\n○ Representation:\n  ○ Voice worker grievances to management or legal authorities.\n○ Education:\n  ○ Train members on rights, labor laws, and skills (e.g., workshops on safety).\n○ Political Advocacy:\n  ○ Lobby for pro-labor policies (e.g., minimum wage hikes).\n○ Unity:\n  ○ Foster solidarity among workers to strengthen bargaining power.\n\n○ Example:\n  ○ A union secures a 10% wage increase after negotiations.\n\n○ Conclusion:\n  ○ Trade unions balance worker protection with workplace harmony, pivotal in industrial relations.",
+      "isImportant": false
+    },
+    {
+      "question": "25. Effects of industrial disputes on labour.",
+      "answer": "Industrial disputes (e.g., strikes, lockouts) between workers and management impact labor significantly:\n\n○ Wage Loss:\n  ○ Strikes halt income, straining workers’ finances (e.g., unpaid days).\n○ Job Insecurity:\n  ○ Prolonged disputes may lead to layoffs or closures.\n○ Morale Decline:\n  ○ Unresolved conflicts reduce trust in management, lowering motivation.\n○ Health Impact:\n  ○ Stress from disputes affects physical and mental well-being.\n○ Skill Stagnation:\n  ○ Work stoppages limit skill development opportunities.\n○ Improved Conditions:\n  ○ Successful disputes may secure better pay or safety (e.g., overtime rights).\n○ Social Tension:\n  ○ Disputes strain worker-management and community relations.\n\n○ Example:\n  ○ A month-long strike cuts wages but wins a 5% raise.\n\n○ Conclusion:\n  ○ Disputes bring short-term hardship but can yield long-term labor benefits if resolved favorably.",
+      "isImportant": false
+    },
+    {
+      "question": "26. Succession planning.",
+      "answer": "Succession planning is a strategic process to identify and develop internal talent to fill key positions when they become vacant.\n\n○ Objectives:\n  ○ Ensure leadership continuity.\n  ○ Minimize disruptions from retirements or resignations.\n○ Process:\n  ○ Identify Critical Roles: Focus on positions vital to operations (e.g., CEO).\n  ○ Assess Talent: Evaluate skills and potential of employees.\n  ○ Development: Train successors via mentoring, job rotation, or courses.\n  ○ Transition: Smoothly shift roles when needed.\n○ Benefits:\n  ○ Retains institutional knowledge.\n  ○ Boosts employee morale with growth opportunities.\n  ○ Reduces recruitment costs.\n○ Challenges:\n  ○ Predicting future needs is uncertain.\n  ○ Resistance from current leaders or overlooked employees.\n○ Example:\n  ○ A firm trains a deputy manager to replace a retiring GM.\n\n○ Conclusion:\n  ○ Succession planning ensures organizational stability and preparedness for change.",
+      "isImportant": false
+    },
+    {
+      "question": "27. The workers of Nilkamal Plastics Ltd. are working according to 50 hours per week and getting their pay and commission. The company did not pay over-time, as the daily work was being completed in time. The company paid additional commission to the workers, who worked for more time. \nAs stated by Shri Ramanbhai the leader of the Trade Union, the workers were working even on holidays. More ever, their weekly work was more than 50 hours. So, the union asked for over-time. Company states “It is not the policy of the company to pay over-time”. However, some workers continued to work more than 50 hours per week. The union again asked for over-time pay for them. The company denied. At last,the trade union represented the case before an arbitrator. The arbitrator ordered the company to pay over-time. \n The company called a meeting of all workers and declared that “Henceforth nobody should work for over-time and the company will not pay anything for such work. Those who are not in a position to finish the work in due time, should inform the company, so that company can take necessary action.” \n  Merged: (1) How far is the demand of the trade union proper? (2) Will you accept the judgement of the arbitrator as a company manager? Why? (3) Express your opinion as the leader of the trade union for the final decision of the company.",
+      "answer": "This merged response addresses the Nilkamal Plastics Ltd. case, where workers exceed a 50-hour workweek without overtime pay, leading to a trade union demand, an arbitrator’s ruling, and the company’s final decision.\n\n○ (1) Propriety of the Trade Union’s Demand:\n  ○ Context: Workers at Nilkamal Plastics Ltd. work over 50 hours weekly and on holidays, receiving only commissions, not overtime, despite union demands led by Shri Ramanbhai.\n  ○ Legal Basis: The Factories Act, 1948 (Section 51) caps the standard workweek at 48 hours, with overtime pay at double the regular rate for excess hours (Section 59). Holiday work also warrants extra compensation.\n  ○ Evaluation: The union’s demand is fully proper. Exceeding 50 hours and working holidays without overtime violates statutory rights. Commissions don’t replace mandated pay, and the company’s ‘no overtime policy’ is legally invalid against labor laws.\n  ○ Conclusion: The demand is entirely justified, protecting workers from exploitation and aligning with legal entitlements.\n\n○ (2) Acceptance of the Arbitrator’s Judgement as a Company Manager:\n  ○ Arbitrator’s Ruling: Ordered overtime pay for hours beyond 50 weekly, upheld by the union’s case.\n  ○ Managerial Perspective: As a manager, I’d accept the judgement for these reasons:\n    ○ Legal Force: The Arbitration and Conciliation Act, 1996 (Section 31) makes the award binding; non-compliance risks penalties.\n    ○ Compliance: The ruling aligns with the Factories Act, correcting the company’s illegal practice.\n    ○ Labor Relations: Paying overtime resolves unrest, retaining productivity and trust.\n    ○ Risks of Rejection: Financial burden exists (past dues increase costs), and it sets a precedent, but legal and reputational risks outweigh these.\n  ○ Strategy: Accept the order, pay past overtime, and enforce strict future limits (e.g., 50-hour cap) to manage costs.\n  ○ Example: Settle dues for documented hours, then adjust workloads to avoid recurrence.\n  ○ Conclusion: Acceptance is pragmatic, ensuring compliance and stability while planning cost control.\n\n○ (3) Opinion as Trade Union Leader on the Company’s Final Decision:\n  ○ Company Decision: ‘No overtime work or pay henceforth; inform if work isn’t completed in time for necessary action.’\n  ○ Union Leader’s View (Shri Ramanbhai):\n    ○ Critique: The ban on overtime limits workers’ income potential, ignoring their financial reliance on extra hours. It fails to address past dues, defying the arbitrator’s order, and risks legal escalation.\n    ○ Workload Concern: Assuming 50 hours suffice overlooks production peaks, potentially leading to disciplinary ‘action’ against workers unable to cope, increasing stress.\n    ○ Positive Aspect: It clarifies work limits, reducing overwork if workloads are realistic.\n  ○ Union Response: Demand immediate payment of past overtime per the ruling. Propose voluntary overtime with pay (e.g., 1.5x rate) for peak periods, capped reasonably, and request workload analysis to ensure feasibility.\n  ○ Example Proposal: ‘Pay past overtime at double rate for hours over 48; allow optional 10 extra hours weekly at 1.5x with approval.’\n  ○ Strategy: If unmet, pursue labor court enforcement or strike action.\n  ○ Conclusion: The decision is rigid and unfair; I’d advocate for compensation and flexibility to safeguard workers’ rights.\n\n○ Interconnection:\n  ○ The union’s proper demand triggered the arbitrator’s ruling, which the manager must accept to comply with law and maintain harmony. The company’s decision, however, conflicts with both, prompting the union leader to push back. These perspectives highlight a tension between legal obligations, managerial practicality, and worker welfare, resolvable through compromise (e.g., paying dues and adjusting policies).\n\n○ Overall Conclusion:\n  ○ The union’s demand is legally sound, the arbitrator’s judgement is a managerial necessity, and the company’s decision requires union-led revision to balance fairness, compliance, and operational needs.",
+      "isImportant": false
+    }
+  ]
+}

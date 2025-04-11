@@ -1,0 +1,778 @@
+{
+    "mcq": [
+        {
+            "question": "1. National level Financial Institutions for Industrial Development includes______",
+            "options": [
+                "a) FCI",
+                "b) IDBI",
+                "c) CWC",
+                "d) All of the above"
+            ],
+            "correctAnswer": "d",
+            "id": "bank-q1",
+            "isImportant": false
+        },
+        {
+            "question": "2. Industrial Development Bank of India was established under the act_____",
+            "options": [
+                "a) Industrial Development Bank of India Act 1964",
+                "b) Industrial Development Bank of India Act 1963",
+                "c) Industrial Development Bank of India Act 1965",
+                "d) None of the above"
+            ],
+            "correctAnswer": "a",
+            "id": "bank-q2",
+            "isImportant": false
+        },
+        {
+            "question": "3. In India the priority sectors includes______.",
+            "options": [
+                "a) Agriculture",
+                "b) MSME",
+                "c) Export",
+                "d) All of the above"
+            ],
+            "correctAnswer": "d",
+            "id": "bank-q3",
+            "isImportant": false
+        },
+        {
+            "question": "4. State level Industrial Development Financial Institutions include ________",
+            "options": [
+                "a) SFCS",
+                "b) SBMC",
+                "c) SLBC",
+                "d) None of the above"
+            ],
+            "correctAnswer": "a",
+            "id": "bank-q4",
+            "isImportant": false
+        },
+        {
+            "question": "5. The full form of SFCS is_______",
+            "options": [
+                "a) State functional companies",
+                "b) State financial commissions",
+                "c) State financial corporations",
+                "d) None of the above"
+            ],
+            "correctAnswer": "c",
+            "id": "bank-q5",
+            "isImportant": false
+        },
+        {
+            "question": "6. The State Financial Corporations Act was passed in Indian Parliament in the year",
+            "options": [
+                "a) 1951",
+                "b) 1952",
+                "c) 1950",
+                "d) 1953"
+            ],
+            "correctAnswer": "a",
+            "id": "bank-q6",
+            "isImportant": false
+        },
+        {
+            "question": "7. Gujarat state financial corporation was formed in the year of ________.",
+            "options": [
+                "a) 1961",
+                "b) 1962",
+                "c) 1960",
+                "d) 1963"
+            ],
+            "correctAnswer": "c",
+            "id": "bank-q7",
+            "isImportant": false
+        },
+        {
+            "question": "8. The full form of ECGC is ________.",
+            "options": [
+                "a) Export Credit Guarantee Corporation",
+                "b) Export Credit Guarantee Commission",
+                "c) Emergency Credit Guarantee Corporation",
+                "d) None of the above"
+            ],
+            "correctAnswer": "a",
+            "id": "bank-q8",
+            "isImportant": false
+        },
+        {
+            "question": "9. ECGC was established in the year_____",
+            "options": [
+                "a) 1960",
+                "b) 1962",
+                "c) 1961",
+                "d) 1957"
+            ],
+            "correctAnswer": "d",
+            "id": "bank-q9",
+            "isImportant": false
+        },
+        {
+            "question": "10. The main function of ECGC is_____",
+            "options": [
+                "a) To provide advances to big industries",
+                "b) To provide credit insurance cover to Indian exporters",
+                "c) Both A and B",
+                "d) None of the above"
+            ],
+            "correctAnswer": "b",
+            "id": "bank-q10",
+            "isImportant": false
+        },
+        {
+            "question": "11. Which of the following is not included in the priority sector in India?",
+            "options": [
+                "a) Export trade",
+                "b) Agriculture",
+                "c) Big industries",
+                "d) None of the above"
+            ],
+            "correctAnswer": "c",
+            "id": "bank-q11",
+            "isImportant": false
+        },
+        {
+            "question": "12. The priority sector was defined by the committee _____",
+            "options": [
+                "a) Dr. S. Radhakrishnan",
+                "b) Sri Morarji Desai",
+                "c) Dr. Swaminathan",
+                "d) Dr. K.S. Krishna Swami"
+            ],
+            "correctAnswer": "d",
+            "id": "bank-q12",
+            "isImportant": false
+        },
+        {
+            "question": "13. The differential rate of interest Policy was implemented in India in the Year______.",
+            "options": [
+                "a) 1972",
+                "b) 1962",
+                "c) 1992",
+                "d) 1982"
+            ],
+            "correctAnswer": "a",
+            "id": "bank-q13",
+            "isImportant": false
+        },
+        {
+            "question": "14. In differential rate of interest, finance is provided at the rate of_____",
+            "options": [
+                "a) 5%",
+                "b) 6%",
+                "c) 2%",
+                "d) 4%"
+            ],
+            "correctAnswer": "d",
+            "id": "bank-q14",
+            "isImportant": false
+        },
+        {
+            "question": "15. As an identification proof which are the document/s to be attached with Loan application form?",
+            "options": [
+                "a) Passport",
+                "b) Driving license",
+                "c) PAN card",
+                "d) All of the above"
+            ],
+            "correctAnswer": "d",
+            "id": "bank-q15",
+            "isImportant": false
+        },
+        {
+            "question": "16. When a banker must refuse a payment of a cheque?",
+            "options": [
+                "a) Customer is suffering from illness",
+                "b) Customer goes out of station",
+                "c) Death of customer",
+                "d) Customer presents a cheque within two months from the date on cheque"
+            ],
+            "correctAnswer": "c",
+            "id": "bank-q16",
+            "isImportant": false
+        },
+        {
+            "question": "17. Who has the right to stop payment of the cheque?",
+            "options": [
+                "a) Acceptor of cheque",
+                "b) Drawer of a cheque",
+                "c) Holder of cheque",
+                "d) Payee of cheque"
+            ],
+            "correctAnswer": "b",
+            "id": "bank-q17",
+            "isImportant": false
+        },
+        {
+            "question": "18. Money paid by which type of mistake is recoverable by a banker?",
+            "options": [
+                "a) Mistake of fact",
+                "b) Mistake of law",
+                "c) Mistake of collection",
+                "d) None of the above"
+            ],
+            "correctAnswer": "a",
+            "id": "bank-q18",
+            "isImportant": false
+        },
+        {
+            "question": "19. Which is the method of collection of cheques?",
+            "options": [
+                "a) As a holder for value",
+                "b) As an agent of the customer",
+                "c) As a debtor",
+                "d) Option a & b both"
+            ],
+            "correctAnswer": "d",
+            "id": "bank-q19",
+            "isImportant": false
+        },
+        {
+            "question": "20. Amount of account payee crossed cheque is ____________",
+            "options": [
+                "a) Credited to any person's account",
+                "b) Not credited to any person's account",
+                "c) Credited to account of person whose name is mentioned as payee",
+                "d) Not credited to account of person whose name is mentioned as payee"
+            ],
+            "correctAnswer": "c",
+            "id": "bank-q20",
+            "isImportant": false
+        },
+        {
+            "question": "21. When the garnishee order is applied on customer's account, then bank ___________ transactions of account.",
+            "options": [
+                "a) Continues",
+                "b) Suspends",
+                "c) Closes permanently",
+                "d) Repeats transaction"
+            ],
+            "correctAnswer": "b",
+            "id": "bank-q21",
+            "isImportant": false
+        },
+        {
+            "question": "22. When a cheque payable to partnership firm is presented for collection in the partner's individual account, then banker should ____________",
+            "options": [
+                "a) Honour the cheque",
+                "b) Dishonour the cheque",
+                "c) Cancel the cheque",
+                "d) Tear the cheque"
+            ],
+            "correctAnswer": "b",
+            "id": "bank-q22",
+            "isImportant": false
+        },
+        {
+            "question": "23. Which facility of the bank is used by customers to satisfy short-term needs of finance?",
+            "options": [
+                "a) Bank draft",
+                "b) Bank overdraft",
+                "c) Cash credit",
+                "d) Loan"
+            ],
+            "correctAnswer": "b",
+            "id": "bank-q23",
+            "isImportant": false
+        },
+        {
+            "question": "24. Rate of interest of cash credit is ________ than overdraft",
+            "options": [
+                "a) Less",
+                "b) More",
+                "c) Equal",
+                "d) Less or more"
+            ],
+            "correctAnswer": "a",
+            "id": "bank-q24",
+            "isImportant": false
+        },
+        {
+            "question": "25. In mortgage the charge is created over ________ properties.",
+            "options": [
+                "a) Immovable",
+                "b) Current",
+                "c) Invisible",
+                "d) Goods stock"
+            ],
+            "correctAnswer": "a",
+            "id": "bank-q25",
+            "isImportant": false
+        },
+        {
+            "question": "26. Which principle of money lending carries the quote 'Do not put all eggs in one basket'?",
+            "options": [
+                "a) Profitability",
+                "b) Liquidity",
+                "c) Security",
+                "d) Diversification of risk"
+            ],
+            "correctAnswer": "d",
+            "id": "bank-q26",
+            "isImportant": false
+        },
+        {
+            "question": "27. State the method of creating charge over securities.",
+            "options": [
+                "a) Pledge",
+                "b) Lien",
+                "c) Hypothecation",
+                "d) All of the above"
+            ],
+            "correctAnswer": "d",
+            "id": "bank-q27",
+            "isImportant": false
+        },
+        {
+            "question": "28. Which type of asset is taken as security in pledge?",
+            "options": [
+                "a) Goods in warehouse",
+                "b) Land",
+                "c) Fixed assets",
+                "d) Building of company"
+            ],
+            "correctAnswer": "a",
+            "id": "bank-q28",
+            "isImportant": false
+        },
+        {
+            "question": "29. Who has the right to release the goods?",
+            "options": [
+                "a) Pledgee",
+                "b) Bank",
+                "c) Agent",
+                "d) Pledger"
+            ],
+            "correctAnswer": "d",
+            "id": "bank-q29",
+            "isImportant": false
+        },
+        {
+            "question": "30. Full form of CASA.",
+            "options": [
+                "a) Cash Account, Savings Account",
+                "b) Credit Account, Savings Account",
+                "c) Current Account, Savings Account",
+                "d) Cash Account, Secured Account"
+            ],
+            "correctAnswer": "c",
+            "id": "bank-q30",
+            "isImportant": false
+        }
+    ],
+    "onemarks": [
+        {
+            "question": "1. Give the definition of development banking.",
+            "answer": "Development banking is a type of banking service that focuses on providing long-term financial assistance and support for the economic development of a country, especially in industrial and infrastructure sectors. It promotes economic growth by supporting projects in underdeveloped areas.",
+            "isImportant": false
+        },
+        {
+            "question": "2. Which Institution was transformed in ECGC?",
+            "answer": "The Export Risks Insurance Corporation (ERIC) was transformed into ECGC (Export Credit Guarantee Corporation of India Limited).",
+            "isImportant": false
+        },
+        {
+            "question": "3. Define priority sectors.",
+            "answer": "Priority sectors are those sectors that are identified by the government and RBI as important for the economic development of the country. These include agriculture, MSMEs, education, housing, and others that need special financial assistance.",
+            "isImportant": false
+        },
+        {
+            "question": "4. What is SOP in banking transactions?",
+            "answer": "SOP stands for Standard Operating Procedure. In banking, it refers to a set of guidelines and steps that employees must follow to ensure consistent and compliant banking operations.",
+            "isImportant": false
+        },
+        {
+            "question": "5. Write the full form of IRDBI.",
+            "answer": "The full form of IRDBI is Industrial Reconstruction and Development Bank of India.",
+            "isImportant": false
+        },
+        {
+            "question": "6. In which year the IRDBI was established?",
+            "answer": "IRDBI was established in the year 1985.",
+            "isImportant": false
+        },
+        {
+            "question": "7. Define differential rate of interest.",
+            "answer": "Differential Rate of Interest (DRI) is a scheme where loans are provided to weaker sections of society at concessional interest rates, usually lower than the regular rates, to support small-scale economic activities.",
+            "isImportant": false
+        },
+        {
+            "question": "8. What is Export Finance?",
+            "answer": "Export Finance refers to the financial assistance provided to exporters to help them meet the working capital needs for exporting goods and services. It includes pre-shipment and post-shipment credit.",
+            "isImportant": false
+        },
+        {
+            "question": "9. What is meant by wrongful dishonour of cheque?",
+            "answer": "Wrongful dishonour of a cheque occurs when a bank refuses payment despite sufficient funds and no legal reason, breaching the banker-customer contract.",
+            "isImportant": false
+        },
+        {
+            "question": "10. What is overdraft?",
+            "answer": "Overdraft is a facility where a customer can withdraw more money from their bank account than the available balance, up to an agreed limit.",
+            "isImportant": false
+        },
+        {
+            "question": "11. What is account payee crossing?",
+            "answer": "Account payee crossing is a cheque marking (e.g., two parallel lines with 'A/c Payee') ensuring the amount is credited only to the payee’s bank account.",
+            "isImportant": false
+        },
+        {
+            "question": "12. What is pledge?",
+            "answer": "Pledge is a type of security where movable goods (e.g., warehouse stock) are handed over to the lender as collateral for a loan.",
+            "isImportant": false
+        },
+        {
+            "question": "13. State any two benefits of CASA deposits to customers.",
+            "answer": "1. Easy access to funds through withdrawals or debit cards.\n2. Interest earnings on savings accounts.",
+            "isImportant": false
+        },
+        {
+            "question": "14. What is a particular lien?",
+            "answer": "A particular lien is a banker's right to retain specific goods or property until dues related to that transaction are cleared.",
+            "isImportant": false
+        },
+        {
+            "question": "15. State the forms of advances.",
+            "answer": "Loans, overdrafts, cash credit, and bill discounting.",
+            "isImportant": false
+        },
+        {
+            "question": "16. What is a secured loan?",
+            "answer": "A secured loan is a loan backed by collateral (e.g., property or vehicle) that the bank can seize if the borrower defaults.",
+            "isImportant": false
+        },
+        {
+            "question": "17. What is meant by payment-in-due-course?",
+            "answer": "Payment-in-due-course refers to a payment made in good faith, without negligence, to the person in possession of the instrument, under the apparent title, and at or after its maturity. It protects the payer from further claims on the instrument.",
+            "isImportant": false
+        },
+        {
+            "question": "18. What is collection of cheque?",
+            "answer": "Collection of cheque is the process by which a bank collects the amount of a cheque deposited by its customer from the drawee bank. This involves sending the cheque to the clearing house and crediting the customer’s account once the cheque is cleared.",
+            "isImportant": false
+        },
+        {
+            "question": "19. State the forms of advances.",
+            "answer": "The main forms of advances provided by banks include term loans, overdrafts, cash credit, bills discounting, and demand loans. These forms vary based on the duration, purpose, and nature of security involved.",
+            "isImportant": false
+        },
+        {
+            "question": "20. What is hypothecation?",
+            "answer": "Hypothecation is a mode of creating charge against movable assets where the borrower retains possession of the goods, but the ownership is pledged to the lender as security for the loan. It is commonly used in vehicle and inventory financing.",
+            "isImportant": false
+        },
+        {
+            "question": "21. What is meant by CASA deposits?",
+            "answer": "CASA stands for Current Account and Savings Account deposits. These are low-interest-bearing or non-interest-bearing deposits that provide banks with low-cost funds. A high CASA ratio indicates strong liquidity and profitability for the bank.",
+            "isImportant": false
+        },
+        {
+            "question": "22. Give the definition of development banking.",
+            "answer": "Development banking refers to providing long-term financial support to foster industrial and economic growth. It focuses on funding projects like infrastructure or small businesses that commercial banks may avoid. Institutions like IDBI exemplify this by promoting sustainable development.",
+            "isImportant": false
+        },
+        {
+            "question": "23. Give the full form of IRDBI.",
+            "answer": "The full form of IRDBI is Industrial Reconstruction Development Bank of India. Established in 1971, it aimed to revive sick industries before merging into IDBI in 1985. It played a key role in industrial rehabilitation.",
+            "isImportant": false
+        },
+        {
+            "question": "24. Which organization was transformed into ECGC?",
+            "answer": "The Export Risks Insurance Corporation (ERIC) was transformed into the Export Credit Guarantee Corporation (ECGC). Formed in 1957, ERIC evolved to ECGC to better support exporters with credit insurance. This shift enhanced export promotion in India.",
+            "isImportant": false
+        },
+        {
+            "question": "25. What is meant by priority sectors?",
+            "answer": "Priority sectors are critical areas like agriculture, small-scale industries, and education, targeted for mandatory bank lending. They ensure credit reaches underserved segments, promoting inclusive growth. RBI mandates banks to allocate 40% of advances to these sectors.",
+            "isImportant": false
+        },
+        {
+            "question": "26. State the year of establishment of IDBI.",
+            "answer": "The Industrial Development Bank of India (IDBI) was established in 1964. It was created under an Act of Parliament to provide long-term financing for industrial development. Over time, it evolved into a commercial bank.",
+            "isImportant": false
+        },
+        {
+            "question": "27. Give the list of any four external factors affecting bank deposits.",
+            "answer": "○ Interest Rates: Higher rates attract deposits.\n○ Economic Conditions: Recession reduces savings.\n○ Government Policies: Tax incentives boost deposits.\n○ Competition: Rival banks’ offers influence deposit flows.",
+            "code": "",
+            "isImportant": false
+          },
+          {
+            "question": "28. Give the meaning of unsecured advances.",
+            "answer": "Unsecured advances are loans given without collateral, relying on the borrower’s creditworthiness and promise to repay.",
+            "code": "",
+            "isImportant": false
+          },
+          {
+            "question": "29. What is meant by ends of Guarantee?",
+            "answer": "Ends of Guarantee refer to the termination of a guarantor’s liability, typically when the debt is repaid or the guarantee period expires.",
+            "code": "",
+            "isImportant": false
+          },
+          {
+            "question": "30. Write the meaning of lien.",
+            "answer": "Lien is a legal right of a creditor to retain possession of a debtor’s property until the debt is cleared.",
+            "code": "",
+            "isImportant": false
+          },
+          {
+            "question": "31. What is meant by hypothecation?",
+            "answer": "Hypothecation is pledging an asset as loan security without transferring possession, allowing the borrower to use it.",
+            "code": "",
+            "isImportant": false
+          }
+    ],
+    "long": [
+        {
+            "question": "1. Explain in detail the Industrial Development Bank of India (IDBI) OR Discuss in detail the State Finance Corporations (SFCS) as a Development Banking institutions.",
+            "answer": "The Industrial Development Bank of India (IDBI) and State Finance Corporations (SFCS) are two major institutions playing a crucial role in the development of the Indian economy. Their detailed explanation is given below:\n\n1. Industrial Development Bank of India (IDBI):\n\n\n- Established under: IDBI was established under the Industrial Development Bank of India Act, 1964, and started functioning from July 1, 1964.\n\n\n- Objective: Its main objective is to provide financial assistance for the promotion and development of medium and large-scale industries in India.\n\n\n- Functions:\n  \n  - Provides direct loans and advances to industrial enterprises.\n  \n  - Offers refinance to banks and other financial institutions for loans given to industries.\n  \n  - Undertakes underwriting of shares and debentures.\n  \n  - Promotes industrial research and development activities.\n  \n  - Offers technical and managerial consultancy services.\n\n\n- Role:\n  \n  - IDBI has played a significant role in the growth of infrastructure, power, telecom, and manufacturing sectors.\n  \n  - It provides both project finance and non-project finance.\n\n\n- Transformation:\n  \n  - In 2004, IDBI was converted into a banking company and started operating as a full-service commercial bank.\n\n\n- Importance:\n  \n  - IDBI has contributed to balanced regional development, employment generation, and modernization of Indian industries.\n\n\n2. State Finance Corporations (SFCS):\n\n\n- Introduction:\n  \n  - SFCS were established under the State Financial Corporations Act, 1951.\n  \n  - These are state-level development banks set up to provide financial assistance to small and medium-sized enterprises (SMEs).\n\n\n- Objective:\n  \n  - To promote industrial development in respective states by supporting local entrepreneurs.\n\n\n- Functions:\n  \n  - Provide term loans to small and medium-scale industries.\n  \n  - Assist in the modernization and expansion of existing units.\n  \n  - Support new entrepreneurs with project guidance and finance.\n  \n  - Help in regional economic development by financing industries in backward areas.\n\n\n- Structure:\n  \n  - SFCS operate under the control of the respective State Governments but follow the broad policies laid by the central government.\n\n\n- Importance:\n  \n  - SFCS play a crucial role in promoting decentralized industrial development.\n  \n  - They contribute significantly to employment generation at the regional level.\n\n\n- Challenges:\n  \n  - Many SFCS face problems like poor recovery rates, inadequate capital, and political interference.\n\n\nIn conclusion, both IDBI and SFCS have played an important role in promoting industrial and economic development in India. While IDBI operates at the national level supporting large industries, SFCS work at the state level focusing on small and medium-scale industries.",
+            "isImportant": false
+        },
+        {
+            "question": "2. Discuss in detail the State Finance Corporations (SFCS) as a Development Banking institutions.",
+            "answer": "1.State Finance Corporations (SFCS) are important development banking institutions that work at the state level in India to promote industrial development.\n\n2.Establishment:\n- SFCS were established under the State Financial Corporations Act, 1951.\n- These institutions are set up by individual state governments with the aim of supporting small and medium enterprises (SMEs).\n\n3.Objective:\n- To provide medium and long-term finance to small-scale and medium-scale industries in their respective states.\n- To promote regional development and balanced industrial growth by financing industries even in backward areas.\n\n4.Main Functions:\n- Provide term loans for the purchase of land, construction of buildings, and purchase of machinery.\n- Offer financial assistance for modernization, expansion, and diversification of existing units.\n- Assist in the rehabilitation of sick industrial units.\n- Help new entrepreneurs in setting up their ventures by offering project guidance and financial support.\n- Provide working capital in coordination with other financial institutions.\n\n5. Sources of Funds:\n- Share capital from the state government and IDBI.\n- Issue of bonds and debentures.\n- Refinance from SIDBI and other financial institutions.\n\n6.Importance in Development Banking:\n- SFCS play a key role in supporting local entrepreneurship.\n- They help generate employment by financing new industrial units.\n- Support the development of backward areas, contributing to regional balance.\n- Promote self-reliance in the industrial sector by encouraging indigenous industries.\n\n7. Challenges Faced:\n- Low recovery rate of loans.\n- Political interference in loan sanctioning.\n- Lack of professional management in some SFCS.\n- Limited financial resources and dependency on state funding.\n\n8. Reforms and Suggestions:\n- Need for modernization and computerization.\n- Improve credit appraisal systems.\n- Encourage private investment and partnerships.\n- Improve transparency and accountability.\n\n9.Conclusion:\nSFCS are crucial institutions in India’s development banking system. They help bridge the financial gap for small and medium industries at the state level. By supporting entrepreneurship, job creation, and regional development, SFCS contribute significantly to the economic progress of the country.",
+            "isImportant": false
+        },
+        {
+            "question": "3. The role of Executive in facilitating the banking transaction.",
+            "answer": "The role of an executive in facilitating banking transactions is critical to the seamless functioning of a bank, ensuring operational efficiency, customer satisfaction, and regulatory compliance.\n\n○ Introduction: Banking transactions involve deposits, withdrawals, loans, and digital payments, all of which require oversight and coordination. The executive acts as a key decision-maker in this process.\n\n○ Operational Oversight: Executives manage daily banking operations, ensuring transactions are processed accurately and on time. For example, they oversee cash management at branches and ATM replenishment.\n\n○ Policy Enforcement: They ensure compliance with Reserve Bank of India (RBI) guidelines, such as Know Your Customer (KYC) norms and Anti-Money Laundering (AML) regulations, to prevent fraud and maintain transparency.\n\n○ Credit and Loan Management: Executives evaluate loan applications, assess borrower creditworthiness using tools like CIBIL scores, and approve or reject loans. For instance, they decide terms for a ₹10 lakh business loan based on risk analysis.\n\n○ Customer Service: They handle high-value clients, resolve disputes (e.g., a contested transaction of ₹5 lakh), and ensure customer grievances are addressed promptly to enhance trust and retention.\n\n○ Technology Integration: Executives drive the adoption of digital tools like UPI, mobile banking, and NEFT/RTGS systems, ensuring transactions are fast and secure.\n\n○ Risk Mitigation: They implement cybersecurity measures and monitor suspicious transactions (e.g., flagging a ₹2 lakh transfer for investigation) to protect the bank and customers.\n\n○ Conclusion: The executive’s multifaceted role ensures that banking transactions are efficient, secure, and aligned with both customer needs and regulatory standards, making them indispensable to the banking system.",
+            "isImportant": false
+        },
+        {
+            "question": "4. Write note on IRDBI.",
+            "answer": "The Industrial Reconstruction Development Bank of India (IRDBI) was a specialized financial institution in India, later integrated into the Industrial Development Bank of India (IDBI), playing a significant role in industrial financing.\n\n○ Introduction: Established to support industrial revival, IRDBI addressed the financial needs of struggling industries during India’s post-independence economic growth phase.\n\n○ Historical Context: IRDBI was set up in 1971 under the Industrial Reconstruction Bank of India Act, focusing on reconstructing sick industrial units amid economic challenges like the 1970s oil crisis.\n\n○ Objectives: Its primary goal was to provide financial and technical assistance to revive industries, promote industrial development, and support small and medium enterprises (SMEs).\n\n○ Functions: IRDBI offered term loans, refinancing, and underwriting of securities. For example, it might have funded a textile mill with ₹50 lakh to modernize machinery and resume production.\n\n○ Evolution: In 1985, IRDBI was restructured into IDBI to expand its scope, financing not just reconstruction but also new industrial and infrastructure projects like power plants or highways.\n\n○ Impact: It stabilized industries during downturns, supported job creation (e.g., saving 1,000 jobs in a failing steel plant), and laid the groundwork for modern development banks in India.\n\n○ Current Status: Today, IDBI continues IRDBI’s legacy as a public-sector bank, though its focus has shifted toward commercial banking after partial privatization.\n\n○ Conclusion: IRDBI was a cornerstone of India’s industrial policy, fostering economic resilience and growth, with its influence still evident in IDBI’s operations.",
+            "isImportant": false
+        },
+        {
+            "question": "5. Differential rate of interest.",
+            "answer": "The Differential Rate of Interest (DRI) scheme is a targeted banking policy in India aimed at promoting financial inclusion and supporting economically weaker sections through subsidized credit.\n\n○ Introduction: Introduced in 1972, DRI reflects India’s commitment to equitable growth by offering loans at concessional rates to priority sectors, contrasting with market-driven interest rates.\n\n○ Concept and Objective: DRI provides loans at a lower interest rate (typically 4% per annum) to groups like small farmers, SC/ST communities, and micro-entrepreneurs, aiming to uplift their economic status.\n\n○ Eligibility Criteria: Beneficiaries must have an annual income below ₹24,000 in rural areas or ₹32,000 in urban areas (as per older norms), ensuring aid reaches the neediest. For example, a farmer earning ₹20,000 yearly qualifies.\n\n○ Implementation: Public sector banks are required to allocate 1% of their total advances to DRI loans. For instance, a bank with ₹100 crore in advances must disburse ₹1 crore under DRI.\n\n○ Benefits: It enables affordable credit access—e.g., a ₹50,000 loan at 4% interest for a small business versus 12% market rate—boosting livelihoods and reducing poverty.\n\n○ Challenges: Low recovery rates, misuse by intermediaries, and lack of awareness limit its impact. For example, only 0.5% of advances might actually reach DRI due to poor targeting.\n\n○ Significance: DRI aligns with social banking goals, supporting schemes like PM Jan Dhan Yojana and rural development initiatives.\n\n○ Conclusion: While DRI is a powerful tool for inclusive growth, its success hinges on effective implementation, monitoring, and awareness to maximize outreach and recovery.",
+            "isImportant": false
+        },
+        {
+            "question": "6. Bank recovery as per IBA rules.",
+            "answer": "Bank recovery under the Indian Banks’ Association (IBA) rules provides a framework for reclaiming dues from borrowers, especially non-performing assets (NPAs), balancing financial recovery with legal and ethical considerations.\n\n○ Introduction: IBA, in collaboration with RBI guidelines, outlines procedures for banks to recover loans, ensuring stability in the banking sector amidst rising NPAs (e.g., ₹10 lakh crore in 2018).\n\n○ Loan Classification: Loans are categorized as standard, sub-standard (90+ days overdue), doubtful, or loss assets, guiding recovery strategies. For instance, a ₹5 lakh overdue loan becomes sub-standard.\n\n○ Legal Notices: Under the SARFAESI Act, 2002, banks issue a 60-day notice under Section 13(2) to defaulters. E.g., a borrower with a ₹20 lakh default is warned before further action.\n\n○ Recovery Mechanisms: Options include loan restructuring (extending repayment tenure), one-time settlements (e.g., settling ₹10 lakh debt for ₹8 lakh), or legal recourse via Debt Recovery Tribunals (DRTs).\n\n○ Asset Seizure: SARFAESI allows banks to seize and auction secured assets (e.g., a factory worth ₹50 lakh) without court approval if repayment fails post-notice.\n\n○ Wilful Defaulters: IBA identifies wilful defaulters (e.g., those diverting ₹25 lakh loan funds), barring them from credit and escalating recovery via criminal proceedings.\n\n○ Monitoring and Agents: Banks use credit audits and recovery agents for follow-ups, ensuring compliance with RBI’s fair practice code to avoid harassment.\n\n○ Conclusion: IBA rules, aligned with RBI and legal frameworks like IBC, ensure banks recover funds efficiently while maintaining borrower rights, critical for financial health.",
+            "isImportant": false
+        },
+        {
+            "question": "7. Write a note on SOP for different banking transactions.",
+            "answer": "Standard Operating Procedures (SOPs) are critical guidelines that ensure consistency, efficiency, and compliance in banking transactions.\n\n○ Introduction: SOPs standardize processes like deposits, withdrawals, loans, and digital payments, minimizing errors and ensuring regulatory adherence in banks.\n\n○ Deposits: The SOP involves verifying customer identity (e.g., Aadhaar), recording the amount (e.g., ₹50,000), issuing a receipt, and updating the account via core banking systems.\n\n○ Withdrawals: Customers submit a withdrawal slip or use ATMs; the SOP requires signature verification, balance checks, and cash disbursement (e.g., ₹20,000) while logging the transaction.\n\n○ Loan Disbursement: SOP includes application review, credit appraisal (e.g., CIBIL score check), sanctioning (e.g., ₹5 lakh loan), and disbursal with terms documented in a loan agreement.\n\n○ Digital Transactions: For NEFT/RTGS, SOP mandates inputting correct account details, verifying limits (e.g., ₹10 lakh for RTGS), and confirming transaction success within 2 hours.\n\n○ Compliance: SOPs ensure KYC norms, anti-money laundering checks (e.g., flagging a ₹15 lakh suspicious transfer), and RBI reporting are followed.\n\n○ Benefits: SOPs reduce fraud, enhance customer trust (e.g., quick resolution of a disputed ₹1 lakh deposit), and streamline staff training.\n\n○ Conclusion: SOPs are the backbone of banking operations, ensuring transactions are secure, efficient, and aligned with legal and operational standards.",
+            "isImportant": false
+        },
+        {
+            "question": "8. Export Credit and Guarantee Corporation.",
+            "answer": "The Export Credit Guarantee Corporation of India (ECGC) is a government-owned entity that supports India’s export sector by providing credit risk insurance and guarantees.\n\n○ Introduction: Established in 1957, ECGC mitigates risks for exporters and banks, boosting India’s international trade, which reached $776 billion in 2022-23.\n\n○ Objectives: ECGC aims to protect exporters from buyer defaults and political risks while facilitating export financing from banks.\n\n○ Functions: It offers export credit insurance (e.g., covering a $100,000 shipment to the US), guarantees to banks for export loans (e.g., ₹50 lakh), and policies against risks like war or insolvency.\n\n○ Insurance Covers: Standard policies cover commercial risks (e.g., buyer bankruptcy), while specific policies address political risks (e.g., trade embargoes in a conflict zone).\n\n○ Financial Support: ECGC’s guarantees enable banks to offer pre-shipment (e.g., ₹20 lakh for raw materials) and post-shipment credit at lower rates.\n\n○ Impact: It supported ₹6.5 lakh crore in exports (2022 data), helping SMEs compete globally by insuring shipments like textiles to Europe.\n\n○ Challenges: High claim ratios and limited coverage for emerging markets (e.g., Africa) pose operational hurdles.\n\n○ Conclusion: ECGC plays a vital role in promoting India’s exports by reducing financial risks, making it a cornerstone of trade policy and economic growth.",
+            "isImportant": false
+        },
+        {
+            "question": "9. The specimen of application form for loan.",
+            "answer": "A loan application form is a standardized document used by banks to collect borrower details and assess loan eligibility, critical for credit processing.\n\n○ Introduction: The specimen of a loan application form varies by bank but follows a common structure to ensure uniformity and compliance with lending norms.\n\n○ Personal Details: Includes name, age, address, contact number, and ID proof (e.g., PAN: ABCD1234E) to verify the applicant’s identity.\n\n○ Employment Information: Details like occupation (e.g., private sector employee), employer name, monthly income (e.g., ₹50,000), and job stability (e.g., 3 years) assess repayment capacity.\n\n○ Loan Details: Specifies loan type (e.g., personal loan), amount (e.g., ₹5 lakh), purpose (e.g., home renovation), and tenure (e.g., 5 years).\n\n○ Financial Information: Lists assets (e.g., property worth ₹20 lakh), liabilities (e.g., ₹2 lakh credit card debt), and bank account details for credit appraisal.\n\n○ Declarations: Applicant confirms the accuracy of data and agrees to terms (e.g., 10% interest rate), often with a signature and date (e.g., 08/04/2025).\n\n○ Supporting Documents: Requires attachments like salary slips, ITRs, and KYC proofs to validate claims.\n\n○ Conclusion: The loan application form is a critical tool for banks to evaluate risk and ensure informed lending, streamlining the approval process.",
+            "isImportant": false
+        },
+        {
+            "question": "10. Functions of development banking.",
+            "answer": "Development banking focuses on financing long-term economic growth, supporting industries, infrastructure, and underserved sectors through specialized functions.\n\n○ Introduction: Institutions like IDBI and NABARD exemplify development banks, driving industrialization and rural progress in countries like India.\n\n○ Project Financing: They provide long-term loans (e.g., ₹100 crore for a solar plant) for capital-intensive projects, unlike commercial banks’ short-term focus.\n\n○ Industrial Promotion: Development banks fund startups and SMEs (e.g., ₹10 lakh for a textile unit), offering technical assistance and equity participation.\n\n○ Infrastructure Development: They finance roads, railways, and power projects (e.g., ₹500 crore for a highway), catalyzing economic growth and job creation.\n\n○ Rural and Agricultural Support: Banks like NABARD disburse credit (e.g., ₹5 lakh to a farmer) for irrigation, equipment, and cooperatives, boosting food security.\n\n○ Refinancing: They refinance commercial banks to extend credit to priority sectors (e.g., ₹50 crore for microfinance institutions).\n\n○ Advisory Role: Provide expertise on project feasibility (e.g., assessing a ₹20 crore factory’s viability) and economic policies to governments and businesses.\n\n○ Conclusion: Development banking bridges financial gaps in key sectors, fostering sustainable growth and equitable development, essential for emerging economies like India.",
+            "isImportant": false
+        },
+        {
+            "question": "11. Which precautions a banker should take before making the payment of cheque?",
+            "answer": "A banker must exercise due diligence before honoring a cheque to ensure legality, protect the bank, and maintain customer trust.\n\n○ Introduction: Paying a cheque involves verifying its authenticity and compliance with banking norms to avoid wrongful payments or losses.\n\n○ Proper Form and Signature: The cheque must be correctly filled (e.g., date, amount in words and figures match) and signed by the drawer, matching the specimen signature (e.g., verifying a ₹50,000 cheque).\n\n○ Sufficient Funds: The banker checks the account balance (e.g., ₹1 lakh available for a ₹90,000 cheque) to avoid overdraft unless pre-arranged.\n\n○ No Stop Payment Instruction: Confirm no stop payment request exists from the drawer (e.g., via SMS or written notice) before processing.\n\n○ Crossing and Endorsement: For crossed cheques (e.g., 'A/c Payee'), ensure payment goes to the payee’s account; verify endorsements on bearer cheques.\n\n○ Legal Restrictions: Check for garnishee orders, insolvency, or death of the customer (e.g., suspending payment on a deceased client’s ₹2 lakh cheque).\n\n○ Date Validity: Ensure the cheque isn’t stale (older than 3 months, e.g., dated 01/01/2025 presented on 08/04/2025) or post-dated.\n\n○ Conclusion: These precautions safeguard the bank from financial loss, legal disputes, and reputational damage, ensuring secure and lawful cheque payments.",
+            "isImportant": false
+        },
+        {
+            "question": "12. Explain the main objects of bank lending and discuss the general principles of sound lending.",
+            "answer": "Bank lending is a core function aimed at meeting customer needs while ensuring profitability and stability, guided by principles of sound lending.\n\n○ Introduction: Banks lend to individuals, businesses, and governments, balancing economic support with financial prudence.\n\n○ Main Objects of Bank Lending:\n  - Profitability: Earn interest income (e.g., 10% on a ₹10 lakh loan) to sustain operations.\n  - Liquidity Support: Provide funds for short-term needs (e.g., ₹5 lakh overdraft for a business).\n  - Economic Growth: Finance infrastructure (e.g., ₹100 crore for a highway) and industries to boost GDP.\n  - Customer Welfare: Offer loans for housing or education (e.g., ₹20 lakh home loan) to improve living standards.\n\n○ General Principles of Sound Lending:\n  - Safety: Ensure repayment capacity (e.g., checking a borrower’s ₹50,000 monthly income for a ₹2 lakh loan).\n  - Liquidity: Lend funds recoverable within a reasonable period (e.g., 1-year cash credit vs. 20-year mortgage).\n  - Profitability: Charge viable interest rates (e.g., 8% on secured loans) to cover costs and risks.\n  - Security: Require collateral (e.g., property worth ₹15 lakh for a ₹10 lakh loan) to mitigate default risk.\n  - Diversification: Spread loans across sectors (e.g., agriculture, retail) to reduce risk concentration.\n\n○ Conclusion: The objects of lending align with economic and social goals, while sound lending principles ensure banks remain secure, profitable, and resilient.",
+            "isImportant": false
+        },
+        {
+            "question": "13. Duties of collecting banker",
+            "answer": "A collecting banker plays a vital role in cheque collection, acting as an intermediary between the customer and the paying bank, with specific responsibilities.\n\n○ Introduction: The collecting banker collects cheque proceeds on behalf of the customer, ensuring efficiency and legal compliance.\n\n○ Acting as Agent: The banker acts as the customer’s agent, collecting funds (e.g., ₹1 lakh cheque) and crediting them to the customer’s account promptly.\n\n○ Due Diligence: Verify the cheque’s authenticity—checking endorsement, crossing (e.g., 'A/c Payee'), and title of the depositor—to avoid fraudulent transactions.\n\n○ Prompt Collection: Ensure timely presentation to the paying bank (e.g., within 24 hours for a local ₹50,000 cheque) to avoid delays or loss of funds.\n\n○ Statutory Protection: Under Section 131 of the Negotiable Instruments Act, 1881, exercise care to claim protection against conversion liability (e.g., collecting a stolen ₹2 lakh cheque).\n\n○ Notice of Dishonour: Inform the customer immediately if the cheque is dishonoured (e.g., insufficient funds for a ₹75,000 cheque) to enable recovery action.\n\n○ Record Keeping: Maintain accurate records of transactions (e.g., cheque number, date) for accountability and audits.\n\n○ Conclusion: The collecting banker’s duties ensure secure, swift fund collection while protecting the bank from legal risks and maintaining customer trust.",
+            "isImportant": false
+        },
+        {
+            "question": "14. Importance of CASA deposits for banks",
+            "answer": "CASA (Current Account, Savings Account) deposits are a cornerstone of banking operations, offering cost-effective and stable funding.\n\n○ Introduction: CASA deposits are low-cost funds compared to term deposits, crucial for a bank’s profitability and liquidity.\n\n○ Low Cost of Funds: Savings accounts offer low interest (e.g., 3-4% p.a.) and current accounts none, reducing the bank’s interest expense (e.g., ₹10 lakh CASA vs. ₹10 lakh FD at 7%).\n\n○ Stable Funding: CASA provides a steady deposit base (e.g., ₹50 crore daily balance), unlike term deposits that mature and withdraw.\n\n○ Profitability Boost: Lower funding costs increase the net interest margin (e.g., lending at 10% vs. paying 3% on CASA), enhancing profits.\n\n○ Liquidity Support: High CASA ratios (e.g., 40% of total deposits) ensure funds for daily operations and loan disbursals (e.g., ₹20 crore advances).\n\n○ Customer Engagement: CASA accounts foster long-term relationships, encouraging cross-selling of loans or insurance (e.g., to a savings account holder).\n\n○ Competitive Edge: Banks with high CASA (e.g., HDFC Bank’s 42% in 2023) outperform peers in financial stability and market share.\n\n○ Conclusion: CASA deposits are vital for cost efficiency, liquidity, and profitability, making them a strategic priority for banks.",
+            "isImportant": false
+        },
+        {
+            "question": "15. Legal protection given to a paying banker",
+            "answer": "A paying banker enjoys legal safeguards under the Negotiable Instruments Act, 1881, to mitigate risks while honoring cheques.\n\n○ Introduction: Legal protection ensures a banker isn’t unduly liable when payments are made in good faith and due diligence.\n\n○ Section 10 - Payment in Due Course: Protection applies if payment is made per banking practice, in good faith (e.g., ₹1 lakh cheque), and without negligence.\n\n○ Section 85(1) - Crossed Cheques: For 'A/c Payee' cheques, payment to the payee’s account (e.g., ₹50,000 credited correctly) shields the banker from liability.\n\n○ Section 85(2) - Bearer Cheques: Payment to the bearer (e.g., ₹20,000 cash) discharges the banker if no forgery is evident.\n\n○ Section 89 - Altered Cheques: Protection exists if material alterations (e.g., amount changed from ₹10,000 to ₹1 lakh) aren’t apparent, and payment is made in good faith.\n\n○ No Liability for Customer Insolvency: If funds are sufficient (e.g., ₹5 lakh balance), payment before insolvency notice is protected.\n\n○ Conditions: Protection requires verifying signatures, sufficient funds, and no stop instructions (e.g., for a ₹75,000 cheque).\n\n○ Conclusion: These provisions safeguard the paying banker from legal repercussions, ensuring confidence in cheque transactions while requiring diligence.",
+            "isImportant": false
+        },
+        {
+            "question": "16. Precautions to be observed by a banker while giving advance by hypothecation",
+            "answer": "Hypothecation involves lending against movable assets without possession, requiring a banker to take precautions to secure the advance.\n\n○ Introduction: Unlike a pledge, hypothecation leaves goods (e.g., inventory) with the borrower, increasing risk, necessitating careful oversight.\n\n○ Verification of Assets: Inspect and value the hypothecated goods (e.g., ₹10 lakh worth of machinery) to ensure they exist and match the loan amount.\n\n○ Legal Documentation: Execute a hypothecation agreement (e.g., for a ₹5 lakh loan) detailing asset description, loan terms, and bank’s charge over goods.\n\n○ Insurance Coverage: Mandate insurance on assets (e.g., ₹20 lakh stock insured against fire) to protect against loss or damage.\n\n○ Periodic Monitoring: Conduct regular checks (e.g., quarterly visits to a warehouse) to ensure goods aren’t sold or misused without repayment.\n\n○ Borrower’s Creditworthiness: Assess repayment capacity (e.g., ₹50,000 monthly income) to reduce default risk on the ₹3 lakh advance.\n\n○ Charge Registration: Register the hypothecation with authorities (e.g., ROC for companies) to establish legal priority over the asset.\n\n○ Conclusion: These precautions minimize risks in hypothecation advances, ensuring the bank’s funds are secured despite the borrower retaining possession.",
+            "isImportant": false
+        },
+        {
+            "question": "17. Payment-in-due course",
+            "answer": "Payment-in-due course refers to a banker’s obligation to honor a cheque under specific conditions, ensuring legal protection and proper execution.\n\n○ Introduction: Defined under Section 10 of the Negotiable Instruments Act, 1881, it protects the paying banker when payments are made correctly.\n\n○ Definition: It is a payment made at or after the maturity of a cheque, in good faith, without negligence, and to the rightful holder (e.g., ₹50,000 cheque paid on due date).\n\n○ Good Faith: The banker must act honestly, without suspicion of irregularity (e.g., paying a ₹1 lakh cheque with a verified signature).\n\n○ Sufficient Funds: Payment requires adequate balance (e.g., ₹75,000 in account for a ₹70,000 cheque) unless an overdraft is approved.\n\n○ No Negligence: The banker verifies date, amount, and signature (e.g., rejecting a cheque dated 01/01/2025 presented on 08/04/2025 if stale).\n\n○ Rightful Holder: Payment must go to the payee or endorsed holder (e.g., ₹20,000 to 'A/c Payee' credited to the named account).\n\n○ Legal Protection: Under Section 10, such payment discharges the banker from liability (e.g., no claim if customer later disputes a ₹30,000 payment).\n\n○ Conclusion: Payment-in-due course ensures secure cheque transactions, balancing customer rights with banker’s legal safeguards.",
+            "isImportant": false
+        },
+        {
+            "question": "18. Difference between overdraft and cash credit",
+            "answer": "Overdraft and cash credit are short-term credit facilities offered by banks, but they differ in structure, purpose, and operation.\n\n○ Introduction: Both help customers meet temporary financial needs, yet their terms and usage vary significantly.\n\n○ Nature: Overdraft is an extension of credit on a current account (e.g., ₹50,000 overdrawal), while cash credit is a separate loan account with a fixed limit (e.g., ₹2 lakh).\n\n○ Security: Overdraft may be unsecured or secured (e.g., against FD), whereas cash credit is typically secured by hypothecation of stock (e.g., ₹5 lakh goods).\n\n○ Interest: Overdraft interest applies only on the overdrawn amount (e.g., 10% on ₹20,000 used), while cash credit interest is on the full limit utilized (e.g., 8% on ₹1 lakh drawn).\n\n○ Duration: Overdraft is flexible and repayable on demand, while cash credit is often annual, renewable (e.g., for a business’s yearly cycle).\n\n○ Purpose: Overdraft suits individuals or small firms (e.g., ₹30,000 for personal needs), while cash credit supports businesses’ working capital (e.g., ₹3 lakh for inventory).\n\n○ Operation: Overdraft adjusts with account balance; cash credit requires a separate drawing limit (e.g., ₹1 lakh ceiling).\n\n○ Conclusion: Understanding these differences helps banks and customers choose the right facility for financial needs.",
+            "isImportant": false
+        },
+        {
+            "question": "19. Mortgage",
+            "answer": "A mortgage is a legal agreement where immovable property is used as security for a loan, benefiting both the lender and borrower.\n\n○ Introduction: Common in housing and business loans, mortgages ensure repayment security under the Transfer of Property Act, 1882.\n\n○ Definition: It involves transferring property interest (e.g., land worth ₹50 lakh) to the lender as collateral for a loan (e.g., ₹40 lakh), repayable with interest.\n\n○ Types: Includes simple mortgage (no possession), usufructuary (lender uses property), and equitable mortgage (e.g., depositing title deeds for a ₹20 lakh loan).\n\n○ Process: Borrower offers property, bank verifies title (e.g., clear ownership of a ₹30 lakh house), and registers the mortgage with authorities.\n\n○ Rights of Lender: Bank can sell the property (e.g., auction a ₹25 lakh flat) if the borrower defaults after notice.\n\n○ Rights of Borrower: Retains ownership and possession (in simple mortgage) and can redeem property post-repayment (e.g., clearing a ₹15 lakh loan).\n\n○ Significance: Mortgages enable large loans (e.g., ₹1 crore for a factory) while minimizing lender risk through asset backing.\n\n○ Conclusion: Mortgages facilitate major financing with legal safeguards, balancing borrower access to funds and banker security.",
+            "isImportant": false
+        },
+        {
+            "question": "20. Rights of pledgee",
+            "answer": "A pledgee, typically a banker, holds specific rights over pledged goods to secure a loan, ensuring repayment and risk mitigation.\n\n○ Introduction: Under the Indian Contract Act, 1872 (Section 172), a pledgee receives movable goods (e.g., gold) as collateral, with defined rights.\n\n○ Right to Retain: The pledgee can retain goods (e.g., ₹5 lakh worth of jewelry) until the loan, interest, and expenses are paid.\n\n○ Right to Sell: If the pledger defaults (e.g., on a ₹2 lakh loan), the pledgee can sell the goods after reasonable notice (e.g., auctioning stock).\n\n○ Right to Recover Dues: Proceeds from sale (e.g., ₹3 lakh from machinery) first settle the debt, with surplus returned to the pledger.\n\n○ Right to Sue: If sale proceeds fall short (e.g., ₹1 lakh recovered for a ₹1.5 lakh loan), the pledgee can sue for the balance.\n\n○ Right to Expenses: The pledgee can claim costs like storage or insurance (e.g., ₹10,000 for warehousing goods) from the pledger.\n\n○ Duty of Care: While exercising rights, the pledgee must protect the goods (e.g., storing ₹50 lakh inventory safely).\n\n○ Conclusion: The pledgee’s rights ensure loan recovery and fairness, providing a secure framework for lending against movable assets.",
+            "isImportant": false
+        },
+        {
+            "question": "21. Which precautions a banker should take before making the payment of cheque?",
+            "answer": "A banker must exercise due diligence before honoring a cheque to avoid liability and ensure compliance with legal and operational norms. Key precautions include:\n\n○ Validity of Cheque:\n  ○ Ensure the cheque is dated correctly (not post-dated or stale—typically valid for 3 months in India).\n○ Sufficiency of Funds:\n  ○ Verify the account has adequate balance to cover the cheque amount.\n○ Signature Verification:\n  ○ Match the drawer’s signature with the specimen on record to prevent fraud.\n○ Material Alterations:\n  ○ Check for unauthorized changes (e.g., amount or payee altered) without proper authentication.\n○ Proper Presentation:\n  ○ Confirm the cheque is presented within banking hours and at the correct branch.\n○ Crossing and Endorsement:\n  ○ For crossed cheques, ensure payment aligns with crossing instructions (e.g., account payee only); verify endorsements if applicable.\n○ Stop Payment Instructions:\n  ○ Check for any stop-payment orders from the drawer.\n○ Legal Restrictions:\n  ○ Ensure no garnishee order or court attachment restricts payment.\n○ Drawer’s Status:\n  ○ Confirm the drawer is alive and not bankrupt, as death or insolvency terminates payment authority.\n\n○ Consequences of Negligence:\n  ○ Wrongful payment may lead to financial loss or legal action; wrongful dishonor can damage the customer’s reputation, making the bank liable.\n\n○ Conclusion:\n  ○ These precautions safeguard the bank, customer, and transaction integrity under the Negotiable Instruments Act, 1881.",
+            "isImportant": false
+        },
+        {
+            "question": "22. Explain the duties of collecting banker.",
+            "answer": "A collecting banker collects cheques or negotiable instruments on behalf of customers. Under the Negotiable Instruments Act, 1881 (Section 131), their duties include:\n\n○ Due Care and Diligence:\n  ○ Present the cheque for collection promptly (e.g., within a reasonable time, typically the next day if within the same clearing house).\n  ○ Example: Delay in presenting a cheque may forfeit statutory protection if the customer suffers loss.\n○ Notice of Dishonour:\n  ○ Inform the customer immediately if the cheque is dishonoured, providing the reason (e.g., insufficient funds).\n○ Acting as Agent:\n  ○ Collect proceeds as the customer’s agent, not taking ownership unless specified.\n  ○ May use another bank as a sub-agent if not part of the clearing house.\n○ Remittance of Proceeds:\n  ○ Credit the collected amount to the customer’s account without delay after realization.\n○ Collection of Bills:\n  ○ Extend services to collect bills of exchange or drafts, charging a commission.\n○ Statutory Protection:\n  ○ Ensure collection is in good faith and without negligence to claim protection under Section 131 if the title is defective.\n\n○ Challenges:\n  ○ Negligence (e.g., collecting a forged cheque) removes statutory protection, making the banker liable.\n\n○ Conclusion:\n  ○ These duties ensure efficient, secure collection while balancing customer service and legal compliance.",
+            "isImportant": false
+        },
+        {
+            "question": "23. What is unsecured loan? Which precautions should be taken by the banker while giving unsecured loan?",
+            "answer": "○ Unsecured Loan Definition:\n  ○ An unsecured loan is credit extended without collateral, relying solely on the borrower’s creditworthiness and promise to repay (e.g., personal loans, credit card debt).\n\n○ Precautions by Banker:\n  ○ Creditworthiness Assessment:\n    ○ Evaluate the borrower’s financial history, income stability, and repayment capacity using credit scores or past records.\n    ○ Example: Rejecting a loan for someone with frequent defaults.\n  ○ Character Analysis:\n    ○ Assess the borrower’s integrity, reputation, and intent to repay based on references or business dealings.\n  ○ Capacity to Repay:\n    ○ Verify income sources (salary, business profits) to ensure loan repayment feasibility.\n  ○ Purpose of Loan:\n    ○ Ensure the loan is for a legitimate, productive purpose (e.g., not gambling or speculation).\n  ○ Diversification of Risk:\n    ○ Avoid concentrating unsecured loans with a single borrower or sector to mitigate default risk.\n  ○ Legal Documentation:\n    ○ Use robust agreements (e.g., promissory notes) to enforce repayment legally if needed.\n  ○ Monitoring:\n    ○ Regularly track the borrower’s financial health post-disbursement.\n\n○ Risks:\n  ○ Higher default risk due to no collateral; recovery depends on legal action, which may be costly and uncertain.\n\n○ Conclusion:\n  ○ Unsecured loans demand stringent vetting and risk management to protect the bank’s interests.",
+            "isImportant": false
+        },
+        {
+            "question": "24. Explain the main objects of bank lending and discuss the general principles of sound lending.",
+            "answer": "○ Main Objects of Bank Lending:\n  ○ Profitability: Generate interest income to ensure financial viability.\n  ○ Liquidity Support: Meet depositors’ withdrawal demands by lending short-term.\n  ○ Economic Growth: Finance productive activities (e.g., agriculture, industry) to boost development.\n  ○ Customer Service: Fulfill client needs for capital, fostering loyalty.\n  ○ National Interest: Support priority sectors (e.g., MSMEs) as per government policies.\n\n○ General Principles of Sound Lending:\n  ○ Safety:\n    ○ Ensure loans are recoverable by assessing borrower reliability and security value.\n    ○ Example: Avoiding loans to insolvent firms.\n  ○ Liquidity:\n    ○ Prefer short-term loans to maintain cash flow for depositor demands.\n  ○ Profitability:\n    ○ Maximize returns without compromising safety (e.g., setting appropriate interest rates).\n  ○ Diversification:\n    ○ Spread loans across industries and regions to reduce risk concentration.\n  ○ Security:\n    ○ Prefer secured loans with adequate collateral; for unsecured loans, rely on creditworthiness.\n  ○ Purpose:\n    ○ Lend for productive, legal purposes to ensure repayment capacity.\n  ○ Margin:\n    ○ Maintain a buffer between loan amount and security value to cover depreciation or default.\n\n○ Conclusion:\n  ○ Sound lending balances profitability with risk management, aligning with economic and customer needs.",
+            "isImportant": false
+        },
+        {
+            "question": "25. What is pledge? Explain rights of pledgee and pledger.",
+            "answer": "○ Pledge Definition:\n  ○ Under Section 172 of the Indian Contract Act, 1872, a pledge is the bailment of goods as security for a debt or obligation, with possession transferred to the lender.\n  ○ Example: Pledging jewelry for a loan.\n\n○ Rights of Pledgee (Lender):\n  ○ Possession: Retain goods until the debt is repaid.\n  ○ Sale: Sell pledged goods after reasonable notice to the pledger if the debt is unpaid (Section 176).\n  ○ Priority: First claim over proceeds from the sale, ahead of other creditors.\n  ○ Care: Must maintain goods as a prudent person would their own (Section 151).\n\n○ Rights of Pledger (Borrower):\n  ○ Ownership: Retains ownership of the goods despite possession with the pledgee.\n  ○ Redemption: Reclaim goods upon full repayment before any sale.\n  ○ Surplus: Claim any excess proceeds from the sale after debt settlement.\n  ○ Notice: Entitled to reasonable notice before the pledgee sells the goods.\n\n○ Limitations:\n  ○ Pledgee cannot use the goods or retain them for unrelated debts unless general lien applies (e.g., banks under Section 171).\n\n○ Conclusion:\n  ○ Pledge balances security for the lender with ownership rights for the borrower, governed by mutual obligations.",
+            "isImportant": false
+        },
+        {
+            "question": "26. Explain the importance of CASA deposits for bank.",
+            "answer": "CASA (Current Account and Savings Account) deposits are low-cost funds critical to a bank’s operations.\n\n○ Importance:\n  ○ Cost Efficiency:\n    ○ Low or no interest (e.g., current accounts: 0%, savings: 3–6%) reduces funding costs compared to term deposits (6–8%).\n  ○ Liquidity:\n    ○ Provides readily available funds to meet withdrawal demands or lending needs.\n  ○ Profitability:\n    ○ Lower cost of funds boosts net interest margins when lent at higher rates.\n  ○ Stability:\n    ○ Regular inflows from salaries or business transactions ensure a stable deposit base.\n  ○ Customer Relationships:\n    ○ CASA accounts foster long-term ties, increasing cross-selling opportunities (e.g., loans, insurance).\n  ○ Financial Health Indicator:\n    ○ High CASA ratio (e.g., 40%+) reflects operational efficiency and customer trust.\n\n○ Challenges:\n  ○ Requires extensive branch networks and digital services to attract depositors.\n  ○ Competition from fintechs offering higher savings rates.\n\n○ Example:\n  ○ Banks like HDFC or SBI prioritize CASA to maintain profitability in competitive markets.\n\n○ Conclusion:\n  ○ CASA deposits are a cornerstone of banking stability and profitability, driving sustainable growth.",
+            "isImportant": false
+        },
+        {
+            "question": "27. Write short note on Wrongful dishonour of cheque.",
+            "answer": "Wrongful dishonour of a cheque occurs when a banker refuses to pay a cheque despite the account having sufficient funds and no legal or procedural impediments, breaching the banker’s statutory obligation under Section 31 of the Negotiable Instruments Act, 1881.\n\n○ Causes:\n  ○ Errors in signature verification, overlooking available balance, or misinterpreting stop-payment instructions.\n○ Legal Implications:\n  ○ The bank is liable to compensate the drawer for any loss or damage caused, including reputational harm.\n  ○ Damages vary: Traders may claim substantial compensation for loss of creditworthiness; non-traders must prove specific financial loss.\n○ Example:\n  ○ A business owner’s cheque to a supplier is dishonoured despite funds, leading to a damaged business relationship and potential lawsuits.\n○ Banker’s Duty:\n  ○ Must honor a cheque if funds are adequate, presented correctly, and no legal bar exists (e.g., garnishee order).\n○ Consequences:\n  ○ Financial penalties and reputational risk for the bank, emphasizing the need for rigorous cheque-processing protocols.\n\n○ Conclusion:\n  ○ Wrongful dishonour underscores the banker’s responsibility to act diligently, as failure can lead to legal and customer trust issues.",
+            "isImportant": false
+        },
+        {
+            "question": "28. Write short note on Collecting banker as a holder for value.",
+            "answer": "A collecting banker becomes a holder for value when they advance money against a cheque before its collection, taking ownership rather than acting as an agent.\n\n○ Conditions:\n  ○ Advances funds or credits the customer’s account prior to cheque clearance.\n  ○ Bears the risk if the cheque is dishonoured.\n○ Rights:\n  ○ Can claim the cheque amount from the drawer or endorser as a holder under Section 9 of the Negotiable Instruments Act, 1881.\n○ Implications:\n  ○ Loses statutory protection under Section 131 if negligent, unlike an agent.\n○ Example:\n  ○ Bank credits Rs. 10,000 instantly against an uncleared cheque.\n\n○ Conclusion:\n  ○ This role shifts the banker from a collector to a stakeholder, increasing risk but enabling faster customer service.",
+            "isImportant": false
+        },
+        {
+            "question": "29. Write short note on Difference between overdraft and cash credit.",
+            "answer": "Overdraft and cash credit are short-term credit facilities, but they differ:\n\n○ Overdraft:\n  ○ Temporary excess withdrawal from a current account, sanctioned on request.\n  ○ Interest: Charged only on the overdrawn amount.\n  ○ Security: Often unsecured or against fixed deposits.\n○ Cash Credit:\n  ○ Pre-approved limit for borrowing against tangible security (e.g., inventory).\n  ○ Interest: Charged on the utilized amount, with flexibility to draw multiple times.\n  ○ Purpose: Suited for working capital needs.\n○ Key Difference:\n  ○ Overdraft is account-specific and less formal; cash credit is a structured facility with collateral.\n\n○ Conclusion:\n  ○ Both serve liquidity needs but vary in structure and security requirements.",
+            "isImportant": false
+        },
+        {
+            "question": "30. Write short note on Mortgage.",
+            "answer": "A mortgage is a legal transfer of interest in immovable property (e.g., land, building) as security for a loan, governed by the Transfer of Property Act, 1882.\n\n○ Features:\n  ○ Mortgagor (borrower) retains possession and use; mortgagee (lender) holds security interest.\n  ○ Types: Simple, equitable, usufructuary, etc.\n○ Rights:\n  ○ Mortgagee can foreclose or sell the property if the loan defaults after due process.\n  ○ Mortgagor can redeem the property upon repayment.\n○ Example:\n  ○ A home loan secured by the house itself.\n\n○ Conclusion:\n  ○ Mortgages provide banks with secure lending options, balancing risk and borrower utility.",
+            "isImportant": false
+        },
+        {
+            "question": "31 Explain in detail the Industrial Development Bank of India (IDBI).",
+            "answer": "The Industrial Development Bank of India (IDBI), established in 1964 under the IDBI Act, was a key development finance institution (DFI) to promote industrial growth. It transformed into a commercial bank in 2004.\n\n○ Objectives:\n  ○ Finance long-term industrial projects.\n  ○ Coordinate and support other financial institutions.\n  ○ Promote industrial development in backward regions.\n○ Functions:\n  ○ Direct Lending: Term loans for capital-intensive industries (e.g., steel, cement).\n  ○ Refinancing: Support to state finance corporations and banks.\n  ○ Underwriting: Facilitate capital market access for industries.\n  ○ Technical Assistance: Project appraisal and consultancy.\n○ Evolution:\n  ○ Initially a wholly-owned subsidiary of RBI; transferred to government ownership in 1976.\n  ○ Post-2004, it offers commercial banking services (deposits, loans) alongside development roles.\n○ Impact:\n  ○ Financed major industrial projects, boosting India’s manufacturing base.\n  ○ Current Status (2025): Majority-owned by LIC (51%) and government (45%), operating as IDBI Bank Ltd.\n○ Challenges:\n  ○ Faced NPAs in the 1990s, prompting its shift to commercial banking.\n\n○ Conclusion:\n  ○ IDBI played a pivotal role in industrializing India, adapting to modern banking while retaining developmental roots.",
+            "isImportant": false
+        },
+        {
+            "question": "32 Discuss in detail the State Finance Corporation (SFCs) as a development bank.",
+            "answer": "State Finance Corporations (SFCs) are state-level development banks in India, established under the State Financial Corporations Act, 1951, to promote small and medium enterprises (SMEs).\n\n○ Objectives:\n  ○ Provide financial assistance to SMEs, especially in industrially backward areas.\n  ○ Foster regional economic development and employment.\n○ Structure:\n  ○ Each state has its own SFC (e.g., Tamil Nadu SFC), supervised by state governments and IDBI.\n○ Functions:\n  ○ Term Loans: Long-term finance (up to 20 years) for machinery, land, or expansion.\n  ○ Working Capital: Short-term loans for operational needs.\n  ○ Guarantees: Underwrite loans or securities for SMEs.\n  ○ Equity Support: Invest in small firms’ shares.\n○ Eligibility:\n  ○ Focus on units with capital investment up to Rs. 5 crore (revised periodically).\n○ Funding Sources:\n  ○ State government, RBI, IDBI, and public borrowings.\n○ Impact:\n  ○ Supported rural industries, artisans, and small businesses, reducing regional disparities.\n○ Challenges:\n  ○ High NPAs, limited resources, and competition from commercial banks.\n\n○ Conclusion:\n  ○ SFCs are vital for grassroots industrial growth, though their effectiveness hinges on financial health and modernization.",
+            "isImportant": false
+        },
+        {
+            "question": "33 Explain: Export Credit and Guarantee Corporation.",
+            "answer": "The Export Credit Guarantee Corporation of India (ECGC), established in 1957, supports Indian exporters by providing insurance and financial guarantees.\n\n○ Objectives:\n  ○ Mitigate risks in export trade (e.g., buyer default, political instability).\n  ○ Enhance export competitiveness.\n○ Functions:\n  ○ Export Credit Insurance:\n    ○ Covers losses from non-payment by foreign buyers (commercial/political risks).\n    ○ Example: Insuring a textile exporter against a buyer’s insolvency.\n  ○ Guarantees to Banks:\n    ○ Assures banks of repayment for export loans, encouraging lending.\n  ○ Overseas Investment Insurance:\n    ○ Protects Indian firms investing abroad from expropriation or war.\n○ Types of Policies:\n  ○ Standard Policy: For regular exporters.\n  ○ Specific Policy: For high-value or risky shipments.\n○ Benefits:\n  ○ Boosts exporter confidence, facilitates bank finance, and promotes trade.\n○ Challenges:\n  ○ Limited awareness among small exporters; claims processing delays.\n\n○ Conclusion:\n  ○ ECGC is a cornerstone of India’s export ecosystem, reducing risks and supporting global trade expansion.",
+            "isImportant": false
+        },
+        {
+            "question": "34 State the role of executive in facilitating the banking transaction.",
+            "answer": "Bank executives (e.g., managers, officers) play a crucial role in ensuring smooth banking transactions:\n\n○ Transaction Oversight:\n  ○ Approve high-value transactions (e.g., loans, cheque clearances) per bank policy.\n○ Customer Interaction:\n  ○ Resolve disputes (e.g., dishonoured cheques) and authorize exceptions (e.g., overdrafts).\n○ Compliance:\n  ○ Ensure adherence to RBI guidelines, KYC norms, and anti-money laundering laws.\n○ Risk Management:\n  ○ Assess credit risks before sanctioning loans or advances.\n○ Process Efficiency:\n  ○ Streamline operations (e.g., digital payments, clearing systems) for faster service.\n○ Staff Supervision:\n  ○ Train employees to handle transactions accurately and securely.\n○ Example:\n  ○ A branch manager verifies a large cheque payment, ensuring funds and authenticity.\n\n○ Conclusion:\n  ○ Executives bridge operational efficiency, customer trust, and regulatory compliance in banking transactions.",
+            "isImportant": false
+        },
+        {
+            "question": "35 Explain Confidential report for Customer reputation. The Specimen of application form for loan.",
+            "answer": "○ Confidential Report for Customer Reputation:\n  ○ A confidential report assesses a customer’s creditworthiness and character for loans or credit facilities.\n  ○ Contents:\n    ○ Personal Details: Name, address, occupation.\n    ○ Financial Status: Income, assets, liabilities, credit history.\n    ○ Reputation: Feedback from peers, employers, or other banks on reliability and integrity.\n    ○ Purpose: Used internally to mitigate lending risks.\n  ○ Example: A report confirming a businessman’s timely past repayments enhances loan approval chances.\n\n○ Specimen of Loan Application Form:\n  ○ Header: ‘Loan Application Form – [Bank Name]’\n  ○ Sections:\n    ○ Applicant Details: Name, age, address, contact, PAN/Aadhaar.\n    ○ Loan Details: Amount, purpose (e.g., business, home), tenure.\n    ○ Income Details: Salary slips, ITR, or business profits.\n    ○ Security Offered: Collateral details (if any).\n    ○ Declaration: ‘I certify the information is true,’ with signature and date.\n  ○ Example: ‘Riya applies for Rs. 5 lakh business loan, submitting ITR and property papers.’\n\n○ Conclusion:\n  ○ The report ensures safe lending; the form standardizes loan requests for efficient processing.",
+            "isImportant": false
+        },
+        {
+            "question": "36 Differential rates of interest method.",
+            "answer": "The Differential Rates of Interest (DRI) method, introduced by RBI in 1972, offers subsidized loans to weaker sections while charging market rates to others.\n\n○ Mechanism:\n  ○ Low Rates: 4% p.a. for economically disadvantaged (e.g., farmers, SC/ST, income below poverty line).\n  ○ Eligibility: Annual income limits (e.g., Rs. 3 lakh rural, Rs. 4 lakh urban, adjusted periodically).\n  ○ Market Rates: Higher rates (e.g., 10–15%) for affluent borrowers.\n○ Objectives:\n  ○ Promote financial inclusion and social equity.\n  ○ Support priority sectors (agriculture, small businesses).\n○ Implementation:\n  ○ Banks allocate 1% of their total advances to DRI loans.\n○ Challenges:\n  ○ Low profitability for banks; risk of NPAs due to borrowers’ financial instability.\n\n○ Conclusion:\n  ○ DRI balances social welfare with banking viability, targeting inclusive growth.",
+            "isImportant": false
+        },
+        {
+            "question": "37 Functions of development banking.",
+            "answer": "Development banks (e.g., IDBI, NABARD) focus on long-term financing for economic growth, differing from commercial banks.\n\n○ Functions:\n  ○ Long-Term Financing:\n    ○ Provide loans for infrastructure, industry, or agriculture (e.g., 10–20 years).\n  ○ Promotional Role:\n    ○ Identify and support viable projects via feasibility studies.\n  ○ Refinancing:\n    ○ Fund other institutions (e.g., SFCs) to extend credit reach.\n  ○ Equity Investment:\n    ○ Take stakes in startups or SMEs to foster entrepreneurship.\n  ○ Technical Assistance:\n    ○ Offer expertise in project planning and execution.\n  ○ Priority Sector Support:\n    ○ Channel funds to underdeveloped areas or sectors (e.g., rural development).\n○ Example:\n  ○ NABARD finances irrigation projects to boost farm productivity.\n\n○ Conclusion:\n  ○ Development banks drive structural economic progress, filling gaps commercial banks avoid.",
+            "isImportant": false
+        },
+        {
+            "question": "38 Do's and don'ts of recovery as per IBA rules.",
+            "answer": "The Indian Banks’ Association (IBA) provides guidelines for ethical loan recovery, aligned with RBI norms.\n\n○ Do’s:\n  ○ Polite Communication: Contact borrowers courteously within working hours (e.g., 7 AM–7 PM).\n  ○ Transparency: Inform borrowers of dues, interest, and legal consequences.\n  ○ Legal Process: Use SARFAESI Act or courts for recovery after due notice.\n  ○ Documentation: Record all interactions for accountability.\n  ○ Third-Party Agents: Ensure recovery agents follow ethical practices.\n\n○ Don’ts:\n  ○ Harassment: Avoid threats, abusive language, or late-night calls.\n  ○ Privacy Breach: Don’t disclose debt details to third parties (e.g., family).\n  ○ Physical Force: Refrain from intimidation or property damage.\n  ○ Misrepresentation: Don’t pose as law enforcement or falsify documents.\n  ○ Unfair Practices: Avoid seizing assets without legal authority.\n\n○ Example:\n  ○ A bank sends a 30-day notice before auctioning a defaulter’s property under SARFAESI.\n\n○ Conclusion:\n  ○ IBA rules ensure recovery is fair, legal, and respects borrower dignity.",
+            "isImportant": false
+        },
+        {
+            "question": "39. Explain in detail requirement of capital funds.",
+            "answer": "Capital funds are the financial resources a bank maintains to operate, absorb losses, and meet regulatory requirements. Their requirement is critical for stability and growth.\n\n○ Definition:\n  ○ Capital funds include equity (share capital), reserves, and retained earnings, forming the bank’s own funds distinct from deposits.\n○ Requirements:\n  ○ Regulatory Compliance:\n    ○ Under Basel III and RBI norms, banks must maintain a Capital Adequacy Ratio (CAR) of at least 11.5% in India (as of 2025), ensuring resilience against risks.\n  ○ Risk Absorption:\n    ○ Capital acts as a buffer against loan defaults, market losses, or operational failures (e.g., NPAs).\n  ○ Expansion:\n    ○ Funds new branches, technology upgrades, or lending capacity (e.g., Rs. 100 crore for a new regional hub).\n  ○ Liquidity Support:\n    ○ Supplements deposit funds to meet unexpected withdrawals.\n  ○ Investor Confidence:\n    ○ High capital signals financial health, attracting shareholders and depositors.\n○ Sources:\n  ○ Equity issues, profit retention, or subordinated debt.\n○ Calculation:\n  ○ Tier 1 (core capital like equity) and Tier 2 (supplementary like reserves) are assessed against risk-weighted assets.\n○ Challenges:\n  ○ Raising capital dilutes ownership; over-reliance risks profitability.\n○ Example:\n  ○ A bank with Rs. 500 crore in assets needs Rs. 57.5 crore in capital (11.5% CAR) to comply.\n\n○ Conclusion:\n  ○ Capital funds are vital for solvency, growth, and trust, balancing regulatory demands with operational needs.",
+            "code": "",
+            "isImportant": false
+          },
+          {
+            "question": "40. Discuss the importance of margin in bank advances.",
+            "answer": "Margin in bank advances refers to the borrower’s contribution (e.g., 20% of asset value) to the financed amount, with the bank funding the rest. Its importance lies in:\n\n○ Risk Mitigation:\n  ○ Reduces the bank’s exposure if the borrower defaults (e.g., Rs. 80 lakh loan on a Rs. 100 lakh property limits loss).\n○ Borrower Commitment:\n  ○ Ensures the borrower has ‘skin in the game,’ increasing repayment likelihood.\n○ Security Valuation:\n  ○ Covers depreciation or market value drops (e.g., a car’s value falling 20% in a year).\n○ Profitability:\n  ○ Lower loan-to-value ratios enhance interest earnings relative to risk.\n○ Regulatory Compliance:\n  ○ RBI mandates margins (e.g., 25% for home loans) to prevent over-leveraging.\n○ Loan Quality:\n  ○ Filters out high-risk borrowers unable to contribute, improving asset quality.\n○ Example:\n  ○ For a Rs. 50 lakh machine, a 30% margin (Rs. 15 lakh) means the bank lends Rs. 35 lakh, safeguarding against a Rs. 10 lakh value drop.\n\n○ Conclusion:\n  ○ Margin is a cornerstone of prudent lending, balancing risk, security, and financial discipline.",
+            "code": "",
+            "isImportant": false
+          },
+          {
+            "question": "14. Importance of CASA deposits for banks",
+            "answer": "Sound lending principles guide banks to extend advances safely and profitably, minimizing risks.\n\n○ Key Principles:\n  ○ Safety:\n    ○ Ensure repayment capacity via creditworthiness checks (e.g., CIBIL score) and adequate security.\n  ○ Liquidity:\n    ○ Favor short-term loans to maintain cash flow for depositors (e.g., 90-day working capital loans).\n  ○ Profitability:\n    ○ Set interest rates to maximize returns without compromising safety (e.g., 10% on secured loans).\n  ○ Diversification:\n    ○ Spread loans across sectors (e.g., agriculture, industry) and borrowers to reduce risk concentration.\n  ○ Security:\n    ○ Prefer collateral-backed loans (e.g., property); for unsecured, rely on strong financials.\n  ○ Purpose:\n    ○ Lend for productive, legal uses (e.g., business expansion, not speculation) to ensure repayment.\n  ○ Margin:\n    ○ Maintain a buffer between loan amount and security value (e.g., 75% loan-to-value) for protection.\n○ Application:\n  ○ Assess borrower’s character, capacity, and capital (3Cs) alongside collateral quality.\n○ Example:\n  ○ A bank lends Rs. 80 lakh against a Rs. 100 lakh property for a factory, ensuring safety and margin.\n○ Challenges:\n  ○ Balancing profitability with risk; economic downturns may impair repayment.\n\n○ Conclusion:\n  ○ These principles ensure lending supports bank stability, profitability, and economic growth.",
+            "code": "",
+            "isImportant": false
+          },
+          {
+            "question": "15. What precautions should be taken by the banker while making advances against various securities?",
+            "answer": "Advancing loans against securities (e.g., property, stocks, goods) requires precautions to mitigate risks:\n\n○ Valuation:\n  ○ Assess current market value by experts (e.g., property appraisal) to avoid overvaluation.\n○ Ownership:\n  ○ Verify clear title via legal checks (e.g., no liens on land).\n○ Liquidity:\n  ○ Ensure securities are easily convertible to cash (e.g., listed stocks over unlisted).\n○ Margin:\n  ○ Maintain a buffer (e.g., 30% for stocks) to cover value fluctuations.\n○ Documentation:\n  ○ Secure proper agreements (e.g., pledge deed) and possession where applicable.\n○ Condition:\n  ○ Inspect physical assets (e.g., machinery) for usability and depreciation.\n○ Legal Compliance:\n  ○ Confirm no encumbrances or court orders (e.g., garnishee on shares).\n○ Insurance:\n  ○ Mandate coverage for assets (e.g., fire insurance for goods) to protect against loss.\n○ Monitoring:\n  ○ Regularly revalue securities (e.g., quarterly stock price checks) and adjust exposure.\n○ Example:\n  ○ Lend Rs. 70 lakh against a Rs. 100 lakh house, ensuring title, insurance, and 30% margin.\n\n○ Conclusion:\n  ○ These precautions safeguard the bank’s funds, ensuring recoverable advances.",
+            "code": "",
+            "isImportant": false
+          },
+          {
+            "question": "16. What are the precautions to be taken by the banker in hypothecation?",
+            "answer": "Hypothecation involves lending against movable assets (e.g., vehicles, inventory) without possession transfer. Precautions include:\n\n○ Ownership Verification:\n  ○ Confirm borrower’s legal title (e.g., vehicle registration certificate).\n○ Valuation:\n  ○ Assess asset value accurately (e.g., market price of machinery).\n○ Insurance:\n  ○ Ensure assets are insured against damage or theft.\n○ Documentation:\n  ○ Execute a hypothecation agreement detailing rights and obligations.\n○ Marking:\n  ○ Register hypothecation with authorities (e.g., RTO for vehicles) to establish lien.\n○ Physical Inspection:\n  ○ Regularly check asset condition and existence (e.g., quarterly stock audits).\n○ Usage Control:\n  ○ Restrict sale or misuse via covenants (e.g., no resale of hypothecated goods).\n○ Risk Assessment:\n  ○ Evaluate depreciation or obsolescence risks (e.g., tech equipment losing value).\n○ Example:\n  ○ Lend Rs. 5 lakh against a Rs. 7 lakh truck, verifying ownership, insurance, and condition.\n\n○ Conclusion:\n  ○ These steps minimize risks in hypothecation, where possession remains with the borrower.",
+            "code": "",
+            "isImportant": false
+          },
+          {
+            "question": "17. Explain the limitations of Guarantee.",
+            "answer": "A guarantee is a promise by a surety to pay a creditor if the principal debtor defaults, governed by the Indian Contract Act, 1872. Its limitations include:\n\n○ Contingent Liability:\n  ○ Surety’s obligation arises only on debtor default, delaying recovery.\n○ Revocation:\n  ○ Continuing guarantees can be revoked for future transactions (Section 130), reducing reliability.\n○ Co-Surety Issues:\n  ○ If multiple sureties exist, liability may be disputed or shared unequally (Section 146).\n○ Discharge:\n  ○ Surety is discharged by creditor actions like altering terms without consent (Section 133).\n○ Legal Risks:\n  ○ Invalid if obtained by misrepresentation or concealment (Section 142-143).\n○ Financial Capacity:\n  ○ Surety’s inability to pay limits effectiveness (e.g., bankrupt guarantor).\n○ Time-Bound:\n  ○ Expires if time-specific, requiring renewal.\n○ Example:\n  ○ A Rs. 10 lakh loan guarantee fails if the surety revokes it mid-term.\n\n○ Conclusion:\n  ○ Guarantees offer security but are limited by dependency, revocability, and enforceability issues.",
+            "code": "",
+            "isImportant": false
+          },
+          {
+            "question": "18. Forms of bank advances.",
+            "answer": "Bank advances are credit facilities offered in various forms to meet borrower needs:\n\n○ Loans:\n  ○ Fixed sum disbursed with repayment in installments (e.g., Rs. 5 lakh term loan).\n○ Overdraft:\n  ○ Allows excess withdrawal from current accounts up to a limit (e.g., Rs. 1 lakh OD).\n○ Cash Credit:\n  ○ Flexible borrowing against security (e.g., inventory) for working capital.\n○ Bills Discounting:\n  ○ Advances against bills of exchange before maturity (e.g., Rs. 2 lakh bill discounted).\n○ Letter of Credit:\n  ○ Payment guarantee for trade transactions (e.g., importing goods).\n○ Export/Import Finance:\n  ○ Funds for international trade (e.g., pre-shipment credit).\n○ Example:\n  ○ A retailer uses cash credit for stock, an overdraft for emergencies.\n\n○ Conclusion:\n  ○ These forms cater to diverse financial needs, balancing flexibility and security.",
+            "code": "",
+            "isImportant": false
+          },
+          {
+            "question": "19. Rights of Surety.",
+            "answer": "A surety, under the Indian Contract Act, 1872, has rights in a guarantee arrangement:\n\n○ Right to Subrogation (Section 140):\n  ○ Takes creditor’s rights against the debtor after paying the debt (e.g., recovering from borrower’s assets).\n○ Right to Indemnity (Section 145):\n  ○ Claims reimbursement from the principal debtor for payments made.\n○ Right to Contribution (Section 146):\n  ○ Seeks proportional payment from co-sureties if liable jointly.\n○ Right to Benefit of Securities (Section 141):\n  ○ Accesses collateral held by the creditor after payment.\n○ Right to Discharge:\n  ○ Released if creditor impairs the guarantee (e.g., term changes, Section 133).\n○ Example:\n  ○ A surety paying Rs. 2 lakh can recover it from the debtor and co-sureties.\n\n○ Conclusion:\n  ○ These rights protect the surety, balancing their liability with recovery options.",
+            "code": "",
+            "isImportant": false
+          },
+          {
+            "question": "20. Pledge.",
+            "answer": "Pledge is the bailment of goods as security for a debt, governed by Section 172 of the Indian Contract Act, 1872.\n\n○ Features:\n  ○ Possession transfers to the pledgee (lender), but ownership stays with the pledger (borrower).\n  ○ Applies to movable assets (e.g., gold, shares).\n○ Rights of Pledgee:\n  ○ Retain goods until repayment; sell after notice on default (Section 176).\n○ Rights of Pledger:\n  ○ Redeem goods on repayment; claim surplus from sale.\n○ Duties:\n  ○ Pledgee must care for goods (Section 151); pledger must repay to reclaim.\n○ Example:\n  ○ Pledging Rs. 1 lakh worth of jewelry for a Rs. 80,000 loan.\n○ Limitations:\n  ○ Restricted to movables; sale requires legal process.\n\n○ Conclusion:\n  ○ Pledge offers secure lending with clear rights and obligations for both parties.",
+            "code": "",
+            "isImportant": false
+          },
+          {
+            "question": "21. Mortgage.",
+            "answer": "A mortgage is a transfer of interest in immovable property (e.g., land, house) as security for a loan, governed by the Transfer of Property Act, 1882.\n\n○ Features:\n  ○ Mortgagor (borrower) retains possession; mortgagee (lender) holds security interest.\n○ Types:\n  ○ Simple: No possession transfer.\n  ○ Equitable: Created by depositing title deeds.\n  ○ Usufructuary: Mortgagee uses property income.\n○ Rights of Mortgagee:\n  ○ Foreclose or sell on default after due process.\n○ Rights of Mortgagor:\n  ○ Redeem property on repayment (right of redemption).\n○ Example:\n  ○ A Rs. 50 lakh home loan secured by the house, repayable over 20 years.\n○ Challenges:\n  ○ Legal complexities in foreclosure; valuation disputes.\n\n○ Conclusion:\n  ○ Mortgages provide robust security for large loans, balancing lender protection with borrower utility.",
+            "code": "",
+            "isImportant": false
+          }
+    ]
+}
