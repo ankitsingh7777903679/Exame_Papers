@@ -183,13 +183,13 @@ const searchData = [
   { title: 'BCA Sem 1', category: 'College Papers', link: 'bca_sem1.html', icon: 'fa-graduation-cap' },
   { title: 'BCA Sem 2', category: 'College Papers', link: 'bca_sem2.html', icon: 'fa-graduation-cap' },
   { title: 'BCA Sem 3', category: 'College Papers', link: 'bca_sem3.html', icon: 'fa-graduation-cap' },
-  { title: 'BCA Sem 4', category: 'College Papers', link: 'bca_sem4.html', icon: 'fa-graduation-cap' },
+  { title: 'BCA Sem 4', category: 'College Papers', link: 'bca-sem4-solution.html', icon: 'fa-graduation-cap' },
   { title: 'BCA Sem 5', category: 'College Papers', link: 'bca_sem5.html', icon: 'fa-graduation-cap' },
   { title: 'BCA Sem 6', category: 'College Papers', link: 'bca_sem6.html', icon: 'fa-graduation-cap' },
   { title: 'B.Com Sem 1', category: 'College Papers', link: 'bcom_sem1.html', icon: 'fa-graduation-cap' },
   { title: 'B.Com Sem 2', category: 'College Papers', link: 'bcom_sem2.html', icon: 'fa-graduation-cap' },
   { title: 'B.Com Sem 3', category: 'College Papers', link: 'bcom_sem3.html', icon: 'fa-graduation-cap' },
-  { title: 'B.Com Sem 4', category: 'College Papers', link: 'bcom_sem4.html', icon: 'fa-graduation-cap' },
+  { title: 'B.Com Sem 4', category: 'College Papers', link: 'bcom_sem4_solution.html', icon: 'fa-graduation-cap' },
   { title: 'B.Com Sem 5', category: 'College Papers', link: 'bcom_sem5.html', icon: 'fa-graduation-cap' },
   { title: 'B.Com Sem 6', category: 'College Papers', link: 'bcom_sem6.html', icon: 'fa-graduation-cap' }
 ];
