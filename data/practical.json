@@ -92,6 +92,38 @@
         "question": "13. Create a windows application that perform insert, Update, Delete and Searching \non following Table.  \nTable Name : Emp (EmpNo, Ename, MobileNo, Salary)",
         "downloadLink": "PracQue/WindowsApplication1.7z"
 
+      },
+      {
+        "question": "14. Create a website for Restaurant Management System with following 5 pages:\n1. Home Page\n2. About Restaurant\n3. Item Menu\n4. Chef profile\n5. Contact Us\n\nDo the Following:\n1. Create one XML file called (menultems.xml) that contains data of restaurant’s menu. Like Menuld, FoodCategory, FoodltemName, Foodlngredient, Price, Qty etc.\n2. Item Menu page should display restaurant’s Menu HTML table format by reading menultems.xml file (use AJAX to read data from XML file).\n3. Display chef profile with proper format using jQuery effects.",
+        "downloadLink": "PracQue/restaurants.7z"
+      },
+      {
+        "question": "15. Create a website for library management system with following pages:\n1. Home page\n2. About us\n3. Books\n4. List of issued book\n5. Contact us\n\nDo the following:\n1. Create one JSON file (book.json) that contains books data like bookid, bookname, authorname, publisher, price etc.\n2. Books page should display books data in HTML table format by reading book.json file (use AJAX to read data from JSON file).\n3. Create list of issued books to the students and display data in proper format with jQuery effects.",
+        "downloadLink": "PracQue/Library Management.7z"
+      },
+      {
+        "question": "16. Design a website for online ticket reservation system with following webpages. (use jQuery, JSON, XML, javascript, Ajax as per needs)\na) Sign Up / Login Page (for passenger)\nb) Ticket Booking page (from xml or json file data should search as per train id)\nc) Payment page (COD, Debit card or Net banking)\nd) Do proper validation (using jQuery)",
+        "downloadLink": "PracQue/Ticket Reservation.7z"
+      },
+      {
+        "question": "17. Design a website online college management system with following webpages (use jQuery, JSON, XML, javascript, Ajax as per needs)\na) Sign Up / Login Page\nb) Course enrollment Page\nc) Result show page (from xml or json file data should search as per student id)\nd) Do proper validation (using jQuery)",
+        "downloadLink": "PracQue/College Management System.7z"
+      },
+      {
+        "question": "18. Design a website of an Online Railway Ticket Booking, that has the following Facilities: (Note: You can use HTML5, CSS, Bootstrap, JavaScript, JSON, AJAX, XML, jQuery, Apply proper Validations)\n◆ Registration/Login Page\n◆ Book Seats with following Categories\n  ○ SL\n  ○ 3Tier\n  ○ 2Tier\n  ○ 1Tier\n  ○ 2S\n◆ Book now with Seat Availability\n◆ Payment Page\n◆ Feedback and complain",
+        "downloadLink": "PracQue/Online Railway Ticket Bookings.7z"
+      },
+      {
+        "question": "19. Create an Online Movie Ticket Booking site, that has the following facilities: (Note: You can use HTML, HTML5, CSS, Bootstrap, JavaScript, JSON, AJAX, XML, jQuery. Apply proper validations)\n◆ Sign up/Sign in page\n◆ Movies page with following categories. Note: Apply various effects\n  • Hollywood\n  • Bollywood\n  • All movies\n◆ Book now page with seat availability\n◆ Payment page\n◆ Ratings and Reviews",
+        "downloadLink": "PracQue/Online Movie Ticket Booking.7z"
+      },
+      {
+        "question": "20. Design a website for Online Shopping containing multiple webpages. User should be able to Search Products by Category or ProductName using AJAX. On selection of Product, it should be displayed in new page with all Details. Design the Registration page of Customer with appropriate validations. Implementation of XML, JSON and jQuery is preferable.",
+        "downloadLink": "PracQue/Online Shopping website.7z"
+      },
+      {
+        "question": "21. Design a website for Online Recharge/Bill Payments. Facility to Register User and Login to Website with proper validations. On entering Mobile Number different plans should Appear below panel using AJAX. Selecting any plan displays its Details. Appropriate message for Successful or Fail Transaction should be Displayed.",
+        "downloadLink": "PracQue/Online Recharge.7z"
       }
     ]
   }
