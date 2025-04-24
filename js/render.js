@@ -122,6 +122,15 @@ function renderQuestions(containerId, questions, isMcq = false, isOneMarks = fal
 
             const formattedQuestion = formatQuestion(q.question.replace(/</g, '&lt;').replace(/>/g, '&gt;'));
 
+            // Add download button if downloadLink exists
+            const downloadButton = q.downloadLink ? `
+                <div class="mt-3">
+                    <a href="${q.downloadLink}" class="btn btn-success" target="_blank">
+                        <i class="fas fa-download"></i> Download Code
+                    </a>
+                </div>
+            ` : '';
+
             if (isOneMarks) {
                 questionDiv.innerHTML = `
                     <div class="card-body">
@@ -152,6 +161,7 @@ function renderQuestions(containerId, questions, isMcq = false, isOneMarks = fal
                                         </div>
                                     </div>
                                 ` : ''}
+                                ${downloadButton}
                             </div>
                         </div>
                         ${imagesHtml}
@@ -213,6 +223,7 @@ function renderQuestions(containerId, questions, isMcq = false, isOneMarks = fal
                                         </div>
                                     </div>
                                 ` : ''}
+                                ${downloadButton}
                             </div>
                         </div>
                         ${imagesHtml}

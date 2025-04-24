@@ -27,7 +27,7 @@
       },
       {
         "question": "2. Write a program to display a triangle inside of circle with all vertices touching the perimeter of the circle.\nAlso fill diff colour of your choice.",
-        "answer": "The applet draws a blue circle using fillOval and a yellow triangle inside it with fillPolygon. The triangle’s vertices are calculated using trigonometry to touch the circle’s edge.",
+        "answer": "The applet draws a blue circle using fillOval and a yellow triangle inside it with fillPolygon. The triangle's vertices are calculated using trigonometry to touch the circle's edge.",
         "code": "import java.applet.Applet;\nimport java.awt.*;\n\npublic class CircleTriangle extends Applet {\n    public void paint(Graphics g) {\n        int centerX = 150, centerY = 150, radius = 100;\n\n        g.setColor(Color.BLUE);\n        g.fillOval(centerX - radius, centerY - radius, 2 * radius, 2 * radius);\n\n        int[] xPoints = {centerX, centerX + (int)(radius * Math.cos(Math.PI / 6)), \n                         centerX - (int)(radius * Math.cos(Math.PI / 6))};\n        int[] yPoints = {centerY - radius, centerY + (int)(radius * Math.sin(Math.PI / 6)), \n                         centerY + (int)(radius * Math.sin(Math.PI / 6))};\n        g.setColor(Color.YELLOW);\n        g.fillPolygon(xPoints, yPoints, 3);\n    }\n}",
         "isImportant": false
       },
@@ -51,7 +51,7 @@
       },
       {
         "question": "6. Write a java program to create a player history that can be display in the following form.\nPlayer name and team name is stored in Player class.\nScore of test match and One Day match in the other class say Run class number of One Day match and number of test match must be in Match class and finally calculate the average.\nThe packagel contains Player, Run and Match classes, Where package2 contain main() class.",
-        "answer": "The program splits classes into two packages. mypackage has Player (name, team), Run (scores), and Match (match counts). mypackage2’s main creates objects, calculates averages, and prints them.",
+        "answer": "The program splits classes into two packages. mypackage has Player (name, team), Run (scores), and Match (match counts). mypackage2's main creates objects, calculates averages, and prints them.",
         "code": "package mypackage;\n\npublic class Player {\n    String playerName, teamName;\n    public Player(String pn, String tn) {\n        playerName = pn;\n        teamName = tn;\n    }\n    public String getDetails() {\n        return \"Player: \" + playerName + \", Team: \" + teamName;\n    }\n}\n\npackage mypackage;\n\npublic class Run {\n    int testScore, odiScore;\n    public Run(int ts, int os) {\n        testScore = ts;\n        odiScore = os;\n    }\n    public int getTestScore() { return testScore; }\n    public int getOdiScore() { return odiScore; }\n}\n\npackage mypackage;\n\npublic class Match {\n    int testMatches, odiMatches;\n    public Match(int tm, int om) {\n        testMatches = tm;\n        odiMatches = om;\n    }\n    public int getTestMatches() { return testMatches; }\n    public int getOdiMatches() { return odiMatches; }\n}\n\npackage mypackage2;\nimport mypackage.*;\n\npublic class Main {\n    public static void main(String[] args) {\n        Player p = new Player(\"Virat\", \"India\");\n        Run r = new Run(5000, 12000);\n        Match m = new Match(50, 200);\n\n        double testAvg = (double) r.getTestScore() / m.getTestMatches();\n        double odiAvg = (double) r.getOdiScore() / m.getOdiMatches();\n\n        System.out.println(p.getDetails());\n        System.out.println(\"Test Avg: \" + testAvg);\n        System.out.println(\"ODI Avg: \" + odiAvg);\n    }\n}",
         "isImportant": false
       },
@@ -72,6 +72,26 @@
         "answer": "The applet reads a shape name from a parameter tag, draws it in red (fillRect, fillOval, or fillPolygon), and adds 'VNSGU' in black at the center with drawString.",
         "code": "import java.applet.Applet;\nimport java.awt.*;\n\npublic class ShapeApplet extends Applet {\n    String shape;\n\n    public void init() {\n        shape = getParameter(\"shape\");\n    }\n\n    public void paint(Graphics g) {\n        int centerX = 150, centerY = 150, size = 100;\n\n        g.setColor(Color.RED);\n        if (shape.equalsIgnoreCase(\"rectangle\")) {\n            g.fillRect(centerX - size, centerY - size, 2 * size, 2 * size);\n        } else if (shape.equalsIgnoreCase(\"oval\")) {\n            g.fillOval(centerX - size, centerY - size, 2 * size, 2 * size);\n        } else if (shape.equalsIgnoreCase(\"triangle\")) {\n            int[] xPoints = {centerX, centerX + size, centerX - size};\n            int[] yPoints = {centerY - size, centerY + size, centerY + size};\n            g.fillPolygon(xPoints, yPoints, 3);\n        }\n\n        g.setColor(Color.BLACK);\n        g.drawString(\"VNSGU\", centerX - 20, centerY);\n    }\n}",
         "isImportant": false
+        
+      },
+      {
+        "question": "10. Create .NET Application to maintain employee detail for the following table.\n\nEmployee (Employee Id, Employee Name, Department, Designation, Salary) Perform following task\n\n1. Add Employee Name if name not present in employee table.\n\n2. Search employee detail by department and designation.\n\n3. Increase salary of all employee to 10%.\n\n4. Display number of employee doing job in each department.",
+        "downloadLink": "PracQue/employee.7z",
+        "isImportant": false
+      },
+      {
+        "question": "11. Create a VB.Net Application to maintain products.\n\nProducts (Productid, ProductName, Price, Quantity, Expiry Date)\n\nPerform following task:\n\n1) Add new product if not present in product table.\n\n2) Provide facility for search by ProductName.\n\n3) Remove all expiry date products.\n\n4) Increase rate of each product to 5%.",
+        "downloadLink": "PracQue/product1.7z"
+      },
+
+      {
+        "question": "12. Create VB.NET MDI application that maintains Sales order record with following database [40] table.\n\nSales_order(order_no,order_date, Client_name,Dely address,dely boy name,\n\nDely date,order status)\n\nDesign proper form which Bernstein searches for sales_order_details as per Dely_boy_name. Perform insert, update and delete operations on it. Also display the Order details according to client_name in Descending Order",
+        "downloadLink": "PracQue/salesOrderRecord.7z"
+      },
+      {
+        "question": "13. Create a windows application that perform insert, Update, Delete and Searching \non following Table.  \nTable Name : Emp (EmpNo, Ename, MobileNo, Salary)",
+        "downloadLink": "PracQue/WindowsApplication1.7z"
+
       }
     ]
   }
